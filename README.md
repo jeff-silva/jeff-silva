@@ -38,8 +38,10 @@ My name is Jeferson. I have been a web developer since 2011.
 <br>
 
 <p align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jeff-silva&show_icons=true&locale=en&layout=compact&count_private=true" alt="a-bemporad" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jeff-silva&show_icons=true&locale=en&layout=compact&count_private=true" alt="a-bemporad" /> &nbsp;
     <img align="center" src="https://github-readme-stats.vercel.app/api?username=jeff-silva&show_icons=true&locale=en&count_private=true" alt="a-bemporad" />
+    <br><br>
     <img src="https://github-profile-trophy.vercel.app/?username=jeff-silva&margin-w=15&margin-h=15&row=2&column=6" alt="jeff-silva" width="100%" />
+    <br><br>
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=jeffsilva" alt="" height="200px">
 </p>
