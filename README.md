@@ -33,17 +33,6 @@ My name is Jeferson. I have been a web developer since 2011.
 <img src="https://github-readme-stats.vercel.app/api?username=jeff-silva&show_icons=true&locale=en&count_private=true" alt="" height="200px">
 <img src="https://github-readme-stats.vercel.app/api/wakatime?username=jeffsilva" alt="" height="200px">
 
-<br><br>
-
-<div class="border d-flex">
-    <div class="p-5 border bg-gray-light">flex item</div>
-    <div class="p-5 border bg-gray-light flex-1">.flex-1</div>
-    <div class="p-5 border bg-gray-light">flex item</div>
-  </div>
-<!-- <div style="text-align:center;">
-    <img src="https://komarev.com/ghpvc/?username=jeff-silva&label=Profile%20views&color=0e75b6&style=plastic" alt="jeff-silva" />
-</div> -->
-
 <!--
 **jeff-silva/jeff-silva** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
