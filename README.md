@@ -24,6 +24,7 @@ My name is Jeferson. I have been a web developer since 2011.
     <img src="https://img.shields.io/badge/nuxt.js-00C58E?style=for-the-badge&logo=nuxt.js&logoColor=white" alt="" height="25px">
     <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="" height="25px">
     <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="" height="25px">
+    <br>
     <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white" alt="" height="25px">
     <img src="	https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="" height="25px">
     <img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="" height="25px">
@@ -32,9 +33,12 @@ My name is Jeferson. I have been a web developer since 2011.
 
 ***
 
-<h3>Stats</h3>
-<img src="https://wakatime.com/share/@05fd4174-02f8-42e9-9cc9-d57c780c01f7/1921cb4d-198b-43f7-b774-5018b7cf5786.svg" alt="" width="500px">
-<img src="https://wakatime.com/share/@05fd4174-02f8-42e9-9cc9-d57c780c01f7/b5ae9621-2225-4e4e-a2ff-8f8bc941144a.svg" alt="" width="500px">
+<h3 align="center">Stats</h3>
+
+<p align="center">
+    <img src="https://wakatime.com/share/@05fd4174-02f8-42e9-9cc9-d57c780c01f7/1921cb4d-198b-43f7-b774-5018b7cf5786.svg" alt="" width="45%">
+    <img src="https://wakatime.com/share/@05fd4174-02f8-42e9-9cc9-d57c780c01f7/b5ae9621-2225-4e4e-a2ff-8f8bc941144a.svg" alt="" width="45%">
+</p>
 <br>
 
 <p align="center">
