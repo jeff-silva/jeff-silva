@@ -1,6 +1,8 @@
 #### Hi, im Jeferson 👋
 My name is Jeferson. I have been a web developer since 2011.
 
+***
+
 <h5 align="center">Contact-me</h5>
 
 <p align="center">
@@ -15,7 +17,6 @@ My name is Jeferson. I have been a web developer since 2011.
     </a>
 </p>
 
-
 <h5 align="center">Technologies</h5>
 
 <p align="center">
@@ -29,26 +30,13 @@ My name is Jeferson. I have been a web developer since 2011.
     <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="" height="25px">
 </p>
 
+***
+
 <h3>Stats</h3>
 <img src="https://wakatime.com/share/@05fd4174-02f8-42e9-9cc9-d57c780c01f7/1921cb4d-198b-43f7-b774-5018b7cf5786.svg" alt="" width="500px">
 <img src="https://wakatime.com/share/@05fd4174-02f8-42e9-9cc9-d57c780c01f7/b5ae9621-2225-4e4e-a2ff-8f8bc941144a.svg" alt="" width="500px">
 <br>
 <img src="https://github-profile-trophy.vercel.app/?username=jeff-silva&margin-w=15&margin-h=15&row=2&column=6" alt="jeff-silva" width="100%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=jeff-silva&show_icons=true&locale=en&layout=compact&count_private=true" alt="" height="200px">
-<img src="https://github-readme-stats.vercel.app/api?username=jeff-silva&show_icons=true&locale=en&count_private=true" alt="" height="200px">
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=jeff-silva&show_icons=true&locale=en&layout=compact&count_private=true" alt="" width="30%">
+<img src="https://github-readme-stats.vercel.app/api?username=jeff-silva&show_icons=true&locale=en&count_private=true" alt="" width="30%">
 <img src="https://github-readme-stats.vercel.app/api/wakatime?username=jeffsilva" alt="" height="200px">
-
-<!--
-**jeff-silva/jeff-silva** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
