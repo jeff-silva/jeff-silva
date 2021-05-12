@@ -1,10 +1,14 @@
 #### Hi, im Jeferson 👋
 My name is Jeferson. I have been a web developer since 2011.
+I am an enthusiast of simple tools that help me focus only on the business rules of the system.
 
 #### Skills
 * Advanced knowledge in Vue.js
 * Advanced knowledge in Laravel
 * In love with Nuxt.js + Laravel ❤️
+* Bootstrap (makes me write practically zero css)
+* Wordpress (plugins and themes from scratch)
+* Elementor (I know how to create elements from scratch, that means 100% customized themes separated into drag and drop components that make the site management much easier).
 
 
 <h5 align="center">Contact-me</h5>
