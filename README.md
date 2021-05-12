@@ -1,7 +1,11 @@
 #### Hi, im Jeferson 👋
 My name is Jeferson. I have been a web developer since 2011.
 
-***
+#### Skills
+* Advanced knowledge in Vue.js
+* Advanced knowledge in Laravel
+* In love with Nuxt.js + Laravel ❤️
+
 
 <h5 align="center">Contact-me</h5>
 
@@ -9,11 +13,14 @@ My name is Jeferson. I have been a web developer since 2011.
     <a href="https://www.linkedin.com/in/jeferson-siqueira/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
+    <a href="https://wa.me/message/NG7A2SW25XIEI1" target="_blank">
+        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+    </a>
     <a href="mailto:jeferson.i.silva@gmail.com" target="_blank">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
     </a>
-    <a href="https://wa.me/message/NG7A2SW25XIEI1" target="_blank">
-        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+    <a href="https://jsiqueira.com" target="_blank">
+        <img src="https://img.shields.io/badge/jsiqueira.com-100000?style=for-the-badge&logoColor=white"/>
     </a>
 </p>
 
@@ -31,6 +38,7 @@ My name is Jeferson. I have been a web developer since 2011.
     <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="" height="25px">
 </p>
 
+<br><br>
 ***
 
 <h3 align="center">Stats</h3>
