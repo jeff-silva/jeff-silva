@@ -40,6 +40,7 @@ I am an enthusiast of simple tools that help me focus only on the business rules
     <img src="	https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="" height="25px">
     <img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="" height="25px">
     <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="" height="25px">
+    <img src="https://img.shields.io/badge/Three.js-ffffff?style=for-the-badge&logo=three.js&logoColor=000000" alt="" height="25px">
 </p>
 
 <br><br>
