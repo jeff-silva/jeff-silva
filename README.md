@@ -23,8 +23,8 @@ I am an enthusiast of simple tools that help me focus only on the business rules
     <a href="mailto:jeferson.i.silva@gmail.com" target="_blank">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
     </a>
-    <a href="https://jsiqueira.com" target="_blank">
-        <img src="https://img.shields.io/badge/jsiqueira.com-100000?style=for-the-badge&logoColor=white"/>
+    <a href="https://labscript.dev" target="_blank">
+        <img src="https://img.shields.io/badge/labscript.dev-100000?style=for-the-badge&logoColor=white"/>
     </a>
 </p>
 
