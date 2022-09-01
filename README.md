@@ -2,7 +2,7 @@
 I have been a web developer since 2011.
 I am an enthusiast of simple tools that help me focus only on the business rules of the system.
 
-#### Skills
+<h3 align="center">Skills</h3>
 <p align="center">
     <img height="25px" src="https://img.shields.io/badge/MySQL-004260?style=for-the-badge&logo=mysql&logoColor=white">
     <img height="25px" src="https://img.shields.io/badge/PHP-7377ad?style=for-the-badge&logo=php&logoColor=ffffff">
@@ -10,11 +10,13 @@ I am an enthusiast of simple tools that help me focus only on the business rules
     <img height="25px" src="https://img.shields.io/badge/CSS-3595cf?style=for-the-badge&logo=css&logoColor=white">
     <img height="25px" src="https://img.shields.io/badge/HTML5-dd4b25"/>
     <img height="25px" src="https://img.shields.io/badge/Javascript-f0d53c"/>
+    <br>
     <img height="25px" src="https://img.shields.io/badge/Wordpress-207196?style=for-the-badge&logo=wordpress&logoColor=ffffff">
     <img height="25px" src="https://img.shields.io/badge/Docker-2392e6"/>
     <img height="25px" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
     <img height="25px" src="https://img.shields.io/badge/nuxt.js-00C58E?style=for-the-badge&logo=nuxt.js&logoColor=white">
     <img height="25px" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+    <br>
     <img height="25px" src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white">
     <img height="25px" src=" https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
     <img height="25px" src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black">
