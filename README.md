@@ -42,6 +42,9 @@ I am an enthusiast of simple tools that help me focus only on the business rules
     </a>
 </p>
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 <br><br>
 ***
 
