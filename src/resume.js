@@ -45,6 +45,9 @@ export const markdownWrite = () => {
     data.contacts.map((item) => {
       lines.push(textSpacer(item.name, item.value));
     });
+    data.links.map((item) => {
+      lines.push(textSpacer(item.name, item.url));
+    });
   });
 
   // Skills
