@@ -35,41 +35,62 @@ export const markdownWrite = () => {
 
   // curriculum.push(`## Projetos`);
 
-
+  const boxWidth = 100;
   const boxenOpts = {
     padding: .5,
-    width: 100,
-    // borderStyle: {
-    //   topLeft: '.',
-    //   topRight: '.',
-    //   bottomLeft: '.',
-    //   bottomRight: '.',
-    //   top: '.',
-    //   bottom: '.',
-    //   left: '.',
-    //   right: '.',
-    // },
+    width: boxWidth,
+    borderStyle: {
+      topLeft: ' ',
+      topRight: ' ',
+      bottomLeft: ' ',
+      bottomRight: ' ',
+      top: '─',
+      bottom: ' ',
+      left: ' ',
+      right: ' ',
+    },
+  };
+
+  const textSpacer = (textLeft, textRight, size=boxWidth-10, str='-') => {
+    const spacerSize = size - textLeft.length - textRight.length;
+    return textLeft +' '+ (str.repeat(spacerSize)) +' '+ textRight;
   };
 
   curriculum.push('```text');
-  curriculum.push(data.name.toUpperCase());
-  curriculum.push(`${data.description}`);
 
-  curriculum.push('', boxen('xxx', { title: 'CONTACTS', ...boxenOpts }));
+  // Bio
+  let description = [];
+  description.push('', data.description);
+  description.push('', data.bio);
+  description = description.join("\n");
+  curriculum.push(boxen(description, { title: data.name.toUpperCase(), ...boxenOpts }));
 
-  curriculum.push('', boxen(data.bio, { title: 'BIO', ...boxenOpts }));
-
-  curriculum.push('', boxen('xxx', { title: 'SKILLS', ...boxenOpts }));
-
-  let experiences = [];
-  data.experiences.map((item) => {
-    experiences.push('');
-    experiences.push(item.name);
-    experiences.push(`01/2020 ~ 12/2020`);
-    experiences.push(item.description);
+  // Contacts
+  let contacts = [''];
+  data.contacts.map((item) => {
+    contacts.push(textSpacer(item.name, item.value));
   });
-  experiences = experiences.join("\n");
-  curriculum.push('', boxen(experiences, { title: 'EXPERIENCES', ...boxenOpts }));
+  contacts = contacts.join("\n");
+  curriculum.push('', boxen(contacts, { title: 'CONTACTS', ...boxenOpts }));
+
+  // Skills
+  let skills = [''];
+  data.skills.map((item) => {
+    skills.push(textSpacer(item.name, `★★★☆☆ - ${item.rating}/5`));
+  });
+  skills = skills.join("\n");
+  curriculum.push('', boxen(skills, { title: 'SKILLS', ...boxenOpts }));
+
+  // Experiences
+  curriculum.push('', boxen((() => {
+    let lines = [];
+    data.experiences.map((item) => {
+      lines.push('');
+      lines.push(textSpacer(item.name, `01/2020 ~ 12/2020`));
+      lines.push(item.job);
+    });
+    return lines.join("\n");
+  })(), { title: 'EXPERIENCES', ...boxenOpts }));
 
   curriculum.push('', boxen('xxx', { title: 'PROJECTS', ...boxenOpts }));
   curriculum.push('```');
@@ -108,11 +129,11 @@ export const data = {
   contacts: [
     {
       name: "E-mail",
-      value: "&#x6a;&#x65;&#x66;&#x65;&#x72;&#x73;&#x6f;&#x6e;&#x2e;&#x69;&#x2e;&#x73;&#x69;&#x6c;&#x76;&#x61;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;",
+      value: "jeferson.i.silva@gmail.com",
     },
     {
       name: "Phone",
-      value: "&#x2b;&#x35;&#x35;&#160;&#x28;&#x33;&#x31;&#x29;&#160;&#x39;&#x39;&#x35;&#x32;&#x37;&#x2010;&#x31;&#x34;&#x32;&#x36;",
+      value: "+55 (31) 99527-1426",
     },
     {
       name: "Whatsapp",
@@ -168,7 +189,7 @@ export const data = {
   experiences: [
     {
       name: "Search and Stay",
-      description: "Fullstack Developer",
+      job: "Fullstack Developer",
       active: false,
       date_start: "2022-12-01",
       date_final: "2023-11-01",
@@ -176,7 +197,7 @@ export const data = {
     },
     {
       name: "Rehagro",
-      description: "Frontend Developer",
+      job: "Frontend Developer",
       active: false,
       date_start: "2022-09-01",
       date_final: "2022-12-01",
@@ -184,7 +205,7 @@ export const data = {
     },
     {
       name: "Iterative",
-      description: "Frontend Developer",
+      job: "Frontend Developer",
       active: false,
       date_start: "2022-04-01",
       date_final: "2022-08-01",
@@ -192,7 +213,7 @@ export const data = {
     },
     {
       name: "Listra",
-      description: "Fullstack Developer",
+      job: "Fullstack Developer",
       active: true,
       date_start: "2020-10-01",
       date_final: "2022-04-01",
@@ -200,7 +221,7 @@ export const data = {
     },
     {
       name: "Digital Pixel",
-      description: "Fullstack Developer",
+      job: "Fullstack Developer",
       active: false,
       date_start: "2020-08-01",
       date_final: "2020-10-01",
@@ -208,7 +229,7 @@ export const data = {
     },
     {
       name: "Codificar",
-      description: "Fullstack Developer",
+      job: "Fullstack Developer",
       active: true,
       date_start: "2017-02-01",
       date_final: "2017-10-01",
@@ -216,7 +237,7 @@ export const data = {
     },
     {
       name: "Agência de Criação",
-      description: "Fullstack Developer",
+      job: "Fullstack Developer",
       active: true,
       date_start: "2015-01-01",
       date_final: "2017-01-01",
@@ -249,7 +270,7 @@ export const data = {
     },
     {
       name: "Cushman & Wakefield",
-      description: "Fullstack Developer",
+      job: "Fullstack Developer",
       active: true,
       date_start: "2012-02-01",
       date_final: "2013-01-01",
@@ -257,7 +278,7 @@ export const data = {
     },
     {
       name: "Netranet Networking",
-      description: "Fullstack Developer",
+      job: "Fullstack Developer",
       active: true,
       date_start: "2011-11-01",
       date_final: "2012-01-01",
@@ -265,7 +286,7 @@ export const data = {
     },
     {
       name: "Web BH Escola de Informática",
-      description: "Instrutor",
+      job: "Instrutor",
       active: true,
       date_start: "2010-01-01",
       date_final: "2011-01-01",
@@ -273,7 +294,7 @@ export const data = {
     },
     {
       name: "Freelancer",
-      description: "Fullstack Developer",
+      job: "Fullstack Developer",
       active: true,
       date_start: "2010-01-01",
       date_final: false,
