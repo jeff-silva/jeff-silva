@@ -1,4 +1,57 @@
-#### Hi, im Jeferson 👋
+<!--curriculum:start-->
+# Jeferson Inácio Siqueira
+### Desenvolvedor Full-Stack
+## Bio
+Hi, im Jeferson 👋<br />    I have been a web developer since 2011.<br />    I am an enthusiast of simple tools that help me focus only on the business rules of the system.
+## Contatos
+E-mail: &#x6a;&#x65;&#x66;&#x65;&#x72;&#x73;&#x6f;&#x6e;&#x2e;&#x69;&#x2e;&#x73;&#x69;&#x6c;&#x76;&#x61;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d; <br />
+Phone: &#x2b;&#x35;&#x35;&#160;&#x28;&#x33;&#x31;&#x29;&#160;&#x39;&#x39;&#x35;&#x32;&#x37;&#x2010;&#x31;&#x34;&#x32;&#x36; <br />
+Whatsapp: https://wa.me/message/NG7A2SW25XIEI1 <br />
+## Skills
+``PHP: ............ ★★★☆☆ - 5/5`` <br />
+``Laravel: ........ ★★★☆☆ - 4/5`` <br />
+``MySQL: .......... ★★★☆☆ - 4/5`` <br />
+``Javascript: ..... ★★★☆☆ - 4/5`` <br />
+``Vue 3: .......... ★★★☆☆ - 5/5`` <br />
+``Nuxt 3: ......... ★★★☆☆ - 5/5`` <br />
+``Vuetify 3: ...... ★★★☆☆ - 5/5`` <br />
+``Docker: ......... ★★★☆☆ - 3/5`` <br />
+``Node JS: ........ ★★★☆☆ - 4/5`` <br />
+``Wordpress: ...... ★★★☆☆ - 5/5`` <br />
+``Three.js: ....... ★★★☆☆ - 4/5`` <br />
+## Experiencias
+### Listra <br />
+01/2020 ~ 12/2020 <br />
+Job Description <br />
+### Codificar <br />
+01/2020 ~ 12/2020 <br />
+Job Description <br />
+### Agência de Criação <br />
+01/2020 ~ 12/2020 <br />
+Job Description <br />
+### Cushman & Wakefield <br />
+01/2020 ~ 12/2020 <br />
+Job Description <br />
+### Netranet Networking <br />
+01/2020 ~ 12/2020 <br />
+Job Description <br />
+### Web BH Escola de Informática <br />
+01/2020 ~ 12/2020 <br />
+Job Description <br />
+### Freelancer <br />
+01/2020 ~ 12/2020 <br />
+Job Description <br />
+## Projetos
+<!--curriculum:final-->
+
+
+:house:    Belo Horizonte/MG <br>
+:iphone:   <img src="https://img.shields.io/badge/&#x2b;&#x35;&#x35;&#160;&#x28;&#x33;&#x31;&#x29;&#160;&#x39;&#x39;&#x35;&#x32;&#x37;&#x2010;&#x31;&#x34;&#x32;&#x36;-ffffff"><br>
+:envelope:  jeferson.i.silva@gmail.com
+
+&#x6a;&#x65;&#x66;&#x65;&#x72;&#x73;&#x6f;&#x6e;&#x2e;&#x69;&#x2e;&#x73;&#x69;&#x6c;&#x76;&#x61;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;
+
+<!-- #### Hi, im Jeferson 👋
 I have been a web developer since 2011.
 I am an enthusiast of simple tools that help me focus only on the business rules of the system.
 
@@ -40,12 +93,12 @@ I am an enthusiast of simple tools that help me focus only on the business rules
     <a href="https://labscript.dev" target="_blank">
         <img src="https://img.shields.io/badge/labscript.dev-100000?style=for-the-badge&logoColor=white"/>
     </a>
-</p>
+</p> -->
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
-<br><br>
+<!-- <br><br>
 ***
 
 <h3 align="center">Stats</h3>
@@ -65,4 +118,4 @@ I am an enthusiast of simple tools that help me focus only on the business rules
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=jeffsilva" alt="" height="200px">
 </p>
 
-![Snake animation](https://github.com/jeff-silva/jeff-silva/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/jeff-silva/jeff-silva/blob/output/github-contribution-grid-snake.svg) -->
