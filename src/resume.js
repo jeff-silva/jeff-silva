@@ -35,7 +35,7 @@ export const markdownWrite = () => {
 
   // curriculum.push(`## Projetos`);
 
-  const boxWidth = 100;
+  const boxWidth = 90;
   const boxenOpts = {
     padding: .5,
     width: boxWidth,
@@ -51,48 +51,54 @@ export const markdownWrite = () => {
     },
   };
 
-  const textSpacer = (textLeft, textRight, size=boxWidth-10, str='-') => {
+  const textSpacer = (textLeft, textRight, size=boxWidth-10, str='·') => {
     const spacerSize = size - textLeft.length - textRight.length;
     return textLeft +' '+ (str.repeat(spacerSize)) +' '+ textRight;
+  };
+
+  const sectionAdd = (title, callback) => {
+    let lines = [''];
+    callback.call(this, lines, boxenOpts);
+    curriculum.push(boxen(lines.join("\n"), { title, ...boxenOpts }));
   };
 
   curriculum.push('```text');
 
   // Bio
-  let description = [];
-  description.push('', data.description);
-  description.push('', data.bio);
-  description = description.join("\n");
-  curriculum.push(boxen(description, { title: data.name.toUpperCase(), ...boxenOpts }));
+  sectionAdd(data.name.toUpperCase(), (lines, options) => {
+    lines.push(data.description, '', data.bio);
+  });
 
   // Contacts
-  let contacts = [''];
-  data.contacts.map((item) => {
-    contacts.push(textSpacer(item.name, item.value));
+  sectionAdd('CONTACTS', (lines, options) => {
+    data.contacts.map((item) => {
+      lines.push(textSpacer(item.name, item.value));
+    });
   });
-  contacts = contacts.join("\n");
-  curriculum.push('', boxen(contacts, { title: 'CONTACTS', ...boxenOpts }));
 
   // Skills
-  let skills = [''];
-  data.skills.map((item) => {
-    skills.push(textSpacer(item.name, `★★★☆☆ - ${item.rating}/5`));
+  sectionAdd('SKILLS', (lines, options) => {
+    data.skills.map((item) => {
+      const stars = '★'.repeat(item.rating) + '☆'.repeat(5-item.rating);
+      lines.push(textSpacer(item.name, `${stars} - ${item.rating}/5`));
+    });
   });
-  skills = skills.join("\n");
-  curriculum.push('', boxen(skills, { title: 'SKILLS', ...boxenOpts }));
 
   // Experiences
-  curriculum.push('', boxen((() => {
-    let lines = [];
-    data.experiences.map((item) => {
-      lines.push('');
-      lines.push(textSpacer(item.name, `01/2020 ~ 12/2020`));
-      lines.push(item.job);
+  sectionAdd('EXPERIENCES', (lines, options) => {
+    data.experiences.map((item, index) => {
+      if (index>0) lines.push('');
+      lines.push(item.name);
+      lines.push(textSpacer(item.job, `01/2020 ~ 12/2020`));
+      if (item.projects.length>0) {
+        lines.push('- Projects:');
+        item.projects.map((project) => {
+          lines.push(`  • ${project.name}`);
+        });
+      }
     });
-    return lines.join("\n");
-  })(), { title: 'EXPERIENCES', ...boxenOpts }));
+  });
 
-  curriculum.push('', boxen('xxx', { title: 'PROJECTS', ...boxenOpts }));
   curriculum.push('```');
   
   curriculum = curriculum.join("\n");
