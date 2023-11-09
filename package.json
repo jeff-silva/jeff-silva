@@ -4,5 +4,8 @@
   "type": "module",
   "repository": "https://github.com/jeff-silva/jeff-silva.git",
   "author": "Jeferson Silva <jeferson.i.silva@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "boxen": "^7.1.1"
+  }
 }
