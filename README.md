@@ -1,5 +1,6 @@
 <!--curriculum:start-->
-```text
+```javascript
+/**
 ─────────────────────────────── JEFERSON INÁCIO SIQUEIRA ───────────────────────────────
                                                                                         
  Desenvolvedor Full-Stack                                                               
@@ -79,6 +80,7 @@
    • Habitat Group                                                                      
    • Eiriz Saúde                                                                        
 
+*/
 ```
 <!--curriculum:final-->
 

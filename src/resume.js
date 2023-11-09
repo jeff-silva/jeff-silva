@@ -33,7 +33,7 @@ export const markdownWrite = () => {
     // curriculum.push(boxen('', { title, ...boxenOpts }), lines.join("\n"), '', '');
   };
 
-  curriculum.push('```text');
+  curriculum.push('```javascript', '/**');
 
   // Bio
   sectionAdd(data.name.toUpperCase(), (lines, options) => {
@@ -73,7 +73,7 @@ export const markdownWrite = () => {
     });
   });
 
-  curriculum.push('```');
+  curriculum.push('*/', '```');
   
   curriculum = curriculum.join("\n");
   let content = fs.readFileSync('./README.md', 'utf8');
