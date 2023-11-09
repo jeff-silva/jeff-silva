@@ -4,50 +4,20 @@ import boxen from 'boxen';
 export const markdownWrite = () => {
   let curriculum = [];
 
-  // curriculum.push(`# ${data.name}`);
-  // curriculum.push(`### ${data.description}`);
-  
-  // curriculum.push(`## Bio`);
-  // curriculum.push(data.bio.replace(/\n/g, '<br />'));
-
-  // curriculum.push(`## Contatos`);
-  // data.contacts.map((contact) => {
-  //   curriculum.push(`${contact.name}: ${contact.value} <br />`);
-  // });
-  
-  // curriculum.push(`## Skills`);
-  // const spaceName = Math.max(...data.skills.map(skill => skill.name.length)) + 10;
-  // curriculum.push(`\`\`\`bash`);
-  // data.skills.map((skill) => {
-  //   const spaceStr = '.'.repeat(spaceName - skill.name.length);
-  //   // curriculum.push(`\`\`${skill.name}: ${spaceStr} ★★★☆☆ - ${skill.rating}/5\`\` <br />`);
-  //   curriculum.push(`${skill.name}: ${spaceStr} ★★★☆☆ - ${skill.rating}/5`);
-  // });
-  // curriculum.push(`\`\`\``);
-
-  // curriculum.push(`## Experiencias`);
-  // data.experiences.map((experience) => {
-  //   if (!experience.active) return;
-  //   curriculum.push(`### ${experience.name} <br />`);
-  //   curriculum.push(`01/2020 ~ 12/2020 <br />`);
-  //   curriculum.push(`Job Description <br />`);
-  // });
-
-  // curriculum.push(`## Projetos`);
-
   const boxWidth = 90;
   const boxenOpts = {
     padding: .5,
     width: boxWidth,
+    titleAlignment: 'center',
     borderStyle: {
-      topLeft: ' ',
-      topRight: ' ',
-      bottomLeft: ' ',
-      bottomRight: ' ',
+      topLeft: '',
+      topRight: '',
+      bottomLeft: '',
+      bottomRight: '',
       top: '─',
-      bottom: ' ',
-      left: ' ',
-      right: ' ',
+      bottom: '',
+      left: '',
+      right: '',
     },
   };
 
@@ -60,6 +30,7 @@ export const markdownWrite = () => {
     let lines = [''];
     callback.call(this, lines, boxenOpts);
     curriculum.push(boxen(lines.join("\n"), { title, ...boxenOpts }));
+    // curriculum.push(boxen('', { title, ...boxenOpts }), lines.join("\n"), '', '');
   };
 
   curriculum.push('```text');
@@ -110,9 +81,11 @@ export const markdownWrite = () => {
 export const data = {
   name: "Jeferson Inácio Siqueira",
   description: "Desenvolvedor Full-Stack",
-  bio: `Hi, im Jeferson 👋
-    I have been a web developer since 2011.
-    I am an enthusiast of simple tools that help me focus only on the business rules of the system.`,
+  bio: [
+    'Hi, im Jeferson 👋',
+    'I have been a web developer since 2011.',
+    'I am an enthusiast of simple tools that help me focus only on the business rules of the system.',
+  ].join("\n"),
   place: {
     city: "Belo Hozironte",
     state: "Minas Gerais",
