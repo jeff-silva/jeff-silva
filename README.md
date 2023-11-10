@@ -4,7 +4,7 @@
 
 👨🏻‍💻 Desenvolvedor Full-Stack
 🌎 Belo Horizonte / MG
-⌨️ Vue3, Nuxt3, Vuetify3, Laravel, Docker
+⌨️ Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git
 🟢 Open to work
 
 Hi, im Jeferson 👋

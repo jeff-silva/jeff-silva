@@ -143,7 +143,7 @@ export const data = {
   ].join("\n"),
   place: "Belo Horizonte / MG",
   openToWork: true,
-  stack: [ "Vue3", "Nuxt3", "Vuetify3", "Laravel", "Docker" ],
+  stack: [ "Vue3", "Nuxt3", "Vuetify3", "Node.js", "Laravel", "Docker", "Git" ],
   links: [
     {
       name: "Website",
