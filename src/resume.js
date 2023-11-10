@@ -8,19 +8,19 @@ export const markdownWrite = () => {
 
   const boxWidth = 100;
   const boxenOpts = {
-    padding: .5,
+    padding: .6,
     width: boxWidth,
-    titleAlignment: 'center',
-    borderStyle: {
-      topLeft: '',
-      topRight: '',
-      bottomLeft: '',
-      bottomRight: '',
-      top: '─',
-      bottom: '',
-      left: '',
-      right: '',
-    },
+    // titleAlignment: 'center',
+    // borderStyle: {
+    //   topLeft: '',
+    //   topRight: '',
+    //   bottomLeft: '',
+    //   bottomRight: '',
+    //   top: '─',
+    //   bottom: '',
+    //   left: '',
+    //   right: '',
+    // },
   };
   
   const textSpacer = ({ left='', right='', size=boxWidth, str='·', offset=0 }) => {
@@ -93,35 +93,59 @@ export const markdownWrite = () => {
   sectionAdd('EXPERIENCES', (lines, options) => {
     data.experiences.map((item, index) => {
       if (!item.active) return;
-      if (index>0) lines.push('', '');
-
-      let itemName = textOrLink({ text: item.name.toUpperCase(), url: item.url });
-      if (item.place) itemName += ` | ${item.place}`;
+      if (index>0) lines.push('');
 
       const dateStart = item.date_start ? dayjs(item.date_start).format('YYYY') : 'Atualmente';
       const dateFinal = item.date_final ? dayjs(item.date_final).format('YYYY') : 'Atualmente';
 
-      lines.push(`🏭 ${itemName}`);
-      // if (item.place) lines.push(`🌎 ${item.place}`);
-      lines.push(`${item.job} entre ${dateStart} e ${dateFinal}`);
+      let sectionLines = [];
+      if (item.place) sectionLines.push(item.place);
+      sectionLines.push(`${item.job} entre ${dateStart} e ${dateFinal}`);
+      if (item.description) sectionLines.push(item.description);
+      sectionLines.push(`Stack: ${item.stack.join(', ')}`);
 
-      if (item.description) {
-        lines.push(item.description);
-      }
-
-      lines.push(`Stack: ${item.stack.join(', ')}`);
-      
       if (item.projects.length>0) {
         const leftSpace = '  ';
-        lines.push('', `${leftSpace}Projetos executados:`);
+        sectionLines.push('', `${leftSpace}Projetos executados:`);
         item.projects.map((project) => {
-          lines.push(textSpacer({
-            left: leftSpace+ textOrLink({ text: project.name, url: project.url }),
-            right: project.stack.join(', '),
-            offset: leftSpace.length,
-          }));
+          // const projectName = textOrLink({ text: project.name, url: project.url });
+          sectionLines.push(`${leftSpace}${project.name}`);
+          // sectionLines.push(textSpacer({
+          //   left: leftSpace+ textOrLink({ text: project.name, url: project.url }),
+          //   right: project.stack.join(', '),
+          //   size: 50,
+          //   offset: leftSpace.length,
+          // }));
         });
       }
+
+      lines.push(boxen(sectionLines.join("\n"), { title: item.name.toUpperCase(), ...boxenOpts }));
+
+
+      // let itemName = textOrLink({ text: item.name.toUpperCase(), url: item.url });
+      // if (item.place) itemName += ` | ${item.place}`;
+
+      // lines.push(`🏭 ${itemName}`);
+      // // if (item.place) lines.push(`🌎 ${item.place}`);
+      // lines.push(`${item.job} entre ${dateStart} e ${dateFinal}`);
+
+      // if (item.description) {
+      //   lines.push(item.description);
+      // }
+
+      // lines.push(`Stack: ${item.stack.join(', ')}`);
+      
+      // if (item.projects.length>0) {
+      //   const leftSpace = '  ';
+      //   lines.push('', `${leftSpace}Projetos executados:`);
+      //   item.projects.map((project) => {
+      //     lines.push(textSpacer({
+      //       left: leftSpace+ textOrLink({ text: project.name, url: project.url }),
+      //       right: project.stack.join(', '),
+      //       offset: leftSpace.length,
+      //     }));
+      //   });
+      // }
     });
   });
 
