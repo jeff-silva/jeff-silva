@@ -6,7 +6,7 @@ import dayjs from 'dayjs';
 export const markdownWrite = () => {
   let curriculum = [];
 
-  const boxWidth = 90;
+  const boxWidth = 100;
   const boxenOpts = {
     padding: .5,
     width: boxWidth,
