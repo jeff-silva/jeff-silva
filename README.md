@@ -10,6 +10,7 @@ Hi, im Jeferson 👋
 I have been a web developer since 2011.
 I am an enthusiast of simple tools that help me focus only on the business rules of the system.
 
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CONTACTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 E-mail ·························································· <a href="mailto:jeferson.i.silva@gmail.com">jeferson.i.silva@gmail.com</a>
@@ -18,6 +19,7 @@ Whatsapp ···································�
 Website ······························································ <a href="https://labscript.dev">https://labscript.dev</a>
 Github ······················································· <a href="https://github.com/jeff-silva">https://github.com/jeff-silva</a>
 Linkedin ····································· <a href="https://www.linkedin.com/in/jeferson-siqueira">https://www.linkedin.com/in/jeferson-siqueira</a>
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SKILLS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -33,78 +35,100 @@ Node JS ····································
 Wordpress ································································· 5/5 ⭐⭐⭐⭐⭐
 Three.js ·································································· 4/5 ⭐⭐⭐⭐ 
 
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ EXPERIENCES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Freelancer · Dev Fullstack ··············································· 2010 ~ Atualmente
+<a href="https://labscript.dev" target="_blank">FREELANCER</a>
+Dev Fullstack entre 2010 e Atualmente
 Desenvolvimento de projetos freelancer e pessoais
-Stack: PHP, Laravel, Wordpress, Git, Docker, Vue, Nuxt, Elementor, Bootstrap
+Stack: Git, Docker, Vue, Nuxt, Bootstrap, Laravel, Wordpress, Elementor, PHP
 
-Projetos executados:
-<a href="https://basablog.com.br" target="_blank">Blog Banco da Amazônia</a> ··························································· Wordpress
-<a href="https://dondesenvolvimento.com.br" target="_blank">Don Desenvolvimento</a> ··································· Wordpress, Vue, Elementor, Bootstrap
-<a href="https://cocksskate.com.br" target="_blank">Cocks Skate</a> ··········································· Wordpress, Vue, Elementor, Bootstrap
-<a href="https://orbitae.com.br" target="_blank">Orbitae</a> ··············································· Wordpress, Vue, Elementor, Bootstrap
-<a href="https://habitatgroup.com.br" target="_blank">Habitat Group</a> ········································· Wordpress, Vue, Elementor, Bootstrap
-<a href="http://eiriz-saude.unbox.pt/" target="_blank">Eiriz Saúde</a> ··········································· Wordpress, Vue, Elementor, Bootstrap
+  Projetos executados:
+  <a href="https://basablog.com.br" target="_blank">Blog Banco da Amazônia</a> ························································· Wordpress
+  <a href="https://dondesenvolvimento.com.br" target="_blank">Don Desenvolvimento</a> ································· Wordpress, Vue, Elementor, Bootstrap
+  <a href="https://cocksskate.com.br" target="_blank">Cocks Skate</a> ········································· Wordpress, Vue, Elementor, Bootstrap
+  <a href="https://orbitae.com.br" target="_blank">Orbitae</a> ············································· Wordpress, Vue, Elementor, Bootstrap
+  <a href="https://habitatgroup.com.br" target="_blank">Habitat Group</a> ······································· Wordpress, Vue, Elementor, Bootstrap
+  <a href="http://eiriz-saude.unbox.pt/" target="_blank">Eiriz Saúde</a> ········································· Wordpress, Vue, Elementor, Bootstrap
 
-<a href="https://www.searchandstay.com" target="_blank">Search and Stay</a> · Dev Fullstack ················································ 2022 ~ 2023
+
+<a href="https://www.searchandstay.com" target="_blank">SEARCH AND STAY</a>
+Dev Fullstack entre 2022 e 2023
 Sistema de locação por temporada para imóveis na Austrália
-Stack: Vue, Nuxt, Javascript, Node.js, Laravel, Git, Docker
+Stack: Git, Docker, Vue, Nuxt, Javascript, Node.js, Laravel
 
-Rehagro · Dev Frontend ························································· 2022 ~ 2022
+
+REHAGRO
+Dev Frontend entre 2022 e 2022
 Plataforma de ensino à distância voltada para a área de agronegócio
-Stack: React, Javascript, Laravel, Node.js, Git, CSS, HTML
+Stack: Git, React, Javascript, Laravel, Node.js
 
-Iterative · Dev Frontend ······················································· 2022 ~ 2022
+
+ITERATIVE
+Dev Frontend entre 2022 e 2022
 Plataforma de ensino à distância
-Stack: Vue.js, Javascript, Node.js, CSS, HTML
+Stack: Git, Vue, Javascript, Node.js
 
-Listra · Dev Fullstack ························································· 2020 ~ 2022
-Stack: Vue.js, Nuxt, PHP, Laravel, MySQL, Javascript, CSS, HTML
 
-Projetos executados:
-<a href="https://assinaroucomprar.com.br/" target="_blank">Assinar ou Comprar</a> ················································· Nuxt, Rest API, Laravel
-<a href="https://redeclipping.com.br/" target="_blank">Rede Clipping</a> ······································································ Laravel
-<a href="https://epa.com.br" target="_blank">EPA Supermercados</a> ································································ Wordpress
+LISTRA
+Dev Fullstack entre 2020 e 2022
+Stack: Git, Vue, Nuxt, Javascript, Laravel, PHP, MySQL
 
-Digital Pixel · Dev Fullstack ·················································· 2020 ~ 2020
-Stack: Vue.js, PHP, Wordpress, MySQL, Javascript, CSS, HTML
+  Projetos executados:
+  <a href="https://assinaroucomprar.com.br/" target="_blank">Assinar ou Comprar</a> ··············································· Nuxt, Rest API, Laravel
+  <a href="https://redeclipping.com.br/" target="_blank">Rede Clipping</a> ···································································· Laravel
+  <a href="https://epa.com.br" target="_blank">EPA Supermercados</a> ······························································ Wordpress
 
-Projetos executados:
-Samarco ··············································· Wordpress, Bootstrap, Elementor, Vue
-Faveni ················································ Wordpress, Bootstrap, Elementor, Vue
 
-Codificar · Dev Fullstack ······················································ 2017 ~ 2017
-Stack: Vue.js, PHP, MySQL, Laravel, Javascript, CSS, HTML
+DIGITAL PIXEL
+Dev Fullstack entre 2020 e 2020
+Stack: Vue, Javascript, Wordpress, PHP, MySQL
 
-Projetos executados:
-Rescon ···················································· Framework desconhecido, PHP, Vue
+  Projetos executados:
+  Samarco ············································· Wordpress, Vue, Bootstrap, Elementor
+  Faveni ·············································· Wordpress, Vue, Bootstrap, Elementor
 
-Agência de Criação · Dev Fullstack ············································· 2015 ~ 2017
+
+CODIFICAR
+Dev Fullstack entre 2017 e 2017
+Stack: Vue, PHP, MySQL, Laravel, Javascript, CSS, HTML, Git
+
+  Projetos executados:
+  Rescon ·················································· Vue, PHP, Framework desconhecido
+
+
+AGÊNCIA DE CRIAÇÃO
+Dev Fullstack entre 2015 e 2017
 Prestação de serviço terceirizado para a Vale do Rio Doce
-Stack: Angular, Vue.js, PHP, MySQL, Javascript, JQuery, CSS, HTML
+Stack: Angular, Vue, Javascript, JQuery, CSS, HTML, PHP, MySQL
 
-Projetos executados:
-<a href="https://web.archive.org/web/20170612004919/http://assemg.org/" target="_blank">ASSEMG</a> ···················································································· 
-<a href="http://www.brettasereis.adv.br" target="_blank">Bretas e Reis</a> ············································································· 
-<a href="http://betosantos.net" target="_blank">Cantor Beto Santos</a> ········································································ 
-<a href="http://aguasdoacurui.com.br/" target="_blank">Águas do Acuruí</a> ··········································································· 
+  Projetos executados:
+  <a href="https://web.archive.org/web/20170612004919/http://assemg.org/" target="_blank">ASSEMG</a> ··························································· Vue, Jquery, PHP, MySQL
+  <a href="http://www.brettasereis.adv.br" target="_blank">Bretas e Reis</a> ···················································· Vue, Jquery, PHP, MySQL
+  <a href="http://betosantos.net" target="_blank">Cantor Beto Santos</a> ··············································· Vue, Jquery, PHP, MySQL
+  <a href="http://aguasdoacurui.com.br/" target="_blank">Águas do Acuruí</a> ··················································· CSS, JQuery, Wordpress
 
-Cushman & Wakefield · Dev Fullstack ············································ 2012 ~ 2013
-Stack: PHP, MySQL, Javascript, JQuery, CSS, HTML
 
-Projetos executados:
-Calculadora de Gastos de Obra ······································ PHP, MySQL, CSS, JQuery
-Database de fornecedores ··········································· PHP, MySQL, CSS, JQuery
+CUSHMAN & WAKEFIELD
+Dev Fullstack entre 2012 e 2013
+Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
 
-Netranet Networking · Dev Fullstack ············································ 2011 ~ 2012
-Stack: PHP, MySQL, Javascript, JQuery, CSS, HTML
+  Projetos executados:
+  Calculadora de Gastos de Obra ···································· CSS, JQuery, PHP, MySQL
+  Database de fornecedores ········································· CSS, JQuery, PHP, MySQL
 
-Projetos executados:
-Estrela Rural ······················································ PHP, MySQL, CSS, JQuery
 
-Web BH Escola de Informática · Instrutor ······································· 2010 ~ 2011
-Stack: PHP, MySQL, Javascript, CSS, ActionScript, HTML
+NETRANET NETWORKING
+Dev Fullstack entre 2011 e 2012
+Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
+
+  Projetos executados:
+  Estrela Rural ···················································· CSS, JQuery, PHP, MySQL
+
+
+WEB BH ESCOLA DE INFORMÁTICA
+Instrutor entre 2010 e 2011
+Stack: HTML, CSS, Javascript, ActionScript, PHP, MySQL
 </pre>
 <!--curriculum:final-->
 
