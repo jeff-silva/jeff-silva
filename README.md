@@ -59,13 +59,13 @@ Sistema de locação por temporada para imóveis na Austrália
 Stack: Git, Docker, Vue, Nuxt, Javascript, Node.js, Laravel
 
 
-🏭 REHAGRO | Belo Horizonte/MG
+🏭 <a href="https://rehagro.com.br" target="_blank">REHAGRO</a> | Belo Horizonte/MG
 Dev Frontend entre 2022 e 2022
 Plataforma de ensino à distância voltada para a área de agronegócio
 Stack: Git, React, Javascript, Laravel, Node.js
 
 
-🏭 ITERATIVE | São Paulo/SP
+🏭 <a href="https://iterative.com.br" target="_blank">ITERATIVE</a> | São Paulo/SP
 Dev Frontend entre 2022 e 2022
 Plataforma de ensino à distância
 Stack: Git, Vue, Javascript, Node.js
@@ -74,7 +74,7 @@ Stack: Git, Vue, Javascript, Node.js
   <a href="https://onovomercado.com" target="_blank">O Novo Mercado</a> ········································································ Vue, Vuetify
 
 
-🏭 LISTRA | Belo Horizonte/MG
+🏭 <a href="https://listradigital.com.br" target="_blank">LISTRA</a> | Belo Horizonte/MG
 Dev Fullstack entre 2020 e 2022
 Stack: Git, Vue, Nuxt, Javascript, Laravel, PHP, MySQL
 
@@ -84,7 +84,7 @@ Stack: Git, Vue, Nuxt, Javascript, Laravel, PHP, MySQL
   <a href="https://epa.com.br" target="_blank">EPA Supermercados</a> ········································································ Wordpress
 
 
-🏭 DIGITAL PIXEL | Belo Horizonte/MG
+🏭 <a href="https://digitalpixel.com.br" target="_blank">DIGITAL PIXEL</a> | Belo Horizonte/MG
 Dev Fullstack entre 2020 e 2020
 Stack: Vue, Javascript, Wordpress, PHP, MySQL
 
@@ -93,7 +93,7 @@ Stack: Vue, Javascript, Wordpress, PHP, MySQL
   Faveni ························································ Wordpress, Vue, Bootstrap, Elementor
 
 
-🏭 CODIFICAR | Belo Horizonte/MG
+🏭 <a href="https://codificar.com.br" target="_blank">CODIFICAR</a> | Belo Horizonte/MG
 Dev Fullstack entre 2017 e 2017
 Stack: Vue, PHP, MySQL, Laravel, Javascript, CSS, HTML, Git
 
@@ -101,7 +101,7 @@ Stack: Vue, PHP, MySQL, Laravel, Javascript, CSS, HTML, Git
   Rescon ···························································· Vue, PHP, Framework desconhecido
 
 
-🏭 AGÊNCIA DE CRIAÇÃO | Belo Horizonte/MG
+🏭 <a href="https://agenciadecriacao.com.br" target="_blank">AGÊNCIA DE CRIAÇÃO</a> | Belo Horizonte/MG
 Dev Fullstack entre 2015 e 2017
 Prestação de serviço terceirizado para a Vale do Rio Doce
 Stack: Angular, Vue, Javascript, JQuery, CSS, HTML, PHP, MySQL
@@ -122,7 +122,7 @@ Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
   Database de fornecedores ··················································· CSS, JQuery, PHP, MySQL
 
 
-🏭 NETRANET NETWORKING | Belo Horizonte/MG
+🏭 <a href="https://netranet.com.br/" target="_blank">NETRANET NETWORKING</a> | Belo Horizonte/MG
 Dev Fullstack entre 2011 e 2012
 Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
 
