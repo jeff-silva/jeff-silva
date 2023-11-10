@@ -4,6 +4,7 @@
 
 👨🏻‍💻 Desenvolvedor Full-Stack
 🌎 Belo Horizonte / MG
+⌨️ Vue3, Nuxt3, Vuetify3, Laravel, Docker
 🟢 Open to work
 
 Hi, im Jeferson 👋
@@ -38,7 +39,7 @@ Three.js ···································�
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ EXPERIENCES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-<a href="https://labscript.dev" target="_blank">FREELANCER</a>
+🏭 <a href="https://labscript.dev" target="_blank">FREELANCER</a>
 Dev Fullstack entre 2010 e Atualmente
 Desenvolvimento de projetos freelancer e pessoais
 Stack: Git, Docker, Vue, Nuxt, Bootstrap, Laravel, Wordpress, Elementor, PHP
@@ -52,25 +53,28 @@ Stack: Git, Docker, Vue, Nuxt, Bootstrap, Laravel, Wordpress, Elementor, PHP
   <a href="http://eiriz-saude.unbox.pt/" target="_blank">Eiriz Saúde</a> ········································· Wordpress, Vue, Elementor, Bootstrap
 
 
-<a href="https://www.searchandstay.com" target="_blank">SEARCH AND STAY</a>
+🏭 <a href="https://www.searchandstay.com" target="_blank">SEARCH AND STAY</a> | Austrália
 Dev Fullstack entre 2022 e 2023
 Sistema de locação por temporada para imóveis na Austrália
 Stack: Git, Docker, Vue, Nuxt, Javascript, Node.js, Laravel
 
 
-REHAGRO
+🏭 REHAGRO | Belo Horizonte/MG
 Dev Frontend entre 2022 e 2022
 Plataforma de ensino à distância voltada para a área de agronegócio
 Stack: Git, React, Javascript, Laravel, Node.js
 
 
-ITERATIVE
+🏭 ITERATIVE | São Paulo/SP
 Dev Frontend entre 2022 e 2022
 Plataforma de ensino à distância
 Stack: Git, Vue, Javascript, Node.js
 
+  Projetos executados:
+  <a href="https://onovomercado.com" target="_blank">O Novo Mercado</a> ······························································ Vue, Vuetify
 
-LISTRA
+
+🏭 LISTRA | Belo Horizonte/MG
 Dev Fullstack entre 2020 e 2022
 Stack: Git, Vue, Nuxt, Javascript, Laravel, PHP, MySQL
 
@@ -80,7 +84,7 @@ Stack: Git, Vue, Nuxt, Javascript, Laravel, PHP, MySQL
   <a href="https://epa.com.br" target="_blank">EPA Supermercados</a> ······························································ Wordpress
 
 
-DIGITAL PIXEL
+🏭 DIGITAL PIXEL | Belo Horizonte/MG
 Dev Fullstack entre 2020 e 2020
 Stack: Vue, Javascript, Wordpress, PHP, MySQL
 
@@ -89,7 +93,7 @@ Stack: Vue, Javascript, Wordpress, PHP, MySQL
   Faveni ·············································· Wordpress, Vue, Bootstrap, Elementor
 
 
-CODIFICAR
+🏭 CODIFICAR | Belo Horizonte/MG
 Dev Fullstack entre 2017 e 2017
 Stack: Vue, PHP, MySQL, Laravel, Javascript, CSS, HTML, Git
 
@@ -97,7 +101,7 @@ Stack: Vue, PHP, MySQL, Laravel, Javascript, CSS, HTML, Git
   Rescon ·················································· Vue, PHP, Framework desconhecido
 
 
-AGÊNCIA DE CRIAÇÃO
+🏭 AGÊNCIA DE CRIAÇÃO | Belo Horizonte/MG
 Dev Fullstack entre 2015 e 2017
 Prestação de serviço terceirizado para a Vale do Rio Doce
 Stack: Angular, Vue, Javascript, JQuery, CSS, HTML, PHP, MySQL
@@ -109,7 +113,7 @@ Stack: Angular, Vue, Javascript, JQuery, CSS, HTML, PHP, MySQL
   <a href="http://aguasdoacurui.com.br/" target="_blank">Águas do Acuruí</a> ··················································· CSS, JQuery, Wordpress
 
 
-CUSHMAN & WAKEFIELD
+🏭 CUSHMAN & WAKEFIELD | Belo Horizonte/MG
 Dev Fullstack entre 2012 e 2013
 Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
 
@@ -118,7 +122,7 @@ Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
   Database de fornecedores ········································· CSS, JQuery, PHP, MySQL
 
 
-NETRANET NETWORKING
+🏭 NETRANET NETWORKING | Belo Horizonte/MG
 Dev Fullstack entre 2011 e 2012
 Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
 
@@ -126,7 +130,7 @@ Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
   Estrela Rural ···················································· CSS, JQuery, PHP, MySQL
 
 
-WEB BH ESCOLA DE INFORMÁTICA
+🏭 WEB BH ESCOLA DE INFORMÁTICA | Belo Horizonte/MG
 Instrutor entre 2010 e 2011
 Stack: HTML, CSS, Javascript, ActionScript, PHP, MySQL
 </pre>

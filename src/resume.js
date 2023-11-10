@@ -54,6 +54,7 @@ export const markdownWrite = () => {
   sectionAdd(data.name.toUpperCase(), (lines, options) => {
     lines.push(`👨🏻‍💻 ${data.description}`);
     lines.push(`🌎 ${data.place}`);
+    lines.push(`⌨️ ${data.stack.join(', ')}`);
     if (data.openToWork) lines.push(`🟢 Open to work`);
     lines.push('', data.bio);
   });
@@ -94,11 +95,14 @@ export const markdownWrite = () => {
       if (!item.active) return;
       if (index>0) lines.push('', '');
 
-      const itemName = textOrLink({ text: item.name.toUpperCase(), url: item.url });
+      let itemName = textOrLink({ text: item.name.toUpperCase(), url: item.url });
+      if (item.place) itemName += ` | ${item.place}`;
+
       const dateStart = item.date_start ? dayjs(item.date_start).format('YYYY') : 'Atualmente';
       const dateFinal = item.date_final ? dayjs(item.date_final).format('YYYY') : 'Atualmente';
 
-      lines.push(itemName);
+      lines.push(`🏭 ${itemName}`);
+      // if (item.place) lines.push(`🌎 ${item.place}`);
       lines.push(`${item.job} entre ${dateStart} e ${dateFinal}`);
 
       if (item.description) {
@@ -139,6 +143,7 @@ export const data = {
   ].join("\n"),
   place: "Belo Horizonte / MG",
   openToWork: true,
+  stack: [ "Vue3", "Nuxt3", "Vuetify3", "Laravel", "Docker" ],
   links: [
     {
       name: "Website",
@@ -221,6 +226,7 @@ export const data = {
       name: "Freelancer",
       description: "Desenvolvimento de projetos freelancer e pessoais",
       job: "Dev Fullstack",
+      place: "",
       active: true,
       url: "https://labscript.dev",
       date_start: "2010-01-01",
@@ -280,6 +286,7 @@ export const data = {
       name: "Search and Stay",
       description: "Sistema de locação por temporada para imóveis na Austrália",
       job: "Dev Fullstack",
+      place: "Austrália",
       active: true,
       url: "https://www.searchandstay.com",
       date_start: "2022-12-01",
@@ -291,6 +298,7 @@ export const data = {
       name: "Rehagro",
       description: "Plataforma de ensino à distância voltada para a área de agronegócio",
       job: "Dev Frontend",
+      place: "Belo Horizonte/MG",
       active: true,
       url: "",
       date_start: "2022-09-01",
@@ -302,17 +310,27 @@ export const data = {
       name: "Iterative",
       description: "Plataforma de ensino à distância",
       job: "Dev Frontend",
+      place: "São Paulo/SP",
       active: true,
       url: "",
       date_start: "2022-04-01",
       date_final: "2022-08-01",
       stack: [ "Git", "Vue", "Javascript", "Node.js" ],
-      projects: [],
+      projects: [
+        {
+          name: "O Novo Mercado",
+          description: `Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue. Ano: 2018`,
+          url: "https://onovomercado.com",
+          stack: [ "Vue", "Vuetify" ],
+          images: [],
+        },
+      ],
     },
     {
       name: "Listra",
       description: "",
       job: "Dev Fullstack",
+      place: "Belo Horizonte/MG",
       active: true,
       url: "",
       date_start: "2020-10-01",
@@ -346,6 +364,7 @@ export const data = {
       name: "Digital Pixel",
       description: "",
       job: "Dev Fullstack",
+      place: "Belo Horizonte/MG",
       active: true,
       url: "",
       date_start: "2020-08-01",
@@ -372,6 +391,7 @@ export const data = {
       name: "Codificar",
       description: "",
       job: "Dev Fullstack",
+      place: "Belo Horizonte/MG",
       active: true,
       url: "",
       date_start: "2017-02-01",
@@ -391,6 +411,7 @@ export const data = {
       name: "Agência de Criação",
       description: "Prestação de serviço terceirizado para a Vale do Rio Doce",
       job: "Dev Fullstack",
+      place: "Belo Horizonte/MG",
       active: true,
       url: "",
       date_start: "2015-01-01",
@@ -431,6 +452,7 @@ export const data = {
       name: "Cushman & Wakefield",
       description: "",
       job: "Dev Fullstack",
+      place: "Belo Horizonte/MG",
       active: true,
       url: "",
       date_start: "2012-02-01",
@@ -457,6 +479,7 @@ export const data = {
       name: "Netranet Networking",
       description: "",
       job: "Dev Fullstack",
+      place: "Belo Horizonte/MG",
       active: true,
       url: "",
       date_start: "2011-11-01",
@@ -476,6 +499,7 @@ export const data = {
       name: "Web BH Escola de Informática",
       description: "",
       job: "Instrutor",
+      place: "Belo Horizonte/MG",
       active: true,
       url: "",
       date_start: "2010-01-01",
