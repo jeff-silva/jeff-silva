@@ -6,8 +6,12 @@
   "author": "Jeferson Silva <jeferson.i.silva@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "axios": "^1.6.1",
     "boxen": "^7.1.1",
     "dayjs": "^1.11.10",
     "jsdom": "^22.1.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
   }
 }
