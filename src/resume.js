@@ -93,59 +93,35 @@ export const markdownWrite = () => {
   sectionAdd('EXPERIENCES', (lines, options) => {
     data.experiences.map((item, index) => {
       if (!item.active) return;
-      if (index>0) lines.push('');
+      if (index>0) lines.push('', '');
 
       const dateStart = item.date_start ? dayjs(item.date_start).format('YYYY') : 'Atualmente';
       const dateFinal = item.date_final ? dayjs(item.date_final).format('YYYY') : 'Atualmente';
 
-      let sectionLines = [];
-      if (item.place) sectionLines.push(item.place);
-      sectionLines.push(`${item.job} entre ${dateStart} e ${dateFinal}`);
-      if (item.description) sectionLines.push(item.description);
-      sectionLines.push(`Stack: ${item.stack.join(', ')}`);
+      let itemName = textOrLink({ text: item.name.toUpperCase(), url: item.url });
+      if (item.place) itemName += ` | ${item.place}`;
 
-      if (item.projects.length>0) {
-        const leftSpace = '  ';
-        sectionLines.push('', `${leftSpace}Projetos executados:`);
-        item.projects.map((project) => {
-          // const projectName = textOrLink({ text: project.name, url: project.url });
-          sectionLines.push(`${leftSpace}${project.name}`);
-          // sectionLines.push(textSpacer({
-          //   left: leftSpace+ textOrLink({ text: project.name, url: project.url }),
-          //   right: project.stack.join(', '),
-          //   size: 50,
-          //   offset: leftSpace.length,
-          // }));
-        });
+      lines.push(`🏭 ${itemName}`);
+      // if (item.place) lines.push(`🌎 ${item.place}`);
+      lines.push(`${item.job} entre ${dateStart} e ${dateFinal}`);
+
+      if (item.description) {
+        lines.push(item.description);
       }
 
-      lines.push(boxen(sectionLines.join("\n"), { title: item.name.toUpperCase(), ...boxenOpts }));
-
-
-      // let itemName = textOrLink({ text: item.name.toUpperCase(), url: item.url });
-      // if (item.place) itemName += ` | ${item.place}`;
-
-      // lines.push(`🏭 ${itemName}`);
-      // // if (item.place) lines.push(`🌎 ${item.place}`);
-      // lines.push(`${item.job} entre ${dateStart} e ${dateFinal}`);
-
-      // if (item.description) {
-      //   lines.push(item.description);
-      // }
-
-      // lines.push(`Stack: ${item.stack.join(', ')}`);
+      lines.push(`Stack: ${item.stack.join(', ')}`);
       
-      // if (item.projects.length>0) {
-      //   const leftSpace = '  ';
-      //   lines.push('', `${leftSpace}Projetos executados:`);
-      //   item.projects.map((project) => {
-      //     lines.push(textSpacer({
-      //       left: leftSpace+ textOrLink({ text: project.name, url: project.url }),
-      //       right: project.stack.join(', '),
-      //       offset: leftSpace.length,
-      //     }));
-      //   });
-      // }
+      if (item.projects.length>0) {
+        const leftSpace = '  ';
+        lines.push('', `${leftSpace}Projetos executados:`);
+        item.projects.map((project) => {
+          lines.push(textSpacer({
+            left: leftSpace+ textOrLink({ text: project.name, url: project.url }),
+            right: project.stack.join(', '),
+            offset: leftSpace.length,
+          }));
+        });
+      }
     });
   });
 
