@@ -1,0 +1,279 @@
+{
+  "name": "Jeferson Siqueira",
+  "stack": "Full-stack: Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git",
+  "place": "Belo Horizonte, Minas Gerais, Brazil",
+  "bio": "Hello. I've been a web platform developer since 2011.\n\nFor the backend, I have advanced knowledge in PHP with the Laravel framework since 2015, MySQL since 2011 and Node.js since 2018. I also know a lot about Wordpress, creating plugins and themes from scratch and implementing custom elements for Elementor using its API .\n\nInside the frontend, I know Javascript and Typescript, the framework for Vite, Vue.js 3, Nuxt 3 and React applications.\n\nI can list as additional knowledge in API Integrations, design patterns, clean code and SPA development.",
+  "experience": [
+    {
+      "id": "labscriptdev-full-stack-developer",
+      "name": "Full-stack Developer",
+      "job": "Full-stack Developer",
+      "company": "Labscript.dev",
+      "place": "Prestação de serviços para clientes diretos e parcerias com agências. De maneira resumida, nesse tempo desenvolvi sites e ecommerces utilizando Wordpress, WooCommerce e Elementor. Já implementei soluções com backend com PHP puro, Laravel e Node.js. No front, já trabalhei com Nuxt, Vue, HTML+CSS puro. Com banco de dados, tive oportunidade de trabalhar com MySQL e Firebase.",
+      "date_start": "Jan 2011",
+      "date_final": ""
+    },
+    {
+      "id": "search-and-stay-full-stack-developer",
+      "name": "Full-stack Developer",
+      "job": "Full-stack Developer",
+      "company": "Search and Stay",
+      "place": "",
+      "date_start": "Dec 2022",
+      "date_final": "Nov 2023"
+    },
+    {
+      "id": "listra-full-stack-developer",
+      "name": "Full-stack Developer",
+      "job": "Full-stack Developer",
+      "company": "Listra",
+      "place": "Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel\nou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.\n\nDentre os projetos desenvolvidos, estão a \"Unidas Seminovos\", uma plataforma de locação de veículos com filtro inteligente, e o \"Assinar ou comprar\", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com…\nShow more ",
+      "date_start": "Oct 2020",
+      "date_final": "Apr 2022"
+    },
+    {
+      "id": "codificar-sistemas-tecnologicos-full-stack-developer",
+      "name": "Full-stack Developer",
+      "job": "Full-stack Developer",
+      "company": "Codificar Sistemas Tecnológicos",
+      "place": "Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js no frontend.",
+      "date_start": "Feb 2017",
+      "date_final": "Oct 2017"
+    },
+    {
+      "id": "agencia-de-criacao-full-stack-developer",
+      "name": "Full-stack Developer",
+      "job": "Full-stack Developer",
+      "company": "Agência de Criação",
+      "place": "Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive oportunidade de trabalhar com Vue.js e Angular.js. Como banco de dados, foram utilizados principalmente MySQL e MariaDB. As soluções em backend envolviam PHP ou Node.js.",
+      "date_start": "Jan 2015",
+      "date_final": "Jan 2017"
+    },
+    {
+      "id": "cushman-wakefield-full-stack-developer",
+      "name": "Full-stack Developer",
+      "job": "Full-stack Developer",
+      "company": "Cushman & Wakefield",
+      "place": "Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:\n\nFerramenta para filtrar fornecedores por estado, material/trabalho fornecido, orçamento anual, obras já prestadas, porte da empresa, entre outros dados;\n\nCalculadora de prazo de obras, onde o valor total de um projeto era estimado de acordo com a quantidade de empregados levando em consideração a proporção encarregados/funcionários, benefícios, vales, valor de locação de…\nShow more ",
+      "date_start": "Feb 2012",
+      "date_final": "Jan 2013"
+    },
+    {
+      "id": "netranet-networking-full-stack-developer",
+      "name": "Full-stack Developer",
+      "job": "Full-stack Developer",
+      "company": "Netranet Networking",
+      "place": "Desenvolvimento de funções para o CMS próprio da agência.",
+      "date_start": "Jan 2011",
+      "date_final": "Jan 2012"
+    },
+    {
+      "id": "web-bh-escola-de-informatica-instrutor",
+      "name": "Instrutor",
+      "job": "Instrutor",
+      "company": "Web BH Escola de Informática",
+      "place": "Atuei como instrutor dos cursos de PHP, MySQL, CSS, Javascript, HTML5, Tableless e Action script.",
+      "date_start": "Jan 2010",
+      "date_final": "Jan 2011"
+    }
+  ],
+  "education": [
+    {
+      "id": "centro-universitario-una-cinema-e-audiovisual",
+      "name": "Centro Universitário UNA",
+      "school_name": "Centro Universitário UNA",
+      "course_name": "Cinema e Audiovisual",
+      "date_start": "2014",
+      "date_final": "2017"
+    },
+    {
+      "id": "webbh-escola-de-informatica-ensino-tecnico-desenvolvimento-de-sistemas-para-plataforma-web",
+      "name": "WebBH Escola de Informática",
+      "school_name": "WebBH Escola de Informática",
+      "course_name": "Ensino Técnico Desenvolvimento de sistemas para plataforma Web",
+      "date_start": "2009",
+      "date_final": "2010"
+    }
+  ],
+  "courses": [
+    {
+      "id": "html5",
+      "name": "Html5"
+    },
+    {
+      "id": "javascript",
+      "name": "Javascript"
+    },
+    {
+      "id": "mysql",
+      "name": "Mysql"
+    },
+    {
+      "id": "programacao-php",
+      "name": "Programação PHP"
+    }
+  ],
+  "projects": [
+    {
+      "id": "o-novo-mercado",
+      "name": "O Novo Mercado",
+      "date_start": "Feb 2022",
+      "date_final": "Jul 2022",
+      "description": "Desenvolvimento da plataforma interna de videos e hub de profissionais utilizando Vue.js + Vuetify",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fonovomercado%2Ecom%2F&urlhash=UE8X&trk=public_profile_project-button"
+    },
+    {
+      "id": "assinar-ou-comprar",
+      "name": "Assinar ou comprar",
+      "date_start": "2021",
+      "date_final": "2021",
+      "description": "Calculadora desenvolvida em parceria com Unidas e Samy Dana, para verificar se é mais vantajoso comprar ou alugar um carro.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20211217154133%2Fhttps%3A%2F%2Fassinaroucomprar%2Ecom%2Ebr%2F&urlhash=Fp12&trk=public_profile_project-button"
+    },
+    {
+      "id": "samarco",
+      "name": "Samarco",
+      "date_start": "Aug 2020",
+      "date_final": "Oct 2020",
+      "description": "Gerenciador de conteúdo utilizando Wordpress + Elementor",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20220130172103%2Fhttps%3A%2F%2Fwww%2Esamarco%2Ecom%2F&urlhash=1jSH&trk=public_profile_project-button"
+    },
+    {
+      "id": "faculdade-faveni",
+      "name": "Faculdade Faveni",
+      "date_start": "2020",
+      "date_final": "2020",
+      "description": "Estilização e customização de componentes do tema utilizando plataforma Wordpress com multisite.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20220131193706%2Fhttps%3A%2F%2Ffaveni%2Eedu%2Ebr%2F&urlhash=7ZM8&trk=public_profile_project-button"
+    },
+    {
+      "id": "orbitae",
+      "name": "Orbitae",
+      "date_start": "Jan 2019",
+      "date_final": "Aug 2019",
+      "description": "Apresentações de produtos voltados para perícia forense.\nFeito utilizando Wordpress + Elementor com elementos personalizados.\nFeito em parceria com a Partners Comunicação Pro Business.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20210517192720%2Fhttps%3A%2F%2Forbitae%2Ecom%2Ebr%2F&urlhash=Lq_r&trk=public_profile_project-button"
+    },
+    {
+      "id": "blog-banco-da-amazonia",
+      "name": "Blog Banco da Amazônia",
+      "date_start": "2019",
+      "date_final": "2019",
+      "description": "Notícias e utlidades do Banco da Amazônia.\nFeito utilizando Wordpress + Elementor com elementos personalizados.\nFeito em parceria com a Partners Comunicação Pro Business.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20211229163534%2Fhttps%3A%2F%2Fbasablog%2Ecom%2Ebr%2F&urlhash=eeEb&trk=public_profile_project-button"
+    },
+    {
+      "id": "habitat-group",
+      "name": "Habitat Group",
+      "date_start": "2019",
+      "date_final": "2019",
+      "description": "Clínica veterinária, utilizando Wordpress + Elementor com elementos customizados.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20220110082741%2Fhttps%3A%2F%2Fhabitatgroup%2Ecom%2Ebr%2F&urlhash=DksT&trk=public_profile_project-button"
+    },
+    {
+      "id": "cocks-skate",
+      "name": "Cocks Skate",
+      "date_start": "2018",
+      "date_final": "2018",
+      "description": "E-commerce para vendas de produtos voltados para skatistas.\nCriado com Wordpress + Woocommerce + Elementor com elementos customizados.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20211226170044%2Fhttps%3A%2F%2Fcocksskate%2Ecom%2Ebr%2F&urlhash=b61Z&trk=public_profile_project-button"
+    },
+    {
+      "id": "don-desenvolvimento",
+      "name": "Don Desenvolvimento",
+      "date_start": "2018",
+      "date_final": "2018",
+      "description": "Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20181224004334%2Fhttp%3A%2F%2Fdondesenvolvimento%2Ecom%2Ebr%2F&urlhash=mMDU&trk=public_profile_project-button"
+    },
+    {
+      "id": "eiriz-saude",
+      "name": "Eiriz Saúde",
+      "date_start": "Jan 2017",
+      "date_final": "Jan 2017",
+      "description": "",
+      "link": "https://www.linkedin.com/redir/redirect?url=http%3A%2F%2Feiriz-saude%2Eunbox%2Ept&urlhash=u4sU&trk=public_profile_project-button"
+    },
+    {
+      "id": "efemera",
+      "name": "Efêmera",
+      "date_start": "2017",
+      "date_final": "2017",
+      "description": "Trabalho para conclusão de semestre.\nFunções: Direção, edição, roteiro.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Eyoutube%2Ecom%2Fwatch%3Fv%3Da1qUqTNKtYE&urlhash=RDgJ&trk=public_profile_project-button"
+    },
+    {
+      "id": "a-herdeira",
+      "name": "A Herdeira",
+      "date_start": "2016",
+      "date_final": "2016",
+      "description": "Trabalho para conclusão de semestre.\nFunção: Direção de fotografia",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fvimeo%2Ecom%2Fmanage%2Fvideos%2F148394080&urlhash=W4Eg&trk=public_profile_project-button"
+    },
+    {
+      "id": "brinde",
+      "name": "Brinde",
+      "date_start": "2016",
+      "date_final": "2016",
+      "description": "Trabalho para conclusão de semestre.\nFunção: Edição",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fvimeo%2Ecom%2Fmanage%2Fvideos%2F277699183&urlhash=6LKq&trk=public_profile_project-button"
+    },
+    {
+      "id": "natureza-morta",
+      "name": "Natureza Morta",
+      "date_start": "2016",
+      "date_final": "2016",
+      "description": "Trabalho para conclusão de semestre.\nFunção: Edição",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fvimeo%2Ecom%2Fmanage%2Fvideos%2F147115010&urlhash=EXj1&trk=public_profile_project-button"
+    },
+    {
+      "id": "assemg",
+      "name": "ASSEMG",
+      "date_start": "Jan 2015",
+      "date_final": "Dec 2015",
+      "description": "Site construído com CMS customizado da agência.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20170612004919%2Fhttp%3A%2F%2Fassemg%2Eorg%2F&urlhash=1DyN&trk=public_profile_project-button"
+    },
+    {
+      "id": "cantor-beto-santos",
+      "name": "Cantor Beto Santos",
+      "date_start": "Jan 2015",
+      "date_final": "Dec 2015",
+      "description": "Desenvolvimento de website utilizando CMS customizado",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20211127021144%2Fhttp%3A%2F%2Fbetosantos%2Enet%2F&urlhash=feNK&trk=public_profile_project-button"
+    },
+    {
+      "id": "aguas-do-acurui",
+      "name": "Águas do Acuruí",
+      "date_start": "Jan 2015",
+      "date_final": "Dec 2015",
+      "description": "Desenvolvimento de website utilizando plataforma Wordpress",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20210302055106%2Fhttp%3A%2F%2Faguasdoacurui%2Ecom%2Ebr%2F&urlhash=3KA9&trk=public_profile_project-button"
+    },
+    {
+      "id": "doce",
+      "name": "Doce",
+      "date_start": "2015",
+      "date_final": "2015",
+      "description": "Projeto semestral para o curso de Cinema e Audiovisual.\nFunção: Edição",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fvimeo%2Ecom%2Fmanage%2Fvideos%2F143465248&urlhash=xpX3&trk=public_profile_project-button"
+    },
+    {
+      "id": "estrela-rural",
+      "name": "Estrela Rural",
+      "date_start": "Jan 2011",
+      "date_final": "Dec 2011",
+      "description": "CMS e gerenciador de leilões utilizando plataforma customizada da agência.",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fweb%2Earchive%2Eorg%2Fweb%2F20220110211402%2Fhttp%3A%2F%2Festrelarural%2Ecom%2Ebr%2F&urlhash=fpha&trk=public_profile_project-button"
+    },
+    {
+      "id": "search-and-stay",
+      "name": "Search and Stay",
+      "date_start": "",
+      "date_final": "",
+      "description": "Aplicação para locação por temporada para imóveis na Austrália",
+      "link": ""
+    }
+  ],
+  "languages": []
+}
