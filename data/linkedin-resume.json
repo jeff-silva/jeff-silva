@@ -11,11 +11,11 @@
     "zipCode": "30110",
     "geoLocation": {
       "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-      "city": "",
-      "state": "",
-      "stateShort": "",
-      "country": "",
-      "countryShort": ""
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "stateShort": "MG",
+      "country": "Brasil",
+      "countryShort": "BR"
     },
     "twitterHandles": "",
     "websites": "[COMPANY:https://labscript.dev]",
@@ -265,11 +265,11 @@
       "description": "",
       "location": {
         "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "",
-        "state": "",
-        "stateShort": "",
-        "country": "",
-        "countryShort": ""
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "stateShort": "MG",
+        "country": "Brasil",
+        "countryShort": "BR"
       },
       "startedOn": "Jan 2022",
       "finishedOn": "",
@@ -289,8 +289,8 @@
         "city": "",
         "state": "",
         "stateShort": "",
-        "country": "",
-        "countryShort": ""
+        "country": "Australia",
+        "countryShort": "AU"
       },
       "startedOn": "Dec 2022",
       "finishedOn": "Nov 2023",
@@ -307,11 +307,11 @@
       "description": "Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel   ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.  Dentre os projetos desenvolvidos, estão a \"Unidas Seminovos\", uma plataforma de locação de veículos com filtro inteligente, e o \"Assinar ou comprar\", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.",
       "location": {
         "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "",
-        "state": "",
-        "stateShort": "",
-        "country": "",
-        "countryShort": ""
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "stateShort": "MG",
+        "country": "Brasil",
+        "countryShort": "BR"
       },
       "startedOn": "Oct 2020",
       "finishedOn": "Apr 2022",
@@ -328,11 +328,11 @@
       "description": "Prestação de serviços para clientes diretos e parcerias com agências. De maneira resumida, nesse tempo desenvolvi sites e ecommerces utilizando Wordpress, WooCommerce e Elementor. Já implementei soluções com backend com PHP puro, Laravel e Node.js. No front, já trabalhei com Nuxt, Vue, HTML+CSS puro. Com banco de dados, tive oportunidade de trabalhar com MySQL e Firebase.",
       "location": {
         "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "",
-        "state": "",
-        "stateShort": "",
-        "country": "",
-        "countryShort": ""
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "stateShort": "MG",
+        "country": "Brasil",
+        "countryShort": "BR"
       },
       "startedOn": "Oct 2017",
       "finishedOn": "Apr 2022",
@@ -349,11 +349,11 @@
       "description": "Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js no frontend.",
       "location": {
         "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "",
-        "state": "",
-        "stateShort": "",
-        "country": "",
-        "countryShort": ""
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "stateShort": "MG",
+        "country": "Brasil",
+        "countryShort": "BR"
       },
       "startedOn": "Feb 2017",
       "finishedOn": "Oct 2017",
@@ -370,11 +370,11 @@
       "description": "Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive oportunidade de trabalhar com Vue.js e Angular.js. Como banco de dados, foram utilizados principalmente MySQL e MariaDB. As soluções em backend envolviam PHP ou Node.js.",
       "location": {
         "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "",
-        "state": "",
-        "stateShort": "",
-        "country": "",
-        "countryShort": ""
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "stateShort": "MG",
+        "country": "Brasil",
+        "countryShort": "BR"
       },
       "startedOn": "Jan 2015",
       "finishedOn": "Jan 2017",
@@ -412,11 +412,11 @@
       "description": "Desenvolvimento de funções para o CMS próprio da agência.",
       "location": {
         "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "",
-        "state": "",
-        "stateShort": "",
-        "country": "",
-        "countryShort": ""
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "stateShort": "MG",
+        "country": "Brasil",
+        "countryShort": "BR"
       },
       "startedOn": "Jan 2011",
       "finishedOn": "Jan 2012",
@@ -433,11 +433,11 @@
       "description": "Atuei como instrutor dos cursos de PHP, MySQL, CSS, Javascript, HTML5, Tableless e Action script.",
       "location": {
         "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "",
-        "state": "",
-        "stateShort": "",
-        "country": "",
-        "countryShort": ""
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "stateShort": "MG",
+        "country": "Brasil",
+        "countryShort": "BR"
       },
       "startedOn": "Jan 2010",
       "finishedOn": "Jan 2011",

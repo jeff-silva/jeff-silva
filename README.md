@@ -1,7 +1,6 @@
 # Jeferson Silva
 
 <!--curriculum:start-->
-
 <a href="https://wa.me/message/NG7A2SW25XIEI1" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
 <a href="mailto:jeferson.i.silva@gmail.com" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/jeferson-siqueira/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
@@ -12,9 +11,8 @@
 🌎 <small>Belo Horizonte, Minas Gerais, Brasil</small><br />
 🟢 <small>Aberto para trabalho</small><br />
 <br />
-Olá. Sou desenvolvedor para plataforma web desde 2011. Para backend, tenho conhecimento avançado em PHP com o framework Laravel desde 2015, MySQL desde 2011 e Node.js desde 2018. Também conheço bastante de Wordpress, criação de plugins e temas do zero e implementação de elementos customizados para Elementor utilizando a API do mesmo. Dentro de frontend, conheço Javascript e Typescript, o framework para base de aplicações Vite, Vue.js 3, Nuxt 3 e React. Posso listar como adicional conhecimentos em Integrações com API, design patterns, clean code e desenvolvimento de SPAs.
+Olá. Sou desenvolvedor para plataforma web desde 2011.  Para backend, tenho conhecimento avançado em PHP com o framework Laravel desde 2015, MySQL desde 2011 e Node.js desde 2018. Também conheço bastante de Wordpress, criação de plugins e temas do zero e implementação de elementos customizados para Elementor utilizando a API do mesmo.  Dentro de frontend, conheço Javascript e Typescript, o framework para base de aplicações Vite, Vue.js 3, Nuxt 3 e React.  Posso listar como adicional conhecimentos em Integrações com API, design patterns, clean code e desenvolvimento de SPAs.
 <br /><br />
-
 <pre>
 Vue.js ··············· ⭐ ⭐ ⭐ ⭐ ⭐ 
 Laravel ·············· ⭐ ⭐ ⭐ ⭐ ⭐ 

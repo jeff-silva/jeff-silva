@@ -88,11 +88,11 @@ class BasicData {
     };
 
     if (term) {
-      return new Promise((resolve, reject) => {
-        setTimeout(() => {
-          resolve(place);
-        }, 500);
-      });
+      // return new Promise((resolve, reject) => {
+      //   setTimeout(() => {
+      //     resolve(place);
+      //   }, 500);
+      // });
 
       let { data } = await axios.get(
         `https://nominatim.openstreetmap.org/search.php?format=json&addressdetails=1&extratags=1&namedetails=1&limit=10&q=${term}`,
