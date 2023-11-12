@@ -1,6 +1,7 @@
 # Jeferson Silva
 
 <!--curriculum:start-->
+
 <a href="https://wa.me/message/NG7A2SW25XIEI1" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
 <a href="mailto:jeferson.i.silva@gmail.com" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/jeferson-siqueira/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
@@ -11,8 +12,9 @@
 🌎 <small>Belo Horizonte, Minas Gerais, Brasil</small><br />
 🟢 <small>Aberto para trabalho</small><br />
 <br />
-Olá. Sou desenvolvedor para plataforma web desde 2011.  Para backend, tenho conhecimento avançado em PHP com o framework Laravel desde 2015, MySQL desde 2011 e Node.js desde 2018. Também conheço bastante de Wordpress, criação de plugins e temas do zero e implementação de elementos customizados para Elementor utilizando a API do mesmo.  Dentro de frontend, conheço Javascript e Typescript, o framework para base de aplicações Vite, Vue.js 3, Nuxt 3 e React.  Posso listar como adicional conhecimentos em Integrações com API, design patterns, clean code e desenvolvimento de SPAs.
+Olá. Sou desenvolvedor para plataforma web desde 2011. Para backend, tenho conhecimento avançado em PHP com o framework Laravel desde 2015, MySQL desde 2011 e Node.js desde 2018. Também conheço bastante de Wordpress, criação de plugins e temas do zero e implementação de elementos customizados para Elementor utilizando a API do mesmo. Dentro de frontend, conheço Javascript e Typescript, o framework para base de aplicações Vite, Vue.js 3, Nuxt 3 e React. Posso listar como adicional conhecimentos em Integrações com API, design patterns, clean code e desenvolvimento de SPAs.
 <br /><br />
+
 <pre>
 Vue.js ··············· ⭐ ⭐ ⭐ ⭐ ⭐ 
 Laravel ·············· ⭐ ⭐ ⭐ ⭐ ⭐ 
@@ -33,6 +35,10 @@ Git ·················· ⭐ ⭐ ⭐
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeff-silva&layout=compact&langs_count=7&theme=dracula" />
 
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=jeff-silva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@jeffsilva/ff22b04d-c3b4-4ec9-a841-31e112ba8cbb.png" /></a>
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@jeffsilva/3e218f38-9f82-4066-b617-10ebc45dbcaf.png" /></a>
 
 <!-- :house:    Belo Horizonte/MG <br>
 :iphone:   <img src="https://img.shields.io/badge/&#x2b;&#x35;&#x35;&#160;&#x28;&#x33;&#x31;&#x29;&#160;&#x39;&#x39;&#x35;&#x32;&#x37;&#x2010;&#x31;&#x34;&#x32;&#x36;-ffffff"><br>
