@@ -79,7 +79,7 @@ class BasicData {
 
   async toPlace(term) {
     let place = {
-      full_name: term,
+      fullName: term,
       city: "",
       state: "",
       stateShort: "",
@@ -88,12 +88,11 @@ class BasicData {
     };
 
     if (term) {
-      // return new Promise((resolve, reject) => {
-      //   setTimeout(() => {
-      //     place.city = "kkk";
-      //     resolve(place);
-      //   }, 500);
-      // });
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve(place);
+        }, 500);
+      });
 
       let { data } = await axios.get(
         `https://nominatim.openstreetmap.org/search.php?format=json&addressdetails=1&extratags=1&namedetails=1&limit=10&q=${term}`,
@@ -133,20 +132,58 @@ class Profile extends BasicData {
 class Skills extends BasicData {
   async dataFormat(data) {
     const meta = {
-      "Vue.js": { rating: 5 },
-      Laravel: { rating: 5 },
-      Docker: { rating: 3 },
-      "Node.js": { rating: 4 },
-      Vuetify: { rating: 5 },
-      "Nuxt.js": { rating: 5 },
-      Elementor: { rating: 5 },
-      WooCommerce: { rating: 3 },
-      JavaScript: { rating: 5 },
-      MySQL: { rating: 4 },
-      "API REST": { rating: 5 },
-      PHP: { rating: 5 },
-      WordPress: { rating: 5 },
-      Git: { rating: 3 },
+      "Vue.js": {
+        rating: 5,
+        icon: "https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D",
+      },
+      Laravel: {
+        rating: 5,
+        icon: "https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white",
+      },
+      Docker: {
+        rating: 3,
+        icon: "https://img.shields.io/badge/Docker-ffffff?logo=docker",
+      },
+      "Node.js": {
+        rating: 4,
+        icon: "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white",
+      },
+      Vuetify: {
+        rating: 5,
+        icon: "https://img.shields.io/badge/Vuetify-fff.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAq1BMVEUAAAAAgP+A//8Aqv8cjv+q4/+z5v8Xov8Vlf8Wm/Sx3v8UmfUUk/Wv3/+w2/8XmfQWlvSu3P+v3f8WlfgWl/QVmPSu3f8Vl/cXmPev3v8XlvWu3f8Wl/cWl/Wt3f+t3P8Wl/cVl/cVlvWt3f+u3v8Wlvev3P8WmPUWl/av3v8Wl/YWl/cWl/au3f8Wl/YWl/YWl/au3f8Wl/YWlvau3f8Wl/YWl/au3f/////cYWC4AAAANnRSTlMAAgIDCQkKCwwXFxkaICotLkJDRkdIW2JjY2R3f4CAk5abnJywt7i5zs7R0uPj5eby8vP0+/x1U4h8AAAAAWJLR0Q4oAel1gAAAJxJREFUGBm1wecCgQAUBeBDZjaRvXfK7Nz3fzO5mekn34efWspD3XCoFrgpXyQ0R5fKr0DNRF3KuT3VBCHzKDcjDKhOBdwNJXA0i2eqPh7Sroj0MKXysnjqiLiZqk9l4yW5kRZWVFsDb2qbZJOhBj6UDIdqgYgulV9BxJhqiqj8gYFTAV8GDPTxLbUjvSxitEkbcRLrrYFYloW/uAL1jiJcmJrO/AAAAABJRU5ErkJggg==",
+      },
+      "Nuxt.js": {
+        rating: 5,
+        icon: "https://img.shields.io/badge/Nuxt.js-00C58E?style=for-the-badge&logo=nuxt.js&logoColor=white",
+      },
+      Elementor: {
+        rating: 5,
+        icon: "https://img.shields.io/badge/Elementor-ff0000?logo=elementor",
+      },
+      WooCommerce: {
+        rating: 3,
+        icon: "https://img.shields.io/badge/WooCommerce-c291ff?logo=woocommerce",
+      },
+      JavaScript: {
+        rating: 5,
+        icon: "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+      },
+      MySQL: {
+        rating: 4,
+        icon: "https://img.shields.io/badge/MySQL-004260?style=for-the-badge&logo=mysql&logoColor=white",
+      },
+      PHP: {
+        rating: 5,
+        icon: "https://img.shields.io/badge/PHP-7377ad?style=for-the-badge&logo=php&logoColor=ffffff",
+      },
+      WordPress: {
+        rating: 5,
+        icon: "https://img.shields.io/badge/Wordpress-207196?style=for-the-badge&logo=wordpress&logoColor=ffffff",
+      },
+      Git: {
+        rating: 3,
+        icon: "https://img.shields.io/badge/Git-207196?style=for-the-badge&logo=git&logoColor=ffffff",
+      },
     };
 
     data.meta = false;

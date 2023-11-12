@@ -8,8 +8,8 @@ import path from "path";
 // import linkedinScrapper from "./linkedin-scrapper.js";
 // linkedinScrapper();
 
-// import linkedinResume from "./linkedin-resume.js";
-// linkedinResume();
-
 import linkedinData from "./linkedin-data.js";
-linkedinData();
+await linkedinData();
+
+import linkedinResume from "./linkedin-resume.js";
+await linkedinResume();

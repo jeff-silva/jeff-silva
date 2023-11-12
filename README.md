@@ -1,141 +1,38 @@
+# Jeferson Silva
+
 <!--curriculum:start-->
+<a href="https://wa.me/message/NG7A2SW25XIEI1" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
+<a href="mailto:jeferson.i.silva@gmail.com" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/jeferson-siqueira/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://github.com/jeff-silva/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github" target="_blank"></a>
+<a href="https://jeff-silva.github.io/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me" target="_blank"></a>
+<br /><br />
+👨🏻‍💻 <small>Full-stack: Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git</small><br />
+🌎 <small>Belo Horizonte, Minas Gerais, Brasil</small><br />
+🟢 <small>Aberto para trabalho</small><br />
+<br />
+Olá. Sou desenvolvedor para plataforma web desde 2011.  Para backend, tenho conhecimento avançado em PHP com o framework Laravel desde 2015, MySQL desde 2011 e Node.js desde 2018. Também conheço bastante de Wordpress, criação de plugins e temas do zero e implementação de elementos customizados para Elementor utilizando a API do mesmo.  Dentro de frontend, conheço Javascript e Typescript, o framework para base de aplicações Vite, Vue.js 3, Nuxt 3 e React.  Posso listar como adicional conhecimentos em Integrações com API, design patterns, clean code e desenvolvimento de SPAs.
+<br /><br />
 <pre>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ JEFERSON INÁCIO SIQUEIRA ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-👨🏻‍💻 Desenvolvedor Full-Stack
-🌎 Belo Horizonte / MG
-⌨️ Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git
-🟢 Open to work
-
-Hi, im Jeferson 👋
-I have been a web developer since 2011.
-I am an enthusiast of simple tools that help me focus only on the business rules of the system.
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CONTACTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-E-mail ···································································· <a href="mailto:jeferson.i.silva@gmail.com">jeferson.i.silva@gmail.com</a>
-Phone ············································································ <a href="tel:+5531995271426">+55 (31) 99527-1426</a>
-Whatsapp ························································ <a href="https://wa.me/message/NG7A2SW25XIEI1">https://wa.me/message/NG7A2SW25XIEI1</a>
-Website ········································································ <a href="https://labscript.dev">https://labscript.dev</a>
-Github ································································· <a href="https://github.com/jeff-silva">https://github.com/jeff-silva</a>
-Linkedin ··············································· <a href="https://www.linkedin.com/in/jeferson-siqueira">https://www.linkedin.com/in/jeferson-siqueira</a>
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SKILLS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-PHP ················································································· 5/5 ⭐⭐⭐⭐⭐
-Laravel ············································································· 4/5 ⭐⭐⭐⭐ 
-MySQL ··············································································· 4/5 ⭐⭐⭐⭐ 
-Javascript ·········································································· 4/5 ⭐⭐⭐⭐ 
-Vue 3 ··············································································· 5/5 ⭐⭐⭐⭐⭐
-Nuxt 3 ·············································································· 5/5 ⭐⭐⭐⭐⭐
-Vuetify 3 ··········································································· 5/5 ⭐⭐⭐⭐⭐
-Docker ·············································································· 3/5 ⭐⭐⭐  
-Node JS ············································································· 4/5 ⭐⭐⭐⭐ 
-Wordpress ··········································································· 5/5 ⭐⭐⭐⭐⭐
-Three.js ············································································ 4/5 ⭐⭐⭐⭐ 
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ EXPERIENCES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-🏭 <a href="https://labscript.dev" target="_blank">FREELANCER</a>
-Dev Fullstack entre 2010 e Atualmente
-Desenvolvimento de projetos freelancer e pessoais
-Stack: Git, Docker, Vue, Nuxt, Bootstrap, Laravel, Wordpress, Elementor, PHP
-
-  Projetos executados:
-  <a href="https://basablog.com.br" target="_blank">Blog Banco da Amazônia</a> ··································································· Wordpress
-  <a href="https://dondesenvolvimento.com.br" target="_blank">Don Desenvolvimento</a> ··········································· Wordpress, Vue, Elementor, Bootstrap
-  <a href="https://cocksskate.com.br" target="_blank">Cocks Skate</a> ··················································· Wordpress, Vue, Elementor, Bootstrap
-  <a href="https://orbitae.com.br" target="_blank">Orbitae</a> ······················································· Wordpress, Vue, Elementor, Bootstrap
-  <a href="https://habitatgroup.com.br" target="_blank">Habitat Group</a> ················································· Wordpress, Vue, Elementor, Bootstrap
-  <a href="http://eiriz-saude.unbox.pt/" target="_blank">Eiriz Saúde</a> ··················································· Wordpress, Vue, Elementor, Bootstrap
-
-
-🏭 <a href="https://www.searchandstay.com" target="_blank">SEARCH AND STAY</a> | Austrália
-Dev Fullstack entre 2022 e 2023
-Sistema de locação por temporada para imóveis na Austrália
-Stack: Git, Docker, Vue, Nuxt, Javascript, Node.js, Laravel
-
-
-🏭 <a href="https://rehagro.com.br" target="_blank">REHAGRO</a> | Belo Horizonte/MG
-Dev Frontend entre 2022 e 2022
-Plataforma de ensino à distância voltada para a área de agronegócio
-Stack: Git, React, Javascript, Laravel, Node.js
-
-
-🏭 <a href="https://iterative.com.br" target="_blank">ITERATIVE</a> | São Paulo/SP
-Dev Frontend entre 2022 e 2022
-Plataforma de ensino à distância
-Stack: Git, Vue, Javascript, Node.js
-
-  Projetos executados:
-  <a href="https://onovomercado.com" target="_blank">O Novo Mercado</a> ········································································ Vue, Vuetify
-
-
-🏭 <a href="https://listradigital.com.br" target="_blank">LISTRA</a> | Belo Horizonte/MG
-Dev Fullstack entre 2020 e 2022
-Stack: Git, Vue, Nuxt, Javascript, Laravel, PHP, MySQL
-
-  Projetos executados:
-  <a href="https://assinaroucomprar.com.br/" target="_blank">Assinar ou Comprar</a> ························································· Nuxt, Rest API, Laravel
-  <a href="https://redeclipping.com.br/" target="_blank">Rede Clipping</a> ·············································································· Laravel
-  <a href="https://epa.com.br" target="_blank">EPA Supermercados</a> ········································································ Wordpress
-
-
-🏭 <a href="https://digitalpixel.com.br" target="_blank">DIGITAL PIXEL</a> | Belo Horizonte/MG
-Dev Fullstack entre 2020 e 2020
-Stack: Vue, Javascript, Wordpress, PHP, MySQL
-
-  Projetos executados:
-  Samarco ······················································· Wordpress, Vue, Bootstrap, Elementor
-  Faveni ························································ Wordpress, Vue, Bootstrap, Elementor
-
-
-🏭 <a href="https://codificar.com.br" target="_blank">CODIFICAR</a> | Belo Horizonte/MG
-Dev Fullstack entre 2017 e 2017
-Stack: Vue, PHP, MySQL, Laravel, Javascript, CSS, HTML, Git
-
-  Projetos executados:
-  Rescon ···························································· Vue, PHP, Framework desconhecido
-
-
-🏭 <a href="https://agenciadecriacao.com.br" target="_blank">AGÊNCIA DE CRIAÇÃO</a> | Belo Horizonte/MG
-Dev Fullstack entre 2015 e 2017
-Prestação de serviço terceirizado para a Vale do Rio Doce
-Stack: Angular, Vue, Javascript, JQuery, CSS, HTML, PHP, MySQL
-
-  Projetos executados:
-  <a href="https://web.archive.org/web/20170612004919/http://assemg.org/" target="_blank">ASSEMG</a> ····································································· Vue, Jquery, PHP, MySQL
-  <a href="http://www.brettasereis.adv.br" target="_blank">Bretas e Reis</a> ······························································ Vue, Jquery, PHP, MySQL
-  <a href="http://betosantos.net" target="_blank">Cantor Beto Santos</a> ························································· Vue, Jquery, PHP, MySQL
-  <a href="http://aguasdoacurui.com.br/" target="_blank">Águas do Acuruí</a> ····························································· CSS, JQuery, Wordpress
-
-
-🏭 CUSHMAN & WAKEFIELD | Belo Horizonte/MG
-Dev Fullstack entre 2012 e 2013
-Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
-
-  Projetos executados:
-  Calculadora de Gastos de Obra ·············································· CSS, JQuery, PHP, MySQL
-  Database de fornecedores ··················································· CSS, JQuery, PHP, MySQL
-
-
-🏭 <a href="https://netranet.com.br/" target="_blank">NETRANET NETWORKING</a> | Belo Horizonte/MG
-Dev Fullstack entre 2011 e 2012
-Stack: HTML, CSS, Javascript, JQuery, PHP, MySQL
-
-  Projetos executados:
-  Estrela Rural ······························································ CSS, JQuery, PHP, MySQL
-
-
-🏭 WEB BH ESCOLA DE INFORMÁTICA | Belo Horizonte/MG
-Instrutor entre 2010 e 2011
-Stack: HTML, CSS, Javascript, ActionScript, PHP, MySQL
+Vue.js ··············· ⭐ ⭐ ⭐ ⭐ ⭐ 
+Laravel ·············· ⭐ ⭐ ⭐ ⭐ ⭐ 
+Docker ··············· ⭐ ⭐ ⭐ 
+Node.js ·············· ⭐ ⭐ ⭐ ⭐ 
+Vuetify ·············· ⭐ ⭐ ⭐ ⭐ ⭐ 
+Nuxt.js ·············· ⭐ ⭐ ⭐ ⭐ ⭐ 
+Elementor ············ ⭐ ⭐ ⭐ ⭐ ⭐ 
+WooCommerce ·········· ⭐ ⭐ ⭐ 
+JavaScript ··········· ⭐ ⭐ ⭐ ⭐ ⭐ 
+MySQL ················ ⭐ ⭐ ⭐ ⭐ 
+PHP ·················· ⭐ ⭐ ⭐ ⭐ ⭐ 
+WordPress ············ ⭐ ⭐ ⭐ ⭐ ⭐ 
+Git ·················· ⭐ ⭐ ⭐ 
 </pre>
 <!--curriculum:final-->
 
+<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeff-silva&layout=compact&langs_count=7&theme=dracula" />
+
+<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=jeff-silva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
 
 <!-- :house:    Belo Horizonte/MG <br>
 :iphone:   <img src="https://img.shields.io/badge/&#x2b;&#x35;&#x35;&#160;&#x28;&#x33;&#x31;&#x29;&#160;&#x39;&#x39;&#x35;&#x32;&#x37;&#x2010;&#x31;&#x34;&#x32;&#x36;-ffffff"><br>

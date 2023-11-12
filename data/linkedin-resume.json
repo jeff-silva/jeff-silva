@@ -10,12 +10,12 @@
     "industry": "Software Development",
     "zipCode": "30110",
     "geoLocation": {
-      "full_name": "Belo Horizonte, Minas Gerais, Brasil",
-      "city": "Belo Horizonte",
-      "state": "Minas Gerais",
-      "stateShort": "MG",
-      "country": "Brasil",
-      "countryShort": "BR"
+      "fullName": "Belo Horizonte, Minas Gerais, Brasil",
+      "city": "",
+      "state": "",
+      "stateShort": "",
+      "country": "",
+      "countryShort": ""
     },
     "twitterHandles": "",
     "websites": "[COMPANY:https://labscript.dev]",
@@ -109,49 +109,57 @@
     {
       "name": "Vue.js",
       "meta": {
-        "rating": 5
+        "rating": 5,
+        "icon": "https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"
       }
     },
     {
       "name": "Laravel",
       "meta": {
-        "rating": 5
+        "rating": 5,
+        "icon": "https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"
       }
     },
     {
       "name": "Docker",
       "meta": {
-        "rating": 3
+        "rating": 3,
+        "icon": "https://img.shields.io/badge/Docker-ffffff?logo=docker"
       }
     },
     {
       "name": "Node.js",
       "meta": {
-        "rating": 4
+        "rating": 4,
+        "icon": "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
       }
     },
     {
       "name": "Vuetify",
       "meta": {
-        "rating": 5
+        "rating": 5,
+        "icon": "https://img.shields.io/badge/Vuetify-fff.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAq1BMVEUAAAAAgP+A//8Aqv8cjv+q4/+z5v8Xov8Vlf8Wm/Sx3v8UmfUUk/Wv3/+w2/8XmfQWlvSu3P+v3f8WlfgWl/QVmPSu3f8Vl/cXmPev3v8XlvWu3f8Wl/cWl/Wt3f+t3P8Wl/cVl/cVlvWt3f+u3v8Wlvev3P8WmPUWl/av3v8Wl/YWl/cWl/au3f8Wl/YWl/YWl/au3f8Wl/YWlvau3f8Wl/YWl/au3f/////cYWC4AAAANnRSTlMAAgIDCQkKCwwXFxkaICotLkJDRkdIW2JjY2R3f4CAk5abnJywt7i5zs7R0uPj5eby8vP0+/x1U4h8AAAAAWJLR0Q4oAel1gAAAJxJREFUGBm1wecCgQAUBeBDZjaRvXfK7Nz3fzO5mekn34efWspD3XCoFrgpXyQ0R5fKr0DNRF3KuT3VBCHzKDcjDKhOBdwNJXA0i2eqPh7Sroj0MKXysnjqiLiZqk9l4yW5kRZWVFsDb2qbZJOhBj6UDIdqgYgulV9BxJhqiqj8gYFTAV8GDPTxLbUjvSxitEkbcRLrrYFYloW/uAL1jiJcmJrO/AAAAABJRU5ErkJggg=="
       }
     },
     {
       "name": "Nuxt.js",
       "meta": {
-        "rating": 5
+        "rating": 5,
+        "icon": "https://img.shields.io/badge/Nuxt.js-00C58E?style=for-the-badge&logo=nuxt.js&logoColor=white"
       }
     },
     {
       "name": "Elementor",
       "meta": {
-        "rating": 5
+        "rating": 5,
+        "icon": "https://img.shields.io/badge/Elementor-ff0000?logo=elementor"
       }
     },
     {
       "name": "WooCommerce",
       "meta": {
-        "rating": 3
+        "rating": 3,
+        "icon": "https://img.shields.io/badge/WooCommerce-c291ff?logo=woocommerce"
       }
     },
     {
@@ -177,20 +185,20 @@
     {
       "name": "JavaScript",
       "meta": {
-        "rating": 5
+        "rating": 5,
+        "icon": "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
       }
     },
     {
       "name": "MySQL",
       "meta": {
-        "rating": 4
+        "rating": 4,
+        "icon": "https://img.shields.io/badge/MySQL-004260?style=for-the-badge&logo=mysql&logoColor=white"
       }
     },
     {
       "name": "API REST",
-      "meta": {
-        "rating": 5
-      }
+      "meta": false
     },
     {
       "name": "HTML",
@@ -203,13 +211,15 @@
     {
       "name": "PHP",
       "meta": {
-        "rating": 5
+        "rating": 5,
+        "icon": "https://img.shields.io/badge/PHP-7377ad?style=for-the-badge&logo=php&logoColor=ffffff"
       }
     },
     {
       "name": "WordPress",
       "meta": {
-        "rating": 5
+        "rating": 5,
+        "icon": "https://img.shields.io/badge/Wordpress-207196?style=for-the-badge&logo=wordpress&logoColor=ffffff"
       }
     },
     {
@@ -239,7 +249,8 @@
     {
       "name": "Git",
       "meta": {
-        "rating": 3
+        "rating": 3,
+        "icon": "https://img.shields.io/badge/Git-207196?style=for-the-badge&logo=git&logoColor=ffffff"
       }
     },
     {
@@ -253,12 +264,12 @@
       "title": "Desenvolvedor web",
       "description": "",
       "location": {
-        "full_name": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte, Minas Gerais, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2022",
       "finishedOn": "",
@@ -274,12 +285,12 @@
       "title": "Back End Developer",
       "description": "",
       "location": {
-        "full_name": "Austrália",
+        "fullName": "Austrália",
         "city": "",
         "state": "",
         "stateShort": "",
-        "country": "Australia",
-        "countryShort": "AU"
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Dec 2022",
       "finishedOn": "Nov 2023",
@@ -295,12 +306,12 @@
       "title": "Full-stack Developer",
       "description": "Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel   ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.  Dentre os projetos desenvolvidos, estão a \"Unidas Seminovos\", uma plataforma de locação de veículos com filtro inteligente, e o \"Assinar ou comprar\", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.",
       "location": {
-        "full_name": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte, Minas Gerais, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Oct 2020",
       "finishedOn": "Apr 2022",
@@ -316,12 +327,12 @@
       "title": "Full-stack Developer",
       "description": "Prestação de serviços para clientes diretos e parcerias com agências. De maneira resumida, nesse tempo desenvolvi sites e ecommerces utilizando Wordpress, WooCommerce e Elementor. Já implementei soluções com backend com PHP puro, Laravel e Node.js. No front, já trabalhei com Nuxt, Vue, HTML+CSS puro. Com banco de dados, tive oportunidade de trabalhar com MySQL e Firebase.",
       "location": {
-        "full_name": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte e Região, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Oct 2017",
       "finishedOn": "Apr 2022",
@@ -337,12 +348,12 @@
       "title": "Full-stack Developer",
       "description": "Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js no frontend.",
       "location": {
-        "full_name": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte e Região, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Feb 2017",
       "finishedOn": "Oct 2017",
@@ -358,12 +369,12 @@
       "title": "Full-stack Developer",
       "description": "Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive oportunidade de trabalhar com Vue.js e Angular.js. Como banco de dados, foram utilizados principalmente MySQL e MariaDB. As soluções em backend envolviam PHP ou Node.js.",
       "location": {
-        "full_name": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte e Região, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2015",
       "finishedOn": "Jan 2017",
@@ -379,7 +390,7 @@
       "title": "Full-stack Developer",
       "description": "Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:  Ferramenta para filtrar fornecedores por estado, material/trabalho fornecido, orçamento anual, obras já prestadas, porte da empresa, entre outros dados;  Calculadora de prazo de obras, onde o valor total de um projeto era estimado de acordo com a quantidade de empregados levando em consideração a proporção encarregados/funcionários, benefícios, vales, valor de locação de equipamentos, imóveis, automóveis, eletricidade e outras coisas, utilizando uma curva de Gauss para calcular a quantidade de contratados dentro de uma timeline;  Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastante Excel para fazer seus trabalhos, então ambos os sistemas tinha que conversar bem com Excel e fazer importações e exportações.",
       "location": {
-        "full_name": "",
+        "fullName": "",
         "city": "",
         "state": "",
         "stateShort": "",
@@ -400,12 +411,12 @@
       "title": "Full-stack Developer",
       "description": "Desenvolvimento de funções para o CMS próprio da agência.",
       "location": {
-        "full_name": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte e Região, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2011",
       "finishedOn": "Jan 2012",
@@ -421,12 +432,12 @@
       "title": "Instrutor",
       "description": "Atuei como instrutor dos cursos de PHP, MySQL, CSS, Javascript, HTML5, Tableless e Action script.",
       "location": {
-        "full_name": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte e Região, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2010",
       "finishedOn": "Jan 2011",
