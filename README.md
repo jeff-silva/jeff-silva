@@ -34,12 +34,6 @@ Git ·················· ⭐ ⭐ ⭐
 
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeff-silva&layout=compact&langs_count=7&theme=dracula" />
 
-<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=jeff-silva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
-
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@jeffsilva/ff22b04d-c3b4-4ec9-a841-31e112ba8cbb.png" /></a>
-
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@jeffsilva/3e218f38-9f82-4066-b617-10ebc45dbcaf.png" /></a>
-
 <!-- :house:    Belo Horizonte/MG <br>
 :iphone:   <img src="https://img.shields.io/badge/&#x2b;&#x35;&#x35;&#160;&#x28;&#x33;&#x31;&#x29;&#160;&#x39;&#x39;&#x35;&#x32;&#x37;&#x2010;&#x31;&#x34;&#x32;&#x36;-ffffff"><br>
 :envelope:  jeferson.i.silva@gmail.com
