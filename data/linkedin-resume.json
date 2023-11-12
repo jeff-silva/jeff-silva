@@ -6,21 +6,48 @@
     "address": "",
     "birthDate": "Feb 11",
     "headline": "Full-stack: Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git",
-    "summary": "Olá. Sou desenvolvedor para plataforma web desde 2011.  Para backend, tenho conhecimento avançado em PHP com o framework Laravel desde 2015, MySQL desde 2011 e Node.js desde 2018. Também conheço bastante de Wordpress, criação de plugins e temas do zero e implementação de elementos customizados para Elementor utilizando a API do mesmo.  Dentro de frontend, conheço Javascript e Typescript, o framework para base de aplicações Vite, Vue.js 3, Nuxt 3 e React.  Posso listar como adicional conhecimentos em Integrações com API, design patterns, clean code e desenvolvimento de SPAs.",
+    "summary": "Olá, tudo bem? 👋 Atuo na área de desenvolvimento web desde 2011, tanto no front quando no backend.  Já criei vários paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços.  Hoje em dia, minha stack favorita é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas: Laravel com MySQL no backend, Vue 3 no front utilizando Nuxt 3 e Vuetify 3 como biblioteca de componentes, tudo isso em um monorepo orquestrado por Docker Compose.  ✅ Já trabalhei em projetos solo e em equipes grandes, com profissionais de várias áreas; ✅ Me preocupo em estar sob constante aprendizado; ✅ Adoro desafios;  Será um prazer te ajudar a desenvolver suas idéias!",
     "industry": "Software Development",
     "zipCode": "30110",
     "geoLocation": {
       "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-      "city": "Belo Horizonte",
-      "state": "Minas Gerais",
-      "stateShort": "MG",
-      "country": "Brasil",
-      "countryShort": "BR"
+      "city": "",
+      "state": "",
+      "stateShort": "",
+      "country": "",
+      "countryShort": ""
     },
     "twitterHandles": "",
     "websites": "[COMPANY:https://labscript.dev]",
     "instantMessengers": "[GTALK:jeferson.i.silva@gmail.com]"
   },
+  "contacts": [
+    {
+      "name": "Whatsapp",
+      "url": "https://wa.me/message/NG7A2SW25XIEI1",
+      "icon": "https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+    },
+    {
+      "name": "E-mail",
+      "url": "mailto:jeferson.i.silva@gmail.com",
+      "icon": "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/jeferson-siqueira/",
+      "icon": "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/jeff-silva/jeff-silva",
+      "icon": "https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github"
+    },
+    {
+      "name": "Portfólio",
+      "url": "https://jeff-silva.github.io",
+      "icon": "https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me"
+    }
+  ],
   "emailAddresses": [
     {
       "emailAddress": "jeferson.i.silva@gmail.com",
@@ -42,6 +69,18 @@
     }
   ],
   "skills": [
+    {
+      "name": "Arquitetura MVC",
+      "meta": false
+    },
+    {
+      "name": "Trabalho em equipe",
+      "meta": false
+    },
+    {
+      "name": "Linux",
+      "meta": false
+    },
     {
       "name": "Manipulação de dados",
       "meta": false
@@ -261,20 +300,20 @@
   "positions": [
     {
       "companyName": "Labscript.dev",
-      "title": "Desenvolvedor web",
-      "description": "",
+      "title": "Full-stack Developer",
+      "description": "Prestação de serviços para clientes diretos e parcerias com agências. De maneira resumida, nesse tempo desenvolvi sites e ecommerces utilizando Wordpress, WooCommerce e Elementor. Já implementei soluções com backend com PHP puro, Laravel e Node.js. No front, já trabalhei com Nuxt, Vue, HTML+CSS puro. Com banco de dados, tive oportunidade de trabalhar com MySQL e Firebase.",
       "location": {
-        "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte e Região, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
-      "startedOn": "Jan 2022",
+      "startedOn": "Jan 2011",
       "finishedOn": "",
       "dateInterval": {
-        "start": "2022-01-01T03:00:00.000Z",
+        "start": "2011-01-01T02:00:00.000Z",
         "final": null,
         "years": 0,
         "months": 0
@@ -282,15 +321,15 @@
     },
     {
       "companyName": "Search and Stay",
-      "title": "Back End Developer",
+      "title": "Full-stack Developer",
       "description": "",
       "location": {
         "fullName": "Austrália",
         "city": "",
         "state": "",
         "stateShort": "",
-        "country": "Australia",
-        "countryShort": "AU"
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Dec 2022",
       "finishedOn": "Nov 2023",
@@ -307,11 +346,11 @@
       "description": "Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel   ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.  Dentre os projetos desenvolvidos, estão a \"Unidas Seminovos\", uma plataforma de locação de veículos com filtro inteligente, e o \"Assinar ou comprar\", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.",
       "location": {
         "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Oct 2020",
       "finishedOn": "Apr 2022",
@@ -323,37 +362,16 @@
       }
     },
     {
-      "companyName": "Jsiqueira Multimídia",
-      "title": "Full-stack Developer",
-      "description": "Prestação de serviços para clientes diretos e parcerias com agências. De maneira resumida, nesse tempo desenvolvi sites e ecommerces utilizando Wordpress, WooCommerce e Elementor. Já implementei soluções com backend com PHP puro, Laravel e Node.js. No front, já trabalhei com Nuxt, Vue, HTML+CSS puro. Com banco de dados, tive oportunidade de trabalhar com MySQL e Firebase.",
-      "location": {
-        "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
-      },
-      "startedOn": "Oct 2017",
-      "finishedOn": "Apr 2022",
-      "dateInterval": {
-        "start": "2017-10-01T00:00:00-03:00",
-        "final": "2022-04-01T00:00:00-03:00",
-        "years": 4,
-        "months": 6
-      }
-    },
-    {
       "companyName": "Codificar Sistemas Tecnológicos",
       "title": "Full-stack Developer",
       "description": "Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js no frontend.",
       "location": {
-        "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte, Minas Gerais, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Feb 2017",
       "finishedOn": "Oct 2017",
@@ -369,12 +387,12 @@
       "title": "Full-stack Developer",
       "description": "Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive oportunidade de trabalhar com Vue.js e Angular.js. Como banco de dados, foram utilizados principalmente MySQL e MariaDB. As soluções em backend envolviam PHP ou Node.js.",
       "location": {
-        "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte, Minas Gerais, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2015",
       "finishedOn": "Jan 2017",
@@ -390,7 +408,7 @@
       "title": "Full-stack Developer",
       "description": "Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:  Ferramenta para filtrar fornecedores por estado, material/trabalho fornecido, orçamento anual, obras já prestadas, porte da empresa, entre outros dados;  Calculadora de prazo de obras, onde o valor total de um projeto era estimado de acordo com a quantidade de empregados levando em consideração a proporção encarregados/funcionários, benefícios, vales, valor de locação de equipamentos, imóveis, automóveis, eletricidade e outras coisas, utilizando uma curva de Gauss para calcular a quantidade de contratados dentro de uma timeline;  Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastante Excel para fazer seus trabalhos, então ambos os sistemas tinha que conversar bem com Excel e fazer importações e exportações.",
       "location": {
-        "fullName": "",
+        "fullName": "Belo Horizonte, Minas Gerais, Brasil",
         "city": "",
         "state": "",
         "stateShort": "",
@@ -411,12 +429,12 @@
       "title": "Full-stack Developer",
       "description": "Desenvolvimento de funções para o CMS próprio da agência.",
       "location": {
-        "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte, Minas Gerais, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2011",
       "finishedOn": "Jan 2012",
@@ -432,12 +450,12 @@
       "title": "Instrutor",
       "description": "Atuei como instrutor dos cursos de PHP, MySQL, CSS, Javascript, HTML5, Tableless e Action script.",
       "location": {
-        "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "fullName": "Belo Horizonte, Minas Gerais, Brasil",
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2010",
       "finishedOn": "Jan 2011",
@@ -715,6 +733,34 @@
         "months": 5
       },
       "active": true
+    },
+    {
+      "title": "Search and Stay",
+      "description": "Aplicação para locação por temporada para imóveis na Austrália",
+      "url": "",
+      "startedOn": "",
+      "finishedOn": "",
+      "dateInterval": {
+        "start": null,
+        "final": null,
+        "years": 0,
+        "months": 0
+      },
+      "active": true
+    },
+    {
+      "title": "Search and Stay",
+      "description": "Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.",
+      "url": "",
+      "startedOn": "Dec 2022",
+      "finishedOn": "Nov 2023",
+      "dateInterval": {
+        "start": "2022-12-01T00:00:00-03:00",
+        "final": "2023-11-01T00:00:00-03:00",
+        "years": 0,
+        "months": 11
+      },
+      "active": true
     }
   ],
   "languages": [
@@ -760,6 +806,10 @@
     },
     {
       "name": "Javascript",
+      "number": ""
+    },
+    {
+      "name": "CSS",
       "number": ""
     }
   ]

@@ -5,32 +5,7 @@ export default async () => {
 
   let lines = [];
 
-  // lines.push(`<h1>${resume.profile.firstName} ${resume.profile.lastName}</h1>`);
-
-  const links = [
-    {
-      url: "https://wa.me/message/NG7A2SW25XIEI1",
-      icon: "https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white",
-    },
-    {
-      url: "mailto:jeferson.i.silva@gmail.com",
-      icon: "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white",
-    },
-    {
-      url: "https://www.linkedin.com/in/jeferson-siqueira/",
-      icon: "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white",
-    },
-    {
-      url: "https://github.com/jeff-silva/",
-      icon: "https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github",
-    },
-    {
-      url: "https://jeff-silva.github.io/",
-      icon: "https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me",
-    },
-  ];
-
-  links.map((link) => {
+  resume.contacts.map((link) => {
     lines.push(`<a href="${link.url}" target="_blank"><img loading="lazy" src="${link.icon}" target="_blank"></a>`);
   });
 

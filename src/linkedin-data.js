@@ -88,11 +88,11 @@ class BasicData {
     };
 
     if (term) {
-      // return new Promise((resolve, reject) => {
-      //   setTimeout(() => {
-      //     resolve(place);
-      //   }, 500);
-      // });
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve(place);
+        }, 500);
+      });
 
       let { data } = await axios.get(
         `https://nominatim.openstreetmap.org/search.php?format=json&addressdetails=1&extratags=1&namedetails=1&limit=10&q=${term}`,
@@ -211,8 +211,37 @@ class Projects extends BasicData {
 }
 
 export default async () => {
+  const contacts = [
+    {
+      name: "Whatsapp",
+      url: "https://wa.me/message/NG7A2SW25XIEI1",
+      icon: "https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white",
+    },
+    {
+      name: "E-mail",
+      url: "mailto:jeferson.i.silva@gmail.com",
+      icon: "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white",
+    },
+    {
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/jeferson-siqueira/",
+      icon: "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white",
+    },
+    {
+      name: "Github",
+      url: "https://github.com/jeff-silva/jeff-silva",
+      icon: "https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github",
+    },
+    {
+      name: "Portfólio",
+      url: "https://jeff-silva.github.io",
+      icon: "https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me",
+    },
+  ];
+
   const profile = {
     profile: await new Profile(zip, "Profile.csv").toData(),
+    contacts,
     emailAddresses: await new BasicData(zip, "Email Addresses.csv").toData(),
     phoneNumbers: await new BasicData(zip, "PhoneNumbers.csv").toData(),
     skills: await new Skills(zip, "Skills.csv").toData(),
