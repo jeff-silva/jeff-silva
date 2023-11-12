@@ -5,8 +5,11 @@ import path from "path";
 // fs.writeFileSync(path.join("data", "resume.json"), JSON.stringify(data));
 // markdownWrite();
 
-import linkedinScrapper from "./linkedin-scrapper.js";
-linkedinScrapper();
+// import linkedinScrapper from "./linkedin-scrapper.js";
+// linkedinScrapper();
 
-import linkedinResume from "./linkedin-resume.js";
-linkedinResume();
+// import linkedinResume from "./linkedin-resume.js";
+// linkedinResume();
+
+import linkedinData from "./linkedin-data.js";
+linkedinData();
