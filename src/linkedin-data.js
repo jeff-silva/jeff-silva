@@ -235,7 +235,7 @@ class Projects extends BasicData {
       Amazônia: {
         images: [
           {
-            url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/blog-banco-da-amazonia.jpg",
+            url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/blog-banco-amazonia.jpg",
           },
         ],
       },
