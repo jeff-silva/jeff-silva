@@ -88,11 +88,11 @@ class BasicData {
     };
 
     if (term) {
-      // return new Promise((resolve, reject) => {
-      //   setTimeout(() => {
-      //     resolve(place);
-      //   }, 500);
-      // });
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve(place);
+        }, 500);
+      });
 
       let { data } = await axios.get(
         `https://nominatim.openstreetmap.org/search.php?format=json&addressdetails=1&extratags=1&namedetails=1&limit=10&q=${term}`,
@@ -218,6 +218,70 @@ class Positions extends BasicData {
 class Projects extends BasicData {
   async dataFormat(data) {
     data.active = !/Doce|Natureza Morta|Herdeira|Brinde|Efêmera/.test(data.title);
+    const meta = {
+      Acuruí: {
+        images: [
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/aguas-do-acurui.jpg" },
+        ],
+      },
+      Assemg: {
+        images: [{ url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/assemg.jpg" }],
+      },
+      "Assinar ou Comprar": {
+        images: [
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/assinar-ou-comprar.jpg" },
+        ],
+      },
+      Amazônia: {
+        images: [
+          {
+            url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/blog-banco-da-amazonia.jpg",
+          },
+        ],
+      },
+      Brettas: {
+        images: [
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/brettas-e-reis.jpg" },
+        ],
+      },
+      "Cantor Beto": {
+        images: [
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/cantor-beto-santos.jpg" },
+        ],
+      },
+      "Cocks Skate": {
+        images: [{ url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/cocks-skate.jpg" }],
+      },
+      "Don Desenvolvimento": {
+        images: [
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/don-desenvolvimento.jpg" },
+        ],
+      },
+      "Eiriz Saúde": {
+        images: [{ url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/eiriz-saude.jpg" }],
+      },
+      "Habitat Group": {
+        images: [
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/habitat-group.jpg" },
+        ],
+      },
+      Orbitae: {
+        images: [{ url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/orbitae.jpg" }],
+      },
+      "Seminovos Unidas": {
+        images: [
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/seminovos-unidas.jpg" },
+        ],
+      },
+    };
+    data.meta = false;
+
+    Object.keys(meta).map((key) => {
+      if (new RegExp(key).test(data.title)) {
+        data.meta = meta[key];
+      }
+    });
+
     return data;
   }
 }

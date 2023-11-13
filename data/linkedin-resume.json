@@ -11,11 +11,11 @@
     "zipCode": "30110",
     "geoLocation": {
       "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-      "city": "Belo Horizonte",
-      "state": "Minas Gerais",
-      "stateShort": "MG",
-      "country": "Brasil",
-      "countryShort": "BR"
+      "city": "",
+      "state": "",
+      "stateShort": "",
+      "country": "",
+      "countryShort": ""
     },
     "twitterHandles": "",
     "websites": "[COMPANY:https://labscript.dev]",
@@ -304,11 +304,11 @@
       "description": "Prestação de serviços para clientes diretos e parcerias com agências. De maneira resumida, nesse tempo desenvolvi sites e ecommerces utilizando Wordpress, WooCommerce e Elementor. Já implementei soluções com backend com PHP puro, Laravel e Node.js. No front, já trabalhei com Nuxt, Vue, HTML+CSS puro. Com banco de dados, tive oportunidade de trabalhar com MySQL e Firebase.",
       "location": {
         "fullName": "Belo Horizonte e Região, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2011",
       "finishedOn": "",
@@ -328,8 +328,8 @@
         "city": "",
         "state": "",
         "stateShort": "",
-        "country": "Australia",
-        "countryShort": "AU"
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Dec 2022",
       "finishedOn": "Nov 2023",
@@ -346,11 +346,11 @@
       "description": "Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel   ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.  Dentre os projetos desenvolvidos, estão a \"Unidas Seminovos\", uma plataforma de locação de veículos com filtro inteligente, e o \"Assinar ou comprar\", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.",
       "location": {
         "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Oct 2020",
       "finishedOn": "Apr 2022",
@@ -367,11 +367,11 @@
       "description": "Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js no frontend.",
       "location": {
         "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Feb 2017",
       "finishedOn": "Oct 2017",
@@ -388,11 +388,11 @@
       "description": "Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive oportunidade de trabalhar com Vue.js e Angular.js. Como banco de dados, foram utilizados principalmente MySQL e MariaDB. As soluções em backend envolviam PHP ou Node.js.",
       "location": {
         "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2015",
       "finishedOn": "Jan 2017",
@@ -409,11 +409,11 @@
       "description": "Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:  Ferramenta para filtrar fornecedores por estado, material/trabalho fornecido, orçamento anual, obras já prestadas, porte da empresa, entre outros dados;  Calculadora de prazo de obras, onde o valor total de um projeto era estimado de acordo com a quantidade de empregados levando em consideração a proporção encarregados/funcionários, benefícios, vales, valor de locação de equipamentos, imóveis, automóveis, eletricidade e outras coisas, utilizando uma curva de Gauss para calcular a quantidade de contratados dentro de uma timeline;  Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastante Excel para fazer seus trabalhos, então ambos os sistemas tinha que conversar bem com Excel e fazer importações e exportações.",
       "location": {
         "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Feb 2012",
       "finishedOn": "Jan 2013",
@@ -430,11 +430,11 @@
       "description": "Desenvolvimento de funções para o CMS próprio da agência.",
       "location": {
         "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2011",
       "finishedOn": "Jan 2012",
@@ -451,11 +451,11 @@
       "description": "Atuei como instrutor dos cursos de PHP, MySQL, CSS, Javascript, HTML5, Tableless e Action script.",
       "location": {
         "fullName": "Belo Horizonte, Minas Gerais, Brasil",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "stateShort": "MG",
-        "country": "Brasil",
-        "countryShort": "BR"
+        "city": "",
+        "state": "",
+        "stateShort": "",
+        "country": "",
+        "countryShort": ""
       },
       "startedOn": "Jan 2010",
       "finishedOn": "Jan 2011",
@@ -480,7 +480,14 @@
         "years": 0,
         "months": 0
       },
-      "active": true
+      "active": true,
+      "meta": {
+        "images": [
+          {
+            "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/eiriz-saude.jpg"
+          }
+        ]
+      }
     },
     {
       "title": "Águas do Acuruí",
@@ -494,7 +501,14 @@
         "years": 0,
         "months": 11
       },
-      "active": true
+      "active": true,
+      "meta": {
+        "images": [
+          {
+            "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/aguas-do-acurui.jpg"
+          }
+        ]
+      }
     },
     {
       "title": "Cantor Beto Santos",
@@ -508,7 +522,14 @@
         "years": 0,
         "months": 11
       },
-      "active": true
+      "active": true,
+      "meta": {
+        "images": [
+          {
+            "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/cantor-beto-santos.jpg"
+          }
+        ]
+      }
     },
     {
       "title": "Estrela Rural",
@@ -522,7 +543,8 @@
         "years": 0,
         "months": 11
       },
-      "active": true
+      "active": true,
+      "meta": false
     },
     {
       "title": "ASSEMG",
@@ -536,7 +558,8 @@
         "years": 0,
         "months": 11
       },
-      "active": true
+      "active": true,
+      "meta": false
     },
     {
       "title": "Samarco",
@@ -550,7 +573,8 @@
         "years": 0,
         "months": 2
       },
-      "active": true
+      "active": true,
+      "meta": false
     },
     {
       "title": "Orbitae",
@@ -564,7 +588,14 @@
         "years": 0,
         "months": 7
       },
-      "active": true
+      "active": true,
+      "meta": {
+        "images": [
+          {
+            "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/orbitae.jpg"
+          }
+        ]
+      }
     },
     {
       "title": "Cocks Skate",
@@ -578,7 +609,14 @@
         "years": 0,
         "months": 0
       },
-      "active": true
+      "active": true,
+      "meta": {
+        "images": [
+          {
+            "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/cocks-skate.jpg"
+          }
+        ]
+      }
     },
     {
       "title": "Habitat Group",
@@ -592,7 +630,14 @@
         "years": 0,
         "months": 0
       },
-      "active": true
+      "active": true,
+      "meta": {
+        "images": [
+          {
+            "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/habitat-group.jpg"
+          }
+        ]
+      }
     },
     {
       "title": "Don Desenvolvimento",
@@ -606,7 +651,14 @@
         "years": 0,
         "months": 0
       },
-      "active": true
+      "active": true,
+      "meta": {
+        "images": [
+          {
+            "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/don-desenvolvimento.jpg"
+          }
+        ]
+      }
     },
     {
       "title": "Blog Banco da Amazônia",
@@ -620,7 +672,14 @@
         "years": 0,
         "months": 0
       },
-      "active": true
+      "active": true,
+      "meta": {
+        "images": [
+          {
+            "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/blog-banco-da-amazonia.jpg"
+          }
+        ]
+      }
     },
     {
       "title": "Assinar ou comprar",
@@ -634,7 +693,8 @@
         "years": 0,
         "months": 0
       },
-      "active": true
+      "active": true,
+      "meta": false
     },
     {
       "title": "Faculdade Faveni",
@@ -648,7 +708,8 @@
         "years": 0,
         "months": 0
       },
-      "active": true
+      "active": true,
+      "meta": false
     },
     {
       "title": "Doce",
@@ -662,7 +723,8 @@
         "years": 0,
         "months": 0
       },
-      "active": false
+      "active": false,
+      "meta": false
     },
     {
       "title": "Natureza Morta",
@@ -676,7 +738,8 @@
         "years": 0,
         "months": 0
       },
-      "active": false
+      "active": false,
+      "meta": false
     },
     {
       "title": "A Herdeira",
@@ -690,7 +753,8 @@
         "years": 0,
         "months": 0
       },
-      "active": false
+      "active": false,
+      "meta": false
     },
     {
       "title": "Brinde",
@@ -704,7 +768,8 @@
         "years": 0,
         "months": 0
       },
-      "active": false
+      "active": false,
+      "meta": false
     },
     {
       "title": "Efêmera",
@@ -718,7 +783,8 @@
         "years": 0,
         "months": 0
       },
-      "active": false
+      "active": false,
+      "meta": false
     },
     {
       "title": "O Novo Mercado",
@@ -732,7 +798,8 @@
         "years": 0,
         "months": 5
       },
-      "active": true
+      "active": true,
+      "meta": false
     },
     {
       "title": "Search and Stay",
@@ -746,7 +813,8 @@
         "years": 0,
         "months": 0
       },
-      "active": true
+      "active": true,
+      "meta": false
     },
     {
       "title": "Search and Stay",
@@ -760,7 +828,8 @@
         "years": 0,
         "months": 11
       },
-      "active": true
+      "active": true,
+      "meta": false
     }
   ],
   "languages": [
