@@ -26,8 +26,7 @@ export default {
   profile: {
     firstName: "Jeferson",
     lastName: "Siqueira",
-    maidenName: "",
-    address: "",
+    image: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/profile/image.jpg",
     birthDate: "Feb 11",
     headline: "Full-stack: Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git",
     summary: `Olá, tudo bem? 👋
