@@ -402,7 +402,6 @@ export default {
       description: "Desenvolvimento de website utilizando plataforma Wordpress",
       url: "https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/",
       dateInterval: dateInterval("2015-01-01", "2015-12-01"),
-      active: true,
       meta: {
         images: [
           {
@@ -418,10 +417,7 @@ export default {
       positionSlug: ["agencia-de-criacao"],
       description: "Desenvolvimento de website utilizando CMS customizado",
       url: "https://web.archive.org/web/20211127021144/http://betosantos.net/",
-      startedOn: "Jan 2015",
-      finishedOn: "Dec 2015",
       dateInterval: dateInterval("2015-01-01", "2015-12-01"),
-      active: true,
       meta: {
         images: [
           {
@@ -437,11 +433,10 @@ export default {
       positionSlug: ["netranet"],
       description: "CMS e gerenciador de leilões utilizando plataforma customizada da agência.",
       url: "https://web.archive.org/web/20220110211402/http://estrelarural.com.br/",
-      startedOn: "Jan 2011",
-      finishedOn: "Dec 2011",
       dateInterval: dateInterval("2011-01-01", "2011-12-01"),
-      active: true,
-      meta: false,
+      meta: {
+        images: [],
+      },
     },
     {
       slug: "assemg",
@@ -450,11 +445,10 @@ export default {
       positionSlug: ["netranet"],
       description: "Site construído com CMS customizado da agência.",
       url: "https://web.archive.org/web/20170612004919/http://assemg.org/",
-      startedOn: "Jan 2015",
-      finishedOn: "Dec 2015",
       dateInterval: dateInterval("2015-01-01", "2015-12-01"),
-      active: true,
-      meta: false,
+      meta: {
+        images: [],
+      },
     },
     {
       slug: "samarco",
@@ -463,11 +457,10 @@ export default {
       positionSlug: ["digital-pixel"],
       description: "Gerenciador de conteúdo utilizando Wordpress + Elementor",
       url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
-      startedOn: "Aug 2020",
-      finishedOn: "Oct 2020",
       dateInterval: dateInterval("2020-08-01", "2020-10-01"),
-      active: true,
-      meta: false,
+      meta: {
+        images: [],
+      },
     },
     {
       slug: "orbitae",
@@ -477,10 +470,7 @@ export default {
       description:
         "Apresentações de produtos voltados para perícia forense. Feito utilizando Wordpress + Elementor com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.",
       url: "https://web.archive.org/web/20210517192720/https://orbitae.com.br/",
-      startedOn: "Jan 2019",
-      finishedOn: "Aug 2019",
       dateInterval: dateInterval("2019-01-01", "2019-08-01"),
-      active: true,
       meta: {
         images: [
           {
@@ -497,10 +487,7 @@ export default {
       description:
         "E-commerce para vendas de produtos voltados para skatistas. Criado com Wordpress + Woocommerce + Elementor com elementos customizados.",
       url: "https://web.archive.org/web/20211226170044/https://cocksskate.com.br/",
-      startedOn: "2018",
-      finishedOn: "2018",
       dateInterval: dateInterval("2018-01-01", "2018-01-01"),
-      active: true,
       meta: {
         images: [
           {
@@ -516,10 +503,7 @@ export default {
       positionSlug: ["labscript.dev"],
       description: "Clínica veterinária, utilizando Wordpress + Elementor com elementos customizados.",
       url: "https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/",
-      startedOn: "2019",
-      finishedOn: "2019",
       dateInterval: dateInterval("2019-01-01", "2019-01-01"),
-      active: true,
       meta: {
         images: [
           {
@@ -535,10 +519,7 @@ export default {
       positionSlug: ["labscript.dev"],
       description: "Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue.",
       url: "https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/",
-      startedOn: "2018",
-      finishedOn: "2018",
       dateInterval: dateInterval("2018-01-01", "2018-01-01"),
-      active: true,
       meta: {
         images: [
           {
@@ -552,13 +533,9 @@ export default {
       show: true,
       title: "Blog Banco da Amazônia",
       positionSlug: ["labscript.dev"],
-      description:
-        "Notícias e utlidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.",
+      description: `Notícias e utlidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.`,
       url: "https://web.archive.org/web/20211229163534/https://basablog.com.br/",
-      startedOn: "2019",
-      finishedOn: "2019",
       dateInterval: dateInterval("2019-01-01", "2019-01-01"),
-      active: true,
       meta: {
         images: [
           {
@@ -575,11 +552,10 @@ export default {
       description:
         "Calculadora desenvolvida em parceria com Unidas e Samy Dana, para verificar se é mais vantajoso comprar ou alugar um carro.",
       url: "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
-      startedOn: "2021",
-      finishedOn: "2021",
       dateInterval: dateInterval("2021-01-01", "2021-01-01"),
-      active: true,
-      meta: false,
+      meta: {
+        images: [],
+      },
     },
     {
       slug: "faculdade-faveni",
@@ -588,11 +564,10 @@ export default {
       positionSlug: ["digital-pixel"],
       description: "Estilização e customização de componentes do tema utilizando plataforma Wordpress com multisite.",
       url: "https://web.archive.org/web/20220131193706/https://faveni.edu.br/",
-      startedOn: "2020",
-      finishedOn: "2020",
       dateInterval: dateInterval("2020-01-01", "2020-01-01"),
-      active: true,
-      meta: false,
+      meta: {
+        images: [],
+      },
     },
     {
       slug: "o-novo-mercado",
@@ -601,11 +576,10 @@ export default {
       positionSlug: ["o-novo-mercado"],
       description: "Desenvolvimento da plataforma interna de videos e hub de profissionais utilizando Vue.js + Vuetify",
       url: "https://onovomercado.com/",
-      startedOn: "Feb 2022",
-      finishedOn: "Jul 2022",
       dateInterval: dateInterval("2022-02-01", "2022-07-01"),
-      active: true,
-      meta: false,
+      meta: {
+        images: [],
+      },
     },
     {
       slug: "search-and-stay",
@@ -614,11 +588,26 @@ export default {
       positionSlug: ["search-and-stay"],
       description: `Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.`,
       url: "",
-      startedOn: "Dec 2022",
-      finishedOn: "Nov 2023",
       dateInterval: dateInterval("2022-12-01", "2023-11-01"),
-      active: true,
-      meta: false,
+      meta: {
+        images: [],
+      },
+    },
+    {
+      slug: "mandui",
+      show: true,
+      title: "Manduí",
+      positionSlug: ["labscript.dev"],
+      description: ``,
+      url: "",
+      dateInterval: dateInterval("2023-08-01", "2023-11-01"),
+      meta: {
+        images: [
+          {
+            url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui.jpg",
+          },
+        ],
+      },
     },
   ],
   languages: [
