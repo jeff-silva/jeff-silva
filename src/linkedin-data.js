@@ -31,14 +31,16 @@ export default {
     headline: "Full-stack: Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git",
     summary: `Olá, tudo bem? 👋
     Atuo na área de desenvolvimento web desde 2011, tanto no front quando no backend.
-    Já criei vários paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços.
+    
+    Já criei vários paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços. Também tenho conhecimento aprofundado em Wordpress, na criação de plugins ou temas.
     
     Hoje em dia, minha stack favorita é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas: Laravel com MySQL no backend, Vue 3 no front utilizando Nuxt 3 e Vuetify 3 como biblioteca de componentes, tudo isso em um monorepo orquestrado por Docker Compose.
     
     ✅ Já trabalhei em projetos solo e em equipes grandes, com profissionais de várias áreas;
     ✅ Me preocupo em estar sob constante aprendizado;
-    ✅ Adoro desafios;
+    ✅ Grandes desafios me movem;
     
+    Estou disponível para contratos ou freelas.
     Será um prazer te ajudar a desenvolver suas idéias!`,
     geoLocation: {
       fullName: "Belo Horizonte/MG",
