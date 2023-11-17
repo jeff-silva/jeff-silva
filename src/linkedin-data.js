@@ -603,9 +603,9 @@ export default {
       dateInterval: dateInterval("2023-08-01", "2023-11-01"),
       meta: {
         images: [
-          {
-            url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui.jpg",
-          },
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui.jpg" },
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui-2.jpg" },
+          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui-3.jpg" },
         ],
       },
     },
