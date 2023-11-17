@@ -8,10 +8,10 @@
 <a href="https://jeff-silva.github.io" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me" target="_blank"></a>
 <br /><br />
 👨🏻‍💻 <small>Full-stack: Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git</small><br />
-🌎 <small>Belo Horizonte, Minas Gerais, Brasil</small><br />
+🌎 <small>Belo Horizonte/MG</small><br />
 🟢 <small>Aberto para trabalho</small><br />
 <br />
-Olá, tudo bem? 👋<br />    Atuo na área de desenvolvimento web desde 2011, tanto no front quando no backend.<br />    <br />    Já criei vários paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços.<br />    <br />    Hoje em dia, minha stack favorita é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas: Laravel com MySQL no backend, Vue 3 no front utilizando Nuxt 3 e Vuetify 3 como biblioteca de componentes, tudo isso em um monorepo orquestrado por Docker Compose.<br />    <br />    ✅ Já trabalhei em projetos solo e em equipes grandes, com profissionais de várias áreas;<br />    ✅ Me preocupo em estar sob constante aprendizado;<br />    ✅ Adoro desafios;<br />    <br />    Será um prazer te ajudar a desenvolver suas idéias!
+Olá, tudo bem? 👋<br />    Atuo na área de desenvolvimento web desde 2011, tanto no front quando no backend.<br />    Já criei vários paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços.<br />    <br />    Hoje em dia, minha stack favorita é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas: Laravel com MySQL no backend, Vue 3 no front utilizando Nuxt 3 e Vuetify 3 como biblioteca de componentes, tudo isso em um monorepo orquestrado por Docker Compose.<br />    <br />    ✅ Já trabalhei em projetos solo e em equipes grandes, com profissionais de várias áreas;<br />    ✅ Me preocupo em estar sob constante aprendizado;<br />    ✅ Adoro desafios;<br />    <br />    Será um prazer te ajudar a desenvolver suas idéias!
 <br /><br />
 <pre>
 Vue.js ··············· ⭐ ⭐ ⭐ ⭐ ⭐ 
