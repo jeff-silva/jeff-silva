@@ -376,7 +376,7 @@ export default {
       },
       dateInterval: dateInterval("2010-01-01", "2011-01-01"),
     },
-  ],
+  ].filter((item) => item.show),
   projects: [
     {
       slug: "eiriz-saude",
@@ -609,7 +609,7 @@ export default {
         ],
       },
     },
-  ],
+  ].filter((item) => item.show),
   languages: [
     {
       name: "Português",
