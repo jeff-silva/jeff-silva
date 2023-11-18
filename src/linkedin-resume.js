@@ -4,6 +4,10 @@ import path from "path";
 
 export default async () => {
   let lines = [];
+  linkedinData.links.map((link) => {
+    lines.push(`<a href="${link.url}" target="_blank"><img loading="lazy" src="${link.icon}" target="_blank"></a>`);
+  });
+  lines.push(`<br />`);
   linkedinData.contacts.map((link) => {
     lines.push(`<a href="${link.url}" target="_blank"><img loading="lazy" src="${link.icon}" target="_blank"></a>`);
   });

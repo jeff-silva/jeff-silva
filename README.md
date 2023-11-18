@@ -1,6 +1,11 @@
 # Jeferson Silva
 
 <!--curriculum:start-->
+<a href="https://www.linkedin.com/in/jeferson-siqueira/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://github.com/jeff-silva/jeff-silva" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github" target="_blank"></a>
+<a href="https://jeff-silva.github.io" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me" target="_blank"></a>
+<a href="https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/cv-jeferson-silva.pdf" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Curriculo-000000?style=for-the-badge&logo=About.me" target="_blank"></a>
+<br />
 <a href="https://wa.me/message/NG7A2SW25XIEI1" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
 <a href="mailto:jeferson.i.silva@gmail.com" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="tel:+5531995271426" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/(31) 99527 1426-000000?style=for-the-badge&logoColor=white" target="_blank"></a>
