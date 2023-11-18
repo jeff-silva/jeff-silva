@@ -3,15 +3,13 @@
 <!--curriculum:start-->
 <a href="https://wa.me/message/NG7A2SW25XIEI1" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
 <a href="mailto:jeferson.i.silva@gmail.com" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/jeferson-siqueira/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href="https://github.com/jeff-silva/jeff-silva" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github" target="_blank"></a>
-<a href="https://jeff-silva.github.io" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me" target="_blank"></a>
+<a href="tel:+5531995271426" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/(31) 99527 1426-000000?style=for-the-badge&logoColor=white" target="_blank"></a>
 <br /><br />
 👨🏻‍💻 <small>Full-stack: Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git</small><br />
 🌎 <small>Belo Horizonte/MG</small><br />
 🟢 <small>Aberto para trabalho</small><br />
 <br />
-Olá, tudo bem? 👋<br />    Atuo na área de desenvolvimento web desde 2011, tanto no front quando no backend.<br />    Já criei vários paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços.<br />    <br />    Hoje em dia, minha stack favorita é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas: Laravel com MySQL no backend, Vue 3 no front utilizando Nuxt 3 e Vuetify 3 como biblioteca de componentes, tudo isso em um monorepo orquestrado por Docker Compose.<br />    <br />    ✅ Já trabalhei em projetos solo e em equipes grandes, com profissionais de várias áreas;<br />    ✅ Me preocupo em estar sob constante aprendizado;<br />    ✅ Adoro desafios;<br />    <br />    Será um prazer te ajudar a desenvolver suas idéias!
+Olá, tudo bem? 👋<br />    Atuo na área de desenvolvimento web desde 2011, tanto no front quando no backend.<br />    <br />    Já criei vários paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços. Também tenho conhecimento aprofundado em Wordpress, na criação de plugins ou temas.<br />    <br />    Hoje em dia, minha stack favorita é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas: Laravel com MySQL no backend, Vue 3 no front utilizando Nuxt 3 e Vuetify 3 como biblioteca de componentes, tudo isso em um monorepo orquestrado por Docker Compose.<br />    <br />    ✅ Já trabalhei em projetos solo e em equipes grandes, com profissionais de várias áreas;<br />    ✅ Me preocupo em estar sob constante aprendizado;<br />    ✅ Grandes desafios me movem;<br />    <br />    Estou disponível para contratos ou freelas.<br />    Será um prazer te ajudar a desenvolver suas idéias!
 <br /><br />
 <pre>
 Vue.js ··············· ⭐ ⭐ ⭐ ⭐ ⭐ 

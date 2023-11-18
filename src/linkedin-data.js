@@ -22,6 +22,7 @@ const dateInterval = (startStr, finalStr) => {
 export default {
   meta: {
     updatedAt: dateData(dayjs().format()),
+    resumeDownload: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/cv-jeferson-silva.pdf",
   },
   profile: {
     firstName: "Jeferson",
@@ -65,6 +66,13 @@ export default {
       icon: "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white",
     },
     {
+      name: "Phone",
+      url: "tel:+5531995271426",
+      icon: "https://img.shields.io/badge/(31) 99527 1426-000000?style=for-the-badge&logoColor=white",
+    },
+  ],
+  links: [
+    {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/jeferson-siqueira/",
       icon: "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white",
@@ -78,6 +86,11 @@ export default {
       name: "Portfólio",
       url: "https://jeff-silva.github.io",
       icon: "https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me",
+    },
+    {
+      name: "Currículo",
+      url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/cv-jeferson-silva.pdf",
+      icon: "https://img.shields.io/badge/Curriculo-000000?style=for-the-badge&logo=About.me",
     },
   ],
   skills: [
