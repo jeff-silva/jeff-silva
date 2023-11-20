@@ -621,7 +621,7 @@ export default {
       title: "Manduí",
       positionSlug: ["labscript.dev"],
       description: ``,
-      url: "",
+      url: "https://mandui.com.br",
       dateInterval: dateInterval("2023-08-01", "2023-11-01"),
       meta: {
         images: [
