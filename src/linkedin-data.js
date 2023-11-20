@@ -286,7 +286,7 @@ export default {
       show: false,
       companyName: "Digital Pixel",
       title: "Full-stack Developer",
-      description: ``,
+      description: `Atuação com plugins e temas Wordpress utiliando Elementor`,
       location: {
         fullName: "Belo Horizonte/MG",
         city: "Belo Horizonte",
@@ -397,13 +397,14 @@ export default {
       show: true,
       title: "Eiriz Saúde",
       positionSlug: ["labscript.dev"],
-      description: "",
+      description: ``,
       url: "http://eiriz-saude.unbox.pt",
       dateInterval: dateInterval("2017-01-01", "2017-01-01"),
       meta: {
         images: [
           {
             url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/eiriz-saude.jpg",
+            description: ``,
           },
         ],
       },
@@ -420,6 +421,7 @@ export default {
         images: [
           {
             url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/aguas-do-acurui.jpg",
+            description: ``,
           },
         ],
       },
@@ -436,6 +438,7 @@ export default {
         images: [
           {
             url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/cantor-beto-santos.jpg",
+            description: ``,
           },
         ],
       },
@@ -489,6 +492,7 @@ export default {
         images: [
           {
             url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/orbitae.jpg",
+            description: ``,
           },
         ],
       },
@@ -506,6 +510,7 @@ export default {
         images: [
           {
             url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/cocks-skate.jpg",
+            description: ``,
           },
         ],
       },
@@ -522,6 +527,7 @@ export default {
         images: [
           {
             url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/habitat-group.jpg",
+            description: ``,
           },
         ],
       },
@@ -538,6 +544,7 @@ export default {
         images: [
           {
             url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/don-desenvolvimento.jpg",
+            description: ``,
           },
         ],
       },
@@ -554,6 +561,7 @@ export default {
         images: [
           {
             url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/blog-banco-da-amazonia.jpg",
+            description: ``,
           },
         ],
       },
@@ -617,9 +625,18 @@ export default {
       dateInterval: dateInterval("2023-08-01", "2023-11-01"),
       meta: {
         images: [
-          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui.jpg" },
-          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui-2.jpg" },
-          { url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui-3.jpg" },
+          {
+            url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui.jpg",
+            description: `Visão da página inicial em desktop`,
+          },
+          {
+            url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui-2.jpg",
+            description: `Visão da página "Casa Amarela" em desktop`,
+          },
+          {
+            url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui-3.jpg",
+            description: `Visão da página inicial em mobile`,
+          },
         ],
       },
     },
