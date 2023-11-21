@@ -484,7 +484,9 @@ export default {
       show: true,
       title: "Samarco",
       positionSlug: ["digital-pixel"],
-      description: "Gerenciador de conteúdo utilizando Wordpress + Elementor",
+      description: `Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel, desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema dinâmico e versátil para administrar e apresentar conteúdos online de forma eficaz.
+
+      A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta. Isso permitiu a criação e gestão de conteúdos de maneira simplificada, ao mesmo tempo em que ofereceu ferramentas de design avançadas para aprimorar a estética e a interatividade do site, atendendo às expectativas do cliente e proporcionando uma experiência de usuário aprimorada.`,
       url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
       dateInterval: dateInterval("2020-08-01", "2020-10-01"),
       meta: {
@@ -496,8 +498,9 @@ export default {
       show: true,
       title: "Orbitae",
       positionSlug: ["labscript.dev"],
-      description:
-        "Apresentações de produtos voltados para perícia forense. Feito utilizando Wordpress + Elementor com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.",
+      description: `Desenvolvemos apresentações de produtos especializados em perícia forense, integrando Wordpress e Elementor com elementos personalizados.
+      
+      Essa parceria estratégica com a Partners Comunicação Pro Business resultou em uma plataforma dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor, criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade aos detalhes técnicos. Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente, facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.`,
       url: "https://web.archive.org/web/20210517192720/https://orbitae.com.br/",
       dateInterval: dateInterval("2019-01-01", "2019-08-01"),
       meta: {
@@ -514,8 +517,9 @@ export default {
       show: true,
       title: "Cocks Skate",
       positionSlug: ["labscript.dev"],
-      description:
-        "E-commerce para vendas de produtos voltados para skatistas. Criado com Wordpress + Woocommerce + Elementor com elementos customizados.",
+      description: `Desenvolvimento de e-commerce especializado em produtos para skatistas, utilizando Wordpress, Woocommerce e Elementor com elementos customizados.
+      
+      Somando uma experiência personalizada de compra com uma fácil navegação e busca dos produtos, a integração dessas ferramentas garante um site dinâmico, com funcionalidades de ponta e um design atraente para o público interessado nesse nicho, visando atender suas necessidades e interesses.`,
       url: "https://web.archive.org/web/20211226170044/https://cocksskate.com.br/",
       dateInterval: dateInterval("2018-01-01", "2018-01-01"),
       meta: {
@@ -530,9 +534,9 @@ export default {
     {
       slug: "habitat-group",
       show: true,
-      title: "Habitat Group",
+      title: `Desenvolvimento de um website para a clínica veterinária Habitat Group. Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada. Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de consultas para atendimento de qualidade aos animais de estimação e seus tutores.`,
       positionSlug: ["labscript.dev"],
-      description: "Clínica veterinária, utilizando Wordpress + Elementor com elementos customizados.",
+      description: ``,
       url: "https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/",
       dateInterval: dateInterval("2019-01-01", "2019-01-01"),
       meta: {
