@@ -534,9 +534,10 @@ export default {
     {
       slug: "habitat-group",
       show: true,
-      title: `Desenvolvimento de um website para a clínica veterinária Habitat Group. Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada. Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de consultas para atendimento de qualidade aos animais de estimação e seus tutores.`,
+      title: "Habitat Group",
       positionSlug: ["labscript.dev"],
-      description: ``,
+      description: `Desenvolvimento de um website para a clínica veterinária Habitat Group.
+      Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada. Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de consultas para atendimento de qualidade aos animais de estimação e seus tutores.`,
       url: "https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/",
       dateInterval: dateInterval("2019-01-01", "2019-01-01"),
       meta: {
