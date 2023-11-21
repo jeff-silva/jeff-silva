@@ -397,7 +397,9 @@ export default {
       show: true,
       title: "Eiriz Saúde",
       positionSlug: ["labscript.dev"],
-      description: ``,
+      description: `Concebido e desenvolvido exclusivamente para atender às necessidades da clínica odontológica Eiriz Saúde, localizada em Porto, Portugal, este projeto é o resultado de uma parceria dedicada a aprimorar a experiência do usuário e a eficiência dos serviços oferecidos.
+      
+      Com foco na usabilidade e na interação fluída, o sistema Wordpress desenvolvido para a Eiriz Saúde incorporou recursos avançados de gerenciamento de conteúdo, garantindo não apenas a apresentação precisa dos serviços oferecidos, mas também a transmissão eficaz de informações importantes aos pacientes, proporcionando assim uma experiência online completa e informativa.`,
       url: "http://eiriz-saude.unbox.pt",
       dateInterval: dateInterval("2017-01-01", "2017-01-01"),
       meta: {
@@ -414,7 +416,9 @@ export default {
       show: true,
       title: "Águas do Acuruí",
       positionSlug: ["agencia-de-criacao"],
-      description: "Desenvolvimento de website utilizando plataforma Wordpress",
+      description: `O desenvolvimento do website para a cidade de Águas do Acuruí foi um projeto dedicado e personalizado, visando promover a região de forma cativante e informativa.
+
+      Utilizando a versatilidade e as capacidades expansivas do Wordpress como base, o website foi meticulosamente construído a partir do zero, com um tema exclusivamente elaborado para atender às demandas específicas e à identidade singular da cidade. Cada elemento do design e funcionalidade foi cuidadosamente planejado para refletir a autenticidade e os pontos fortes de Águas do Acuruí.`,
       url: "https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/",
       dateInterval: dateInterval("2015-01-01", "2015-12-01"),
       meta: {
@@ -431,7 +435,11 @@ export default {
       show: true,
       title: "Cantor Beto Santos",
       positionSlug: ["agencia-de-criacao"],
-      description: "Desenvolvimento de website utilizando CMS customizado",
+      description: `Desenvolvimento de website com um CMS personalizado e recursos únicos.
+
+      O projeto apresenta uma funcionalidade interessante: um player de música integrado que reproduz as canções do cantor, permitindo que novas músicas sejam facilmente adicionadas através do painel interno do site.
+      
+      Uma característica notável do site é a disposição estratégica dos controles de reprodução, localizados tanto no topo quanto no corpo do site. A interconexão desses controles cria uma experiência de usuário fluida, evitando a necessidade de rolar constantemente. Essa abordagem garante uma navegação intuitiva, permitindo que os visitantes desfrutem da música sem interrupções, independentemente de onde estejam navegando no site.`,
       url: "https://web.archive.org/web/20211127021144/http://betosantos.net/",
       dateInterval: dateInterval("2015-01-01", "2015-12-01"),
       meta: {
@@ -448,7 +456,9 @@ export default {
       show: true,
       title: "Estrela Rural",
       positionSlug: ["netranet"],
-      description: "CMS e gerenciador de leilões utilizando plataforma customizada da agência.",
+      description: `Este projeto foi criado sobre o sistema de gerenciamento de conteúdo (CMS) e de leilões personalizado para atender às necessidades específicas do cliente. Esse sistema foi meticulosamente projetado e construído com base na plataforma customizada da agência, oferecendo uma solução completa para administrar conteúdos e realizar leilões de forma eficiente.
+      
+      Essa solução customizada representa não apenas a habilidade técnica da agência, mas também seu compromisso em oferecer aos clientes ferramentas sob medida que atendam exatamente às suas necessidades, agregando valor e eficiência aos seus processos de gestão e negócios.`,
       url: "https://web.archive.org/web/20220110211402/http://estrelarural.com.br/",
       dateInterval: dateInterval("2011-01-01", "2011-12-01"),
       meta: {
@@ -460,7 +470,9 @@ export default {
       show: true,
       title: "ASSEMG",
       positionSlug: ["netranet"],
-      description: "Site construído com CMS customizado da agência.",
+      description: `Site criado sobre CMS exclusivo para atender às necessidades da associação dos empregados da MGS. Esse CMS foi meticulosamente adaptado para oferecer uma experiência de usuário única e atender às demandas específicas da associação, garantindo uma plataforma eficiente e funcional para os membros.
+
+      O CMS customizado oferece ferramentas específicas para a gestão interna da associação, fornecendo um ambiente seguro e personalizado para comunicação e interação entre os membros, agregando valor e facilitando a administração dos recursos disponíveis.`,
       url: "https://web.archive.org/web/20170612004919/http://assemg.org/",
       dateInterval: dateInterval("2015-01-01", "2015-12-01"),
       meta: {
