@@ -620,7 +620,9 @@ export default {
       show: true,
       title: "Manduí",
       positionSlug: ["labscript.dev"],
-      description: ``,
+      description: `A Escola Infantil Manduí oferece um ambiente acolhedor projetado para crianças de 4 meses a 6 anos, destacando-se por sua abordagem educacional abrangente. O site foi concebido para refletir essa filosofia, utilizando tecnologias avançadas, como Nuxt 3, Vue 3, Vuetify 3 e Firebase, garantindo uma experiência interativa e informativa para pais e responsáveis.
+      
+      Para o backend, foi criado uma interface onde, ao se clicar em um elemento, um painel lateral se abre com suas possibilidades de edição. Os dados são salvos no Firebase, sendo o sistema concebido de forma serverless.`,
       url: "https://mandui.com.br",
       dateInterval: dateInterval("2023-08-01", "2023-11-01"),
       meta: {
