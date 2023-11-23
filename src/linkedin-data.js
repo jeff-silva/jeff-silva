@@ -30,18 +30,59 @@ export default {
     image: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/profile/image.jpg",
     birthDate: "Feb 11",
     headline: "Full-stack: Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git",
-    summary: `Olá, tudo bem? 👋
-    Atuo na área de desenvolvimento web desde 2011, tanto no front quando no backend.
+    summary: `Desenvolvedor full stack.
+    No frontend, especializado em Vue.js + Nuxt.js + Vuetify.
+    No backend, especializado em Laravel + MySQL.
     
-    Já criei vários paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços. Também tenho conhecimento aprofundado em Wordpress, na criação de plugins ou temas.
+    ~~~
     
-    Hoje em dia, minha stack favorita é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas: Laravel com MySQL no backend, Vue 3 no front utilizando Nuxt 3 e Vuetify 3 como biblioteca de componentes, tudo isso em um monorepo orquestrado por Docker Compose.
+    Olá, tudo bem? 👋
+    Atuo na área de desenvolvimento web desde 2011.
     
-    ✅ Já trabalhei em projetos solo e em equipes grandes, com profissionais de várias áreas;
-    ✅ Me preocupo em estar sob constante aprendizado;
-    ✅ Grandes desafios me movem;
+    Já criei paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços. Também tenho conhecimento em Wordpress, na criação de plugins ou temas.
     
-    Estou disponível para contratos ou freelas.
+    
+    🟦 Minha história
+    
+    Eu não sabia o que era programação, mas desde criança já sentia curiosidade. Lembro de ficar olhando hipnotizando para a tela de um fliperama de Mortal Kombat II, me questionando como era feito, até um dia ver um técnico dando manutenção na máquina e achar que era ele quem fazia o jogo. 😂
+    
+    Já adulto, os computadores se tornaram algo cotidiano, e eu tive acesso à minha primeira máquina. Foi com ela que me introduzi ao mundo da programação, inicialmente fazendo jogos em GML, linguagem da plataforma Game Maker, e posteriormente conhecendo PHP e Javascript.
+    
+    Quando me vi passando horas por dia programando, resolvi assumir a programação como profissão e fazer um curso de desenvolvimento web.
+    
+    
+    🟦 Minhas habilidades principais
+    
+    Minha stack favorita hoje é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas: Laravel com MySQL no backend, Vue 3 no front com Nuxt 3 e Vuetify 3, tudo isso em um monorepo orquestrado por Docker Compose. A produtividade vai à mil!
+    
+    
+    🟦 O que ando estudando?
+    
+    • As novidades com o Laravel nunca param, e é por isso que sempre volto a conferir e testar o que a comunidade mostra de novo.
+    
+    • Ferramentas para 3D e jogos no browser estão sempre no meu radar. Por isso, volta e meia estou fazendo testes com Three.js ou Babylon.js.
+    
+    • Arquitetura de software.
+    
+    • Buscando encaixar IA no meio dessa loucura. Quero aprender a treinar e gerar modelos.
+    
+    
+    🟦 Minhas qualidades
+    
+    • Visão de Usuário: acho muito importante visualizar a aplicação como o usuário final, principalmente como os mais leigos.
+    
+    • Comunicação: gosto muito de ter uma visão ampla de todo o meu trabalho, então entendo a importância de quem gerencia um projeto ter também essa visão. Gosto de esatar sempre sinalizando minha posição.
+    
+    • Capacidade de Adaptação: imprescindível para participar de um projeto. Uma ferramenta nova ou uma atualização pode mudar tudo, e estar totalmente aberto para qualquer tipo de mudança é uma habilidade necessária.
+    
+    
+    🟦 Objetivos de carreira
+    
+    • Assumir o comando de projetos incríveis com maestria.
+    
+    ~~~
+    
+    Entre em contato.
     Será um prazer te ajudar a desenvolver suas idéias!`,
     geoLocation: {
       fullName: "Belo Horizonte/MG",
@@ -260,7 +301,7 @@ export default {
         lat: -23.533773,
         lng: -46.62529,
       },
-      dateInterval: dateInterval("", ""),
+      dateInterval: dateInterval("2022-02-01", "2022-07-01"),
     },
     {
       slug: "listra",
