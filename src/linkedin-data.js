@@ -105,7 +105,7 @@ linkedinData.skills = arrayDefault(linkedinData.skills, { show: false });
 linkedinData.languages = arrayDefault(linkedinData.languages, { show: true });
 linkedinData.interests = arrayDefault(linkedinData.interests, { show: true });
 linkedinData.references = arrayDefault(linkedinData.references, { show: true });
-linkedinData.projects = arrayDefault(linkedinData.projects, { show: true });
+linkedinData.projects = arrayDefault(linkedinData.projects, { show: true, images: [] });
 
 linkedinData.skills = arrasyMixBy("name", linkedinData.skills, [
   { show: true, name: "API REST", rating: 95 },
@@ -121,6 +121,212 @@ linkedinData.skills = arrasyMixBy("name", linkedinData.skills, [
   { show: true, name: "Node.js", rating: 75 },
   { show: true, name: "JavaScript", rating: 80 },
   { show: true, name: "WordPress", rating: 85 },
+]);
+
+linkedinData.projects = arrasyMixBy("name", linkedinData.projects, [
+  {
+    show: true,
+    name: "Eiriz Saúde",
+    summary: `Concebido e desenvolvido exclusivamente para atender às necessidades da clínica odontológica Eiriz Saúde, localizada em Porto, Portugal, este projeto é o resultado de uma parceria dedicada a aprimorar a experiência do usuário e a eficiência dos serviços oferecidos.
+    
+    Com foco na usabilidade e na interação fluída, o sistema Wordpress desenvolvido para a Eiriz Saúde incorporou recursos avançados de gerenciamento de conteúdo, garantindo não apenas a apresentação precisa dos serviços oferecidos, mas também a transmissão eficaz de informações importantes aos pacientes, proporcionando assim uma experiência online completa e informativa.`,
+    url: "http://eiriz-saude.unbox.pt",
+    date: dateInterval("2017-01-01", "2017-01-01"),
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/eiriz-saude.jpg",
+        description: ``,
+      },
+    ],
+  },
+  {
+    show: true,
+    name: "Águas do Acuruí",
+    summary: `O desenvolvimento do website para a cidade de Águas do Acuruí foi um projeto dedicado e personalizado, visando promover a região de forma cativante e informativa.
+
+    Utilizando a versatilidade e as capacidades expansivas do Wordpress como base, o website foi meticulosamente construído a partir do zero, com um tema exclusivamente elaborado para atender às demandas específicas e à identidade singular da cidade. Cada elemento do design e funcionalidade foi cuidadosamente planejado para refletir a autenticidade e os pontos fortes de Águas do Acuruí.`,
+    url: "https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/",
+    date: dateInterval("2015-01-01", "2015-12-01"),
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/aguas-do-acurui.jpg",
+        description: ``,
+      },
+    ],
+  },
+  {
+    show: true,
+    name: "Cantor Beto Santos",
+    summary: `Desenvolvimento de website com um CMS personalizado e recursos únicos.
+
+    O projeto apresenta uma funcionalidade interessante: um player de música integrado que reproduz as canções do cantor, permitindo que novas músicas sejam facilmente adicionadas através do painel interno do site.
+    
+    Uma característica notável do site é a disposição estratégica dos controles de reprodução, localizados tanto no topo quanto no corpo do site. A interconexão desses controles cria uma experiência de usuário fluida, evitando a necessidade de rolar constantemente. Essa abordagem garante uma navegação intuitiva, permitindo que os visitantes desfrutem da música sem interrupções, independentemente de onde estejam navegando no site.`,
+    url: "https://web.archive.org/web/20211127021144/http://betosantos.net/",
+    date: dateInterval("2015-01-01", "2015-12-01"),
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/cantor-beto-santos.jpg",
+        description: ``,
+      },
+    ],
+  },
+  {
+    show: true,
+    name: "Estrela Rural",
+    summary: `Este projeto foi criado sobre o sistema de gerenciamento de conteúdo (CMS) e de leilões personalizado para atender às necessidades específicas do cliente. Esse sistema foi meticulosamente projetado e construído com base na plataforma customizada da agência, oferecendo uma solução completa para administrar conteúdos e realizar leilões de forma eficiente.
+    
+    Essa solução customizada representa não apenas a habilidade técnica da agência, mas também seu compromisso em oferecer aos clientes ferramentas sob medida que atendam exatamente às suas necessidades, agregando valor e eficiência aos seus processos de gestão e negócios.`,
+    url: "https://web.archive.org/web/20220110211402/http://estrelarural.com.br/",
+    date: dateInterval("2011-01-01", "2011-12-01"),
+    images: [],
+  },
+  {
+    show: true,
+    name: "ASSEMG",
+    summary: `Site criado sobre CMS exclusivo para atender às necessidades da associação dos empregados da MGS. Esse CMS foi meticulosamente adaptado para oferecer uma experiência de usuário única e atender às demandas específicas da associação, garantindo uma plataforma eficiente e funcional para os membros.
+
+    O CMS customizado oferece ferramentas específicas para a gestão interna da associação, fornecendo um ambiente seguro e personalizado para comunicação e interação entre os membros, agregando valor e facilitando a administração dos recursos disponíveis.`,
+    url: "https://web.archive.org/web/20170612004919/http://assemg.org/",
+    date: dateInterval("2015-01-01", "2015-12-01"),
+    images: [],
+  },
+  {
+    show: true,
+    name: "Samarco",
+    summary: `Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel, desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema dinâmico e versátil para administrar e apresentar conteúdos online de forma eficaz.
+
+    A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta. Isso permitiu a criação e gestão de conteúdos de maneira simplificada, ao mesmo tempo em que ofereceu ferramentas de design avançadas para aprimorar a estética e a interatividade do site, atendendo às expectativas do cliente e proporcionando uma experiência de usuário aprimorada.`,
+    url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
+    date: dateInterval("2020-08-01", "2020-10-01"),
+    images: [],
+  },
+  {
+    show: true,
+    name: "Orbitae",
+    summary: `Desenvolvemos apresentações de produtos especializados em perícia forense, integrando Wordpress e Elementor com elementos personalizados.
+    
+    Essa parceria estratégica com a Partners Comunicação Pro Business resultou em uma plataforma dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor, criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade aos detalhes técnicos. Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente, facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.`,
+    url: "https://web.archive.org/web/20210517192720/https://orbitae.com.br/",
+    date: dateInterval("2019-01-01", "2019-08-01"),
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/orbitae.jpg",
+        description: ``,
+      },
+    ],
+  },
+  {
+    show: true,
+    name: "Cocks Skate",
+    summary: `Desenvolvimento de e-commerce especializado em produtos para skatistas, utilizando Wordpress, Woocommerce e Elementor com elementos customizados.
+    
+    Somando uma experiência personalizada de compra com uma fácil navegação e busca dos produtos, a integração dessas ferramentas garante um site dinâmico, com funcionalidades de ponta e um design atraente para o público interessado nesse nicho, visando atender suas necessidades e interesses.`,
+    url: "https://web.archive.org/web/20211226170044/https://cocksskate.com.br/",
+    date: dateInterval("2018-01-01", "2018-01-01"),
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/cocks-skate.jpg",
+        description: ``,
+      },
+    ],
+  },
+  {
+    show: true,
+    name: "Habitat Group",
+    summary: `Desenvolvimento de um website para a clínica veterinária Habitat Group.
+    Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada. Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de consultas para atendimento de qualidade aos animais de estimação e seus tutores.`,
+    url: "https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/",
+    date: dateInterval("2019-01-01", "2019-01-01"),
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/habitat-group.jpg",
+        description: ``,
+      },
+    ],
+  },
+  {
+    show: true,
+    name: "Don Desenvolvimento",
+    summary: "Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue.",
+    url: "https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/",
+    date: dateInterval("2018-01-01", "2018-01-01"),
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/don-desenvolvimento.jpg",
+        description: ``,
+      },
+    ],
+  },
+  {
+    show: true,
+    name: "Blog Banco da Amazônia",
+    summary: `Notícias e utlidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.`,
+    url: "https://web.archive.org/web/20211229163534/https://basablog.com.br/",
+    date: dateInterval("2019-01-01", "2019-01-01"),
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/blog-banco-da-amazonia.jpg",
+        description: ``,
+      },
+    ],
+  },
+  {
+    show: true,
+    name: "Assinar ou comprar",
+    description:
+      "Calculadora desenvolvida em parceria com Unidas e Samy Dana, para verificar se é mais vantajoso comprar ou alugar um carro.",
+    url: "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
+    date: dateInterval("2021-01-01", "2021-01-01"),
+    images: [],
+  },
+  {
+    show: true,
+    name: "Faculdade Faveni",
+    summary: "Estilização e customização de componentes do tema utilizando plataforma Wordpress com multisite.",
+    url: "https://web.archive.org/web/20220131193706/https://faveni.edu.br/",
+    date: dateInterval("2020-01-01", "2020-01-01"),
+    images: [],
+  },
+  {
+    show: true,
+    name: "O Novo Mercado",
+    summary: "Desenvolvimento da plataforma interna de videos e hub de profissionais utilizando Vue.js + Vuetify",
+    url: "https://onovomercado.com/",
+    date: dateInterval("2022-02-01", "2022-07-01"),
+    images: [],
+  },
+  {
+    show: true,
+    name: "Search and Stay",
+    summary: `Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.`,
+    url: "",
+    date: dateInterval("2022-12-01", "2023-11-01"),
+    images: [],
+  },
+  {
+    show: true,
+    name: "Manduí",
+    summary: `A Escola Infantil Manduí oferece um ambiente acolhedor projetado para crianças de 4 meses a 6 anos, destacando-se por sua abordagem educacional abrangente. O site foi concebido para refletir essa filosofia, utilizando tecnologias avançadas, como Nuxt 3, Vue 3, Vuetify 3 e Firebase, garantindo uma experiência interativa e informativa para pais e responsáveis.
+    
+    Para o backend, foi criado uma interface onde, ao se clicar em um elemento, um painel lateral se abre com suas possibilidades de edição. Os dados são salvos no Firebase, sendo o sistema concebido de forma serverless.`,
+    url: "https://mandui.com.br",
+    date: dateInterval("2023-08-01", "2023-11-01"),
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui.jpg",
+        description: `Visão da página inicial em desktop`,
+      },
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui-2.jpg",
+        description: `Visão da página "Casa Amarela" em desktop`,
+      },
+      {
+        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui-3.jpg",
+        description: `Visão da página inicial em mobile`,
+      },
+    ],
+  },
 ]);
 
 // Format dates
