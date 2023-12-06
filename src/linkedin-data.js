@@ -1,4 +1,6 @@
 import dayjs from "dayjs";
+import fs from "fs";
+import axios from "axios";
 
 const dateData = (dataStr, formatStr = "MMM YYYY") => {
   const d = dayjs(dataStr);
@@ -12,13 +14,182 @@ const dateData = (dataStr, formatStr = "MMM YYYY") => {
 };
 
 const dateInterval = (startStr, finalStr) => {
-  const start = dateData(startStr);
-  const final = dateData(finalStr);
-  const years = start.date && final.date ? dayjs(finalStr).diff(startStr, "y") : 0;
-  const months = start.date && final.date ? dayjs(finalStr).diff(startStr, "M") % 12 : 0;
-  return { start, final, years, months };
+  let r = { start: false, final: false, years: 0, months: 0 };
+  r.start = startStr ? dateData(startStr) : false;
+  r.final = finalStr ? dateData(finalStr) : false;
+  r.years = dayjs(finalStr).diff(startStr, "y");
+  r.months = dayjs(finalStr).diff(startStr, "M") % 12;
+  return r;
 };
 
+const locationData = async (location) => {
+  if (typeof location == "object") {
+    location = Object.values(location).join(" ");
+  }
+
+  const url = `https://nominatim.openstreetmap.org/search.php?format=json&addressdetails=1&limit=10&q=${encodeURI(
+    location,
+  )}`;
+
+  let addr = {
+    formatted: "",
+    city: "",
+    state: "",
+    state_code: "",
+    country: "",
+    country_code: "",
+    lat: false,
+    lng: false,
+  };
+
+  let { data } = await axios.get(url);
+  console.log(url);
+  if (data[0]) {
+    data = data[0];
+    addr.city = data.address.city || data.address.municipality || data.address.city_district || "";
+    addr.state = data.address.state || "";
+    addr.state_code = (
+      data.address["ISO3166-2-lvl4"] ? data.address["ISO3166-2-lvl4"].split("-").at(1) : ""
+    ).toUpperCase();
+    addr.country = data.address.country || "";
+    addr.country_code = (data.address.country_code || "").toUpperCase();
+    addr.lat = data.lat || false;
+    addr.lng = data.lon || false;
+    addr.formatted = [addr.city, addr.state, addr.country].filter((v) => !!v).join(", ");
+  }
+
+  return addr;
+};
+
+const arrasyMixBy = (attr, arr1, arr2) => {
+  // Replace
+  arr1 = arr1.map((item1) => {
+    arr2.map((item2) => {
+      if (item2[attr] != item1[attr]) return;
+      item1 = { ...item1, ...item2 };
+    });
+    return item1;
+  });
+
+  // Not found
+  arr2.map((item2) => {
+    let found = false;
+
+    arr1.map((item1) => {
+      if (item1[attr] != item2[attr]) return;
+      found = true;
+    });
+
+    if (found) return;
+    arr1.push(item2);
+  });
+
+  return arr1;
+};
+
+const arrayDefault = (arr, def = {}) => {
+  return arr.map((item) => ({ ...def, ...item }));
+};
+
+let linkedinData = JSON.parse(fs.readFileSync("./src/linkedin-data.json", "utf8"));
+delete linkedinData.$schema;
+
+linkedinData.meta.updatedAt = dateData(dayjs().format());
+linkedinData.work = arrayDefault(linkedinData.work, { show: true });
+linkedinData.volunteer = arrayDefault(linkedinData.volunteer, { show: true });
+linkedinData.education = arrayDefault(linkedinData.education, { show: true });
+linkedinData.awards = arrayDefault(linkedinData.awards, { show: true });
+linkedinData.certificates = arrayDefault(linkedinData.certificates, { show: true });
+linkedinData.publications = arrayDefault(linkedinData.publications, { show: true });
+linkedinData.skills = arrayDefault(linkedinData.skills, { show: false });
+linkedinData.languages = arrayDefault(linkedinData.languages, { show: true });
+linkedinData.interests = arrayDefault(linkedinData.interests, { show: true });
+linkedinData.references = arrayDefault(linkedinData.references, { show: true });
+linkedinData.projects = arrayDefault(linkedinData.projects, { show: true });
+
+linkedinData.skills = arrasyMixBy("name", linkedinData.skills, [
+  { show: true, name: "API REST", rating: 95 },
+  { show: true, name: "Docker", rating: 70 },
+  { show: true, name: "Laravel", rating: 80 },
+  { show: true, name: "Nuxt.js", rating: 80 },
+  { show: true, name: "Vue.js", rating: 90 },
+  { show: true, name: "PHP", rating: 90 },
+  { show: true, name: "Vuetify", rating: 95 },
+  { show: true, name: "MySQL", rating: 80 },
+  { show: true, name: "Elementor", rating: 85 },
+  { show: true, name: "React.js", rating: 60 },
+  { show: true, name: "Node.js", rating: 75 },
+  { show: true, name: "JavaScript", rating: 80 },
+  { show: true, name: "WordPress", rating: 85 },
+]);
+
+// Format dates
+["work", "education", "projects"].map((attr) => {
+  linkedinData[attr] = linkedinData[attr].map((item) => {
+    item.date = dateInterval(item.startDate, item.endDate);
+    delete item.startDate;
+    delete item.endDate;
+    return item;
+  });
+});
+
+// Format addresses
+linkedinData.basics.location = await locationData(linkedinData.basics.location);
+await Promise.all(
+  ["work"].map(async (attr) => {
+    linkedinData[attr] = await Promise.all(
+      linkedinData[attr].map(async (item) => {
+        item.location = await locationData(item.location);
+        return item;
+      }),
+    );
+  }),
+);
+
+linkedinData.contacts = [
+  {
+    name: "Whatsapp",
+    url: "https://wa.me/message/NG7A2SW25XIEI1",
+    icon: "https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white",
+  },
+  {
+    name: "E-mail",
+    url: "mailto:jeferson.i.silva@gmail.com",
+    icon: "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white",
+  },
+  {
+    name: "Phone",
+    url: "tel:+5531995271426",
+    icon: "https://img.shields.io/badge/(31) 99527 1426-000000?style=for-the-badge&logoColor=white",
+  },
+];
+
+linkedinData.links = [
+  {
+    name: "Linkedin",
+    url: "https://www.linkedin.com/in/jeferson-siqueira/",
+    icon: "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white",
+  },
+  {
+    name: "Github",
+    url: "https://github.com/jeff-silva/jeff-silva",
+    icon: "https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github",
+  },
+  {
+    name: "Portfólio",
+    url: "https://jeff-silva.github.io",
+    icon: "https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me",
+  },
+  {
+    name: "Currículo",
+    url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/cv-jeferson-silva.pdf",
+    icon: "https://img.shields.io/badge/Curriculo-000000?style=for-the-badge&logo=About.me",
+  },
+];
+
+export default linkedinData;
+
+/*
 export default {
   meta: {
     updatedAt: dateData(dayjs().format()),
@@ -284,6 +455,24 @@ export default {
         lng: -43.940933,
       },
       dateInterval: dateInterval("", ""),
+    },
+    {
+      slug: "o-novo-mercado",
+      show: false,
+      companyName: "O Novo Mercado",
+      title: "Frontend Developer",
+      description: `Desenvolvimento da plataforma interna de videos e hub de profissionais utilizando Vue.js + Vuetify`,
+      location: {
+        fullName: "São Paulo/SP",
+        city: "São Paulo",
+        state: "São Paulo",
+        stateShort: "SP",
+        country: "Brasil",
+        countryShort: "BR",
+        lat: -23.533773,
+        lng: -46.62529,
+      },
+      dateInterval: dateInterval("2021-02-01", "2021-07-01"),
     },
     {
       slug: "o-novo-mercado",
@@ -730,3 +919,5 @@ export default {
     },
   ],
 };
+
+*/

@@ -10,26 +10,26 @@
 <a href="mailto:jeferson.i.silva@gmail.com" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="tel:+5531995271426" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/(31) 99527 1426-000000?style=for-the-badge&logoColor=white" target="_blank"></a>
 <br /><br />
-👨🏻‍💻 <small>Full-stack: Vue3, Nuxt3, Vuetify3, Node.js, Laravel, Docker, Git</small><br />
-🌎 <small>Belo Horizonte/MG</small><br />
+👨🏻‍💻 <small>Desenvolvedor Full-stack: Vue, Nuxt, Javascript, Typescript, Node.js, Laravel, PHP, Wordpress</small><br />
+🌎 <small>Brasil</small><br />
 🟢 <small>Aberto para trabalho</small><br />
 <br />
-Desenvolvedor full stack.<br />    No frontend, especializado em Vue.js + Nuxt.js + Vuetify.<br />    No backend, especializado em Laravel + MySQL.<br />    <br />    ~~~<br />    <br />    Olá, tudo bem? 👋<br />    Atuo na área de desenvolvimento web desde 2011.<br />    <br />    Já criei paineis administrativos dentro de vários contextos diferentes, de monolitos à microserviços. Também tenho conhecimento em Wordpress, na criação de plugins ou temas.<br />    <br />    <br />    🟦 Minha história<br />    <br />    Eu não sabia o que era programação, mas desde criança já sentia curiosidade. Lembro de ficar olhando hipnotizando para a tela de um fliperama de Mortal Kombat II, me questionando como era feito, até um dia ver um técnico dando manutenção na máquina e achar que era ele quem fazia o jogo. 😂<br />    <br />    Já adulto, os computadores se tornaram algo cotidiano, e eu tive acesso à minha primeira máquina. Foi com ela que me introduzi ao mundo da programação, inicialmente fazendo jogos em GML, linguagem da plataforma Game Maker, e posteriormente conhecendo PHP e Javascript.<br />    <br />    Quando me vi passando horas por dia programando, resolvi assumir a programação como profissão e fazer um curso de desenvolvimento web.<br />    <br />    <br />    🟦 Minhas habilidades principais<br />    <br />    Minha stack favorita hoje é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas: Laravel com MySQL no backend, Vue 3 no front com Nuxt 3 e Vuetify 3, tudo isso em um monorepo orquestrado por Docker Compose. A produtividade vai à mil!<br />    <br />    <br />    🟦 O que ando estudando?<br />    <br />    • As novidades com o Laravel nunca param, e é por isso que sempre volto a conferir e testar o que a comunidade mostra de novo.<br />    <br />    • Ferramentas para 3D e jogos no browser estão sempre no meu radar. Por isso, volta e meia estou fazendo testes com Three.js ou Babylon.js.<br />    <br />    • Arquitetura de software.<br />    <br />    • Buscando encaixar IA no meio dessa loucura. Quero aprender a treinar e gerar modelos.<br />    <br />    <br />    🟦 Minhas qualidades<br />    <br />    • Visão de Usuário: acho muito importante visualizar a aplicação como o usuário final, principalmente como os mais leigos.<br />    <br />    • Comunicação: gosto muito de ter uma visão ampla de todo o meu trabalho, então entendo a importância de quem gerencia um projeto ter também essa visão. Gosto de esatar sempre sinalizando minha posição.<br />    <br />    • Capacidade de Adaptação: imprescindível para participar de um projeto. Uma ferramenta nova ou uma atualização pode mudar tudo, e estar totalmente aberto para qualquer tipo de mudança é uma habilidade necessária.<br />    <br />    <br />    🟦 Objetivos de carreira<br />    <br />    • Assumir o comando de projetos incríveis com maestria.<br />    <br />    ~~~<br />    <br />    Entre em contato.<br />    Será um prazer te ajudar a desenvolver suas idéias!
+Olá, tudo bem? 👋<br /><br />Tenho criado sistemas em vários contextos diferentes desde 2011, de monolitos à microserviços. Também tenho conhecimento em Wordpress, na criação de plugins ou temas.<br /><br /><br />🟦 O que me inspirou<br /><br />Na infância, eu era bem curioso sobre tecnologia, apesar de ter pouco contato com computadores. Lembro de ficar olhando hipnotizando para a tela de um fliperama de Mortal Kombat II, me questionando como era feito, até um dia ver um técnico dando manutenção na máquina e achar que era ele quem fazia o jogo. 😂<br /><br />Já adulto, os computadores se tornaram cotidianos, e eu tive acesso à minha primeira máquina. Foi com ela que aprendi programação básica, inicialmente fazendo jogos em GML, linguagem da plataforma Game Maker, e posteriormente conhecendo PHP e Javascript.<br /><br />Quando me vi horas por dia programando por diversão, resolvi assumir como profissão e cursar desenvolvimento web.<br /><br /><br />🟦 Minhas habilidades principais<br /><br />Minha stack favorita hoje é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas, com implementação de baixo custo: Laravel com MySQL no backend, Vue 3 no front com Nuxt 3 e Vuetify 3, tudo isso em um monorepo orquestrado por Docker Compose.<br /><br /><br />🟦 O que ando estudando?<br /><br />• As novidades com o Laravel nunca param, e é por isso que sempre volto a conferir e testar o que a comunidade mostra de novo.<br /><br />• Ferramentas para 3D e jogos no browser estão sempre no meu radar. Por isso, volta e meia estou fazendo testes com Three.js ou Babylon.js.<br /><br />• Arquitetura de software.<br /><br />• NestJS<br /><br />• Buscando encaixar IA no meio dessa loucura. Quero aprender a treinar e gerar modelos.<br /><br /><br />🟦 Minhas qualidades<br /><br />• Visão de Usuário: acho muito importante visualizar a aplicação como o usuário final, principalmente como os mais leigos.<br /><br />• Comunicação: gosto muito de ter uma visão ampla de todo o meu trabalho, então entendo a importância de quem gerencia um projeto ter também essa visão.<br /><br />• Capacidade de Adaptação: imprescindível para participar de um projeto. Uma ferramenta nova ou uma atualização pode mudar tudo, e estar totalmente aberto para qualquer tipo de mudança é uma habilidade necessária.<br /><br />🟦 Tecnologias<br /><br />Bootstrap, Composer, CSS3, Docker, DynamoDB, Elementor, Firebase, Git, Google APIs, HTML5, Javascript, jQuery, Laravel, Leaflet, MongoDB, MySQL, Node.js, NPM, Nuxt.js, PHP, React, Rest API, Scrum, Serverless, Sqlite3, SOAP, Typescript, Vue.js, Vuetify, Websockets, Woocommerce, Wordpress, Yarn.<br /><br />~~~<br /><br />Portfólio: https://jeff-silva.github.io<br />Contato: jeferson.i.silva@gmail.com<br /><br />Será um prazer te ajudar a desenvolver suas idéias!
 <br /><br />
 <pre>
-Vue.js ··············· ⭐ ⭐ ⭐ ⭐ ⭐ 
-Laravel ·············· ⭐ ⭐ ⭐ ⭐ ⭐ 
-Docker ··············· ⭐ ⭐ ⭐ 
-Node.js ·············· ⭐ ⭐ ⭐ ⭐ 
-Vuetify ·············· ⭐ ⭐ ⭐ ⭐ ⭐ 
-Nuxt.js ·············· ⭐ ⭐ ⭐ ⭐ ⭐ 
-Elementor ············ ⭐ ⭐ ⭐ ⭐ ⭐ 
-WooCommerce ·········· ⭐ ⭐ ⭐ 
-JavaScript ··········· ⭐ ⭐ ⭐ ⭐ ⭐ 
-MySQL ················ ⭐ ⭐ ⭐ ⭐ 
-PHP ·················· ⭐ ⭐ ⭐ ⭐ ⭐ 
-WordPress ············ ⭐ ⭐ ⭐ ⭐ ⭐ 
-Git ·················· ⭐ ⭐ ⭐ 
+Vue.js ·············· ⭐ ⭐ ⭐ ⭐ ⭐ 
+Laravel ············· ⭐ ⭐ ⭐ ⭐ 
+Docker ·············· ⭐ ⭐ ⭐ ⭐ 
+Nuxt.js ············· ⭐ ⭐ ⭐ ⭐ 
+API REST ············ ⭐ ⭐ ⭐ ⭐ ⭐ 
+PHP ················· ⭐ ⭐ ⭐ ⭐ ⭐ 
+Vuetify ············· ⭐ ⭐ ⭐ ⭐ ⭐ 
+MySQL ··············· ⭐ ⭐ ⭐ ⭐ 
+Elementor ··········· ⭐ ⭐ ⭐ ⭐ ⭐ 
+React.js ············ ⭐ ⭐ ⭐ 
+Node.js ············· ⭐ ⭐ ⭐ ⭐ 
+WordPress ··········· ⭐ ⭐ ⭐ ⭐ ⭐ 
+JavaScript ·········· ⭐ ⭐ ⭐ ⭐ 
 </pre>
 <!--curriculum:final-->
 
