@@ -663,11 +663,11 @@ export default {
       dateInterval: dateInterval("", ""),
     },
     {
-      slug: "o-novo-mercado",
+      slug: "iterative",
       show: false,
-      companyName: "O Novo Mercado",
+      companyName: "Iterative",
       title: "Frontend Developer",
-      description: `Desenvolvimento da plataforma interna de videos e hub de profissionais utilizando Vue.js + Vuetify`,
+      description: `Desenvolvimento da plataforma O Novo Mercado, hub de cursos e profissionais, utilizando Vue.js + Vuetify`,
       location: {
         fullName: "São Paulo/SP",
         city: "São Paulo",
