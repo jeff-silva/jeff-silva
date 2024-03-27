@@ -542,8 +542,14 @@
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "Javascript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "show": true,
+      "name": "Typescript",
       "level": "",
       "keywords": []
     },
@@ -560,19 +566,13 @@
       "keywords": []
     },
     {
-      "show": false,
-      "name": "vuetify",
+      "show": true,
+      "name": "Vuetify",
       "level": "",
       "keywords": []
     },
     {
-      "show": false,
-      "name": "Programação (computação)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
+      "show": true,
       "name": "Linux",
       "level": "",
       "keywords": []
@@ -624,6 +624,18 @@
     {
       "show": false,
       "name": "CSS3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "show": true,
+      "name": "Postgres",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "show": true,
+      "name": "Keycloak",
       "level": "",
       "keywords": []
     }
