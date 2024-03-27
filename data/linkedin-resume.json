@@ -27,7 +27,7 @@
   },
   "work": [
     {
-      "show": true,
+      "show": false,
       "name": "Labscript.dev",
       "position": "Full-stack Developer",
       "highlights": [],
@@ -58,6 +58,7 @@
       "name": "Search and Stay",
       "position": "Full-stack Developer",
       "highlights": [],
+      "summary": "Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.",
       "url": "https://www.linkedin.com/company/search-and-stay/",
       "location": {
         "formatted": "Australia",
