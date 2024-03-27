@@ -483,13 +483,6 @@
       "rating": 90
     },
     {
-      "show": true,
-      "name": "Vuetify",
-      "level": "",
-      "keywords": [],
-      "rating": 95
-    },
-    {
       "show": false,
       "name": "HTML",
       "level": "",
