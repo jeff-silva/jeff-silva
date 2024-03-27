@@ -638,6 +638,12 @@
       "name": "Keycloak",
       "level": "",
       "keywords": []
+    },
+    {
+      "show": true,
+      "name": "Clean Architecture",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
