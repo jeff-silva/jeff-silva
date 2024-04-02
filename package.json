@@ -5,11 +5,15 @@
   "repository": "https://github.com/jeff-silva/jeff-silva.git",
   "author": "Jeferson Silva <jeferson.i.silva@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "node ./src2/index.js"
+  },
   "devDependencies": {
     "adm-zip": "^0.5.10",
     "axios": "^1.6.1",
     "dayjs": "^1.11.10",
     "lodash": "^4.17.21",
-    "papaparse": "^5.4.1"
+    "papaparse": "^5.4.1",
+    "puppeteer": "^22.6.2"
   }
 }

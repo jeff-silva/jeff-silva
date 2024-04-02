@@ -1,13 +1,57 @@
-{
-  "basics": {
-    "name": "Jeferson Siqueira",
-    "label": "Desenvolvedor Full-stack: Vue, Nuxt, Javascript, Typescript, Node.js, Laravel, PHP, Wordpress",
-    "image": "",
-    "email": "jeferson.i.silva@gmail.com",
-    "phone": "+55 31 99527-1426",
-    "summary": "Olá, tudo bem? 👋\n\nTenho criado sistemas em vários contextos diferentes desde 2011, de monolitos à microserviços. Também tenho conhecimento em Wordpress, na criação de plugins ou temas.\n\n\n🟦 O que me inspirou\n\nNa infância, eu era bem curioso sobre tecnologia, apesar de ter pouco contato com computadores. Lembro de ficar olhando hipnotizando para a tela de um fliperama de Mortal Kombat II, me questionando como era feito, até um dia ver um técnico dando manutenção na máquina e achar que era ele quem fazia o jogo. 😂\n\nJá adulto, os computadores se tornaram cotidianos, e eu tive acesso à minha primeira máquina. Foi com ela que aprendi programação básica, inicialmente fazendo jogos em GML, linguagem da plataforma Game Maker, e posteriormente conhecendo PHP e Javascript.\n\nQuando me vi horas por dia programando por diversão, resolvi assumir como profissão e cursar desenvolvimento web.\n\n\n🟦 Minhas habilidades principais\n\nMinha stack favorita hoje é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas, com implementação de baixo custo: Laravel com MySQL no backend, Vue 3 no front com Nuxt 3 e Vuetify 3, tudo isso em um monorepo orquestrado por Docker Compose.\n\n\n🟦 O que ando estudando?\n\n• As novidades com o Laravel nunca param, e é por isso que sempre volto a conferir e testar o que a comunidade mostra de novo.\n\n• Ferramentas para 3D e jogos no browser estão sempre no meu radar. Por isso, volta e meia estou fazendo testes com Three.js ou Babylon.js.\n\n• Arquitetura de software.\n\n• NestJS\n\n• Buscando encaixar IA no meio dessa loucura. Quero aprender a treinar e gerar modelos.\n\n\n🟦 Minhas qualidades\n\n• Visão de Usuário: acho muito importante visualizar a aplicação como o usuário final, principalmente como os mais leigos.\n\n• Comunicação: gosto muito de ter uma visão ampla de todo o meu trabalho, então entendo a importância de quem gerencia um projeto ter também essa visão.\n\n• Capacidade de Adaptação: imprescindível para participar de um projeto. Uma ferramenta nova ou uma atualização pode mudar tudo, e estar totalmente aberto para qualquer tipo de mudança é uma habilidade necessária.\n\n🟦 Tecnologias\n\nBootstrap, Composer, CSS3, Docker, DynamoDB, Elementor, Firebase, Git, Google APIs, HTML5, Javascript, jQuery, Laravel, Leaflet, MongoDB, MySQL, Node.js, NPM, Nuxt.js, PHP, React, Rest API, Scrum, Serverless, Sqlite3, SOAP, Typescript, Vue.js, Vuetify, Websockets, Woocommerce, Wordpress, Yarn.\n\n~~~\n\nPortfólio: https://jeff-silva.github.io\nContato: jeferson.i.silva@gmail.com\n\nSerá um prazer te ajudar a desenvolver suas idéias!",
-    "summarySmall": "Sou desenvolvedor desde 2011. Busco oportunidade como Fullstack pleno ou sênior.",
-    "location": {
+let data = {
+    basics: {
+    name: "Jeferson Siqueira",
+    label: "Desenvolvedor Full-stack: Vue, Nuxt, Javascript, Typescript, Node.js, Laravel, PHP, Wordpress",
+    image: "",
+    email: "jeferson.i.silva@gmail.com",
+    phone: "+55 31 99527-1426",
+    summarySmall: `Sou desenvolvedor desde 2011. Busco oportunidade como Fullstack pleno ou sênior.`,
+    summary: `<strong>Olá, tudo bem?</strong>
+    
+Tenho criado sistemas em vários contextos diferentes desde 2011, de monolitos à microserviços. Também tenho conhecimento em Wordpress, na criação de plugins ou temas.
+
+
+<strong>O que me inspirou</strong>
+
+Na infância, eu era bem curioso sobre tecnologia, apesar de ter pouco contato com computadores. Lembro de ficar olhando hipnotizando para a tela de um fliperama de Mortal Kombat II, me questionando como era feito, até um dia ver um técnico dando manutenção na máquina e achar que era ele quem fazia o jogo. 😂
+
+Já adulto, os computadores se tornaram cotidianos, e eu tive acesso à minha primeira máquina. Foi com ela que aprendi programação básica, inicialmente fazendo jogos em GML, linguagem da plataforma Game Maker, e posteriormente conhecendo PHP e Javascript.
+
+Quando me vi horas por dia programando por diversão, resolvi assumir como profissão e cursar desenvolvimento web.
+
+
+<strong>Minhas habilidades principais</strong>
+
+Minha stack favorita hoje é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas, com implementação de baixo custo: Laravel com MySQL no backend, Vue 3 no front com Nuxt 3 e Vuetify 3, tudo isso em um monorepo orquestrado por Docker Compose.
+
+
+<strong>O que ando estudando?</strong>
+
+• As novidades com o Laravel nunca param, e é por isso que sempre volto a conferir e testar o que a comunidade mostra de novo.
+
+• Ferramentas para 3D e jogos no browser estão sempre no meu radar. Por isso, volta e meia estou fazendo testes com Three.js ou Babylon.js.
+
+• Arquitetura de software.
+
+• NestJS
+
+• Buscando encaixar IA no meio dessa loucura. Quero aprender a treinar e gerar modelos.
+
+
+<strong>Minhas qualidades</strong>
+
+• Visão de Usuário: acho muito importante visualizar a aplicação como o usuário final, principalmente como os mais leigos.
+
+• Comunicação: gosto muito de ter uma visão ampla de todo o meu trabalho, então entendo a importância de quem gerencia um projeto ter também essa visão.
+
+• Capacidade de Adaptação: imprescindível para participar de um projeto. Uma ferramenta nova ou uma atualização pode mudar tudo, e estar totalmente aberto para qualquer tipo de mudança é uma habilidade necessária.
+
+<strong>• Tecnologias que conheço</strong>
+
+%skills%
+
+Será um prazer te ajudar a desenvolver suas idéias!`,
+    location: {
       "formatted": "Brasil",
       "city": "Belo Horizonte",
       "state": "Minas Gerais",
@@ -17,7 +61,7 @@
       "lat": "-10.3333333",
       "lng": "-53.2"
     },
-    "profiles": [
+    profiles: [
       {
         "network": "LinkedIn",
         "username": "jeferson-siqueira",
@@ -27,13 +71,13 @@
   },
   "work": [
     {
-      "show": false,
-      "name": "Labscript.dev",
-      "position": "Full-stack Developer",
-      "highlights": [],
-      "summary": "Prestação de serviços para clientes diretos e parcerias com agências. De maneira resumida, nesse tempo desenvolvi sites e ecommerces utilizando Wordpress, WooCommerce e Elementor. Já implementei soluções com backend com PHP puro, Laravel e Node.js. No front, já trabalhei com Nuxt, Vue, HTML+CSS puro. Com banco de dados, tive oportunidade de trabalhar com MySQL e Firebase.",
-      "url": "https://www.linkedin.com/company/labscript-dev/",
-      "location": {
+      show: false,
+      name: "Labscript.dev",
+      position: "Full-stack Developer",
+      highlights: [],
+      summary: "Prestação de serviços para clientes diretos e parcerias com agências. De maneira resumida, nesse tempo desenvolvi sites e ecommerces utilizando Wordpress, WooCommerce e Elementor. Já implementei soluções com backend com PHP puro, Laravel e Node.js. No front, já trabalhei com Nuxt, Vue, HTML+CSS puro. Com banco de dados, tive oportunidade de trabalhar com MySQL e Firebase.",
+      url: "https://www.linkedin.com/company/labscript-dev/",
+      location: {
         "formatted": "Belo Horizonte, Minas Gerais, Brasil",
         "city": "Belo Horizonte",
         "state": "Minas Gerais",
@@ -43,7 +87,7 @@
         "lat": "-19.9227318",
         "lng": "-43.9450948"
       },
-      "date": {
+      date: {
         "start": {
           "date": "2011-01-31T00:00:00-02:00",
           "formatted": "Jan 2011"
@@ -54,11 +98,11 @@
       }
     },
     {
-      "show": true,
-      "name": "Search and Stay",
-      "position": "Full-stack Developer",
-      "highlights": [],
-      "summary": "Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.",
+      show: true,
+      name: "Search and Stay",
+      position: "Full-stack Developer",
+      highlights: [],
+      summary: "Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.",
       "url": "https://www.linkedin.com/company/search-and-stay/",
       "location": {
         "formatted": "Australia",
@@ -84,11 +128,11 @@
       }
     },
     {
-      "show": true,
-      "name": "Listra",
-      "position": "Full-stack Developer",
-      "highlights": [],
-      "summary": "Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel \n ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.\n\nDentre os projetos desenvolvidos, estão a \"Unidas Seminovos\", uma plataforma de locação de veículos com filtro inteligente, e o \"Assinar ou comprar\", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.",
+      show: true,
+      name: "Listra",
+      position: "Full-stack Developer",
+      highlights: [],
+      summary: `Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel \n ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.\n\nDentre os projetos desenvolvidos, estão a \"Unidas Seminovos\", uma plataforma de locação de veículos com filtro inteligente, e o \"Assinar ou comprar\", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.`,
       "url": "https://www.linkedin.com/company/listradigital/",
       "location": {
         "formatted": "Belo Horizonte, Minas Gerais, Brasil",
@@ -114,11 +158,11 @@
       }
     },
     {
-      "show": true,
-      "name": "Codificar Sistemas Tecnológicos",
-      "position": "Full-stack Developer",
-      "highlights": [],
-      "summary": "Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js no frontend.",
+      show: true,
+      name: "Codificar Sistemas Tecnológicos",
+      position: "Full-stack Developer",
+      highlights: [],
+      summary: "Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js no frontend.",
       "url": "https://www.linkedin.com/company/codificar/",
       "location": {
         "formatted": "Belo Horizonte, Minas Gerais, Brasil",
@@ -144,11 +188,11 @@
       }
     },
     {
-      "show": true,
-      "name": "Agência de Criação",
-      "position": "Full-stack Developer",
-      "highlights": [],
-      "summary": "Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive oportunidade de trabalhar com Vue.js e Angular.js. Como banco de dados, foram utilizados principalmente MySQL e MariaDB. As soluções em backend envolviam PHP ou Node.js.",
+      show: true,
+      name: "Agência de Criação",
+      position: "Full-stack Developer",
+      highlights: [],
+      summary: "Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive oportunidade de trabalhar com Vue.js e Angular.js. Como banco de dados, foram utilizados principalmente MySQL e MariaDB. As soluções em backend envolviam PHP ou Node.js.",
       "url": "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
       "location": {
         "formatted": "Belo Horizonte, Minas Gerais, Brasil",
@@ -174,11 +218,11 @@
       }
     },
     {
-      "show": true,
-      "name": "Cushman & Wakefield",
-      "position": "Full-stack Developer",
-      "highlights": [],
-      "summary": "Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:\n\nFerramenta para filtrar fornecedores por estado, material/trabalho fornecido, orçamento anual, obras já prestadas, porte da empresa, entre outros dados;\n\nCalculadora de prazo de obras, onde o valor total de um projeto era estimado de acordo com a quantidade de empregados levando em consideração a proporção encarregados/funcionários, benefícios, vales, valor de locação de equipamentos, imóveis, automóveis, eletricidade e outras coisas, utilizando uma curva de Gauss para calcular a quantidade de contratados dentro de uma timeline;\n\nNesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastante Excel para fazer seus trabalhos, então ambos os sistemas tinha que conversar bem com Excel e fazer importações e exportações.",
+      show: true,
+      name: "Cushman & Wakefield",
+      position: "Full-stack Developer",
+      highlights: [],
+      summary: `Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:\n\nFerramenta para filtrar fornecedores por estado, material/trabalho fornecido, orçamento anual, obras já prestadas, porte da empresa, entre outros dados;\n\nCalculadora de prazo de obras, onde o valor total de um projeto era estimado de acordo com a quantidade de empregados levando em consideração a proporção encarregados/funcionários, benefícios, vales, valor de locação de equipamentos, imóveis, automóveis, eletricidade e outras coisas, utilizando uma curva de Gauss para calcular a quantidade de contratados dentro de uma timeline;\n\nNesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastante Excel para fazer seus trabalhos, então ambos os sistemas tinha que conversar bem com Excel e fazer importações e exportações.`,
       "url": "https://www.linkedin.com/company/cushman-&-wakefield/",
       "location": {
         "formatted": "Belo Horizonte, Minas Gerais, Brasil",
@@ -204,11 +248,11 @@
       }
     },
     {
-      "show": true,
-      "name": "Netranet Networking",
-      "position": "Full-stack Developer",
-      "highlights": [],
-      "summary": "Desenvolvimento de funções para o CMS próprio da agência.",
+      show: true,
+      name: "Netranet Networking",
+      position: "Full-stack Developer",
+      highlights: [],
+      summary: "Desenvolvimento de funções para o CMS próprio da agência.",
       "url": "https://www.linkedin.com/company/netranet-networking/",
       "location": {
         "formatted": "Belo Horizonte, Minas Gerais, Brasil",
@@ -234,11 +278,11 @@
       }
     },
     {
-      "show": true,
-      "name": "Web BH Escola de Informática",
-      "position": "Instrutor",
-      "highlights": [],
-      "summary": "Atuei como instrutor dos cursos de PHP, MySQL, CSS, Javascript, HTML5, Tableless e Action script.",
+      show: true,
+      name: "Web BH Escola de Informática",
+      position: "Instrutor",
+      highlights: [],
+      summary: "Atuei como instrutor dos cursos de PHP, MySQL, CSS, Javascript, HTML5, Tableless e Action script.",
       "location": {
         "formatted": "Belo Horizonte, Minas Gerais, Brasil",
         "city": "Belo Horizonte",
@@ -362,12 +406,6 @@
     },
     {
       "show": true,
-      "name": "Scrum",
-      "rating": null,
-      "keywords": []
-    },
-    {
-      "show": true,
       "name": "Bootstrap",
       "rating": null,
       "keywords": []
@@ -464,7 +502,7 @@
     },
     {
       "show": false,
-      "name": "yarn",
+      "name": "YARN",
       "rating": null,
       "keywords": []
     },
@@ -518,7 +556,7 @@
     },
     {
       "show": false,
-      "name": "npm",
+      "name": "NPM",
       "rating": null,
       "keywords": []
     },
@@ -562,6 +600,12 @@
       "show": true,
       "name": "DynamoDB",
       "rating": 20,
+      "keywords": []
+    },
+    {
+      "show": true,
+      "name": "SEO",
+      "rating": null,
       "keywords": []
     }
   ],
@@ -920,39 +964,56 @@
     {
       "name": "Whatsapp",
       "url": "https://wa.me/message/NG7A2SW25XIEI1",
-      "icon": "https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+      "icon": "https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white",
+      "value": "(31) 99527-1426"
     },
     {
       "name": "E-mail",
       "url": "mailto:jeferson.i.silva@gmail.com",
-      "icon": "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+      "icon": "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white",
+      "value": "jeferson.i.silva@gmail.com"
     },
     {
       "name": "Phone",
       "url": "tel:+5531995271426",
-      "icon": "https://img.shields.io/badge/(31) 99527 1426-000000?style=for-the-badge&logoColor=white"
+      "icon": "https://img.shields.io/badge/(31) 99527 1426-000000?style=for-the-badge&logoColor=white",
+      "value": "(31) 99527-1426"
     }
   ],
   "links": [
     {
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/jeferson-siqueira/",
-      "icon": "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+      "icon": "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white",
+      "value": null
     },
     {
       "name": "Github",
       "url": "https://github.com/jeff-silva/jeff-silva",
-      "icon": "https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github"
+      "icon": "https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github",
+      "value": null
     },
     {
       "name": "Portfólio",
       "url": "https://jeff-silva.github.io",
-      "icon": "https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me"
+      "icon": "https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me",
+      "value": null
     },
     {
       "name": "Currículo",
-      "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/cv-jeferson-silva.pdf",
-      "icon": "https://img.shields.io/badge/Curriculo-000000?style=for-the-badge&logo=About.me"
+      "url": "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf",
+      "icon": "https://img.shields.io/badge/Curriculo-000000?style=for-the-badge&logo=About.me",
+      "value": null
     }
   ]
-}
+};
+
+data.skills = data.skills.sort((a, b) => {
+  if(a.name < b.name) return -1;
+  if(a.name > b.name) return 1;
+  return 0;
+});
+
+data.basics.summary = data.basics.summary.replace('%skills%', data.skills.map(o => o.name).join(', '));
+
+export default data;

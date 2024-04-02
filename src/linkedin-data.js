@@ -43,7 +43,6 @@ const locationData = async (location) => {
   };
 
   let { data } = await axios.get(url);
-  console.log(url);
   if (data[0]) {
     data = data[0];
     addr.city = data.address.city || data.address.municipality || data.address.city_district || "";
