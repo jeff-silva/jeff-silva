@@ -30,7 +30,7 @@ export default async (data) => {
         if (index > 0) content.push(`<hr /><br />`);
         content.push(`<h3 style="margin:0;">${work.position} | ${work.name}</h3>`);
         content.push(`<div>${format.location(work.location)}</div>`);
-        content.push(`<div>${format.dateBetween(work.date)}</div>`);
+        // content.push(`<div>${format.dateBetween(work.date)}</div>`);
         content.push(`<br />`);
         content.push(`<div>${format.nl2br(work.summary)}</div>`);
         content.push(`<br />`);

@@ -32,7 +32,7 @@
 <td><a href="tel:+5531995271426">(31) 99527-1426</a></td>
 </tr>
 </tbody></table>
-<h2>Tecnologias que domino</h2>
+<h2>Tecnologias</h2>
 API REST, APIs, Arquitetura MVC, Bootstrap, CSS3, Clean Architecture, Design Patterns, Docker, Documentação, DynamoDB, Elementor, Firebase, Git, HTML5, JQuery, Javascript, Keycloak, Laravel, Linux, MySQL, NPM, NestJS, Node.js, Nuxt.js, Otimização de página, PHP, PWA, Postgres, React.js, Responsividade, SEO, SOAP, Scrum, Typescript, Unity, Vue.js, Vuetify, WooCommerce, WordPress e  YARN
 <br /><br />
 <!--curriculum:final-->

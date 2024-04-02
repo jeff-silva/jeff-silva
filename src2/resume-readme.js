@@ -17,7 +17,7 @@ export default async (data) => {
     });
     content.push(`</tbody></table>`);
 
-    content.push(`<h2>Tecnologias que domino</h2>`);
+    content.push(`<h2>Tecnologias</h2>`);
     content.push(data.skills.map(skill => skill.name).join(', ').replace(/,(?!.*,)/g, ' e '));
     content.push(`<br /><br />`);
 
