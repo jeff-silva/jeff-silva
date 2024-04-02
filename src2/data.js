@@ -8,17 +8,12 @@ let data = {
     summarySmall: `Sou desenvolvedor desde 2011. Busco oportunidade como Fullstack pleno ou sênior.`,
     summary: `<strong>Olá, tudo bem?</strong>
     
-Tenho criado sistemas em vários contextos diferentes desde 2011, de monolitos à microserviços. Também tenho conhecimento em Wordpress, na criação de plugins ou temas.
+Sou um desenvolvedor apaixonado com experiência na criação de sistemas em diversos contextos desde 2011, abrangendo desde monolitos até microserviços. Além disso, possuo habilidades sólidas em desenvolvimento para WordPress, incluindo a criação de plugins e temas.
 
 
 <strong>O que me inspirou</strong>
 
-Na infância, eu era bem curioso sobre tecnologia, apesar de ter pouco contato com computadores. Lembro de ficar olhando hipnotizando para a tela de um fliperama de Mortal Kombat II, me questionando como era feito, até um dia ver um técnico dando manutenção na máquina e achar que era ele quem fazia o jogo. 😂
-
-Já adulto, os computadores se tornaram cotidianos, e eu tive acesso à minha primeira máquina. Foi com ela que aprendi programação básica, inicialmente fazendo jogos em GML, linguagem da plataforma Game Maker, e posteriormente conhecendo PHP e Javascript.
-
-Quando me vi horas por dia programando por diversão, resolvi assumir como profissão e cursar desenvolvimento web.
-
+Desde criança, sempre fui fascinado pela tecnologia, mesmo tendo pouco contato com computadores. Lembro-me de passar horas hipnotizado diante de um fliperama de Mortal Kombat II, me questionando como o aquilo era feito. Minha curiosidade e paixão pelo desenvolvimento foram crescendo, e após ter acesso à minha primeira máquina, mergulhei de cabeça na programação, inicialmente criando jogos por diversão em GML (Game Maker Language) e, posteriormente, explorando PHP e Javascript. A paixão por programar rapidamente se transformou em uma carreira promissora no desenvolvimento web.
 
 <strong>Minhas habilidades principais</strong>
 
@@ -45,10 +40,6 @@ Minha stack favorita hoje é a que eu acredito ser a mais versátil para hospeda
 • Comunicação: gosto muito de ter uma visão ampla de todo o meu trabalho, então entendo a importância de quem gerencia um projeto ter também essa visão.
 
 • Capacidade de Adaptação: imprescindível para participar de um projeto. Uma ferramenta nova ou uma atualização pode mudar tudo, e estar totalmente aberto para qualquer tipo de mudança é uma habilidade necessária.
-
-<strong>• Tecnologias que conheço</strong>
-
-%skills%
 
 Será um prazer te ajudar a desenvolver suas idéias!`,
     location: {
@@ -454,7 +445,7 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
     },
     {
       "show": true,
-      "name": "Aplicativos web",
+      "name": "PWA",
       "rating": null,
       "keywords": []
     },
@@ -605,6 +596,12 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
     {
       "show": true,
       "name": "SEO",
+      "rating": null,
+      "keywords": []
+    },
+    {
+      "show": true,
+      "name": "Design Patterns",
       "rating": null,
       "keywords": []
     }
@@ -1013,7 +1010,5 @@ data.skills = data.skills.sort((a, b) => {
   if(a.name > b.name) return 1;
   return 0;
 });
-
-data.basics.summary = data.basics.summary.replace('%skills%', data.skills.map(o => o.name).join(', '));
 
 export default data;

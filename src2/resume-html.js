@@ -35,7 +35,7 @@ export default async (data) => {
     
     content.push(format.nl2br(data.basics.summary));
     
-    content.push(`<br /><br />`);
+    content.push(`<br /><br /><br />`);
     content.push(`<h2>Experiência</h2>`);
     data.work.filter(o => o.show).map((work, index) => {
         if (index > 0) content.push(`<hr /><br />`);
@@ -46,6 +46,11 @@ export default async (data) => {
         content.push(`<div>${format.nl2br(work.summary)}</div>`);
         content.push(`<br />`);
     });
+
+    content.push(`<br /><br />`);
+    content.push(`<h2>Tecnologias que domino</h2>`);
+    content.push(data.skills.map(skill => skill.name).join(', ').replace(/,(?!.*,)/g, ' e '));
+    content.push(`<br /><br /><br />`);
 
     content.push(`</div>`);
     content.push(`</body></html>`);
