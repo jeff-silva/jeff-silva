@@ -315,335 +315,277 @@
   "awards": [],
   "certificates": [],
   "publications": [],
+  "skillsTags": [
+    {
+      "id": "main-stack",
+      "name": "Stack Principal"
+    },
+    {
+      "id": "database",
+      "name": "Banco de Dados"
+    },
+    {
+      "id": "game-dev",
+      "name": "Desenvolvimento de Jogos"
+    }
+  ],
   "skills": [
     {
       "show": true,
       "name": "Vue.js",
-      "level": "",
-      "keywords": [],
-      "rating": 90
+      "rating": 90,
+      "keywords": ["main-stack"]
     },
     {
       "show": true,
       "name": "Laravel",
-      "level": "",
-      "keywords": [],
-      "rating": 80
+      "rating": 80,
+      "keywords": ["main-stack"]
     },
     {
       "show": true,
       "name": "Docker",
-      "level": "",
-      "keywords": [],
-      "rating": 70
+      "rating": 70,
+      "keywords": ["main-stack"]
     },
     {
       "show": true,
       "name": "Nuxt.js",
-      "level": "",
-      "keywords": [],
-      "rating": 80
-    },
-    {
-      "show": false,
-      "name": "Metodologias ágeis no desenvolvimento de aplicações",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "Recursos internos",
-      "level": "",
-      "keywords": []
+      "rating": 80,
+      "keywords": ["main-stack"]
     },
     {
       "show": true,
       "name": "API REST",
-      "level": "",
-      "keywords": [],
-      "rating": 95
+      "rating": 95,
+      "keywords": []
+    },
+    {
+      "show": true,
+      "name": "Scrum",
+      "rating": null,
+      "keywords": []
     },
     {
       "show": false,
       "name": "Bootstrap",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "APIs",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "Otimização de página",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "Banco de dados",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "Arquitetura MVC",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "Documentação",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "Comunicação",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "SOAP",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "HTML5",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "Tecnologias da web",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "Manipulação de dados",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "Trabalho em equipe",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "Aplicativos web",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "Unity",
-      "level": "",
-      "keywords": []
+      "rating": null,
+      "keywords": ["ame-dev"]
     },
     {
-      "show": false,
-      "name": "Design de interface do usuário",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
+      "show": true,
       "name": "Firebase",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "Lado do servidor",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "Ambientes de teste",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": true,
       "name": "PHP",
-      "level": "",
-      "keywords": [],
-      "rating": 90
-    },
-    {
-      "show": false,
-      "name": "HTML",
-      "level": "",
+      "rating": 90,
       "keywords": []
     },
     {
       "show": false,
-      "name": "Inglês",
-      "level": "",
+      "name": "HTML",
+      "rating": 100,
       "keywords": []
     },
     {
       "show": true,
       "name": "MySQL",
-      "level": "",
-      "keywords": [],
-      "rating": 80
+      "rating": 80,
+      "keywords": ["database"]
     },
     {
       "show": true,
       "name": "Elementor",
-      "level": "",
-      "keywords": [],
-      "rating": 85
+      "rating": 85,
+      "keywords": []
     },
     {
       "show": true,
       "name": "React.js",
-      "level": "",
-      "keywords": [],
-      "rating": 60
+      "rating": 60,
+      "keywords": []
     },
     {
       "show": true,
       "name": "Node.js",
-      "level": "",
-      "keywords": [],
-      "rating": 75
+      "rating": 75,
+      "keywords": []
     },
     {
       "show": false,
       "name": "Metodologias ágeis no desenvolvimento web",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "yarn",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": true,
       "name": "Javascript",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": true,
       "name": "Typescript",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "WooCommerce",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "Responsividade",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": true,
       "name": "Vuetify",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": true,
       "name": "Linux",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "JQuery",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": true,
       "name": "WordPress",
-      "level": "",
-      "keywords": [],
-      "rating": 85
+      "rating": 85,
+      "keywords": []
     },
     {
       "show": false,
       "name": "npm",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": true,
       "name": "JavaScript",
-      "level": "",
-      "keywords": [],
-      "rating": 80
+      "rating": 80,
+      "keywords": []
     },
     {
       "show": false,
       "name": "Scrum",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "Styled-components",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "Indexação",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": false,
       "name": "CSS3",
-      "level": "",
+      "rating": null,
       "keywords": []
     },
     {
       "show": true,
       "name": "Postgres",
-      "level": "",
+      "rating": 40,
       "keywords": []
     },
     {
       "show": true,
       "name": "Keycloak",
-      "level": "",
+      "rating": 40,
       "keywords": []
     },
     {
       "show": true,
       "name": "Clean Architecture",
-      "level": "",
+      "rating": 20,
       "keywords": []
     },
     {
       "show": true,
       "name": "NestJS",
-      "level": "",
+      "rating": 20,
       "keywords": []
     }
   ],
