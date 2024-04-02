@@ -411,7 +411,7 @@
     {
       "show": true,
       "name": "Git",
-      "rating": null,
+      "rating": 50,
       "keywords": ["main-stack"]
     },
     {
@@ -471,13 +471,13 @@
     {
       "show": true,
       "name": "Javascript",
-      "rating": null,
+      "rating": 80,
       "keywords": ["main-stack"]
     },
     {
       "show": true,
       "name": "Typescript",
-      "rating": null,
+      "rating": 40,
       "keywords": ["main-stack"]
     },
     {
@@ -495,13 +495,13 @@
     {
       "show": true,
       "name": "Vuetify",
-      "rating": null,
+      "rating": 90,
       "keywords": ["main-stack"]
     },
     {
       "show": true,
       "name": "Linux",
-      "rating": null,
+      "rating": 50,
       "keywords": ["main-stack"]
     },
     {
@@ -521,12 +521,6 @@
       "name": "npm",
       "rating": null,
       "keywords": []
-    },
-    {
-      "show": true,
-      "name": "JavaScript",
-      "rating": 80,
-      "keywords": ["main-stack"]
     },
     {
       "show": true,
