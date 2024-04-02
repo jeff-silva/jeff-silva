@@ -367,61 +367,61 @@
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "Bootstrap",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "APIs",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "Otimização de página",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "Arquitetura MVC",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "Documentação",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "SOAP",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "HTML5",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "Git",
       "rating": null,
-      "keywords": []
+      "keywords": ["main-stack"]
     },
     {
-      "show": false,
+      "show": true,
       "name": "Aplicativos web",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "Unity",
       "rating": null,
       "keywords": ["ame-dev"]
@@ -436,19 +436,13 @@
       "show": true,
       "name": "PHP",
       "rating": 90,
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "HTML",
-      "rating": 100,
-      "keywords": []
+      "keywords": ["main-stack"]
     },
     {
       "show": true,
       "name": "MySQL",
       "rating": 80,
-      "keywords": ["database"]
+      "keywords": ["main-stack", "database"]
     },
     {
       "show": true,
@@ -470,12 +464,6 @@
     },
     {
       "show": false,
-      "name": "Metodologias ágeis no desenvolvimento web",
-      "rating": null,
-      "keywords": []
-    },
-    {
-      "show": false,
       "name": "yarn",
       "rating": null,
       "keywords": []
@@ -484,22 +472,22 @@
       "show": true,
       "name": "Javascript",
       "rating": null,
-      "keywords": []
+      "keywords": ["main-stack"]
     },
     {
       "show": true,
       "name": "Typescript",
       "rating": null,
-      "keywords": []
+      "keywords": ["main-stack"]
     },
     {
-      "show": false,
+      "show": true,
       "name": "WooCommerce",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
+      "show": true,
       "name": "Responsividade",
       "rating": null,
       "keywords": []
@@ -508,13 +496,13 @@
       "show": true,
       "name": "Vuetify",
       "rating": null,
-      "keywords": []
+      "keywords": ["main-stack"]
     },
     {
       "show": true,
       "name": "Linux",
       "rating": null,
-      "keywords": []
+      "keywords": ["main-stack"]
     },
     {
       "show": false,
@@ -538,28 +526,16 @@
       "show": true,
       "name": "JavaScript",
       "rating": 80,
-      "keywords": []
+      "keywords": ["main-stack"]
     },
     {
-      "show": false,
+      "show": true,
       "name": "Scrum",
       "rating": null,
       "keywords": []
     },
     {
-      "show": false,
-      "name": "Styled-components",
-      "rating": null,
-      "keywords": []
-    },
-    {
-      "show": false,
-      "name": "Indexação",
-      "rating": null,
-      "keywords": []
-    },
-    {
-      "show": false,
+      "show": true,
       "name": "CSS3",
       "rating": null,
       "keywords": []
@@ -568,7 +544,7 @@
       "show": true,
       "name": "Postgres",
       "rating": 40,
-      "keywords": []
+      "keywords": ["main-stack"]
     },
     {
       "show": true,
