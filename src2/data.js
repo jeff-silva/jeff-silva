@@ -123,7 +123,10 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
       name: "Listra",
       position: "Full-stack Developer",
       highlights: [],
-      summary: `Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel \n ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.\n\nDentre os projetos desenvolvidos, estão a \"Unidas Seminovos\", uma plataforma de locação de veículos com filtro inteligente, e o \"Assinar ou comprar\", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.`,
+      summary: `Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel
+ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.
+
+Dentre os projetos desenvolvidos, estão a "Unidas Seminovos", uma plataforma de locação de veículos com filtro inteligente, e o "Assinar ou comprar", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.`,
       "url": "https://www.linkedin.com/company/listradigital/",
       "location": {
         "formatted": "Belo Horizonte, Minas Gerais, Brasil",
@@ -213,7 +216,13 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
       name: "Cushman & Wakefield",
       position: "Full-stack Developer",
       highlights: [],
-      summary: `Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:\n\nFerramenta para filtrar fornecedores por estado, material/trabalho fornecido, orçamento anual, obras já prestadas, porte da empresa, entre outros dados;\n\nCalculadora de prazo de obras, onde o valor total de um projeto era estimado de acordo com a quantidade de empregados levando em consideração a proporção encarregados/funcionários, benefícios, vales, valor de locação de equipamentos, imóveis, automóveis, eletricidade e outras coisas, utilizando uma curva de Gauss para calcular a quantidade de contratados dentro de uma timeline;\n\nNesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastante Excel para fazer seus trabalhos, então ambos os sistemas tinha que conversar bem com Excel e fazer importações e exportações.`,
+      summary: `Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:
+
+Ferramenta para filtrar fornecedores por estado, material/trabalho fornecido, orçamento anual, obras já prestadas, porte da empresa, entre outros dados;
+
+Calculadora de prazo de obras, onde o valor total de um projeto era estimado de acordo com a quantidade de empregados levando em consideração a proporção encarregados/funcionários, benefícios, vales, valor de locação de equipamentos, imóveis, automóveis, eletricidade e outras coisas, utilizando uma curva de Gauss para calcular a quantidade de contratados dentro de uma timeline;
+
+Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastante Excel para fazer seus trabalhos, então ambos os sistemas tinha que conversar bem com Excel e fazer importações e exportações.`,
       "url": "https://www.linkedin.com/company/cushman-&-wakefield/",
       "location": {
         "formatted": "Belo Horizonte, Minas Gerais, Brasil",
@@ -631,7 +640,7 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
       "images": [],
       "name": "Search and Stay",
       "summary": "Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.",
-      "url": "",
+      "url": "https://searchandstay.com",
       "date": {
         "start": {
           "date": "2022-12-31T00:00:00-03:00",
@@ -670,7 +679,6 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
       "name": "Assinar ou comprar",
       "summary": "Calculadora desenvolvida em parceria com Unidas e Samy Dana, para verificar se é mais vantajoso comprar ou alugar um carro.",
       "url": "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
-      "description": "Calculadora desenvolvida em parceria com Unidas e Samy Dana, para verificar se é mais vantajoso comprar ou alugar um carro.",
       "date": {
         "start": {
           "date": "2021-12-31T00:00:00-03:00",
@@ -688,7 +696,9 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
       "show": true,
       "images": [],
       "name": "Samarco",
-      "summary": "Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel, desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema dinâmico e versátil para administrar e apresentar conteúdos online de forma eficaz.\n\n    A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta. Isso permitiu a criação e gestão de conteúdos de maneira simplificada, ao mesmo tempo em que ofereceu ferramentas de design avançadas para aprimorar a estética e a interatividade do site, atendendo às expectativas do cliente e proporcionando uma experiência de usuário aprimorada.",
+      "summary": `Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel, desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema dinâmico e versátil para administrar e apresentar conteúdos online de forma eficaz.
+
+A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta. Isso permitiu a criação e gestão de conteúdos de maneira simplificada, ao mesmo tempo em que ofereceu ferramentas de design avançadas para aprimorar a estética e a interatividade do site, atendendo às expectativas do cliente e proporcionando uma experiência de usuário aprimorada.`,
       "url": "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
       "date": {
         "start": {
@@ -731,7 +741,9 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
         }
       ],
       "name": "Orbitae",
-      "summary": "Desenvolvemos apresentações de produtos especializados em perícia forense, integrando Wordpress e Elementor com elementos personalizados.\n    \n    Essa parceria estratégica com a Partners Comunicação Pro Business resultou em uma plataforma dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor, criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade aos detalhes técnicos. Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente, facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.",
+      "summary": `Desenvolvemos apresentações de produtos especializados em perícia forense, integrando Wordpress e Elementor com elementos personalizados.
+      
+Essa parceria estratégica com a Partners Comunicação Pro Business resultou em uma plataforma dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor, criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade aos detalhes técnicos. Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente, facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.`,
       "url": "https://web.archive.org/web/20210517192720/https://orbitae.com.br/",
       "date": {
         "start": {
