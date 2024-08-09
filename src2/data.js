@@ -33,6 +33,7 @@ Minha stack favorita hoje é a que eu acredito ser a mais versátil para hospeda
 • Capacidade de Adaptação: imprescindível para participar de um projeto. Uma ferramenta nova ou uma atualização pode mudar tudo, e estar totalmente aberto para qualquer tipo de mudança é uma habilidade necessária.
 
 Será um prazer te ajudar a desenvolver suas idéias!`,
+    photo: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/profile/image.jpg",
     location: {
       formatted: "Brasil",
       city: "Belo Horizonte",
