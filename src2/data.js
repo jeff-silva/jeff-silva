@@ -1,38 +1,18 @@
+import format from "./format.js";
+
 let data = {
   basics: {
     name: "Jeferson Siqueira",
-    label: "Desenvolvedor Full-stack: Vue, Nuxt, Javascript, Typescript, Node.js, Laravel, PHP, Wordpress",
+    label: "Dev Fullstack | Laravel, Vue.js, React.js, Docker, Node.js, MySQL, APIs",
     image: "",
     email: "jeferson.i.silva@gmail.com",
     phone: "+55 31 99527-1426",
     summarySmall: `Sou desenvolvedor desde 2011. Busco oportunidade como Fullstack pleno ou sênior.`,
     summary: `<strong>Olá, tudo bem?</strong>
-    
-Sou um desenvolvedor apaixonado com experiência na criação de sistemas em diversos contextos desde 2011, abrangendo desde monolitos até microserviços. Além disso, possuo habilidades sólidas em desenvolvimento para WordPress, incluindo a criação de plugins e temas.
 
-<strong>Minhas habilidades principais</strong>
+    Sou um desenvolvedor Full-stack apaixonado por tecnologia, com mais de 10 anos de experiência na criação de sistemas robustos, desde monolitos até microserviços. Forte expertise no desenvolvimento de soluções em Laravel, Vue.js, Nuxt.js e WordPress, incluindo a criação de plugins e temas personalizados. Focado em entregar soluções escaláveis e eficientes, com experiência em ambientes de hospedagem compartilhada e dedicada.
 
-Minha stack favorita hoje é a que eu acredito ser a mais versátil para hospedagens compartilhadas ou dedicadas, com implementação de baixo custo: Laravel com MySQL no backend, Vue 3 no front com Nuxt 3 e Vuetify 3, tudo isso em um monorepo orquestrado por Docker Compose.
-
-
-<strong>O que ando estudando?</strong>
-
-• Arquitetura de projeto
-
-• As novidades com o Laravel nunca param, e é por isso que sempre volto a conferir e testar o que a comunidade mostra de novo.
-
-• Ferramentas para 3D e jogos no browser estão sempre no meu radar. Por isso, volta e meia estou fazendo testes com Three.js ou Babylon.js.
-
-
-<strong>Minhas qualidades</strong>
-
-• Visão de Usuário: acho muito importante visualizar a aplicação como o usuário final, principalmente como os mais leigos.
-
-• Comunicação: gosto muito de ter uma visão ampla de todo o meu trabalho, então entendo a importância de quem gerencia um projeto ter também essa visão.
-
-• Capacidade de Adaptação: imprescindível para participar de um projeto. Uma ferramenta nova ou uma atualização pode mudar tudo, e estar totalmente aberto para qualquer tipo de mudança é uma habilidade necessária.
-
-Será um prazer te ajudar a desenvolver suas idéias!`,
+    Será um prazer fazer parte da sua equipe!`,
     photo: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/profile/image.jpg",
     location: {
       formatted: "Brasil",
@@ -71,15 +51,7 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: {
-        start: {
-          date: "2011-01-31T00:00:00-02:00",
-          formatted: "Jan 2011",
-        },
-        final: false,
-        years: 12,
-        months: 10,
-      },
+      date: format.strDateBetween("2011-01-01", "now"),
     },
     {
       show: false,
@@ -98,15 +70,7 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
         lat: -19.9870559,
         lng: -43.9458889,
       },
-      date: {
-        start: {
-          date: "2011-01-31T00:00:00-02:00",
-          formatted: "Jan 2011",
-        },
-        final: false,
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2024-01-29", "2024-06-07"),
     },
     {
       show: true,
@@ -126,18 +90,7 @@ Será um prazer te ajudar a desenvolver suas idéias!`,
         lat: -24.7761086,
         lng: 134.755,
       },
-      date: {
-        start: {
-          date: "2022-12-31T00:00:00-03:00",
-          formatted: "Dec 2022",
-        },
-        final: {
-          date: "2023-11-30T00:00:00-03:00",
-          formatted: "Nov 2023",
-        },
-        years: 0,
-        months: 11,
-      },
+      date: format.strDateBetween("2022-12-31", "2023-11-30"),
     },
     {
       show: true,
@@ -159,18 +112,7 @@ Dentre os projetos desenvolvidos, estão a "Unidas Seminovos", uma plataforma de
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: {
-        start: {
-          date: "2020-10-31T00:00:00-03:00",
-          formatted: "Oct 2020",
-        },
-        final: {
-          date: "2022-04-30T00:00:00-03:00",
-          formatted: "Apr 2022",
-        },
-        years: 1,
-        months: 6,
-      },
+      date: format.strDateBetween("2020-10-31", "2022-04-30"),
     },
     {
       show: true,
@@ -190,18 +132,7 @@ Dentre os projetos desenvolvidos, estão a "Unidas Seminovos", uma plataforma de
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: {
-        start: {
-          date: "2017-02-28T00:00:00-03:00",
-          formatted: "Feb 2017",
-        },
-        final: {
-          date: "2017-10-31T00:00:00-02:00",
-          formatted: "Oct 2017",
-        },
-        years: 0,
-        months: 8,
-      },
+      date: format.strDateBetween("2017-02-28", "2017-10-31"),
     },
     {
       show: true,
@@ -221,18 +152,7 @@ Dentre os projetos desenvolvidos, estão a "Unidas Seminovos", uma plataforma de
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: {
-        start: {
-          date: "2015-01-31T00:00:00-02:00",
-          formatted: "Jan 2015",
-        },
-        final: {
-          date: "2017-01-31T00:00:00-02:00",
-          formatted: "Jan 2017",
-        },
-        years: 2,
-        months: 0,
-      },
+      date: format.strDateBetween("2015-01-31", "2017-01-31"),
     },
     {
       show: true,
@@ -257,18 +177,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: {
-        start: {
-          date: "2012-02-28T00:00:00-03:00",
-          formatted: "Feb 2012",
-        },
-        final: {
-          date: "2013-01-31T00:00:00-02:00",
-          formatted: "Jan 2013",
-        },
-        years: 0,
-        months: 11,
-      },
+      date: format.strDateBetween("2012-02-28", "2013-01-31"),
     },
     {
       show: true,
@@ -287,18 +196,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: {
-        start: {
-          date: "2011-01-31T00:00:00-02:00",
-          formatted: "Jan 2011",
-        },
-        final: {
-          date: "2012-01-31T00:00:00-02:00",
-          formatted: "Jan 2012",
-        },
-        years: 1,
-        months: 0,
-      },
+      date: format.strDateBetween("2011-01-31", "2012-01-31"),
     },
     {
       show: true,
@@ -316,18 +214,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: {
-        start: {
-          date: "2010-01-31T00:00:00-02:00",
-          formatted: "Jan 2010",
-        },
-        final: {
-          date: "2011-01-31T00:00:00-02:00",
-          formatted: "Jan 2011",
-        },
-        years: 1,
-        months: 0,
-      },
+      date: format.strDateBetween("2010-01-31", "2011-01-31"),
     },
   ],
   volunteer: [],
@@ -339,18 +226,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
       studyType: "Cinema e Audiovisual",
       score: "",
       courses: [],
-      date: {
-        start: {
-          date: "2014-12-31T00:00:00-02:00",
-          formatted: "Dec 2014",
-        },
-        final: {
-          date: "2017-12-31T00:00:00-02:00",
-          formatted: "Dec 2017",
-        },
-        years: 3,
-        months: 0,
-      },
+      date: format.strDateBetween("2014-12-31", "2017-12-31"),
     },
     {
       show: true,
@@ -359,18 +235,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
       studyType: "Ensino Técnico",
       score: "",
       courses: [" - Programação PHP", " - Mysql", " - Html5", " - Javascript", "null - CSS"],
-      date: {
-        start: {
-          date: "2009-03-31T00:00:00-03:00",
-          formatted: "Mar 2009",
-        },
-        final: {
-          date: "2010-09-30T00:00:00-03:00",
-          formatted: "Sep 2010",
-        },
-        years: 1,
-        months: 6,
-      },
+      date: format.strDateBetween("2009-03-31", "2010-09-30"),
     },
   ],
   awards: [],
@@ -424,12 +289,6 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
     {
       show: true,
       name: "Bootstrap",
-      rating: null,
-      keywords: [],
-    },
-    {
-      show: true,
-      name: "APIs",
       rating: null,
       keywords: [],
     },
@@ -631,6 +490,30 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
       rating: null,
       keywords: [],
     },
+    {
+      show: false,
+      name: "Express.js",
+      rating: null,
+      keywords: [],
+    },
+    {
+      show: false,
+      name: "Three.js",
+      rating: null,
+      keywords: [],
+    },
+    {
+      show: false,
+      name: "Pagseguro",
+      rating: null,
+      keywords: [],
+    },
+    {
+      show: false,
+      name: "Stripe",
+      rating: null,
+      keywords: [],
+    },
   ],
   languages: [
     {
@@ -655,22 +538,19 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
     {
       show: true,
       images: [],
+      name: "Corapost",
+      summary: ``,
+      url: "https://corapost.com/",
+      date: format.strDateBetween("2024-07-01", "2024-04-30"),
+    },
+    {
+      show: true,
+      images: [],
       name: "Search and Stay",
       summary:
         "Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.",
       url: "https://searchandstay.com",
-      date: {
-        start: {
-          date: "2022-12-31T00:00:00-03:00",
-          formatted: "Dec 2022",
-        },
-        final: {
-          date: "2023-11-30T00:00:00-03:00",
-          formatted: "Nov 2023",
-        },
-        years: 0,
-        months: 11,
-      },
+      date: format.strDateBetween("2022-12", "2023-11"),
     },
     {
       show: true,
@@ -678,18 +558,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
       name: "O Novo Mercado",
       summary: "Desenvolvimento da plataforma interna de videos e hub de profissionais utilizando Vue.js + Vuetify",
       url: "https://onovomercado.com/",
-      date: {
-        start: {
-          date: "2022-02-28T00:00:00-03:00",
-          formatted: "Feb 2022",
-        },
-        final: {
-          date: "2022-07-31T00:00:00-03:00",
-          formatted: "Jul 2022",
-        },
-        years: 0,
-        months: 5,
-      },
+      date: format.strDateBetween("2022-02-28", "2022-07-31"),
     },
     {
       show: true,
@@ -698,18 +567,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
       summary:
         "Calculadora desenvolvida em parceria com Unidas e Samy Dana, para verificar se é mais vantajoso comprar ou alugar um carro.",
       url: "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
-      date: {
-        start: {
-          date: "2021-12-31T00:00:00-03:00",
-          formatted: "Dec 2021",
-        },
-        final: {
-          date: "2021-12-31T00:00:00-03:00",
-          formatted: "Dec 2021",
-        },
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2021-12-31", "2021-12-31"),
     },
     {
       show: true,
@@ -719,18 +577,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
 
 A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta. Isso permitiu a criação e gestão de conteúdos de maneira simplificada, ao mesmo tempo em que ofereceu ferramentas de design avançadas para aprimorar a estética e a interatividade do site, atendendo às expectativas do cliente e proporcionando uma experiência de usuário aprimorada.`,
       url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
-      date: {
-        start: {
-          date: "2020-08-31T00:00:00-03:00",
-          formatted: "Aug 2020",
-        },
-        final: {
-          date: "2020-10-31T00:00:00-03:00",
-          formatted: "Oct 2020",
-        },
-        years: 0,
-        months: 2,
-      },
+      date: format.strDateBetween("2020-08-31", "2020-10-31"),
     },
     {
       show: true,
@@ -738,18 +585,7 @@ A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, 
       name: "Faculdade Faveni",
       summary: "Estilização e customização de componentes do tema utilizando plataforma Wordpress com multisite.",
       url: "https://web.archive.org/web/20220131193706/https://faveni.edu.br/",
-      date: {
-        start: {
-          date: "2020-12-31T00:00:00-03:00",
-          formatted: "Dec 2020",
-        },
-        final: {
-          date: "2020-12-31T00:00:00-03:00",
-          formatted: "Dec 2020",
-        },
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2020-12-31", "2020-12-31"),
     },
     {
       show: true,
@@ -764,18 +600,7 @@ A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, 
       
 Essa parceria estratégica com a Partners Comunicação Pro Business resultou em uma plataforma dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor, criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade aos detalhes técnicos. Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente, facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.`,
       url: "https://web.archive.org/web/20210517192720/https://orbitae.com.br/",
-      date: {
-        start: {
-          date: "2019-01-31T00:00:00-02:00",
-          formatted: "Jan 2019",
-        },
-        final: {
-          date: "2019-08-31T00:00:00-03:00",
-          formatted: "Aug 2019",
-        },
-        years: 0,
-        months: 7,
-      },
+      date: format.strDateBetween("2019-01-31", "2019-08-31"),
     },
     {
       show: true,
@@ -789,18 +614,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary:
         "Notícias e utlidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.",
       url: "https://web.archive.org/web/20211229163534/https://basablog.com.br/",
-      date: {
-        start: {
-          date: "2019-12-31T00:00:00-03:00",
-          formatted: "Dec 2019",
-        },
-        final: {
-          date: "2019-12-31T00:00:00-03:00",
-          formatted: "Dec 2019",
-        },
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2019-12-31", "2019-12-31"),
     },
     {
       show: true,
@@ -814,18 +628,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary:
         "Desenvolvimento de um website para a clínica veterinária Habitat Group.\n    Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada. Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de consultas para atendimento de qualidade aos animais de estimação e seus tutores.",
       url: "https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/",
-      date: {
-        start: {
-          date: "2019-12-31T00:00:00-03:00",
-          formatted: "Dec 2019",
-        },
-        final: {
-          date: "2019-12-31T00:00:00-03:00",
-          formatted: "Dec 2019",
-        },
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2019-12-31", "2019-12-31"),
     },
     {
       show: true,
@@ -839,18 +642,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary:
         "Desenvolvimento de e-commerce especializado em produtos para skatistas, utilizando Wordpress, Woocommerce e Elementor com elementos customizados.\n    \n    Somando uma experiência personalizada de compra com uma fácil navegação e busca dos produtos, a integração dessas ferramentas garante um site dinâmico, com funcionalidades de ponta e um design atraente para o público interessado nesse nicho, visando atender suas necessidades e interesses.",
       url: "https://web.archive.org/web/20211226170044/https://cocksskate.com.br/",
-      date: {
-        start: {
-          date: "2018-12-31T00:00:00-02:00",
-          formatted: "Dec 2018",
-        },
-        final: {
-          date: "2018-12-31T00:00:00-02:00",
-          formatted: "Dec 2018",
-        },
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2018-12-31", "2018-12-31"),
     },
     {
       show: true,
@@ -863,18 +655,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       name: "Don Desenvolvimento",
       summary: "Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue.",
       url: "https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/",
-      date: {
-        start: {
-          date: "2018-12-31T00:00:00-02:00",
-          formatted: "Dec 2018",
-        },
-        final: {
-          date: "2018-12-31T00:00:00-02:00",
-          formatted: "Dec 2018",
-        },
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2018-12-31", "2018-12-31"),
     },
     {
       show: true,
@@ -882,12 +663,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary:
         "Concebido e desenvolvido exclusivamente para atender às necessidades da clínica odontológica Eiriz Saúde, localizada em Porto, Portugal, este projeto é o resultado de uma parceria dedicada a aprimorar a experiência do usuário e a eficiência dos serviços oferecidos.\n    \n    Com foco na usabilidade e na interação fluída, o sistema Wordpress desenvolvido para a Eiriz Saúde incorporou recursos avançados de gerenciamento de conteúdo, garantindo não apenas a apresentação precisa dos serviços oferecidos, mas também a transmissão eficaz de informações importantes aos pacientes, proporcionando assim uma experiência online completa e informativa.",
       url: "http://eiriz-saude.unbox.pt",
-      date: {
-        start: false,
-        final: false,
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2018-12-31", "2018-12-31"),
       images: [
         {
           url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/eiriz-saude.jpg",
@@ -901,12 +677,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary:
         "O desenvolvimento do website para a cidade de Águas do Acuruí foi um projeto dedicado e personalizado, visando promover a região de forma cativante e informativa.\n\n    Utilizando a versatilidade e as capacidades expansivas do Wordpress como base, o website foi meticulosamente construído a partir do zero, com um tema exclusivamente elaborado para atender às demandas específicas e à identidade singular da cidade. Cada elemento do design e funcionalidade foi cuidadosamente planejado para refletir a autenticidade e os pontos fortes de Águas do Acuruí.",
       url: "https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/",
-      date: {
-        start: false,
-        final: false,
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2017-12-31", "2017-12-31"),
       images: [
         {
           url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/aguas-do-acurui.jpg",
@@ -920,12 +691,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary:
         "Desenvolvimento de website com um CMS personalizado e recursos únicos.\n\n    O projeto apresenta uma funcionalidade interessante: um player de música integrado que reproduz as canções do cantor, permitindo que novas músicas sejam facilmente adicionadas através do painel interno do site.\n    \n    Uma característica notável do site é a disposição estratégica dos controles de reprodução, localizados tanto no topo quanto no corpo do site. A interconexão desses controles cria uma experiência de usuário fluida, evitando a necessidade de rolar constantemente. Essa abordagem garante uma navegação intuitiva, permitindo que os visitantes desfrutem da música sem interrupções, independentemente de onde estejam navegando no site.",
       url: "https://web.archive.org/web/20211127021144/http://betosantos.net/",
-      date: {
-        start: false,
-        final: false,
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2017-12-31", "2017-12-31"),
       images: [
         {
           url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/cantor-beto-santos.jpg",
@@ -939,12 +705,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary:
         "Este projeto foi criado sobre o sistema de gerenciamento de conteúdo (CMS) e de leilões personalizado para atender às necessidades específicas do cliente. Esse sistema foi meticulosamente projetado e construído com base na plataforma customizada da agência, oferecendo uma solução completa para administrar conteúdos e realizar leilões de forma eficiente.\n    \n    Essa solução customizada representa não apenas a habilidade técnica da agência, mas também seu compromisso em oferecer aos clientes ferramentas sob medida que atendam exatamente às suas necessidades, agregando valor e eficiência aos seus processos de gestão e negócios.",
       url: "https://web.archive.org/web/20220110211402/http://estrelarural.com.br/",
-      date: {
-        start: false,
-        final: false,
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2012-12-31", "2012-12-31"),
       images: [],
     },
     {
@@ -953,12 +714,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary:
         "Site criado sobre CMS exclusivo para atender às necessidades da associação dos empregados da MGS. Esse CMS foi meticulosamente adaptado para oferecer uma experiência de usuário única e atender às demandas específicas da associação, garantindo uma plataforma eficiente e funcional para os membros.\n\n    O CMS customizado oferece ferramentas específicas para a gestão interna da associação, fornecendo um ambiente seguro e personalizado para comunicação e interação entre os membros, agregando valor e facilitando a administração dos recursos disponíveis.",
       url: "https://web.archive.org/web/20170612004919/http://assemg.org/",
-      date: {
-        start: false,
-        final: false,
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2012-12-31", "2012-12-31"),
       images: [],
     },
     {
@@ -967,12 +723,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary:
         "A Escola Infantil Manduí oferece um ambiente acolhedor projetado para crianças de 4 meses a 6 anos, destacando-se por sua abordagem educacional abrangente. O site foi concebido para refletir essa filosofia, utilizando tecnologias avançadas, como Nuxt 3, Vue 3, Vuetify 3 e Firebase, garantindo uma experiência interativa e informativa para pais e responsáveis.\n    \n    Para o backend, foi criado uma interface onde, ao se clicar em um elemento, um painel lateral se abre com suas possibilidades de edição. Os dados são salvos no Firebase, sendo o sistema concebido de forma serverless.",
       url: "https://mandui.com.br",
-      date: {
-        start: false,
-        final: false,
-        years: 0,
-        months: 0,
-      },
+      date: format.strDateBetween("2023-01-01", "2023-01-31"),
       images: [
         {
           url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/projects/mandui.jpg",
@@ -1049,6 +800,19 @@ data.skills = data.skills.sort((a, b) => {
   if (a.name < b.name) return -1;
   if (a.name > b.name) return 1;
   return 0;
+});
+
+data.basics.summary += `<br /><br /> Tenho conhecimento em `;
+data.skills.map((skill, index) => {
+  data.basics.summary += `${skill.name}`;
+
+  if (index == data.skills.length - 1) {
+    data.basics.summary += ".";
+  } else if (index == data.skills.length - 2) {
+    data.basics.summary += " e ";
+  } else {
+    data.basics.summary += ", ";
+  }
 });
 
 export default data;

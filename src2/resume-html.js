@@ -27,6 +27,17 @@ export default async (data) => {
 
   content.push(format.nl2br(data.basics.summary));
 
+  // content.push(`<br /><br />`);
+  // content.push(`Tenho conhecimento em `);
+
+  // content.push(
+  //   data.skills
+  //     .map((skill) => skill.name)
+  //     .join(", ")
+  //     .replace(/,(?!.*,)/g, " e "),
+  // );
+  // content.push(`.`);
+
   content.push(`<br /><br /><br />`);
   content.push(`<h2>Experiência</h2>`);
   content.push(`<hr /><br />`);
@@ -35,25 +46,22 @@ export default async (data) => {
     .filter((o) => o.show)
     .map((work, index) => {
       if (index > 0) content.push(`<hr /><br />`);
-      content.push(`<h3 style="margin:0;">${work.position} | ${work.name}</h3>`);
-      content.push(`<div>${format.location(work.location)}</div>`);
-      // content.push(`<div>${format.dateBetween(work.date)}</div>`);
+      content.push(`<h3 style="margin:0;">
+        <img src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23555555" alt="" />
+        ${work.position} | ${work.name}
+      </h3>`);
+      content.push(`<div>
+        <img src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23555555" alt="" />
+        ${format.location(work.location)}</div>
+      `);
+      content.push(`<div style="color:#555; font-size:14px;">
+        <img src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23555555" alt="" />
+        ${format.objDateBetween(work.date)}
+      </div>`);
       content.push(`<br />`);
       content.push(`<div>${format.nl2br(work.summary)}</div>`);
       content.push(`<br />`);
     });
-
-  content.push(`<br /><br />`);
-  content.push(`<h2>Tecnologias que domino</h2>`);
-  content.push(`<hr /><br />`);
-
-  content.push(
-    data.skills
-      .map((skill) => skill.name)
-      .join(", ")
-      .replace(/,(?!.*,)/g, " e "),
-  );
-  content.push(`<br /><br /><br />`);
 
   content.push(`</div>`);
   content.push(`</body></html>`);

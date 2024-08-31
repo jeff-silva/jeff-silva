@@ -1,6 +1,6 @@
 <!--curriculum:start-->
 # Jeferson Siqueira
-<div>Desenvolvedor Full-stack: Vue, Nuxt, Javascript, Typescript, Node.js, Laravel, PHP, Wordpress</div>
+<div>Dev Fullstack | Laravel, Vue.js, React.js, Docker, Node.js, MySQL, APIs</div>
 <br />
 <table><tbody>
 <tr>
@@ -33,7 +33,7 @@
 </tr>
 </tbody></table>
 <h2>Tecnologias</h2>
-API REST, APIs, Arquitetura MVC, Bootstrap, CSS3, Clean Architecture, Design Patterns, Docker, Documentação, DynamoDB, Elementor, Firebase, Git, HTML5, JQuery, Javascript, Keycloak, Laravel, Linux, MySQL, NPM, NestJS, Node.js, Nuxt.js, Otimização de página, PHP, PWA, Postgres, React.js, Responsividade, SEO, SOAP, Scrum, Typescript, Unity, Vue.js, Vuetify, WooCommerce, WordPress e  YARN
+API REST, Arquitetura MVC, Bootstrap, CSS3, Clean Architecture, Design Patterns, Docker, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, HTML5, JQuery, Javascript, Keycloak, Laravel, Linux, MySQL, NPM, NestJS, Node.js, Nuxt.js, Otimização de página, PHP, PWA, Pagseguro, Postgres, React.js, Responsividade, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue.js, Vuetify, WooCommerce, WordPress e  YARN
 <br /><br />
 <!--curriculum:final-->
 
