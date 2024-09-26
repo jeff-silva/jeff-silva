@@ -2,72 +2,108 @@ import fs from "fs";
 import format from "./format.js";
 
 export default async (data) => {
+  const contentSpacer = `<div style="height:50px;"></div>`;
   let content = [];
 
   content.push(
     `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Document</title>`,
-    `<style>* {font-family: monospace !important;}</style>`,
+    `<style>`,
+    `@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');`,
+    `* {margin:0; padding:0; font-family: "Fredoka", sans-serif;}`,
+    `.wrapper {max-width:800px; margin:0 auto; padding:0 30px;}`,
+    `html, body {background:#401f4f; color:#fff; margin:0!important; padding:0!important;}`,
+    `p {display:block; margin-top:15px;}`,
+    `</style>`,
     `</head><body>`,
   );
-  content.push(`<div style="max-width:1000px; margin:0 auto; font-family: Segoe UI;">`);
 
-  content.push(`<h1>${data.basics.name}</h1>`);
-  content.push(`<h3>${data.basics.label}</h3>`);
-  content.push(`<h3>${format.location(data.basics.location)}</h3>`);
+  content.push(`<div style="background:#401f4f; color:#fff; padding:30px 0;">`);
+  content.push(`<div class="wrapper">`);
 
-  content.push(`<br /><hr /><br />`);
+  content.push(`
+    <h1 style="font-size:40px;">${data.basics.name}</h1>
+    <h3 style="font-size:20px;">${data.basics.label}</h3>
+    <br />
+    <div style="display:flex; align-items:center; gap:10px;">
+      <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+      <h3>${format.location(data.basics.location)}</h3>
+    </div>
+  `);
 
-  content.push(`<table><tbody>`);
+  content.push(`<br />`);
+  content.push(`<div style="display:flex; gap:15px; align-items:center;">`);
   [...data.links, ...data.contacts].map((link, index) => {
-    // content.push(`<div><a href="${link.url}" target="_blank">${link.name}: ${link.url}</a></div>`);
-    content.push(`<tr>`);
-    content.push(`<td valign="middle">${link.name} &nbsp;</td>`);
-    content.push(`<td><a href="${link.url}" style="text-decoration:none;">${link.value || link.url}</a></td>`);
-    content.push(`</tr>`);
+    content.push(`<a href="${link.url}" target="_blank" title="${link.name}">`);
+    content.push(`<img src="${link.icon}?color=%23ffffff" alt="" style="height:20px;" />`);
+    content.push(`</a>`);
   });
-  content.push(`</tbody></table>`);
+  content.push(`</div>`);
 
-  content.push(`<br /><hr /><br />`);
+  // wrapper close
+  content.push(`</div>`);
+  content.push(`</div>`);
 
-  content.push(format.nl2br(data.basics.summary));
+  // Summary
+  content.push(`<div class="wrapper" style="font-size:18px; line-height:26px; background:#603673;">`);
+  content.push(contentSpacer);
+  content.push(data.basics.summary);
+  content.push(contentSpacer);
+  content.push(`</div>`);
 
-  // content.push(`<br /><br />`);
-  // content.push(`Tenho conhecimento em `);
-
-  // content.push(
-  //   data.skills
-  //     .map((skill) => skill.name)
-  //     .join(", ")
-  //     .replace(/,(?!.*,)/g, " e "),
-  // );
-  // content.push(`.`);
-
-  content.push(`<br /><br /><br />`);
-  content.push(`<h2>Experiência</h2>`);
-  content.push(`<hr /><br />`);
-
+  // Experience
+  content.push(`<div style="background:#562d69; color:#fff;">`);
+  content.push(`<div class="wrapper">`);
+  content.push(contentSpacer);
+  content.push(`<h2 style="text-transform:uppercase; font-size:30px;">Experiência</h2>`);
+  content.push(contentSpacer);
   data.work
     .filter((o) => o.show)
     .map((work, index) => {
-      if (index > 0) content.push(`<hr /><br />`);
-      content.push(`<h3 style="margin:0;">
-        <img src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23555555" alt="" />
-        ${work.position} | ${work.name}
-      </h3>`);
-      content.push(`<div>
-        <img src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23555555" alt="" />
-        ${format.location(work.location)}</div>
-      `);
-      content.push(`<div style="color:#555; font-size:14px;">
-        <img src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23555555" alt="" />
-        ${format.objDateBetween(work.date)}
-      </div>`);
-      content.push(`<br />`);
-      content.push(`<div>${format.nl2br(work.summary)}</div>`);
-      content.push(`<br />`);
-    });
+      if (index > 0) content.push(`${contentSpacer}`);
+      content.push(`<div style="display:flex; flex-direction:column; gap:10px;">
+          <div style="display:flex; align-items:center; gap:10px;">
+            <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+            <h3 style="font-size:20px; text-transform:uppercase;">${work.position} &nbsp; | &nbsp; ${work.name}</h3>
+          </div>
 
+          <div style="display:flex; align-items:center; gap:10px; display:none;">
+            <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+            <h4 style="font-size:20px;">${format.location(work.location)}</h4>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:10px;">
+            <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+            <div style="font-size:20px;">${format.objDateBetween(work.date)}</div>
+          </div>
+
+          <div style="display:flex; align-items:start; gap:10px;">
+            <div style="min-width:20px;"></div>
+            <div style="font-size:20px;">${work.summary}</div>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:5px;"></div>
+        </div>`);
+    });
+  content.push(contentSpacer);
   content.push(`</div>`);
+  content.push(`</div>`);
+
+  // Skills
+  content.push(`<div style="background:#401f4f; color:#fff; padding:30px 0;">`);
+  content.push(contentSpacer);
+  content.push(`<div class="wrapper">`);
+  content.push(`<h2 style="text-transform:uppercase; font-size:30px;">Skills</h2>`);
+  content.push(contentSpacer);
+  content.push(`<div style="display:flex; align-items:center; flex-wrap:wrap; gap:10px;">`);
+  data.skills.map((skill, index) => {
+    if (index > 0) content.push(`<div>•</div>`);
+    content.push(`<div style="font-size:20px;">${skill.name}</div>`);
+  });
+  content.push(`</div>`);
+  content.push(`</div>`);
+  content.push(contentSpacer);
+  content.push(`</div>`);
+
   content.push(`</body></html>`);
   content = content.join("");
 

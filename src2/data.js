@@ -8,11 +8,18 @@ let data = {
     email: "jeferson.i.silva@gmail.com",
     phone: "+55 31 99527-1426",
     summarySmall: `Sou desenvolvedor desde 2011. Busco oportunidade como Fullstack pleno ou sênior.`,
-    summary: `<strong>Olá, tudo bem?</strong>
+    summary: `
+      <strong>Olá, tudo bem?</strong><br />
 
-    Sou um desenvolvedor Full-stack apaixonado por tecnologia, com mais de 10 anos de experiência na criação de sistemas robustos, desde monolitos até microserviços. Forte expertise no desenvolvimento de soluções em Laravel, Vue.js, Nuxt.js e WordPress, incluindo a criação de plugins e temas personalizados. Focado em entregar soluções escaláveis e eficientes, com experiência em ambientes de hospedagem compartilhada e dedicada.
+      <p>Sou um desenvolvedor Full-stack apaixonado por tecnologia, com mais de 10 anos de experiência
+      na criação de sistemas robustos, desde monolitos até microserviços.</p>
 
-    Será um prazer fazer parte da sua equipe!`,
+      <p>Forte expertise no desenvolvimento de soluções em Laravel,
+      Vue.js, Nuxt.js e WordPress, incluindo a criação de plugins e temas personalizados.
+      Focado em entregar soluções escaláveis e eficientes, com experiência em ambientes de
+      hospedagem compartilhada e dedicada.</p>
+      <p>Será um prazer fazer parte da sua equipe!</p>
+    `,
     photo: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/profile/image.jpg",
     location: {
       formatted: "Brasil",
@@ -36,10 +43,11 @@ let data = {
     {
       show: false,
       name: "Labscript.dev",
-      position: "Full-stack Developer",
+      position: "Dev Fullstack",
       highlights: [],
-      summary:
-        "Prestação de serviços para clientes diretos e parcerias com agências. De maneira resumida, nesse tempo desenvolvi sites e ecommerces utilizando Wordpress, WooCommerce e Elementor. Já implementei soluções com backend com PHP puro, Laravel e Node.js. No front, já trabalhei com Nuxt, Vue, HTML+CSS puro. Com banco de dados, tive oportunidade de trabalhar com MySQL e Firebase.",
+      summary: `
+        <p>Empresa aberta por mim para prestação de serviços como freelancer.</p>
+      `,
       url: "https://www.linkedin.com/company/labscript-dev/",
       location: {
         formatted: "Belo Horizonte, Minas Gerais, Brasil",
@@ -56,9 +64,11 @@ let data = {
     {
       show: false,
       name: "Tecnol Sistemas de Autmoação",
-      position: "Full-stack Developer",
+      position: "Dev Fullstack",
       highlights: [],
-      summary: `Desenvolvimento dos produtos da empresa, Safe Register Car, Tecnohub`,
+      summary: `
+        <p>Desenvolvimento dos produtos da empresa, Safe Register Car, Tecnohub</p>
+      `,
       url: "https://sistemastecnol.com.br",
       location: {
         formatted: "Belo Horizonte, Minas Gerais, Brasil",
@@ -75,10 +85,12 @@ let data = {
     {
       show: true,
       name: "Search and Stay",
-      position: "Full-stack Developer",
+      position: "Dev Fullstack",
       highlights: [],
-      summary:
-        "Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.",
+      summary: `
+        <p>Implementações e correções no sistema Search and Stay,
+        utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.</p>
+      `,
       url: "https://www.linkedin.com/company/search-and-stay/",
       location: {
         formatted: "Australia",
@@ -95,7 +107,7 @@ let data = {
     {
       show: false,
       name: "Rehagro",
-      position: "Full-stack Developer",
+      position: "Dev Fullstack",
       highlights: [],
       summary: ``,
       url: "",
@@ -133,9 +145,11 @@ let data = {
     {
       show: true,
       name: "Listra",
-      position: "Full-stack Developer",
+      position: "Dev Fullstack",
       highlights: [],
-      summary: `Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel
+      summary: `
+        <p>Atuação e diversas frentes diferentes</p>
+        Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel
 ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.
 
 Dentre os projetos desenvolvidos, estão a "Unidas Seminovos", uma plataforma de locação de veículos com filtro inteligente, e o "Assinar ou comprar", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.`,
@@ -155,7 +169,7 @@ Dentre os projetos desenvolvidos, estão a "Unidas Seminovos", uma plataforma de
     {
       show: true,
       name: "Codificar Sistemas Tecnológicos",
-      position: "Full-stack Developer",
+      position: "Dev Fullstack",
       highlights: [],
       summary:
         "Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js no frontend.",
@@ -175,7 +189,7 @@ Dentre os projetos desenvolvidos, estão a "Unidas Seminovos", uma plataforma de
     {
       show: true,
       name: "Agência de Criação",
-      position: "Full-stack Developer",
+      position: "Dev Fullstack",
       highlights: [],
       summary:
         "Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive oportunidade de trabalhar com Vue.js e Angular.js. Como banco de dados, foram utilizados principalmente MySQL e MariaDB. As soluções em backend envolviam PHP ou Node.js.",
@@ -195,7 +209,7 @@ Dentre os projetos desenvolvidos, estão a "Unidas Seminovos", uma plataforma de
     {
       show: true,
       name: "Cushman & Wakefield",
-      position: "Full-stack Developer",
+      position: "Dev Fullstack",
       highlights: [],
       summary: `Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:
 
@@ -220,7 +234,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
     {
       show: true,
       name: "Netranet Networking",
-      position: "Full-stack Developer",
+      position: "Dev Fullstack",
       highlights: [],
       summary: "Desenvolvimento de funções para o CMS próprio da agência.",
       url: "https://www.linkedin.com/company/netranet-networking/",
@@ -280,23 +294,15 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
   certificates: [],
   publications: [],
   skillsTags: [
-    {
-      id: "main-stack",
-      name: "Stack Principal",
-    },
-    {
-      id: "database",
-      name: "Banco de Dados",
-    },
-    {
-      id: "game-dev",
-      name: "Desenvolvimento de Jogos",
-    },
+    { id: "main-stack", name: "Stack Principal" },
+    { id: "database", name: "Banco de Dados" },
+    { id: "game-dev", name: "Desenvolvimento de Jogos" },
   ],
   skills: [
     { show: true, rating: 90, name: "Vue.js", keywords: ["main-stack"] },
     { show: true, rating: 80, name: "Laravel", keywords: ["main-stack"] },
     { show: true, rating: 70, name: "Docker", keywords: ["main-stack"] },
+    { show: true, rating: 70, name: "Docker Compose", keywords: ["main-stack"] },
     { show: true, rating: 80, name: "Nuxt.js", keywords: ["main-stack"] },
     { show: true, rating: 95, name: "API REST", keywords: [] },
     { show: true, rating: null, name: "Bootstrap", keywords: [] },
@@ -334,12 +340,12 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
     { show: true, rating: null, name: "SEO", keywords: [] },
     { show: true, rating: null, name: "Design Patterns", keywords: [] },
     { show: false, rating: null, name: "Express.js", keywords: [] },
-    { show: false, rating: null, name: "Three.js", keywords: [] },
+    { show: false, rating: null, name: "Three.js", keywords: ["game-dev"] },
     { show: false, rating: null, name: "Pagseguro", keywords: [] },
     { show: false, rating: null, name: "Stripe", keywords: [] },
     { show: false, rating: null, name: "SASS", keywords: [] },
     { show: false, rating: null, name: "LESS", keywords: [] },
-    { show: false, rating: null, name: "Rapier.js", keywords: [] },
+    { show: false, rating: null, name: "Rapier.js", keywords: ["game-dev"] },
   ],
   languages: [
     {
@@ -578,19 +584,19 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
     {
       name: "Whatsapp",
       url: "https://wa.me/message/NG7A2SW25XIEI1",
-      icon: "https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white",
+      icon: "https://api.iconify.design/ic:baseline-whatsapp.svg",
       value: "(31) 99527-1426",
     },
     {
       name: "E-mail",
       url: "mailto:jeferson.i.silva@gmail.com",
-      icon: "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white",
+      icon: "https://api.iconify.design/ic:outline-alternate-email.svg",
       value: "jeferson.i.silva@gmail.com",
     },
     {
       name: "Phone",
       url: "tel:+5531995271426",
-      icon: "https://img.shields.io/badge/(31) 99527 1426-000000?style=for-the-badge&logoColor=white",
+      icon: "https://api.iconify.design/material-symbols:call.svg",
       value: "(31) 99527-1426",
     },
   ],
@@ -598,25 +604,25 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
     {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/jeferson-siqueira/",
-      icon: "https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white",
+      icon: "https://api.iconify.design/mdi:linkedin.svg",
       value: null,
     },
     {
       name: "Github",
-      url: "https://github.com/jeff-silva/jeff-silva",
-      icon: "https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github",
+      url: "https://github.com/jeff-silva",
+      icon: "https://api.iconify.design/mdi:github.svg",
       value: null,
     },
     {
       name: "Portfólio",
       url: "https://jeff-silva.github.io",
-      icon: "https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me",
+      icon: "https://api.iconify.design/material-symbols:home-rounded.svg",
       value: null,
     },
     {
       name: "Currículo",
       url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf",
-      icon: "https://img.shields.io/badge/Curriculo-000000?style=for-the-badge&logo=About.me",
+      icon: "https://api.iconify.design/streamline:business-user-curriculum.svg",
       value: null,
     },
   ],
@@ -626,19 +632,6 @@ data.skills = data.skills.sort((a, b) => {
   if (a.name < b.name) return -1;
   if (a.name > b.name) return 1;
   return 0;
-});
-
-data.basics.summary += `<br /><br /> Tenho conhecimento em `;
-data.skills.map((skill, index) => {
-  data.basics.summary += `${skill.name}`;
-
-  if (index == data.skills.length - 1) {
-    data.basics.summary += ".";
-  } else if (index == data.skills.length - 2) {
-    data.basics.summary += " e ";
-  } else {
-    data.basics.summary += ", ";
-  }
 });
 
 export default data;
