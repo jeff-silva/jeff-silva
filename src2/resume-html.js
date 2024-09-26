@@ -12,7 +12,7 @@ export default async (data) => {
     `* {margin:0; padding:0; font-family: "Fredoka", sans-serif;}`,
     `.wrapper {max-width:800px; margin:0 auto; padding:0 30px;}`,
     `html, body {background:#401f4f; color:#fff; margin:0!important; padding:0!important;}`,
-    `p {display:block; margin-top:15px;}`,
+    `p {display:block; margin-bottom:15px;}`,
     `</style>`,
     `</head><body>`,
   );

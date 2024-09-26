@@ -148,11 +148,9 @@ let data = {
       position: "Dev Fullstack",
       highlights: [],
       summary: `
-        <p>Atuação e diversas frentes diferentes</p>
-        Nessa empresa atuei como desenvolvedor fullstack, utilizando dentro da maioria dos projetos Laravel
-ou Node.js com banco de dados MySQL no backend, e Vue.js no frontend.
-
-Dentre os projetos desenvolvidos, estão a "Unidas Seminovos", uma plataforma de locação de veículos com filtro inteligente, e o "Assinar ou comprar", uma parceria entre Unidas e Samy Dana para criar uma calculadora que entrega para o usuário a melhor opção entre alugar um veículo ou comprar, dentro do modelo com acessórios selecionado pelo usuário.`,
+        <p>Atuações utilizando principalmente Vue.js, Laravel e NodeJS.</p>
+        <p>Projetos principais: Assinar ou Comprar, Supermercados EPA, Unidas Seminovos.</p>
+      `,
       url: "https://www.linkedin.com/company/listradigital/",
       location: {
         formatted: "Belo Horizonte, Minas Gerais, Brasil",
