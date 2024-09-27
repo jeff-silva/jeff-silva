@@ -1,5 +1,30 @@
 import format from "./format.js";
 
+const dataProject = (data) => {
+  return {
+    id: null,
+    show: false,
+    name: "Default",
+    position: "Default",
+    highlights: [],
+    summary: "Default",
+    url: "",
+    location: {
+      formatted: "Belo Horizonte, Minas Gerais, Brasil",
+      city: "Nova Lima",
+      state: "Minas Gerais",
+      state_code: "MG",
+      country: "Brasil",
+      country_code: "BR",
+      lat: -19.9870559,
+      lng: -43.9458889,
+    },
+    date: format.strDateBetween("2024-01-01", "2024-12-31"),
+    projects: [],
+    ...data,
+  };
+};
+
 let data = {
   basics: {
     name: "Jeferson Siqueira",
@@ -41,12 +66,12 @@ let data = {
   },
   work: [
     {
-      show: false,
-      name: "Labscript.dev",
+      show: true,
+      name: "Labscript.dev (Empresa própria)",
       position: "Dev Fullstack",
       highlights: [],
       summary: `
-        <p>Empresa aberta por mim para prestação de serviços como freelancer.</p>
+        <p>Empresa aberta por mim para prestação de serviços freelancer.</p>
       `,
       url: "https://www.linkedin.com/company/labscript-dev/",
       location: {
@@ -60,6 +85,19 @@ let data = {
         lng: -43.9450948,
       },
       date: format.strDateBetween("2011-01-01", "now"),
+      projects: [
+        "corapost",
+        "o-novo-mercado",
+        "samarco",
+        "faveni",
+        "orbitae",
+        "blog-banco-da-amazonia",
+        "habitat-group",
+        "cocks-skate",
+        "don-desenvolvimento",
+        "eiriz-saude",
+        "mandui",
+      ],
     },
     {
       show: false,
@@ -67,7 +105,7 @@ let data = {
       position: "Dev Fullstack",
       highlights: [],
       summary: `
-        <p>Desenvolvimento dos produtos da empresa, Safe Register Car, Tecnohub</p>
+        <p>Desenvolvimento dos produtos internos da empresa.</p>
       `,
       url: "https://sistemastecnol.com.br",
       location: {
@@ -81,6 +119,7 @@ let data = {
         lng: -43.9458889,
       },
       date: format.strDateBetween("2024-01-29", "2024-06-07"),
+      projects: ["safe-register-car", "tecnohub"],
     },
     {
       show: true,
@@ -103,6 +142,7 @@ let data = {
         lng: 134.755,
       },
       date: format.strDateBetween("2022-12-31", "2023-11-30"),
+      projects: ["search-and-stay"],
     },
     {
       show: false,
@@ -122,6 +162,7 @@ let data = {
         lng: -43.9450948,
       },
       date: format.strDateBetween("2022-09-12", "2022-12-09"),
+      projects: [],
     },
     {
       show: false,
@@ -141,6 +182,7 @@ let data = {
         lng: -43.9450948,
       },
       date: format.strDateBetween("2022-08-01", "2022-09-12"),
+      projects: [],
     },
     {
       show: true,
@@ -163,6 +205,7 @@ let data = {
         lng: -43.9450948,
       },
       date: format.strDateBetween("2020-10-31", "2022-04-30"),
+      projects: ["asinar-ou-comprar", "epa", "unidas-seminovos"],
     },
     {
       show: true,
@@ -183,6 +226,7 @@ let data = {
         lng: -43.9450948,
       },
       date: format.strDateBetween("2017-02-28", "2017-10-31"),
+      projects: [],
     },
     {
       show: true,
@@ -202,20 +246,17 @@ let data = {
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: format.strDateBetween("2015-01-31", "2017-01-31"),
+      date: format.strDateBetween("2015-01-05", "2017-01-02"),
+      projects: ["cantor-beto-santos"],
     },
     {
       show: true,
       name: "Cushman & Wakefield",
       position: "Dev Fullstack",
       highlights: [],
-      summary: `Dentro dessa experiência, atuei em duas diretorias diferentes, criando uma ferramenta para cada uma, sendo elas:
-
-Ferramenta para filtrar fornecedores por estado, material/trabalho fornecido, orçamento anual, obras já prestadas, porte da empresa, entre outros dados;
-
-Calculadora de prazo de obras, onde o valor total de um projeto era estimado de acordo com a quantidade de empregados levando em consideração a proporção encarregados/funcionários, benefícios, vales, valor de locação de equipamentos, imóveis, automóveis, eletricidade e outras coisas, utilizando uma curva de Gauss para calcular a quantidade de contratados dentro de uma timeline;
-
-Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastante Excel para fazer seus trabalhos, então ambos os sistemas tinha que conversar bem com Excel e fazer importações e exportações.`,
+      summary: `
+        <p>Conversão de aplicações feitas internamente em Excel para web.</p>
+      `,
       url: "https://www.linkedin.com/company/cushman-&-wakefield/",
       location: {
         formatted: "Belo Horizonte, Minas Gerais, Brasil",
@@ -227,7 +268,8 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: format.strDateBetween("2012-02-28", "2013-01-31"),
+      date: format.strDateBetween("2012-05-02", "2013-11-08"),
+      projects: [],
     },
     {
       show: true,
@@ -246,7 +288,8 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: format.strDateBetween("2011-01-31", "2012-01-31"),
+      date: format.strDateBetween("2011-01-13", "2012-01-13"),
+      projects: ["estrela-rural", "assemg"],
     },
     {
       show: true,
@@ -265,6 +308,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
         lng: -43.9450948,
       },
       date: format.strDateBetween("2010-01-31", "2011-01-31"),
+      projects: [],
     },
   ],
   volunteer: [],
@@ -366,6 +410,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
   references: [],
   projects: [
     {
+      id: "corapost",
       show: true,
       images: [],
       name: "Corapost",
@@ -374,6 +419,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
       date: format.strDateBetween("2024-07-01", "2024-04-30"),
     },
     {
+      id: "search-and-stay",
       show: true,
       images: [],
       name: "Search and Stay",
@@ -383,6 +429,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
       date: format.strDateBetween("2022-12", "2023-11"),
     },
     {
+      id: "o-novo-mercado",
       show: true,
       images: [],
       name: "O Novo Mercado",
@@ -391,6 +438,7 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
       date: format.strDateBetween("2022-02-28", "2022-07-31"),
     },
     {
+      id: "asinar-ou-comprar",
       show: true,
       images: [],
       name: "Assinar ou comprar",
@@ -400,16 +448,29 @@ Nesse trabalho fui terceirizado para a Vale, onde os engenheiros utilizam bastan
       date: format.strDateBetween("2021-12-31", "2021-12-31"),
     },
     {
+      id: "samarco",
       show: true,
       images: [],
       name: "Samarco",
-      summary: `Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel, desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema dinâmico e versátil para administrar e apresentar conteúdos online de forma eficaz.
+      summary: `
+        <p>Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel,
+        desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação
+        poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema
+        dinâmico e versátil para administrar e apresentar conteúdos
+        online de forma eficaz.</p>
 
-A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta. Isso permitiu a criação e gestão de conteúdos de maneira simplificada, ao mesmo tempo em que ofereceu ferramentas de design avançadas para aprimorar a estética e a interatividade do site, atendendo às expectativas do cliente e proporcionando uma experiência de usuário aprimorada.`,
+        <p>A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade,
+        com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta.
+        Isso permitiu a criação e gestão de conteúdos de maneira simplificada,
+        ao mesmo tempo em que ofereceu ferramentas de design avançadas para
+        aprimorar a estética e a interatividade do site, atendendo às expectativas
+        do cliente e proporcionando uma experiência de usuário aprimorada.</p>
+      `,
       url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
       date: format.strDateBetween("2020-08-31", "2020-10-31"),
     },
     {
+      id: "faveni",
       show: true,
       images: [],
       name: "Faculdade Faveni",
@@ -418,6 +479,7 @@ A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, 
       date: format.strDateBetween("2020-12-31", "2020-12-31"),
     },
     {
+      id: "orbitae",
       show: true,
       images: [
         {
@@ -433,6 +495,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       date: format.strDateBetween("2019-01-31", "2019-08-31"),
     },
     {
+      id: "blog-banco-da-amazonia",
       show: true,
       images: [
         {
@@ -447,6 +510,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       date: format.strDateBetween("2019-12-31", "2019-12-31"),
     },
     {
+      id: "habitat-group",
       show: true,
       images: [
         {
@@ -461,6 +525,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       date: format.strDateBetween("2019-12-31", "2019-12-31"),
     },
     {
+      id: "cocks-skate",
       show: true,
       images: [
         {
@@ -475,6 +540,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       date: format.strDateBetween("2018-12-31", "2018-12-31"),
     },
     {
+      id: "don-desenvolvimento",
       show: true,
       images: [
         {
@@ -488,6 +554,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       date: format.strDateBetween("2018-12-31", "2018-12-31"),
     },
     {
+      id: "eiriz-saude",
       show: true,
       name: "Eiriz Saúde",
       summary:
@@ -502,6 +569,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       ],
     },
     {
+      id: "aguas-do-acurui",
       show: true,
       name: "Águas do Acuruí",
       summary:
@@ -516,6 +584,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       ],
     },
     {
+      id: "cantor-beto-santos",
       show: true,
       name: "Cantor Beto Santos",
       summary:
@@ -530,6 +599,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       ],
     },
     {
+      id: "estrela-rural",
       show: true,
       name: "Estrela Rural",
       summary:
@@ -539,6 +609,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       images: [],
     },
     {
+      id: "assemg",
       show: true,
       name: "ASSEMG",
       summary:
@@ -548,6 +619,7 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       images: [],
     },
     {
+      id: "mandui",
       show: true,
       name: "Manduí",
       summary:
@@ -569,6 +641,28 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
         },
       ],
     },
+    dataProject({
+      id: "safe-register-car",
+      show: false,
+      name: "Safe Register Car",
+    }),
+    dataProject({
+      id: "tecnohub",
+      show: false,
+      name: "Tecnohub",
+    }),
+    dataProject({
+      id: "epa",
+      show: false,
+      name: "EPA",
+      url: "https://www.epa.com.br",
+    }),
+    dataProject({
+      id: "unidas-seminovos",
+      show: false,
+      name: "Unidas Seminovos",
+      url: "https://seminovos.unidas.com.br",
+    }),
   ],
   meta: {
     version: "v1.0.0",
@@ -625,6 +719,16 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
     },
   ],
 };
+
+data.work = data.work
+  .sort((a, b) => {
+    const timeA = format.dateUnix(a.date.final.date);
+    const timeB = format.dateUnix(b.date.final.date);
+    if (timeA < timeB) return -1;
+    if (timeA > timeB) return 1;
+    return 0;
+  })
+  .reverse();
 
 data.skills = data.skills.sort((a, b) => {
   if (a.name < b.name) return -1;

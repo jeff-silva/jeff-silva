@@ -66,4 +66,7 @@ export default {
   objDateBetween(date) {
     return `${date.start.format} ~ ${date.final.format} (${date.diff.format})`;
   },
+  dateUnix(dateTime) {
+    return dayjs(dateTime).unix();
+  },
 };
