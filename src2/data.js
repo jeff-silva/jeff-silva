@@ -97,6 +97,7 @@ let data = {
         "don-desenvolvimento",
         "eiriz-saude",
         "mandui",
+        "rehagro",
       ],
     },
     {
@@ -377,6 +378,7 @@ let data = {
     { show: true, rating: 40, name: "Postgres", keywords: ["main-stack"] },
     { show: true, rating: 40, name: "Keycloak", keywords: [] },
     { show: true, rating: 20, name: "Clean Architecture", keywords: [] },
+    { show: true, rating: 20, name: "Clean Code", keywords: [] },
     { show: true, rating: 20, name: "NestJS", keywords: [] },
     { show: true, rating: 20, name: "DynamoDB", keywords: [] },
     { show: true, rating: null, name: "SEO", keywords: [] },
@@ -388,6 +390,7 @@ let data = {
     { show: false, rating: null, name: "SASS", keywords: [] },
     { show: false, rating: null, name: "LESS", keywords: [] },
     { show: false, rating: null, name: "Rapier.js", keywords: ["game-dev"] },
+    { show: false, rating: null, name: "Composer", keywords: [] },
   ],
   languages: [
     {
@@ -662,6 +665,12 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       show: false,
       name: "Unidas Seminovos",
       url: "https://seminovos.unidas.com.br",
+    }),
+    dataProject({
+      id: "rehagro",
+      show: false,
+      name: "Rehagro",
+      url: "https://rehagro.com.br",
     }),
   ],
   meta: {
