@@ -49,7 +49,7 @@ export default {
 
     if (r.start.date && r.final.date) {
       dateStart = dayjs(r.start.date);
-      dateFinal = dayjs(r.start.final);
+      dateFinal = dayjs(r.final.date);
 
       r.diff.years = dateFinal.diff(dateStart, "year");
       r.diff.months = dateFinal.diff(dateStart, "month") % 12;
@@ -74,8 +74,8 @@ export default {
     return r;
   },
   objDateBetween(date) {
-    const format = date.diff.format ? `(${date.diff.format})` : "";
-    return `${date.start.format} ~ ${date.final.format} ${format}`;
+    // const format = date.diff.format ? `(${date.diff.format})` : "";
+    return `${date.start.format} ~ ${date.final.format}`;
   },
   dateUnix(dateTime) {
     return dayjs(dateTime).unix();

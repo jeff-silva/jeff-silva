@@ -60,7 +60,7 @@ let data = {
     phone: "+55 31 99527-1426",
     summarySmall: `Sou desenvolvedor desde 2011. Busco oportunidade como Fullstack pleno ou sênior.`,
     summary: `
-      <strong>Olá, tudo bem?</strong><br />
+      <strong>Olá, tudo bem?</strong>
 
       <p>Sou um desenvolvedor Full-stack apaixonado por tecnologia, com mais de 10 anos de experiência
       na criação de sistemas robustos, desde monolitos até microserviços.</p>

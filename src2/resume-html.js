@@ -36,17 +36,19 @@ export default async (data) => {
           @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
           * {margin:0; padding:0; font-family: "Fredoka", sans-serif;}
           a {color:#fff !important;}
-          .wrapper {max-width:800px; margin:0 auto; padding:0 30px;}
           html, body {background:#401f4f; color:#fff; margin:0!important; padding:0!important;}
           .spacer {height:50px;}
           .section-title {text-transform:uppercase; font-size:30px;}
           .section-text {display:flex; flex-direction:column; gap:15px; font-size:20px;}
+          .section-wrapper {position:relative; overflow:hidden;}
+          .section-wrapper--icon {position:absolute; top:-10px; right:-10px; height:300px; z-index:0;}
+          .section-content {position:relative; max-width:800px; margin:0 auto; padding:0 30px;}
         </style>
       </head>
       <body>
         <!-- Header -->
-        <div style="background:transparent; color:#fff; padding:30px 0;">
-          <div class="wrapper">
+        <div class="section-wrapper" style="background:transparent; color:#fff; padding:30px 0;">
+          <div class="section-content">
             <h1 style="font-size:40px;">${data.basics.name}</h1>
             <h3 style="font-size:20px;">${data.basics.label}</h3>
             <br />
@@ -68,8 +70,14 @@ export default async (data) => {
         </div>
 
         <!-- Summary -->
-        <div style="background:#603673;">
-          <div class="wrapper">
+        <div class="section-wrapper" style="background:#603673;">
+          <img
+            class="section-wrapper--icon"
+            src="https://api.iconify.design/ic:round-waving-hand.svg?color=%23502562"
+            alt=""
+          />
+
+          <div class="section-content">
               <div class="spacer"></div>
               <div class="section-text">
                 ${data.basics.summary}
@@ -79,8 +87,13 @@ export default async (data) => {
         </div>
 
         <!-- Experience -->
-        <div style="background:#562d69;">
-          <div class="wrapper">
+        <div class="section-wrapper" style="background:#562d69;">
+          <img
+            class="section-wrapper--icon"
+            src="https://api.iconify.design/material-symbols:elderly.svg?color=%23502562"
+            alt=""
+          />
+          <div class="section-content">
               <div class="spacer"></div>
               <h2 class="section-title">Experiência</h2>
               <div class="spacer"></div>
@@ -106,8 +119,6 @@ export default async (data) => {
                         <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
                         <div style="font-size:20px;">${format.objDateBetween(work.date)}</div>
                       </div>
-
-                      
 
                       <div style="display:flex; align-items:start; gap:10px;">
                         <div style="min-width:20px;"></div>
@@ -145,8 +156,14 @@ export default async (data) => {
         </div>
 
         <!-- Skills -->
-        <div style="background:transparent;">
-          <div class="wrapper">
+        <div class="section-wrapper" style="background:transparent;">
+          <img
+            class="section-wrapper--icon"
+            src="https://api.iconify.design/ic:baseline-menu-book.svg?color=%23502562"
+            alt=""
+          />
+
+          <div class="section-content">
               <div class="spacer"></div>
               <h2 class="section-title">Skills</h2>
               <div class="spacer"></div>
