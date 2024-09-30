@@ -14,33 +14,43 @@ export default {
     return text.charAt(0).toUpperCase() + text.slice(1);
   },
   strDateBetween(dateStart, dateFinal) {
+    const getDate = (theDate) => {
+      if (theDate === null) {
+        return {
+          format: "",
+          date: null,
+        };
+      }
+
+      if (theDate == "now") {
+        return {
+          format: "Atualmente",
+          date: null,
+        };
+      }
+
+      theDate = dayjs(theDate);
+
+      return {
+        format: this.strCapitalize(theDate.format("MMM YYYY")),
+        date: theDate.format(),
+      };
+    };
+
     let r = {
       diff: {
         format: null,
         years: 0,
         months: 0,
       },
-      start: null,
-      final: null,
+      start: getDate(dateStart),
+      final: getDate(dateFinal),
     };
 
-    if (dateStart) {
-      dateStart = dayjs(dateStart == "now" ? undefined : dateStart);
-      r.start = {
-        format: this.strCapitalize(dateStart.format("MMM YYYY")),
-        date: dateStart.format(),
-      };
-    }
+    if (r.start.date && r.final.date) {
+      dateStart = dayjs(r.start.date);
+      dateFinal = dayjs(r.start.final);
 
-    if (dateFinal) {
-      dateFinal = dayjs(dateFinal == "now" ? undefined : dateFinal);
-      r.final = {
-        format: this.strCapitalize(dateFinal.format("MMM YYYY")),
-        date: dateFinal.format(),
-      };
-    }
-
-    if (r.start && r.final) {
       r.diff.years = dateFinal.diff(dateStart, "year");
       r.diff.months = dateFinal.diff(dateStart, "month") % 12;
 
@@ -64,7 +74,8 @@ export default {
     return r;
   },
   objDateBetween(date) {
-    return `${date.start.format} ~ ${date.final.format} (${date.diff.format})`;
+    const format = date.diff.format ? `(${date.diff.format})` : "";
+    return `${date.start.format} ~ ${date.final.format} ${format}`;
   },
   dateUnix(dateTime) {
     return dayjs(dateTime).unix();

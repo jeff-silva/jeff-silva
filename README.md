@@ -33,7 +33,7 @@
 </tr>
 </tbody></table>
 <h2>Tecnologias</h2>
-API REST, Arquitetura MVC, Bootstrap, CSS3, Clean Architecture, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, HTML5, JQuery, Javascript, Keycloak, LESS, Laravel, Linux, MySQL, NPM, NestJS, Node.js, Nuxt.js, Otimização de página, PHP, PWA, Pagseguro, Postgres, Rapier.js, React.js, Responsividade, SASS, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue.js, Vuetify, WooCommerce, WordPress e  YARN
+API REST, Arquitetura MVC, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, HTML5, JQuery, Javascript, Keycloak, LESS, Laravel, Linux, MySQL, NPM, NestJS, Node.js, Nuxt.js, Otimização de página, PHP, PWA, Pagseguro, Postgres, Rapier.js, React.js, Responsividade, SASS, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue.js, Vuetify, WooCommerce, WordPress e  YARN
 <br /><br />
 <!--curriculum:final-->
 

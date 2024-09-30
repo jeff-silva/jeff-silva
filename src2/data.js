@@ -1,6 +1,32 @@
 import format from "./format.js";
 
-const dataProject = (data) => {
+const work = (data) => {
+  return {
+    show: true,
+    name: "None",
+    position: "Dev Fullstack",
+    contract: "pj",
+    sallary: null,
+    highlights: [],
+    summary: "",
+    url: null,
+    location: {
+      formatted: "Belo Horizonte, Minas Gerais, Brasil",
+      city: "Belo Horizonte",
+      state: "Minas Gerais",
+      state_code: "MG",
+      country: "Brasil",
+      country_code: "BR",
+      lat: -19.9227318,
+      lng: -43.9450948,
+    },
+    date: format.strDateBetween("now", "now"),
+    projects: [],
+    ...data,
+  };
+};
+
+const project = (data) => {
   return {
     id: null,
     show: false,
@@ -65,10 +91,12 @@ let data = {
     ],
   },
   work: [
-    {
+    work({
       show: true,
       name: "Labscript.dev (Empresa própria)",
       position: "Dev Fullstack",
+      contract: "pj",
+      sallary: null,
       highlights: [],
       summary: `
         <p>Empresa aberta por mim para prestação de serviços freelancer.</p>
@@ -99,8 +127,8 @@ let data = {
         "mandui",
         "rehagro",
       ],
-    },
-    {
+    }),
+    work({
       show: false,
       name: "Tecnol Sistemas de Autmoação",
       position: "Dev Fullstack",
@@ -121,8 +149,8 @@ let data = {
       },
       date: format.strDateBetween("2024-01-29", "2024-06-07"),
       projects: ["safe-register-car", "tecnohub"],
-    },
-    {
+    }),
+    work({
       show: true,
       name: "Search and Stay",
       position: "Dev Fullstack",
@@ -144,8 +172,8 @@ let data = {
       },
       date: format.strDateBetween("2022-12-31", "2023-11-30"),
       projects: ["search-and-stay"],
-    },
-    {
+    }),
+    work({
       show: false,
       name: "Rehagro",
       position: "Dev Fullstack",
@@ -164,8 +192,8 @@ let data = {
       },
       date: format.strDateBetween("2022-09-12", "2022-12-09"),
       projects: [],
-    },
-    {
+    }),
+    work({
       show: false,
       name: "Iterative;",
       position: "Frontend Developer",
@@ -184,8 +212,8 @@ let data = {
       },
       date: format.strDateBetween("2022-08-01", "2022-09-12"),
       projects: [],
-    },
-    {
+    }),
+    work({
       show: true,
       name: "Listra",
       position: "Dev Fullstack",
@@ -207,8 +235,8 @@ let data = {
       },
       date: format.strDateBetween("2020-10-31", "2022-04-30"),
       projects: ["asinar-ou-comprar", "epa", "unidas-seminovos"],
-    },
-    {
+    }),
+    work({
       show: true,
       name: "Codificar Sistemas Tecnológicos",
       position: "Dev Fullstack",
@@ -228,8 +256,8 @@ let data = {
       },
       date: format.strDateBetween("2017-02-28", "2017-10-31"),
       projects: [],
-    },
-    {
+    }),
+    work({
       show: true,
       name: "Agência de Criação",
       position: "Dev Fullstack",
@@ -249,8 +277,8 @@ let data = {
       },
       date: format.strDateBetween("2015-01-05", "2017-01-02"),
       projects: ["cantor-beto-santos"],
-    },
-    {
+    }),
+    work({
       show: true,
       name: "Cushman & Wakefield",
       position: "Dev Fullstack",
@@ -271,8 +299,8 @@ let data = {
       },
       date: format.strDateBetween("2012-05-02", "2013-11-08"),
       projects: [],
-    },
-    {
+    }),
+    work({
       show: true,
       name: "Netranet Networking",
       position: "Dev Fullstack",
@@ -291,8 +319,8 @@ let data = {
       },
       date: format.strDateBetween("2011-01-13", "2012-01-13"),
       projects: ["estrela-rural", "assemg"],
-    },
-    {
+    }),
+    work({
       show: true,
       name: "Web BH Escola de Informática",
       position: "Instrutor",
@@ -310,7 +338,7 @@ let data = {
       },
       date: format.strDateBetween("2010-01-31", "2011-01-31"),
       projects: [],
-    },
+    }),
   ],
   volunteer: [],
   education: [
@@ -412,7 +440,7 @@ let data = {
   interests: [],
   references: [],
   projects: [
-    {
+    project({
       id: "corapost",
       show: true,
       images: [],
@@ -420,8 +448,8 @@ let data = {
       summary: `Desenvolvimento da interface desenvolvida no Figma`,
       url: "https://corapost.com",
       date: format.strDateBetween("2024-07-01", "2024-04-30"),
-    },
-    {
+    }),
+    project({
       id: "search-and-stay",
       show: true,
       images: [],
@@ -430,8 +458,8 @@ let data = {
         "Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.",
       url: "https://searchandstay.com",
       date: format.strDateBetween("2022-12", "2023-11"),
-    },
-    {
+    }),
+    project({
       id: "o-novo-mercado",
       show: true,
       images: [],
@@ -439,8 +467,8 @@ let data = {
       summary: "Desenvolvimento da plataforma interna de videos e hub de profissionais utilizando Vue.js + Vuetify",
       url: "https://onovomercado.com/",
       date: format.strDateBetween("2022-02-28", "2022-07-31"),
-    },
-    {
+    }),
+    project({
       id: "asinar-ou-comprar",
       show: true,
       images: [],
@@ -449,8 +477,8 @@ let data = {
         "Calculadora desenvolvida em parceria com Unidas e Samy Dana, para verificar se é mais vantajoso comprar ou alugar um carro.",
       url: "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
       date: format.strDateBetween("2021-12-31", "2021-12-31"),
-    },
-    {
+    }),
+    project({
       id: "samarco",
       show: true,
       images: [],
@@ -471,8 +499,8 @@ let data = {
       `,
       url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
       date: format.strDateBetween("2020-08-31", "2020-10-31"),
-    },
-    {
+    }),
+    project({
       id: "faveni",
       show: true,
       images: [],
@@ -480,8 +508,8 @@ let data = {
       summary: "Estilização e customização de componentes do tema utilizando plataforma Wordpress com multisite.",
       url: "https://web.archive.org/web/20220131193706/https://faveni.edu.br/",
       date: format.strDateBetween("2020-12-31", "2020-12-31"),
-    },
-    {
+    }),
+    project({
       id: "orbitae",
       show: true,
       images: [
@@ -496,8 +524,8 @@ let data = {
 Essa parceria estratégica com a Partners Comunicação Pro Business resultou em uma plataforma dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor, criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade aos detalhes técnicos. Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente, facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.`,
       url: "https://web.archive.org/web/20210517192720/https://orbitae.com.br/",
       date: format.strDateBetween("2019-01-31", "2019-08-31"),
-    },
-    {
+    }),
+    project({
       id: "blog-banco-da-amazonia",
       show: true,
       images: [
@@ -511,8 +539,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
         "Notícias e utlidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.",
       url: "https://web.archive.org/web/20211229163534/https://basablog.com.br/",
       date: format.strDateBetween("2019-12-31", "2019-12-31"),
-    },
-    {
+    }),
+    project({
       id: "habitat-group",
       show: true,
       images: [
@@ -526,8 +554,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
         "Desenvolvimento de um website para a clínica veterinária Habitat Group.\n    Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada. Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de consultas para atendimento de qualidade aos animais de estimação e seus tutores.",
       url: "https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/",
       date: format.strDateBetween("2019-12-31", "2019-12-31"),
-    },
-    {
+    }),
+    project({
       id: "cocks-skate",
       show: true,
       images: [
@@ -541,8 +569,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
         "Desenvolvimento de e-commerce especializado em produtos para skatistas, utilizando Wordpress, Woocommerce e Elementor com elementos customizados.\n    \n    Somando uma experiência personalizada de compra com uma fácil navegação e busca dos produtos, a integração dessas ferramentas garante um site dinâmico, com funcionalidades de ponta e um design atraente para o público interessado nesse nicho, visando atender suas necessidades e interesses.",
       url: "https://web.archive.org/web/20211226170044/https://cocksskate.com.br/",
       date: format.strDateBetween("2018-12-31", "2018-12-31"),
-    },
-    {
+    }),
+    project({
       id: "don-desenvolvimento",
       show: true,
       images: [
@@ -555,8 +583,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       summary: "Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue.",
       url: "https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/",
       date: format.strDateBetween("2018-12-31", "2018-12-31"),
-    },
-    {
+    }),
+    project({
       id: "eiriz-saude",
       show: true,
       name: "Eiriz Saúde",
@@ -570,8 +598,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
           description: "",
         },
       ],
-    },
-    {
+    }),
+    project({
       id: "aguas-do-acurui",
       show: true,
       name: "Águas do Acuruí",
@@ -585,8 +613,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
           description: "",
         },
       ],
-    },
-    {
+    }),
+    project({
       id: "cantor-beto-santos",
       show: true,
       name: "Cantor Beto Santos",
@@ -600,8 +628,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
           description: "",
         },
       ],
-    },
-    {
+    }),
+    project({
       id: "estrela-rural",
       show: true,
       name: "Estrela Rural",
@@ -610,8 +638,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       url: "https://web.archive.org/web/20220110211402/http://estrelarural.com.br/",
       date: format.strDateBetween("2012-12-31", "2012-12-31"),
       images: [],
-    },
-    {
+    }),
+    project({
       id: "assemg",
       show: true,
       name: "ASSEMG",
@@ -620,8 +648,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
       url: "https://web.archive.org/web/20170612004919/http://assemg.org/",
       date: format.strDateBetween("2012-12-31", "2012-12-31"),
       images: [],
-    },
-    {
+    }),
+    project({
       id: "mandui",
       show: true,
       name: "Manduí",
@@ -643,30 +671,30 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
           description: "Visão da página inicial em mobile",
         },
       ],
-    },
-    dataProject({
+    }),
+    project({
       id: "safe-register-car",
       show: false,
       name: "Safe Register Car",
     }),
-    dataProject({
+    project({
       id: "tecnohub",
       show: false,
       name: "Tecnohub",
     }),
-    dataProject({
+    project({
       id: "epa",
       show: false,
       name: "EPA",
       url: "https://www.epa.com.br",
     }),
-    dataProject({
+    project({
       id: "unidas-seminovos",
       show: false,
       name: "Unidas Seminovos",
       url: "https://seminovos.unidas.com.br",
     }),
-    dataProject({
+    project({
       id: "rehagro",
       show: false,
       name: "Rehagro",
@@ -731,6 +759,16 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
 
 data.work = data.work
   .sort((a, b) => {
+    if (a.date.start.date === null || a.date.final.date === null) {
+      return 0;
+    }
+
+    return -1;
+  })
+  .sort((a, b) => {
+    if (a.date.start.date === null || a.date.final.date === null) {
+      return 0;
+    }
     const timeA = format.dateUnix(a.date.final.date);
     const timeB = format.dateUnix(b.date.final.date);
     if (timeA < timeB) return -1;
