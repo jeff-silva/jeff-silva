@@ -419,6 +419,7 @@ let data = {
     { show: false, rating: null, name: "LESS", keywords: [] },
     { show: false, rating: null, name: "Rapier.js", keywords: ["game-dev"] },
     { show: false, rating: null, name: "Composer", keywords: [] },
+    { show: false, rating: null, name: "VuePress", keywords: [] },
   ],
   languages: [
     {
