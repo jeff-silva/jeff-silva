@@ -43,6 +43,7 @@ export default async (data) => {
           .section-wrapper {position:relative; overflow:hidden;}
           .section-wrapper--icon {position:absolute; top:-10px; right:-10px; height:300px; z-index:0;}
           .section-content {position:relative; max-width:800px; margin:0 auto; padding:0 30px;}
+          .section-work-summary {display:flex; flex-direction:column; gap:10px;}
         </style>
       </head>
       <body>
@@ -123,7 +124,9 @@ export default async (data) => {
                       <div style="display:flex; align-items:start; gap:10px;">
                         <div style="min-width:20px;"></div>
                         <div style="font-size:20px;">
-                          ${work.summary}
+                          <div class="section-work-summary">
+                            ${work.summary}
+                          </div>
                           
                           ${template.if(work.projects.length, () => {
                             return (

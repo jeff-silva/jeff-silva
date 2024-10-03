@@ -122,21 +122,8 @@ let data = {
         lat: -19.9227318,
         lng: -43.9450948,
       },
-      date: format.strDateBetween("2011-01-01", "now"),
-      projects: [
-        "corapost",
-        "o-novo-mercado",
-        "samarco",
-        "faveni",
-        "orbitae",
-        "blog-banco-da-amazonia",
-        "habitat-group",
-        "cocks-skate",
-        "don-desenvolvimento",
-        "eiriz-saude",
-        "mandui",
-        "rehagro",
-      ],
+      date: format.strDateBetween("2023-11-30", "now"),
+      projects: ["corapost", "o-novo-mercado", "mandui", "rehagro"],
     }),
     work({
       show: false,
@@ -248,11 +235,45 @@ let data = {
     }),
     work({
       show: true,
+      name: "Labscript.dev (Empresa própria)",
+      position: "Dev Fullstack",
+      contract: "pj",
+      sallary: null,
+      highlights: [],
+      summary: `<p>Prestação de serviços freelancer.</p>`,
+      url: "https://labscript.dev",
+      location: {
+        formatted: "Belo Horizonte, Minas Gerais, Brasil",
+        city: "Belo Horizonte",
+        state: "Minas Gerais",
+        state_code: "MG",
+        country: "Brasil",
+        country_code: "BR",
+        lat: -19.9227318,
+        lng: -43.9450948,
+      },
+      projects: [
+        "samarco",
+        "faveni",
+        "orbitae",
+        "blog-banco-da-amazonia",
+        "habitat-group",
+        "cocks-skate",
+        "don-desenvolvimento",
+        "eiriz-saude",
+      ],
+      date: format.strDateBetween("2017-10-31", "2020-10-31"),
+    }),
+    work({
+      show: true,
       name: "Codificar Sistemas Tecnológicos",
       position: "Dev Fullstack",
       highlights: [],
-      summary:
-        "Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js no frontend.",
+      summary: `
+        <p>Nessa empresa, ajudei no desenvolvimento de algumas aplicações, onde em sua
+        maioria eram utilizadas Laravel ou Node.js como backend, e Vue.js
+        no frontend.</p>
+      `,
       url: "https://www.linkedin.com/company/codificar/",
       location: {
         formatted: "Belo Horizonte, Minas Gerais, Brasil",
@@ -272,8 +293,13 @@ let data = {
       name: "Agência de Criação",
       position: "Dev Fullstack",
       highlights: [],
-      summary:
-        "Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive oportunidade de trabalhar com Vue.js e Angular.js. Como banco de dados, foram utilizados principalmente MySQL e MariaDB. As soluções em backend envolviam PHP ou Node.js.",
+      summary: `
+        <p>Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive
+        oportunidade de trabalhar com Vue.js e Angular.js.</p>
+
+        <p>Com as melhorias e tecnologias novas trazidas, ajudei a melhorar a velocidade
+        de correção de bugs e entrega.</p>
+      `,
       url: "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
       location: {
         formatted: "Belo Horizonte, Minas Gerais, Brasil",
@@ -290,11 +316,43 @@ let data = {
     }),
     work({
       show: true,
+      name: "Labscript.dev (Empresa própria)",
+      position: "Dev Fullstack",
+      contract: "pj",
+      sallary: null,
+      highlights: [],
+      summary: `<p>Prestação de serviços freelancer.</p>`,
+      url: "https://labscript.dev",
+      location: {
+        formatted: "Belo Horizonte, Minas Gerais, Brasil",
+        city: "Belo Horizonte",
+        state: "Minas Gerais",
+        state_code: "MG",
+        country: "Brasil",
+        country_code: "BR",
+        lat: -19.9227318,
+        lng: -43.9450948,
+      },
+      date: format.strDateBetween("2013-11-08", "2015-01-05"),
+    }),
+    work({
+      show: true,
       name: "Cushman & Wakefield",
       position: "Dev Fullstack",
       highlights: [],
       summary: `
-        <p>Conversão de aplicações feitas internamente em Excel para web.</p>
+        <p>Serviços prestados de forma terceirizada para a Vale do Rio Doce, onde eu
+        era responsável por transformar algumas planilhas complexas utilizadas
+        pelos engenheiros em aplicações web.</p>
+
+        <p>Com as aplicações desenvolvidas, resolvi os problemas recorrentes com
+        projetos perdidos por conta de arquivos Excel corrompidos, e a impossibilidade
+        de dois engenheiros trabalharem ao mesmo tempo em um projeto.</p>
+
+        <p>Em um dos projetos, criei uma interface interessante, que utilizava
+        um gráfico de curva de Gauss para preencher vários campos de quantidade
+        de profissionais contratados por mês de obra, algo que seria demorado
+        de fazer manualmente. A solução foi bastante elogiada.</p>
       `,
       url: "https://www.linkedin.com/company/cushman-&-wakefield/",
       location: {
@@ -315,7 +373,12 @@ let data = {
       name: "Netranet Networking",
       position: "Dev Fullstack",
       highlights: [],
-      summary: "Desenvolvimento de funções para o CMS próprio da agência.",
+      summary: `
+        <p>Desenvolvimento de CMS própio da agência.</p>
+        <p>Com a aplicação, consegui aumentar o controle da agência ao código fonte,
+        melhorando o tempo de resolução de problemas e aumentando a flexibilidade
+        das soluções vendidas.</p>
+      `,
       url: "https://www.linkedin.com/company/netranet-networking/",
       location: {
         formatted: "Belo Horizonte, Minas Gerais, Brasil",
@@ -335,7 +398,10 @@ let data = {
       name: "Web BH Escola de Informática",
       position: "Instrutor",
       highlights: [],
-      summary: "Atuei como instrutor dos cursos de PHP, MySQL, CSS, Javascript, HTML5, Tableless e Action script.",
+      summary: `
+        <p>Atuei como instrutor dos cursos de PHP, MySQL, SQL Server, CSS,
+        Javascript, HTML5, Tableless e Action script.</p>
+      `,
       location: {
         formatted: "Belo Horizonte, Minas Gerais, Brasil",
         city: "Belo Horizonte",
