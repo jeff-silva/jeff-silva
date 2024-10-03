@@ -496,7 +496,8 @@ let data = {
     skill({ show: false, rating: null, name: "Rapier.js", keywords: ["game-dev"] }),
     skill({ show: false, rating: null, name: "Composer", keywords: [] }),
     skill({ show: false, rating: null, name: "VuePress", keywords: [] }),
-    skill({ show: true, rating: 70, name: "Integração IA", keywords: [] }),
+    skill({ show: true, rating: null, name: "Integração IA", keywords: [] }),
+    skill({ show: true, rating: null, name: "Python", keywords: [] }),
   ],
   languages: [
     {

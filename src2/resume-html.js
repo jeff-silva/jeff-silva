@@ -1,29 +1,8 @@
 import fs from "fs";
 import format from "./format.js";
+import template from "./template.js";
 import _ from "lodash";
 import Sqrl from "squirrelly";
-
-const template = {
-  loop(data, callLoop, callEmpty = () => "", glue = "") {
-    if (data.length == 0) {
-      return callEmpty();
-    }
-    return (
-      `\n` +
-      data
-        .filter((...args) => {
-          return callLoop(...args);
-        })
-        .map((...args) => {
-          return callLoop(...args);
-        })
-        .join(glue)
-    );
-  },
-  if(condition, callTrue, callFalse = () => "") {
-    return condition ? callTrue() : callFalse();
-  },
-};
 
 export default async (data) => {
   const output = `<!DOCTYPE html>
