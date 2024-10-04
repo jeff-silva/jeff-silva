@@ -18,7 +18,7 @@ export default async (data) => {
                                 ${template.loop([...data.links, ...data.contacts], (link, index) => {
                                   return `<td style="padding:5px 10px 0 0;">
                                         <a href="${link.url}" target="_blank" title="${link.name}">
-                                            <img src="${link.icon}?color=%23ffffff" alt="" style="height:20px;" />
+                                            <img src="${link.icon}?color=%23ffffff" alt="${link.name}" style="height:20px;" />
                                         </a>
                                     </td>`;
                                 })}
