@@ -6,8 +6,8 @@
   "author": "Jeferson Silva <jeferson.i.silva@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./src2/index.js",
-    "test": "node ./src2/test.js"
+    "dev": "node ./src/index.js",
+    "test": "node ./src/test.js"
   },
   "devDependencies": {
     "adm-zip": "^0.5.10",
