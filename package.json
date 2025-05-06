@@ -6,8 +6,9 @@
   "author": "Jeferson Silva <jeferson.i.silva@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./src/index.js",
-    "test": "node ./src/test.js"
+    "dev": "docker compose up --build --force-recreate --remove-orphans",
+    "dev2": "node ./src/index.js",
+    "test2": "node ./src/test.js"
   },
   "devDependencies": {
     "adm-zip": "^0.5.10",

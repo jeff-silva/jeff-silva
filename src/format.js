@@ -80,4 +80,147 @@ export default {
   dateUnix(dateTime) {
     return dayjs(dateTime).unix();
   },
+
+  // https://jsonresume.org/schema
+  jsonResumeBasics(data) {
+    return {
+      name: "",
+      label: "",
+      image: "",
+      email: "",
+      phone: "",
+      url: "",
+      summary: "",
+      location: {
+        address: "",
+        postalCode: "",
+        city: "",
+        countryCode: "",
+        region: "",
+      },
+      profiles: [],
+      ...data,
+    };
+  },
+  jsonResumeLocation(data) {
+    return {
+      address: null,
+      postalCode: null,
+      city: null,
+      region: null,
+      countryCode: "BR",
+      ...data,
+    };
+  },
+  jsonResumeProfile(data) {
+    return {
+      name: "",
+      ...data,
+    };
+  },
+  jsonResumeWork(data) {
+    return {
+      name: "",
+      position: "",
+      url: "",
+      startDate: "",
+      endDate: "",
+      summary: "",
+      highlights: [],
+      ...data,
+    };
+  },
+  jsonResumeVolunteer(data) {
+    return {
+      organization: "",
+      position: "",
+      url: "",
+      startDate: "",
+      endDate: "",
+      summary: "",
+      highlights: [],
+      ...data,
+    };
+  },
+  jsonResumeEducation(data) {
+    return {
+      institution: "",
+      url: "",
+      area: "",
+      studyType: "",
+      startDate: "",
+      endDate: "",
+      score: "",
+      courses: [],
+      ...data,
+    };
+  },
+  jsonResumeAward(data) {
+    return {
+      title: "",
+      date: "",
+      awarder: "",
+      summary: "",
+      ...data,
+    };
+  },
+  jsonResumeCertificate(data) {
+    return {
+      name: "",
+      date: "",
+      issuer: "",
+      url: "",
+      ...data,
+    };
+  },
+  jsonResumePublication(data) {
+    return {
+      name: "",
+      publisher: "",
+      releaseDate: "",
+      url: "",
+      summary: "",
+      ...data,
+    };
+  },
+  jsonResumeSkill(data) {
+    return {
+      name: "",
+      level: null,
+      keywords: [],
+      ...data,
+    };
+  },
+  jsonResumeLanguage(data) {
+    return {
+      language: "",
+      fluency: "",
+      ...data,
+    };
+  },
+  jsonResumeInterest(data) {
+    return {
+      name: "",
+      keywords: [],
+      ...data,
+    };
+  },
+  jsonResumeReference(data) {
+    return {
+      name: "",
+      reference: "",
+      ...data,
+    };
+  },
+  jsonResumeProject(data) {
+    return {
+      name: "",
+      startDate: "",
+      endDate: "",
+      description: "",
+      highlights: [],
+      url: "",
+      ...data,
+    };
+  },
 };

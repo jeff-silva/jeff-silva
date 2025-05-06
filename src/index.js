@@ -7,9 +7,9 @@ import resumeReadme from "./resume-readme.js";
 import signature from "./signature.js";
 
 (async () => {
-  await resumeHtml(data);
   await resumeJson(data);
-  await resumePdf(data);
-  await resumeReadme(data);
-  await signature(data);
+  await resumeHtml(data);
+  // await resumePdf(data);
+  // await resumeReadme(data);
+  // await signature(data);
 })();
