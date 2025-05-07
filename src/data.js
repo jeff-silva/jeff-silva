@@ -19,6 +19,7 @@ let data = {
       Vue.js, Nuxt.js e WordPress, incluindo a criação de plugins e temas personalizados.
       Focado em entregar soluções escaláveis e eficientes, com experiência em ambientes de
       hospedagem compartilhada e dedicada.</p>
+      
       <p>Será um prazer fazer parte da sua equipe!</p>
     `,
     location: {
@@ -225,12 +226,11 @@ let data = {
     // format.jsonResumePublication({}),
   ],
   skills: [
-    format.jsonResumeSkill({ name: "Vue 3", keywords: ["Frontend"] }),
-    format.jsonResumeSkill({ name: "Laravel", keywords: ["Backend"] }),
+    format.jsonResumeSkill({ name: "Vue 3", keywords: ["Frontend", "Main Stack"] }),
+    format.jsonResumeSkill({ name: "Laravel", keywords: ["Backend", "Main Stack"] }),
     format.jsonResumeSkill({ name: "React", keywords: ["Frontend"] }),
-    format.jsonResumeSkill({ name: "Node.js", keywords: ["Backend"] }),
-    format.jsonResumeSkill({ name: "PHP", keywords: ["Backend"] }),
-    format.jsonResumeSkill({ name: "MySQL", keywords: ["Database"] }),
+    format.jsonResumeSkill({ name: "Node.js", keywords: ["Backend", "Main Stack"] }),
+    format.jsonResumeSkill({ name: "PHP", keywords: ["Backend", "Main Stack"] }),
     format.jsonResumeSkill({ name: "PostgreSQL", keywords: ["Database"] }),
     format.jsonResumeSkill({ name: "Docker", keywords: ["Main Stack"] }),
     format.jsonResumeSkill({ name: "Docker Compose", keywords: ["Main Stack"] }),
@@ -246,7 +246,6 @@ let data = {
     format.jsonResumeSkill({ name: "PWA", keywords: [] }),
     format.jsonResumeSkill({ name: "Unity", keywords: ["Game"] }),
     format.jsonResumeSkill({ name: "Firebase", keywords: [] }),
-    format.jsonResumeSkill({ name: "PHP", keywords: ["Main Stack"] }),
     format.jsonResumeSkill({ name: "MySQL", keywords: ["Main Stack", "Database"] }),
     format.jsonResumeSkill({ name: "Elementor", keywords: [] }),
     format.jsonResumeSkill({ name: "React.js", keywords: [] }),
@@ -267,15 +266,15 @@ let data = {
     format.jsonResumeSkill({ name: "Keycloak", keywords: [] }),
     format.jsonResumeSkill({ name: "Clean Architecture", keywords: [] }),
     format.jsonResumeSkill({ name: "Clean Code", keywords: [] }),
-    format.jsonResumeSkill({ name: "NestJS", keywords: [] }),
+    format.jsonResumeSkill({ name: "NestJS", keywords: ["Main Stack"] }),
     format.jsonResumeSkill({ name: "DynamoDB", keywords: [] }),
     format.jsonResumeSkill({ name: "SEO", keywords: [] }),
     format.jsonResumeSkill({ name: "Design Patterns", keywords: [] }),
     format.jsonResumeSkill({ name: "Express.js", keywords: [] }),
     format.jsonResumeSkill({ name: "Three.js", keywords: ["Game"] }),
     format.jsonResumeSkill({ name: "Babylon", keywords: ["Game"] }),
-    format.jsonResumeSkill({ name: "Pagseguro", keywords: [] }),
-    format.jsonResumeSkill({ name: "Stripe", keywords: [] }),
+    format.jsonResumeSkill({ name: "Pagseguro", keywords: ["Gateway de Pagamento"] }),
+    format.jsonResumeSkill({ name: "Stripe", keywords: ["Gateway de Pagamento"] }),
     format.jsonResumeSkill({ name: "SASS", keywords: [] }),
     format.jsonResumeSkill({ name: "LESS", keywords: [] }),
     format.jsonResumeSkill({ name: "Rapier.js", keywords: ["Game"] }),
