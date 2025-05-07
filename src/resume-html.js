@@ -19,12 +19,6 @@ export default async (data) => {
       value: data.basics.email,
     },
     {
-      name: "Phone",
-      url: "tel:" + data.basics.phone.replace(/[^0-9]/g, ""),
-      icon: "https://api.iconify.design/material-symbols:call.svg",
-      value: data.basics.phone,
-    },
-    {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/jeferson-siqueira/",
       icon: "https://api.iconify.design/mdi:linkedin.svg",

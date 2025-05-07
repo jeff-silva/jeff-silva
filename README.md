@@ -6,7 +6,6 @@
 
 [![Whatsapp](https://api.iconify.design/ic:baseline-whatsapp.svg?color=%23ffffff&height=30 'Whatsapp')](https://wa.me/message/NG7A2SW25XIEI1)
 [![E-mail](https://api.iconify.design/ic:outline-alternate-email.svg?color=%23ffffff&height=30 'E-mail')](mailto:jeferson.i.silva@gmail.com)
-[![Phone](https://api.iconify.design/material-symbols:call.svg?color=%23ffffff&height=30 'Phone')](tel:5531995271426)
 [![Linkedin](https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff&height=30 'Linkedin')](https://www.linkedin.com/in/jeferson-siqueira/)
 [![Github](https://api.iconify.design/mdi:github.svg?color=%23ffffff&height=30 'Github')](https://github.com/jeff-silva)
 [![Portfólio](https://api.iconify.design/material-symbols:home-rounded.svg?color=%23ffffff&height=30 'Portfólio')](https://jeff-silva.github.io)
