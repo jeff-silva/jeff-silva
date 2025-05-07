@@ -9,7 +9,7 @@ import signature from "./signature.js";
 (async () => {
   await resumeJson(data);
   await resumeHtml(data);
-  // await resumePdf(data);
-  // await resumeReadme(data);
+  await resumePdf(data);
+  await resumeReadme(data);
   // await signature(data);
 })();

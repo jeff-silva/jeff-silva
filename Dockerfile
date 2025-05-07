@@ -2,11 +2,7 @@ FROM node:22
 
 WORKDIR /app
 
-COPY package*.json ./
-
-RUN npm install
-
-COPY . .
+# RUN npm install
 
 # Instala dependências do Chromium
 RUN apt-get update && \
@@ -16,4 +12,4 @@ RUN apt-get update && \
   apt-get update && \
   apt-get install -y google-chrome-stable
 
-CMD ["node", "./src/index.js"]
+CMD npm install && node ./src/index.js

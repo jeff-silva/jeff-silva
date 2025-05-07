@@ -1,12 +1,14 @@
 import format from "./format.js";
 
 let data = {
+  $schema: "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/v1.0.0/schema.json",
   basics: format.jsonResumeBasics({
     name: "Jeferson Siqueira",
-    label: "Dev Fullstack | AI | Laravel | Vue.js | React.js | Docker | Node.js",
+    label: "Dev Fullstack Sênior | AI | Laravel | Vue.js | React.js | Docker | Node.js | NestJS",
     image: "",
     email: "jeferson.i.silva@gmail.com",
     phone: "+55 31 99527-1426",
+    url: "https://jeff-silva.github.io",
     summary: `
       <strong>Olá, tudo bem?</strong>
 
@@ -20,8 +22,8 @@ let data = {
       <p>Será um prazer fazer parte da sua equipe!</p>
     `,
     location: {
-      address: null,
-      postalCode: null,
+      address: "",
+      postalCode: "",
       city: "Belo Horizonte",
       region: "Minas Gerais",
       countryCode: "BR",
@@ -51,32 +53,32 @@ let data = {
       url: "https://labscript.dev",
       summary: "Empresa aberta por mim para prestação de serviços freelancer.",
       startDate: "2011-01-01",
-      endDate: null,
+      // endDate: "",
       highlights: ["Empresa própria"],
     }),
-    format.jsonResumeWork({
-      name: "Timesystem",
-      position: "Dev Fullstack",
-      summary: "Empresa voltada para segurança veicular.Desenvolvimento dos produtos internos da empresa.",
-      startDate: "2024-12-15",
-      endDate: "2025-05-15",
-    }),
-    format.jsonResumeWork({
-      name: "Tecnol Sistemas de Autmoação",
-      position: "Dev Fullstack",
-      url: "https://sistemastecnol.com.br",
-      summary: "Empresa voltada para segurança veicular. Desenvolvimento dos produtos internos da empresa.",
-      startDate: "2024-01-29",
-      endDate: "2024-06-07",
-    }),
-    format.jsonResumeWork({
-      name: "Cardcom",
-      position: "Dev Fullstack",
-      url: "http://capp2.cardcombh.com.br",
-      summary: "Desenvolvimento dos produtos internos da empresa.",
-      startDate: "2024-01-01",
-      endDate: null,
-    }),
+    // format.jsonResumeWork({
+    //   name: "Timesystem",
+    //   position: "Dev Fullstack",
+    //   summary: "Empresa voltada para segurança veicular.Desenvolvimento dos produtos internos da empresa.",
+    //   startDate: "2024-12-15",
+    //   endDate: "2025-05-15",
+    // }),
+    // format.jsonResumeWork({
+    //   name: "Tecnol Sistemas de Autmoação",
+    //   position: "Dev Fullstack",
+    //   url: "https://sistemastecnol.com.br",
+    //   summary: "Empresa voltada para segurança veicular. Desenvolvimento dos produtos internos da empresa.",
+    //   startDate: "2024-01-29",
+    //   endDate: "2024-06-07",
+    // }),
+    // format.jsonResumeWork({
+    //   name: "Cardcom",
+    //   position: "Dev Fullstack",
+    //   url: "http://capp2.cardcombh.com.br",
+    //   summary: "Desenvolvimento dos produtos internos da empresa.",
+    //   startDate: "2024-01-01",
+    //   endDate: '',
+    // }),
     format.jsonResumeWork({
       name: "Search and Stay",
       position: "Dev Fullstack",
@@ -86,21 +88,21 @@ let data = {
       startDate: "2022-12-31",
       endDate: "2023-11-30",
     }),
-    format.jsonResumeWork({
-      name: "Rehagro",
-      position: "Dev Fullstack",
-      url: "https://www.linkedin.com/company/rehagro/",
-      summary: `Implementações e correções no sistema Rehagro.`,
-      startDate: "2022-09-12",
-      endDate: "2022-12-09",
-    }),
-    format.jsonResumeWork({
-      name: "Iterative;",
-      position: "Frontend Developer",
-      summary: ``,
-      startDate: "2022-08-01",
-      endDate: "2022-09-12",
-    }),
+    // format.jsonResumeWork({
+    //   name: "Rehagro",
+    //   position: "Dev Fullstack",
+    //   url: "https://www.linkedin.com/company/rehagro/",
+    //   summary: `Implementações e correções no sistema Rehagro.`,
+    //   startDate: "2022-09-12",
+    //   endDate: "2022-12-09",
+    // }),
+    // format.jsonResumeWork({
+    //   name: "Iterative;",
+    //   position: "Frontend Developer",
+    //   summary: ``,
+    //   startDate: "2022-08-01",
+    //   endDate: "2022-09-12",
+    // }),
     format.jsonResumeWork({
       name: "Listra",
       position: "Dev Fullstack",
@@ -168,7 +170,7 @@ let data = {
     format.jsonResumeWork({
       name: "Web BH Escola de Informática",
       position: "Instrutor",
-      url: null,
+      // url: null,
       summary: `
         <p>Atuei como instrutor dos cursos de PHP, MySQL, SQL Server, CSS,
         Javascript, HTML5, Tableless e Action script.</p>
@@ -223,7 +225,6 @@ let data = {
     // format.jsonResumePublication({}),
   ],
   skills: [
-    format.jsonResumeSkill({ name: "Vue 2", keywords: ["Frontend"] }),
     format.jsonResumeSkill({ name: "Vue 3", keywords: ["Frontend"] }),
     format.jsonResumeSkill({ name: "Laravel", keywords: ["Backend"] }),
     format.jsonResumeSkill({ name: "React", keywords: ["Frontend"] }),
@@ -272,6 +273,7 @@ let data = {
     format.jsonResumeSkill({ name: "Design Patterns", keywords: [] }),
     format.jsonResumeSkill({ name: "Express.js", keywords: [] }),
     format.jsonResumeSkill({ name: "Three.js", keywords: ["Game"] }),
+    format.jsonResumeSkill({ name: "Babylon", keywords: ["Game"] }),
     format.jsonResumeSkill({ name: "Pagseguro", keywords: [] }),
     format.jsonResumeSkill({ name: "Stripe", keywords: [] }),
     format.jsonResumeSkill({ name: "SASS", keywords: [] }),
@@ -282,6 +284,8 @@ let data = {
     format.jsonResumeSkill({ name: "Integração AI", keywords: [] }),
     format.jsonResumeSkill({ name: "Python", keywords: [] }),
     format.jsonResumeSkill({ name: "AdonisJS 6", keywords: [] }),
+    format.jsonResumeSkill({ name: "Cálculos geospaciais", keywords: [] }),
+    format.jsonResumeSkill({ name: "Mapas", keywords: [] }),
   ],
   languages: [
     format.jsonResumeLanguage({ language: "Português Brasileiro", fluency: "Nativo" }),
@@ -300,6 +304,7 @@ let data = {
       url: "https://corapost.com",
       startDate: "2024-07-01",
       endDate: "2024-04-30",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Search and Stay",
@@ -323,6 +328,7 @@ let data = {
       url: "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
       startDate: "2021-12-31",
       endDate: "2021-12-31",
+      highlights: ["Listra"],
     }),
     format.jsonResumeProject({
       name: "Samarco",
@@ -343,6 +349,7 @@ let data = {
       url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
       startDate: "2020-08-31",
       endDate: "2020-10-31",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Faculdade Faveni",
@@ -350,6 +357,7 @@ let data = {
       url: "https://web.archive.org/web/20220131193706/https://faveni.edu.br/",
       startDate: "2020-12-31",
       endDate: "2021-12-31",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Orbitae",
@@ -363,6 +371,7 @@ let data = {
       url: "https://web.archive.org/web/20210517192720/https://orbitae.com.br/",
       startDate: "2019-01-31",
       endDate: "2019-08-31",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Blog Banco da Amazônia",
@@ -371,6 +380,7 @@ let data = {
       url: "https://web.archive.org/web/20211229163534/https://basablog.com.br/",
       startDate: "2019-12-31",
       endDate: "2019-12-31",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Habitat Group",
@@ -381,6 +391,7 @@ let data = {
       url: "https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/",
       startDate: "2019-12-31",
       endDate: "2019-12-31",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Cocks Skate",
@@ -392,6 +403,7 @@ let data = {
       url: "https://web.archive.org/web/20211226170044/https://cocksskate.com.br/",
       startDate: "2018-12-31",
       endDate: "2018-12-31",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Don Desenvolvimento",
@@ -399,6 +411,7 @@ let data = {
       url: "https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/",
       startDate: "2018-12-31",
       endDate: "2018-12-31",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Eiriz Saúde",
@@ -407,6 +420,7 @@ let data = {
       url: "http://eiriz-saude.unbox.pt",
       startDate: "2018-12-31",
       endDate: "2018-12-31",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Águas do Acuruí",
@@ -415,6 +429,7 @@ let data = {
       url: "https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/",
       startDate: "2017-12-31",
       endDate: "2017-12-31",
+      highlights: ["Agência de Criação"],
     }),
     format.jsonResumeProject({
       name: "Cantor Beto Santos",
@@ -423,6 +438,7 @@ let data = {
       url: "https://web.archive.org/web/20211127021144/http://betosantos.net/",
       startDate: "2017-12-31",
       endDate: "2017-12-31",
+      highlights: ["Agência de Criação"],
     }),
     format.jsonResumeProject({
       name: "Estrela Rural",
@@ -431,6 +447,7 @@ let data = {
       url: "https://web.archive.org/web/20220110211402/http://estrelarural.com.br/",
       startDate: "2012-12-31",
       endDate: "2012-12-31",
+      highlights: ["Agência de Criação"],
     }),
     format.jsonResumeProject({
       name: "ASSEMG",
@@ -439,6 +456,7 @@ let data = {
       url: "https://web.archive.org/web/20170612004919/http://assemg.org/",
       startDate: "2012-12-31",
       endDate: "2012-12-31",
+      highlights: ["Agência de Criação"],
     }),
     format.jsonResumeProject({
       name: "Manduí",
@@ -447,6 +465,7 @@ let data = {
       url: "https://mandui.com.br",
       startDate: "2023-01-01",
       endDate: "2023-01-31",
+      highlights: ["Labscript.dev"],
     }),
     format.jsonResumeProject({
       name: "Safe Register Car",
@@ -475,78 +494,37 @@ let data = {
       formatted: "Dec 2023",
     },
   },
-  // contacts: [
-  //   {
-  //     name: "Whatsapp",
-  //     url: "https://wa.me/message/NG7A2SW25XIEI1",
-  //     icon: "https://api.iconify.design/ic:baseline-whatsapp.svg",
-  //     value: "(31) 99527-1426",
-  //   },
-  //   {
-  //     name: "E-mail",
-  //     url: "mailto:jeferson.i.silva@gmail.com",
-  //     icon: "https://api.iconify.design/ic:outline-alternate-email.svg",
-  //     value: "jeferson.i.silva@gmail.com",
-  //   },
-  //   {
-  //     name: "Phone",
-  //     url: "tel:+5531995271426",
-  //     icon: "https://api.iconify.design/material-symbols:call.svg",
-  //     value: "(31) 99527-1426",
-  //   },
-  // ],
-  // links: [
-  //   {
-  //     name: "Linkedin",
-  //     url: "https://www.linkedin.com/in/jeferson-siqueira/",
-  //     icon: "https://api.iconify.design/mdi:linkedin.svg",
-  //     value: null,
-  //   },
-  //   {
-  //     name: "Github",
-  //     url: "https://github.com/jeff-silva",
-  //     icon: "https://api.iconify.design/mdi:github.svg",
-  //     value: null,
-  //   },
-  //   {
-  //     name: "Portfólio",
-  //     url: "https://jeff-silva.github.io",
-  //     icon: "https://api.iconify.design/material-symbols:home-rounded.svg",
-  //     value: null,
-  //   },
-  //   {
-  //     name: "Currículo",
-  //     url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf",
-  //     icon: "https://api.iconify.design/streamline:business-user-curriculum.svg",
-  //     value: null,
-  //   },
-  // ],
 };
 
-// data.work = data.work
-//   .sort((a, b) => {
-//     if (a.date.start.date === null || a.date.final.date === null) {
-//       return 0;
-//     }
+const dateStartEndSort = (a, b) => {
+  if (a.endDate === null && b.endDate !== null) {
+    return -1;
+  }
 
-//     return -1;
-//   })
-//   .sort((a, b) => {
-//     if (a.date.start.date === null || a.date.final.date === null) {
-//       return 0;
-//     }
-//     const timeA = format.dateUnix(a.date.final.date);
-//     const timeB = format.dateUnix(b.date.final.date);
-//     if (timeA < timeB) return -1;
-//     if (timeA > timeB) return 1;
-//     return 0;
-//   })
-//   .reverse();
+  if (a.endDate !== null && b.endDate === null) {
+    return 1;
+  }
 
-// data.skills = data.skills.sort((a, b) => {
-//   if (a.name < b.name) return -1;
-//   if (a.name > b.name) return 1;
-//   return 0;
-// });
+  const dateA = new Date(a.startDate);
+  const dateB = new Date(b.startDate);
+
+  if (dateA > dateB) {
+    return -1;
+  }
+  if (dateA < dateB) {
+    return 1;
+  }
+
+  return 0;
+};
+
+data.work = data.work.sort(dateStartEndSort);
+data.projects = data.projects.sort(dateStartEndSort);
+
+data.skills = data.skills.sort((a, b) => {
+  if (a.name < b.name) return -1;
+  if (a.name > b.name) return 1;
+  return 0;
+});
 
 export default data;

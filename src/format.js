@@ -4,9 +4,6 @@ import "dayjs/locale/pt-br.js";
 dayjs.locale("pt-br");
 
 export default {
-  location(place) {
-    return [place.city, place.state, place.country].filter((v) => !!v).join(", ");
-  },
   nl2br(content) {
     return content.replace(/\n/g, "<br />");
   },
@@ -81,6 +78,59 @@ export default {
     return dayjs(dateTime).unix();
   },
 
+  dateDuration(startDate, endDate) {
+    startDate = dayjs(startDate || undefined);
+    endDate = dayjs(endDate || undefined);
+
+    let years = startDate.diff(endDate, "year");
+    years = Math.max(years, years * -1);
+
+    let months = startDate.diff(endDate, "month") % 12;
+    months = Math.max(months, months * -1);
+
+    let parts = [];
+
+    if (years == 1) {
+      parts.push(`${years} ano`);
+    } else if (years > 1) {
+      parts.push(`${years} anos`);
+    }
+
+    if (months == 1) {
+      parts.push(`${months} mês`);
+    } else if (months > 1) {
+      parts.push(`${months} meses`);
+    }
+
+    return parts.join(" e ");
+  },
+
+  location(location) {
+    const parts = [];
+    if (!!location.address) {
+      parts.push(location.address);
+    }
+    if (!!location.city) {
+      parts.push(location.city);
+    }
+    if (!!location.region) {
+      parts.push(location.region);
+    }
+    if (!!location.countryCode) {
+      parts.push(location.countryCode);
+    }
+    return parts.join(", ");
+  },
+
+  link(url) {
+    if (!url) return "";
+    let text = url;
+    if (url.startsWith("https://web.archive.org")) {
+      text = "http" + url.split("http").at(2);
+    }
+    return `<a href="${url}" target="_blank">${text}</a></a>`;
+  },
+
   // https://jsonresume.org/schema
   jsonResumeBasics(data) {
     return {
@@ -122,9 +172,9 @@ export default {
     return {
       name: "",
       position: "",
-      url: "",
-      startDate: "",
-      endDate: "",
+      // url: "",
+      // startDate: "",
+      // endDate: "",
       summary: "",
       highlights: [],
       ...data,
@@ -135,8 +185,8 @@ export default {
       organization: "",
       position: "",
       url: "",
-      startDate: "",
-      endDate: "",
+      // startDate: "",
+      // endDate: "",
       summary: "",
       highlights: [],
       ...data,
@@ -145,11 +195,11 @@ export default {
   jsonResumeEducation(data) {
     return {
       institution: "",
-      url: "",
+      // url: "",
       area: "",
       studyType: "",
-      startDate: "",
-      endDate: "",
+      // startDate: "",
+      // endDate: "",
       score: "",
       courses: [],
       ...data,
@@ -186,7 +236,7 @@ export default {
   jsonResumeSkill(data) {
     return {
       name: "",
-      level: null,
+      // level: null,
       keywords: [],
       ...data,
     };
@@ -215,11 +265,11 @@ export default {
   jsonResumeProject(data) {
     return {
       name: "",
-      startDate: "",
-      endDate: "",
+      // startDate: "",
+      // endDate: "",
       description: "",
       highlights: [],
-      url: "",
+      // url: "",
       ...data,
     };
   },

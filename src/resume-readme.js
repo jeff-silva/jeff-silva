@@ -1,29 +1,77 @@
-import fs from 'fs';
-import format from './format.js';
+import fs from "fs";
+import format from "./format.js";
+import template from "./template.js";
 
 export default async (data) => {
-    let content = [];
-    content.push(`# ${data.basics.name}`);
-    content.push(`<div>${data.basics.label}</div>`);
-    content.push(`<br />`);
+  const links = [
+    {
+      name: "Whatsapp",
+      url: "https://wa.me/message/NG7A2SW25XIEI1",
+      icon: "https://api.iconify.design/ic:baseline-whatsapp.svg?color=%23ffffff",
+      value: data.basics.phone,
+    },
+    {
+      name: "E-mail",
+      url: `mailto:${data.basics.email}`,
+      icon: "https://api.iconify.design/ic:outline-alternate-email.svg?color=%23ffffff",
+      value: data.basics.email,
+    },
+    {
+      name: "Phone",
+      url: "tel:" + data.basics.phone.replace(/[^0-9]/g, ""),
+      icon: "https://api.iconify.design/material-symbols:call.svg?color=%23ffffff",
+      value: data.basics.phone,
+    },
+    {
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/jeferson-siqueira/",
+      icon: "https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff",
+      value: null,
+    },
+    {
+      name: "Github",
+      url: "https://github.com/jeff-silva",
+      icon: "https://api.iconify.design/mdi:github.svg?color=%23ffffff",
+      value: null,
+    },
+    {
+      name: "Portfólio",
+      url: "https://jeff-silva.github.io",
+      icon: "https://api.iconify.design/material-symbols:home-rounded.svg?color=%23ffffff",
+      value: null,
+    },
+    {
+      name: "Currículo",
+      url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf",
+      icon: "https://api.iconify.design/streamline:business-user-curriculum.svg?color=%23ffffff",
+      value: null,
+    },
+  ];
 
-    content.push(`<table><tbody>`);
-    [ ...data.links, ...data.contacts ].map((link, index) => {
-        // content.push(`<div><a href="${link.url}" target="_blank">${link.name}: ${link.url}</a></div>`);
-        content.push(`<tr>`);
-        content.push(`<td>${link.name} &nbsp;</td>`);
-        content.push(`<td><a href="${link.url}">${link.value || link.url}</a></td>`);
-        content.push(`</tr>`);
-    });
-    content.push(`</tbody></table>`);
-
-    content.push(`<h2>Tecnologias</h2>`);
-    content.push(data.skills.map(skill => skill.name).join(', ').replace(/,(?!.*,)/g, ' e '));
-    content.push(`<br /><br />`);
-
-    content = content.join(`\n`);
+  const output = `
+    # ${data.basics.name}
+    ### ${data.basics.label}
     
-    let readme = fs.readFileSync("./README.md", "utf8");
-    readme = readme.replace(/(<!--curriculum:start-->)([\s\S]*?)(<!--curriculum:final-->)/m, `$1\n${content}\n$3`);
-    fs.writeFileSync("./README.md", readme);
+    ${template.loop(links, (link, index) => {
+      return `<a href="${link.url}" target="_blank">
+        <img src="${link.icon}" alt="" width="30px" />
+      </a>\n`;
+    })}
+
+    <br />
+    ${data.basics.summary}
+
+    ## Skills
+    ${template.loop(data.skills, (skill, index) => {
+      let sep = ", ";
+      if (index === data.skills.length - 1) sep = ".";
+      if (index === data.skills.length - 2) sep = " e ";
+      return `${skill.name}${sep}`;
+    })}
+
+    `.replace(/\n    /g, "\n");
+
+  let readme = fs.readFileSync("./README.md", "utf8");
+  readme = readme.replace(/(<!--curriculum:start-->)([\s\S]*?)(<!--curriculum:final-->)/m, `$1\n${output}\n$3`);
+  fs.writeFileSync("./README.md", readme);
 };

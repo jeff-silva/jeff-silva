@@ -1,40 +1,51 @@
 <!--curriculum:start-->
+
 # Jeferson Siqueira
-<div>Dev Fullstack | AI | Laravel | Vue.js | React.js | Docker | Node.js</div>
+### Dev Fullstack Sênior | AI | Laravel | Vue.js | React.js | Docker | Node.js | NestJS
+
+
+<a href="https://wa.me/message/NG7A2SW25XIEI1" target="_blank">
+    <img src="https://api.iconify.design/ic:baseline-whatsapp.svg?color=%23ffffff" alt="" width="30px" />
+  </a>
+<a href="mailto:jeferson.i.silva@gmail.com" target="_blank">
+    <img src="https://api.iconify.design/ic:outline-alternate-email.svg?color=%23ffffff" alt="" width="30px" />
+  </a>
+<a href="tel:5531995271426" target="_blank">
+    <img src="https://api.iconify.design/material-symbols:call.svg?color=%23ffffff" alt="" width="30px" />
+  </a>
+<a href="https://www.linkedin.com/in/jeferson-siqueira/" target="_blank">
+    <img src="https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff" alt="" width="30px" />
+  </a>
+<a href="https://github.com/jeff-silva" target="_blank">
+    <img src="https://api.iconify.design/mdi:github.svg?color=%23ffffff" alt="" width="30px" />
+  </a>
+<a href="https://jeff-silva.github.io" target="_blank">
+    <img src="https://api.iconify.design/material-symbols:home-rounded.svg?color=%23ffffff" alt="" width="30px" />
+  </a>
+<a href="https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf" target="_blank">
+    <img src="https://api.iconify.design/streamline:business-user-curriculum.svg?color=%23ffffff" alt="" width="30px" />
+  </a>
+
+
 <br />
-<table><tbody>
-<tr>
-<td>Linkedin &nbsp;</td>
-<td><a href="https://www.linkedin.com/in/jeferson-siqueira/">https://www.linkedin.com/in/jeferson-siqueira/</a></td>
-</tr>
-<tr>
-<td>Github &nbsp;</td>
-<td><a href="https://github.com/jeff-silva">https://github.com/jeff-silva</a></td>
-</tr>
-<tr>
-<td>Portfólio &nbsp;</td>
-<td><a href="https://jeff-silva.github.io">https://jeff-silva.github.io</a></td>
-</tr>
-<tr>
-<td>Currículo &nbsp;</td>
-<td><a href="https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf">https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf</a></td>
-</tr>
-<tr>
-<td>Whatsapp &nbsp;</td>
-<td><a href="https://wa.me/message/NG7A2SW25XIEI1">(31) 99527-1426</a></td>
-</tr>
-<tr>
-<td>E-mail &nbsp;</td>
-<td><a href="mailto:jeferson.i.silva@gmail.com">jeferson.i.silva@gmail.com</a></td>
-</tr>
-<tr>
-<td>Phone &nbsp;</td>
-<td><a href="tel:+5531995271426">(31) 99527-1426</a></td>
-</tr>
-</tbody></table>
-<h2>Tecnologias</h2>
-API REST, AdonisJS 6, Arquitetura MVC, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, HTML5, Integração IA, JQuery, Javascript, Keycloak, LESS, Laravel, Linux, MySQL, NPM, NestJS, Node.js, Nuxt.js, Otimização de página, PHP, PWA, Pagseguro, Postgres, Python, Rapier.js, React.js, Responsividade, SASS, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue.js, VuePress, Vuetify, WooCommerce, WordPress e  YARN
-<br /><br />
+
+  <strong>Olá, tudo bem?</strong>
+
+  <p>Sou um desenvolvedor Full-stack apaixonado por tecnologia, com mais de 10 anos de experiência
+  na criação de sistemas robustos, desde monolitos até microserviços.</p>
+
+  <p>Forte expertise no desenvolvimento de soluções em Laravel,
+  Vue.js, Nuxt.js e WordPress, incluindo a criação de plugins e temas personalizados.
+  Focado em entregar soluções escaláveis e eficientes, com experiência em ambientes de
+  hospedagem compartilhada e dedicada.</p>
+  <p>Será um prazer fazer parte da sua equipe!</p>
+
+
+## Skills
+
+API REST, AdonisJS 6, Arquitetura MVC, Babylon, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Cálculos geospaciais, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, HTML5, Integração AI, JQuery, Javascript, Keycloak, LESS, Laravel, Linux, Mapas, MySQL, MySQL, NPM, NestJS, Node.js, Node.js, Nuxt 3, Otimização de página, PHP, PHP, PWA, Pagseguro, PostgreSQL, Postgres, Python, Rapier.js, React, React.js, Responsividade, SASS, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue 3, VuePress, Vuetify, WooCommerce, WordPress e YARN.
+
+
 <!--curriculum:final-->
 
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeff-silva&layout=compact&langs_count=7&theme=dracula" />
