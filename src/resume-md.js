@@ -43,8 +43,8 @@ export default async (data) => {
 
         <% _.forEach(projects, (item) => { %>
           ### <%= item.name %>
-          <%= format.trimLines(item.description) %>
-          <br />
+          <%= format.trimLines(item.description) %> <br /><br />
+          Link: [<%= item.url %>](<%= item.url %>) <br />
           <%= item.highlights.map(o => "*["+o+"]*").join(", ") %>
         <% }); %>
       <% } %>

@@ -110,65 +110,63 @@ Matérias: PHP, MySQL, SQL Server, CSS, Javascript, HTML5, Tableless, Action scr
 ### Corapost
 
 Desenvolvimento da interface do usuário (UI) para o projeto Corapost, com base no design fornecido no Figma. Utilizei Vue.js, HTML, CSS e JavaScript criando um plugin Wordpress para transformar o design em um frontend funcional e responsivo.
-
-<br />
+ <br /><br />
+Link: [https://corapost.com](https://corapost.com) <br />
 *[Labscript.dev]*
 
 ### Manduí
 A Escola Infantil Manduí oferece um ambiente acolhedor projetado para crianças de 4 meses a 6 anos, destacando-se por sua abordagem educacional abrangente. O site foi concebido para refletir essa filosofia, utilizando tecnologias avançadas, como Nuxt 3, Vue 3, Vuetify 3 e Firebase, garantindo uma experiência interativa e informativa para pais e responsáveis.
-Para o backend, foi criado uma interface onde, ao se clicar em um elemento, um painel lateral se abre com suas possibilidades de edição. Os dados são salvos no Firebase, sendo o sistema concebido de forma serverless.
-<br />
+Para o backend, foi criado uma interface onde, ao se clicar em um elemento, um painel lateral se abre com suas possibilidades de edição. Os dados são salvos no Firebase, sendo o sistema concebido de forma serverless. <br /><br />
+Link: [https://mandui.com.br](https://mandui.com.br) <br />
 *[Labscript.dev]*
 
 ### Search and Stay
-Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.
-<br />
+
+Responsável pela evolução contínua do sistema Search and Stay, atuando no desenvolvimento de novas funcionalidades e na resolução eficiente de bugs. Minha expertise abrange a criação de interfaces de usuário dinâmicas e responsivas com Vue.js e Nuxt.js no frontend, a construção de um backend robusto e escalável utilizando Laravel, e a integração e personalização do plugin WordPress para atender requisitos específicos do sistema. Colaborei ativamente com a equipe para garantir a entrega de um produto de alta qualidade e performance.
+ <br /><br />
+Link: [https://searchandstay.com](https://searchandstay.com) <br />
 
 
 ### O Novo Mercado
-Desenvolvimento da plataforma interna de videos e hub de profissionais utilizando Vue.js + Vuetify
-<br />
+
+Responsável pelo desenvolvimento do frontend da plataforma interna de vídeos e hub de profissionais "O Novo Mercado", utilizando Vue.js e a biblioteca de componentes Vuetify. Minha atuação focou na criação de uma interface de usuário intuitiva, responsiva e visualmente atraente para facilitar a navegação e a interação dos usuários com o conteúdo de vídeo e o perfil dos profissionais. Otimizei a performance da aplicação para garantir uma experiência fluida e eficiente, contribuindo para o engajamento dos usuários na plataforma.
+ <br /><br />
+Link: [https://onovomercado.com/](https://onovomercado.com/) <br />
 
 
 ### Assinar ou comprar
-Calculadora desenvolvida em parceria com Unidas e Samy Dana, para verificar se é mais vantajoso comprar ou alugar um carro.
-<br />
+
+Responsável pelo desenvolvimento da calculadora "Assinar ou Comprar", uma ferramenta estratégica desenvolvida em parceria com a Unidas e Samy Dana para auxiliar usuários na decisão entre comprar ou alugar um carro. Atuei no desenvolvimento Fullstack, utilizando Laravel, Vue.js e Element UI para criar uma aplicação intuitiva e precisa. O foco foi em implementar a lógica de cálculo complexa de forma eficiente e apresentar os resultados de maneira clara e acessível aos usuários, impactando diretamente na tomada de decisão informada sobre mobilidade.
+ <br /><br />
+Link: [https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/](https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/) <br />
 *[Listra]*
 
 ### Faculdade Faveni
-Estilização e customização de componentes do tema utilizando plataforma Wordpress com multisite.
-<br />
+
+Responsável pela estilização avançada e customização de componentes do tema da Faculdade Faveni, utilizando a plataforma Wordpress com arquitetura Multisite. Minha atuação envolveu a adaptação visual e funcional do tema para atender às necessidades específicas de cada site da rede, garantindo a identidade visual da instituição e aprimorando a experiência do usuário. Trabalhei na otimização do CSS e na manipulação de funcionalidades através de hooks e filtros do Wordpress, assegurando a consistência e a performance da plataforma Multisite.
+ <br /><br />
+Link: [https://web.archive.org/web/20220131193706/https://faveni.edu.br/](https://web.archive.org/web/20220131193706/https://faveni.edu.br/) <br />
 *[Labscript.dev]*
 
 ### Samarco
 
-Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel,
-desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação
-poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema
-dinâmico e versátil para administrar e apresentar conteúdos
-online de forma eficaz.
-A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade,
-com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta.
-Isso permitiu a criação e gestão de conteúdos de maneira simplificada,
-ao mesmo tempo em que ofereceu ferramentas de design avançadas para
-aprimorar a estética e a interatividade do site, atendendo às expectativas
-do cliente e proporcionando uma experiência de usuário aprimorada.
-
-<br />
+Em colaboração estratégica com a agência Belo Horizontina Digital Pixel, liderei o desenvolvimento e a implementação de um eficiente gerenciador de conteúdo para a Samarco, utilizando a combinação poderosa de Wordpress e Elementor. Minha atuação envolveu a criação de um sistema dinâmico e versátil que simplificou a administração e apresentação de conteúdo online, resultando em maior eficácia na comunicação digital da Samarco. A expertise na integração da flexibilidade do Wordpress com a intuitividade do Elementor permitiu a construção de uma solução robusta, focada na facilidade de uso para o cliente e na entrega de uma experiência de usuário aprimorada através de design avançado e interatividade otimizada.
+ <br /><br />
+Link: [https://web.archive.org/web/20220130172103/https://www.samarco.com/](https://web.archive.org/web/20220130172103/https://www.samarco.com/) <br />
 *[Labscript.dev]*
 
 ### Blog Banco da Amazônia
-Notícias e utlidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor
-com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.
-<br />
+
+Em parceria com a Partners Comunicação Pro Business, desenvolvi e mantive o blog de Notícias e Utilidades do Banco da Amazônia, utilizando a plataforma Wordpress e o page builder Elementor. Minha atuação envolveu a criação e customização de elementos personalizados para atender às necessidades específicas do conteúdo e da identidade visual do Banco. Trabalhei na estruturação do layout, na otimização da experiência do usuário e na garantia da responsividade do site, contribuindo para uma comunicação eficaz e acessível das informações do Banco da Amazônia.
+ <br /><br />
+Link: [https://web.archive.org/web/20211229163534/https://basablog.com.br/](https://web.archive.org/web/20211229163534/https://basablog.com.br/) <br />
 *[Labscript.dev]*
 
 ### Habitat Group
-Desenvolvimento de um website para a clínica veterinária Habitat Group.
-Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada.
-Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de 
-consultas para atendimento de qualidade aos animais de estimação e seus tutores.
-<br />
+
+Responsável pelo desenvolvimento completo do website da clínica veterinária Habitat Group, utilizando a plataforma Wordpress e o page builder Elementor. Meu foco principal foi criar uma interface amigável e personalizada que facilitasse o acesso dos tutores às informações sobre os serviços da clínica, a qualificação dos profissionais e o sistema de agendamento de consultas. A arquitetura do site foi pensada para proporcionar uma experiência de usuário intuitiva e eficiente, refletindo o compromisso da Habitat Group com o atendimento de qualidade aos animais de estimação e seus tutores.
+ <br /><br />
+Link: [https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/](https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/) <br />
 *[Labscript.dev]*
 
 ### Orbitae
@@ -178,8 +176,8 @@ Essa parceria estratégica com a Partners Comunicação Pro Business resultou em
 dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor,
 criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade
 aos detalhes técnicos. Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente,
-facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.
-<br />
+facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado. <br /><br />
+Link: [https://web.archive.org/web/20210517192720/https://orbitae.com.br/](https://web.archive.org/web/20210517192720/https://orbitae.com.br/) <br />
 *[Labscript.dev]*
 
 ### Cocks Skate
@@ -187,69 +185,69 @@ Desenvolvimento de e-commerce especializado em produtos para skatistas,
 utilizando Wordpress, Woocommerce e Elementor com elementos customizados.
 Somando uma experiência personalizada de compra com uma fácil navegação e busca dos produtos,
 a integração dessas ferramentas garante um site dinâmico, com funcionalidades de ponta e um design atraente;
-para o público interessado nesse nicho, visando atender suas necessidades e interesses.
-<br />
+para o público interessado nesse nicho, visando atender suas necessidades e interesses. <br /><br />
+Link: [https://web.archive.org/web/20211226170044/https://cocksskate.com.br/](https://web.archive.org/web/20211226170044/https://cocksskate.com.br/) <br />
 *[Labscript.dev]*
 
 ### Don Desenvolvimento
-Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue.
-<br />
+Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue. <br /><br />
+Link: [https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/](https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/) <br />
 *[Labscript.dev]*
 
 ### Eiriz Saúde
 Concebido e desenvolvido exclusivamente para atender às necessidades da clínica odontológica Eiriz Saúde, localizada em Porto, Portugal, este projeto é o resultado de uma parceria dedicada a aprimorar a experiência do usuário e a eficiência dos serviços oferecidos.
-Com foco na usabilidade e na interação fluída, o sistema Wordpress desenvolvido para a Eiriz Saúde incorporou recursos avançados de gerenciamento de conteúdo, garantindo não apenas a apresentação precisa dos serviços oferecidos, mas também a transmissão eficaz de informações importantes aos pacientes, proporcionando assim uma experiência online completa e informativa.
-<br />
+Com foco na usabilidade e na interação fluída, o sistema Wordpress desenvolvido para a Eiriz Saúde incorporou recursos avançados de gerenciamento de conteúdo, garantindo não apenas a apresentação precisa dos serviços oferecidos, mas também a transmissão eficaz de informações importantes aos pacientes, proporcionando assim uma experiência online completa e informativa. <br /><br />
+Link: [http://eiriz-saude.unbox.pt](http://eiriz-saude.unbox.pt) <br />
 *[Labscript.dev]*
 
 ### Águas do Acuruí
 O desenvolvimento do website para a cidade de Águas do Acuruí foi um projeto dedicado e personalizado, visando promover a região de forma cativante e informativa.
-Utilizando a versatilidade e as capacidades expansivas do Wordpress como base, o website foi meticulosamente construído a partir do zero, com um tema exclusivamente elaborado para atender às demandas específicas e à identidade singular da cidade. Cada elemento do design e funcionalidade foi cuidadosamente planejado para refletir a autenticidade e os pontos fortes de Águas do Acuruí.
-<br />
+Utilizando a versatilidade e as capacidades expansivas do Wordpress como base, o website foi meticulosamente construído a partir do zero, com um tema exclusivamente elaborado para atender às demandas específicas e à identidade singular da cidade. Cada elemento do design e funcionalidade foi cuidadosamente planejado para refletir a autenticidade e os pontos fortes de Águas do Acuruí. <br /><br />
+Link: [https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/](https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/) <br />
 *[Agência de Criação]*
 
 ### Cantor Beto Santos
 Desenvolvimento de website com um CMS personalizado e recursos únicos.
 O projeto apresenta uma funcionalidade interessante: um player de música integrado que reproduz as canções do cantor, permitindo que novas músicas sejam facilmente adicionadas através do painel interno do site.
-Uma característica notável do site é a disposição estratégica dos controles de reprodução, localizados tanto no topo quanto no corpo do site. A interconexão desses controles cria uma experiência de usuário fluida, evitando a necessidade de rolar constantemente. Essa abordagem garante uma navegação intuitiva, permitindo que os visitantes desfrutem da música sem interrupções, independentemente de onde estejam navegando no site.
-<br />
+Uma característica notável do site é a disposição estratégica dos controles de reprodução, localizados tanto no topo quanto no corpo do site. A interconexão desses controles cria uma experiência de usuário fluida, evitando a necessidade de rolar constantemente. Essa abordagem garante uma navegação intuitiva, permitindo que os visitantes desfrutem da música sem interrupções, independentemente de onde estejam navegando no site. <br /><br />
+Link: [https://web.archive.org/web/20211127021144/http://betosantos.net/](https://web.archive.org/web/20211127021144/http://betosantos.net/) <br />
 *[Agência de Criação]*
 
 ### Estrela Rural
 Este projeto foi criado sobre o sistema de gerenciamento de conteúdo (CMS) e de leilões personalizado para atender às necessidades específicas do cliente. Esse sistema foi meticulosamente projetado e construído com base na plataforma customizada da agência, oferecendo uma solução completa para administrar conteúdos e realizar leilões de forma eficiente.
-Essa solução customizada representa não apenas a habilidade técnica da agência, mas também seu compromisso em oferecer aos clientes ferramentas sob medida que atendam exatamente às suas necessidades, agregando valor e eficiência aos seus processos de gestão e negócios.
-<br />
+Essa solução customizada representa não apenas a habilidade técnica da agência, mas também seu compromisso em oferecer aos clientes ferramentas sob medida que atendam exatamente às suas necessidades, agregando valor e eficiência aos seus processos de gestão e negócios. <br /><br />
+Link: [https://web.archive.org/web/20220110211402/http://estrelarural.com.br/](https://web.archive.org/web/20220110211402/http://estrelarural.com.br/) <br />
 *[Agência de Criação]*
 
 ### ASSEMG
 Site criado sobre CMS exclusivo para atender às necessidades da associação dos empregados da MGS. Esse CMS foi meticulosamente adaptado para oferecer uma experiência de usuário única e atender às demandas específicas da associação, garantindo uma plataforma eficiente e funcional para os membros.
-O CMS customizado oferece ferramentas específicas para a gestão interna da associação, fornecendo um ambiente seguro e personalizado para comunicação e interação entre os membros, agregando valor e facilitando a administração dos recursos disponíveis.
-<br />
+O CMS customizado oferece ferramentas específicas para a gestão interna da associação, fornecendo um ambiente seguro e personalizado para comunicação e interação entre os membros, agregando valor e facilitando a administração dos recursos disponíveis. <br /><br />
+Link: [https://web.archive.org/web/20170612004919/http://assemg.org/](https://web.archive.org/web/20170612004919/http://assemg.org/) <br />
 *[Agência de Criação]*
 
 ### Safe Register Car
-
-<br />
+ <br /><br />
+Link: []() <br />
 
 
 ### Tecnohub
-
-<br />
+ <br /><br />
+Link: []() <br />
 
 
 ### EPA
-
-<br />
+ <br /><br />
+Link: [https://www.epa.com.br](https://www.epa.com.br) <br />
 
 
 ### Unidas Seminovos
-
-<br />
+ <br /><br />
+Link: [https://seminovos.unidas.com.br](https://seminovos.unidas.com.br) <br />
 
 
 ### Rehagro
-
-<br />
+ <br /><br />
+Link: [https://rehagro.com.br](https://rehagro.com.br) <br />
 
 
 

@@ -332,23 +332,27 @@ let data = {
     }),
     format.jsonResumeProject({
       name: "Search and Stay",
-      description:
-        "Implementações e correções no sistema Search and Stay, utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.",
+      description: `
+        Responsável pela evolução contínua do sistema Search and Stay, atuando no desenvolvimento de novas funcionalidades e na resolução eficiente de bugs. Minha expertise abrange a criação de interfaces de usuário dinâmicas e responsivas com Vue.js e Nuxt.js no frontend, a construção de um backend robusto e escalável utilizando Laravel, e a integração e personalização do plugin WordPress para atender requisitos específicos do sistema. Colaborei ativamente com a equipe para garantir a entrega de um produto de alta qualidade e performance.
+      `,
       url: "https://searchandstay.com",
       startDate: "2022-12-31",
       endDate: "2023-11-30",
     }),
     format.jsonResumeProject({
       name: "O Novo Mercado",
-      description: "Desenvolvimento da plataforma interna de videos e hub de profissionais utilizando Vue.js + Vuetify",
+      description: `
+        Responsável pelo desenvolvimento do frontend da plataforma interna de vídeos e hub de profissionais "O Novo Mercado", utilizando Vue.js e a biblioteca de componentes Vuetify. Minha atuação focou na criação de uma interface de usuário intuitiva, responsiva e visualmente atraente para facilitar a navegação e a interação dos usuários com o conteúdo de vídeo e o perfil dos profissionais. Otimizei a performance da aplicação para garantir uma experiência fluida e eficiente, contribuindo para o engajamento dos usuários na plataforma.
+      `,
       url: "https://onovomercado.com/",
       startDate: "2022-02-28",
       endDate: "2022-07-31",
     }),
     format.jsonResumeProject({
       name: "Assinar ou comprar",
-      description:
-        "Calculadora desenvolvida em parceria com Unidas e Samy Dana, para verificar se é mais vantajoso comprar ou alugar um carro.",
+      description: `
+        Responsável pelo desenvolvimento da calculadora "Assinar ou Comprar", uma ferramenta estratégica desenvolvida em parceria com a Unidas e Samy Dana para auxiliar usuários na decisão entre comprar ou alugar um carro. Atuei no desenvolvimento Fullstack, utilizando Laravel, Vue.js e Element UI para criar uma aplicação intuitiva e precisa. O foco foi em implementar a lógica de cálculo complexa de forma eficiente e apresentar os resultados de maneira clara e acessível aos usuários, impactando diretamente na tomada de decisão informada sobre mobilidade.
+      `,
       url: "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
       startDate: "2021-12-31",
       endDate: "2021-12-31",
@@ -357,18 +361,7 @@ let data = {
     format.jsonResumeProject({
       name: "Samarco",
       description: `
-        Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel,
-        desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação
-        poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema
-        dinâmico e versátil para administrar e apresentar conteúdos
-        online de forma eficaz.
-
-        A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade,
-        com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta.
-        Isso permitiu a criação e gestão de conteúdos de maneira simplificada,
-        ao mesmo tempo em que ofereceu ferramentas de design avançadas para
-        aprimorar a estética e a interatividade do site, atendendo às expectativas
-        do cliente e proporcionando uma experiência de usuário aprimorada.
+        Em colaboração estratégica com a agência Belo Horizontina Digital Pixel, liderei o desenvolvimento e a implementação de um eficiente gerenciador de conteúdo para a Samarco, utilizando a combinação poderosa de Wordpress e Elementor. Minha atuação envolveu a criação de um sistema dinâmico e versátil que simplificou a administração e apresentação de conteúdo online, resultando em maior eficácia na comunicação digital da Samarco. A expertise na integração da flexibilidade do Wordpress com a intuitividade do Elementor permitiu a construção de uma solução robusta, focada na facilidade de uso para o cliente e na entrega de uma experiência de usuário aprimorada através de design avançado e interatividade otimizada.
       `,
       url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
       startDate: "2020-08-31",
@@ -377,7 +370,9 @@ let data = {
     }),
     format.jsonResumeProject({
       name: "Faculdade Faveni",
-      description: "Estilização e customização de componentes do tema utilizando plataforma Wordpress com multisite.",
+      description: `
+        Responsável pela estilização avançada e customização de componentes do tema da Faculdade Faveni, utilizando a plataforma Wordpress com arquitetura Multisite. Minha atuação envolveu a adaptação visual e funcional do tema para atender às necessidades específicas de cada site da rede, garantindo a identidade visual da instituição e aprimorando a experiência do usuário. Trabalhei na otimização do CSS e na manipulação de funcionalidades através de hooks e filtros do Wordpress, assegurando a consistência e a performance da plataforma Multisite.
+      `,
       url: "https://web.archive.org/web/20220131193706/https://faveni.edu.br/",
       startDate: "2020-12-31",
       endDate: "2021-12-31",
@@ -399,8 +394,9 @@ let data = {
     }),
     format.jsonResumeProject({
       name: "Blog Banco da Amazônia",
-      description: `Notícias e utlidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor
-        com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.`,
+      description: `
+        Em parceria com a Partners Comunicação Pro Business, desenvolvi e mantive o blog de Notícias e Utilidades do Banco da Amazônia, utilizando a plataforma Wordpress e o page builder Elementor. Minha atuação envolveu a criação e customização de elementos personalizados para atender às necessidades específicas do conteúdo e da identidade visual do Banco. Trabalhei na estruturação do layout, na otimização da experiência do usuário e na garantia da responsividade do site, contribuindo para uma comunicação eficaz e acessível das informações do Banco da Amazônia.
+      `,
       url: "https://web.archive.org/web/20211229163534/https://basablog.com.br/",
       startDate: "2019-12-31",
       endDate: "2019-12-31",
@@ -408,10 +404,9 @@ let data = {
     }),
     format.jsonResumeProject({
       name: "Habitat Group",
-      description: `Desenvolvimento de um website para a clínica veterinária Habitat Group.
-        Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada.
-        Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de 
-        consultas para atendimento de qualidade aos animais de estimação e seus tutores.`,
+      description: `
+        Responsável pelo desenvolvimento completo do website da clínica veterinária Habitat Group, utilizando a plataforma Wordpress e o page builder Elementor. Meu foco principal foi criar uma interface amigável e personalizada que facilitasse o acesso dos tutores às informações sobre os serviços da clínica, a qualificação dos profissionais e o sistema de agendamento de consultas. A arquitetura do site foi pensada para proporcionar uma experiência de usuário intuitiva e eficiente, refletindo o compromisso da Habitat Group com o atendimento de qualidade aos animais de estimação e seus tutores.
+      `,
       url: "https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/",
       startDate: "2019-12-31",
       endDate: "2019-12-31",
@@ -419,11 +414,9 @@ let data = {
     }),
     format.jsonResumeProject({
       name: "Cocks Skate",
-      description: `Desenvolvimento de e-commerce especializado em produtos para skatistas,
-        utilizando Wordpress, Woocommerce e Elementor com elementos customizados.
-        Somando uma experiência personalizada de compra com uma fácil navegação e busca dos produtos,
-        a integração dessas ferramentas garante um site dinâmico, com funcionalidades de ponta e um design atraente;
-        para o público interessado nesse nicho, visando atender suas necessidades e interesses.`,
+      description: `
+        Responsável pelo desenvolvimento e otimização do e-commerce especializado em produtos para skatistas "Cocks Skate", utilizando a plataforma Wordpress, o plugin WooCommerce e o page builder Elementor com elementos customizados. Minha atuação focou na criação de uma experiência de compra personalizada e intuitiva, com navegação e busca de produtos facilitadas. A integração dessas ferramentas garantiu um site dinâmico, com funcionalidades de e-commerce completas, um design atraente e responsivo, visando atender às necessidades e interesses específicos do público skatista e impulsionar as vendas.
+      `,
       url: "https://web.archive.org/web/20211226170044/https://cocksskate.com.br/",
       startDate: "2018-12-31",
       endDate: "2018-12-31",
