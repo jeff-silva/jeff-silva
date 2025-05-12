@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
 import "dayjs/locale/pt-br.js";
+import textile from "textile-js";
 
 dayjs.locale("pt-br");
 
@@ -129,6 +130,16 @@ export default {
       text = "http" + url.split("http").at(2);
     }
     return `<a href="${url}" target="_blank">${text}</a></a>`;
+  },
+
+  markdownToHtml(text) {
+    text = text.replace(/\n\s+/g, "\n");
+    text = textile(text);
+    return text;
+  },
+
+  trimLines(text) {
+    return text.replace(/\n\s+/g, `\n`);
   },
 
   // https://jsonresume.org/schema

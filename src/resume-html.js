@@ -99,7 +99,7 @@ export default async (data) => {
           <div class="section-content">
               <div class="spacer"></div>
               <div class="section-text">
-                ${data.basics.summary}
+                ${format.markdownToHtml(data.basics.summary)}
               </div>
               <div class="spacer"></div>
           </div>
@@ -140,7 +140,7 @@ export default async (data) => {
                         <div style="min-width:20px;"></div>
                         <div style="font-size:20px;">
                           <div class="section-work-summary">
-                            ${work.summary}
+                            ${format.markdownToHtml(work.summary)}
                           </div>
                         </div>
                       </div>

@@ -17,6 +17,7 @@
     "lodash": "^4.17.21",
     "papaparse": "^5.4.1",
     "puppeteer": "^22.6.2",
-    "squirrelly": "^9.1.0"
+    "squirrelly": "^9.1.0",
+    "textile-js": "^2.1.1"
   }
 }

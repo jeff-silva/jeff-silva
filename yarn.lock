@@ -770,6 +770,11 @@ tar-stream@^3.1.5:
     fast-fifo "^1.2.0"
     streamx "^2.15.0"
 
+textile-js@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/textile-js/-/textile-js-2.1.1.tgz"
+  integrity sha512-6yP8bPtL364lb/Pu9IQh/pu9aFXQN2VSUQrzVtOrjQs0pSc+jX0iczNPcMn5+MNvmoP3piCPxFb0hPBS7DmfFg==
+
 through@^2.3.8:
   version "2.3.8"
   resolved "https://registry.npmjs.org/through/-/through-2.3.8.tgz"

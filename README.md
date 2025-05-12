@@ -1,7 +1,7 @@
 <!--curriculum:start-->
 
-# Jeferson Siqueira
-### Dev Fullstack Sênior | AI | Laravel | Vue.js | React.js | Docker | Node.js | NestJS
+# Jeferson Silva
+### Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | React.js | Docker | Node.js | NestJS
 
 
 [![Whatsapp](https://api.iconify.design/ic:baseline-whatsapp.svg?color=%23ffffff&height=30 'Whatsapp')](https://wa.me/message/NG7A2SW25XIEI1)
@@ -14,16 +14,18 @@
 
 <br />
 
-  <strong>Olá, tudo bem?</strong>
+  Desenvolvedor Full-stack apaixonado por criar soluções tecnológicas e transformar processos complexos em experiências simples e eficientes.
 
-  <p>Sou um desenvolvedor Full-stack apaixonado por tecnologia, com mais de 10 anos de experiência
-  na criação de sistemas robustos, desde monolitos até microserviços.</p>
+  Com mais de 10 anos de experiência, minha expertise abrange:
+  * Integração de sistemas com Inteligência Artificial
+  * Implementações e cálculos avançados utilizando mapas e geolocalização
+  * Otimização de performance para alta escalabilidade
+  * Estratégias de SEO
+  * Aplicação consistente de boas práticas de código em projetos complexos
 
-  <p>Forte expertise no desenvolvimento de soluções em Laravel,
-  Vue.js, Nuxt.js e WordPress, incluindo a criação de plugins e temas personalizados.
-  Focado em entregar soluções escaláveis e eficientes, com experiência em ambientes de
-  hospedagem compartilhada e dedicada.</p>
-  <p>Será um prazer fazer parte da sua equipe!</p>
+  Liderei com sucesso projetos que resultaram em significativa redução nos tempos de entrega e melhoraram a experiência do usuário, sempre priorizando a qualidade e a arquitetura escalável das soluções.
+
+  Vamos conectar e construir projetos que realmente impactem?
 
 
 ## Skills

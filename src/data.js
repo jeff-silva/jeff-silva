@@ -3,24 +3,25 @@ import format from "./format.js";
 let data = {
   $schema: "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/v1.0.0/schema.json",
   basics: format.jsonResumeBasics({
-    name: "Jeferson Siqueira",
-    label: "Dev Fullstack Sênior | AI | Laravel | Vue.js | React.js | Docker | Node.js | NestJS",
+    name: "Jeferson Silva",
+    label: "Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | React.js | Docker | Node.js | NestJS",
     image: "",
     email: "jeferson.i.silva@gmail.com",
     phone: "+55 31 99527-1426",
     url: "https://jeff-silva.github.io",
     summary: `
-      <strong>Olá, tudo bem?</strong>
+      Desenvolvedor Full-stack apaixonado por criar soluções tecnológicas e transformar processos complexos em experiências simples e eficientes.
 
-      <p>Sou um desenvolvedor Full-stack apaixonado por tecnologia, com mais de 10 anos de experiência
-      na criação de sistemas robustos, desde monolitos até microserviços.</p>
+      Com mais de 10 anos de experiência, minha expertise abrange:
+      * Integração de sistemas com Inteligência Artificial
+      * Implementações e cálculos avançados utilizando mapas e geolocalização
+      * Otimização de performance para alta escalabilidade
+      * Estratégias de SEO
+      * Aplicação consistente de boas práticas de código em projetos complexos
 
-      <p>Forte expertise no desenvolvimento de soluções em Laravel,
-      Vue.js, Nuxt.js e WordPress, incluindo a criação de plugins e temas personalizados.
-      Focado em entregar soluções escaláveis e eficientes, com experiência em ambientes de
-      hospedagem compartilhada e dedicada.</p>
-      
-      <p>Será um prazer fazer parte da sua equipe!</p>
+      Liderei com sucesso projetos que resultaram em significativa redução nos tempos de entrega e melhoraram a experiência do usuário, sempre priorizando a qualidade e a arquitetura escalável das soluções.
+
+      Vamos conectar e construir projetos que realmente impactem?
     `,
     location: {
       address: "",
@@ -52,7 +53,11 @@ let data = {
       name: "Labscript.dev (Empresa própria)",
       position: "Dev Fullstack",
       url: "https://labscript.dev",
-      summary: "Empresa aberta por mim para prestação de serviços freelancer.",
+      summary: `
+        - Fundei e gerencio a Labscript.dev, uma empresa de serviços de desenvolvimento freelancer onde aplico minha expertise Fullstack para entregar soluções personalizadas para diversos clientes e projetos.
+        - Atuo em todo o ciclo de desenvolvimento, desde a concepção e arquitetura de sistemas até a implementação, testes e deploy, garantindo soluções escaláveis, eficientes e alinhadas com as necessidades de cada projeto.
+        - Minha experiência como freelancer me proporcionou a capacidade de me adaptar rapidamente a diferentes stacks tecnológicos, desafios de negócios e prazos, além de desenvolver excelentes habilidades de comunicação e gestão de projetos com clientes.
+      `,
       startDate: "2011-01-01",
       // endDate: "",
       highlights: ["Empresa própria"],
@@ -84,10 +89,15 @@ let data = {
       name: "Search and Stay",
       position: "Dev Fullstack",
       url: "https://www.linkedin.com/company/search-and-stay/",
-      summary: `Implementações e correções no sistema Search and Stay,
-        utilizando Vue+Nuxt no frontend, Laravel no backend e plugin Wordpress.`,
       startDate: "2022-12-31",
       endDate: "2023-11-30",
+      summary: `
+        - Responsável por realizar implementações de novas funcionalidades e correções de bugs no sistema Search and Stay.
+        - Atuação no desenvolvimento do frontend utilizando Vue.js e Nuxt.js, focando na [Mencione um aspecto específico do frontend, ex: usabilidade, performance, novas seções].
+        - Desenvolvimento e manutenção do backend utilizando o framework Laravel, incluindo a criação e consumo de APIs e a lógica de negócio da aplicação.
+        - Trabalho com o plugin WordPress, realizando integrações ou modificações conforme a necessidade do sistema.
+        - Colaboração com a equipe para garantir a qualidade do código e a entrega de soluções eficientes.
+      `,
     }),
     // format.jsonResumeWork({
     //   name: "Rehagro",
@@ -108,76 +118,76 @@ let data = {
       name: "Listra",
       position: "Dev Fullstack",
       url: "https://www.linkedin.com/company/listradigital/",
-      summary: "",
       startDate: "2020-10-31",
       endDate: "2022-04-30",
+      summary: `
+        - Atuei como Desenvolvedor Fullstack, participando ativamente do desenvolvimento de sistemas web de alta visibilidade para clientes como Unidas Seminovos (busca de veículos), Samy Dana (site Alugar ou Comprar) e EPA Supermercados.
+        - Experiência no desenvolvimento de soluções completas, abrangendo tanto o frontend (com Vue.js e React.js) quanto o backend (utilizando frameworks como Laravel e CakePHP).
+        - Colaboração em equipes multidisciplinares para entregar funcionalidades complexas e otimizar a performance das aplicações.
+        - Contribuição para a criação de interfaces de usuário intuitivas e eficientes, além da implementação de lógicas de negócio robustas no backend.
+      `,
     }),
     format.jsonResumeWork({
       name: "Codificar Sistemas Tecnológicos",
       position: "Dev Fullstack",
       url: "https://www.linkedin.com/company/codificar/",
-      summary: "",
       startDate: "2017-02-28",
       endDate: "2017-10-31",
+      summary: `
+        - Atuei como Desenvolvedor Fullstack, participando ativamente do ciclo de vida de diversos sistemas web.
+        - Experiência no desenvolvimento de soluções tanto no frontend (com Vue.js e React.js) quanto no backend (principalmente com Laravel).
+        - Expertise em integrações com APIs externas, incluindo a API da Google para funcionalidades como sincronização de agendas e calendários.
+        - Colaboração com a equipe no desenvolvimento e implementação de funcionalidades complexas em diferentes projetos web.
+      `,
     }),
     format.jsonResumeWork({
       name: "Agência de Criação",
       position: "Dev Fullstack",
       url: "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
-      summary: `
-        <p>Nessa agência, ajudei a desenvolver principalmente o CMS próprio, onde tive
-        oportunidade de trabalhar com Vue.js e Angular.js.</p>
-
-        <p>Com as melhorias e tecnologias novas trazidas, ajudei a melhorar a velocidade
-        de correção de bugs e entrega.</p>
-      `,
       startDate: "2015-01-31",
       endDate: "2017-02-28",
+      summary: `
+        - Responsável pelo desenvolvimento e evolução do CMS proprietário da agência, com foco nas tecnologias frontend Vue.js e Angular.js.
+        - Atuação direta na identificação e implementação de melhorias arquiteturais e de código.
+        - Contribuição significativa para otimizar a velocidade de correção de bugs e o tempo de entrega de projetos web.
+      `,
     }),
     format.jsonResumeWork({
       name: "Cushman & Wakefield",
       position: "Dev Fullstack",
       url: "https://www.linkedin.com/company/cushman-and-wakefield/",
-      summary: `
-        <p>Serviços prestados de forma terceirizada para a Vale do Rio Doce, onde eu
-        era responsável por transformar algumas planilhas complexas utilizadas
-        pelos engenheiros em aplicações web.</p>
-
-        <p>Com as aplicações desenvolvidas, resolvi os problemas recorrentes com
-        projetos perdidos por conta de arquivos Excel corrompidos, e a impossibilidade
-        de dois engenheiros trabalharem ao mesmo tempo em um projeto.</p>
-
-        <p>Em um dos projetos, criei uma interface interessante, que utilizava
-        um gráfico de curva de Gauss para preencher vários campos de quantidade
-        de profissionais contratados por mês de obra, algo que seria demorado
-        de fazer manualmente. A solução foi bastante elogiada.</p>
-      `,
       startDate: "2012-05-02",
       endDate: "2013-11-08",
+      summary: `
+        - Atuei como Desenvolvedor Fullstack terceirizado para a Vale do Rio Doce, sendo responsável pela análise das necessidades dos engenheiros e pela transformação de planilhas complexas em aplicações web robustas e intuitivas ([Mencione as tecnologias principais aqui, ex: PHP, Javascript, algum framework específico]).
+        - Impacto: Eliminei os problemas recorrentes de perda de dados devido à corrupção de arquivos Excel e desbloqueei a colaboração simultânea de múltiplos engenheiros em um mesmo projeto, aumentando a eficiência do trabalho em equipe.
+        - Em um projeto específico, desenvolvi uma interface inovadora com um gráfico de curva de Gauss para automatizar o preenchimento de dados de contratação mensal, reduzindo o tempo necessário para essa tarefa. A solução recebeu feedback positivo significativo pela sua usabilidade e eficiência.
+      `,
     }),
     format.jsonResumeWork({
       name: "Netranet Networking",
       position: "Dev Fullstack",
       url: "https://www.linkedin.com/company/netranet-networking/",
-      summary: `
-        <p>Desenvolvimento de CMS própio da agência.</p>
-        <p>Com a aplicação, consegui aumentar o controle da agência ao código fonte,
-        melhorando o tempo de resolução de problemas e aumentando a flexibilidade
-        das soluções vendidas.</p>
-      `,
       startDate: "2011-01-13",
       endDate: "2012-01-13",
+      summary: `
+        - Responsável pelo desenvolvimento do CMS proprietário da agência, desde a concepção da arquitetura até a implementação das funcionalidades utilizando como base PHP, Javascript e MySQL juntamente com outras bibliotecas amplamente utilizadas na época.
+        - Liderança na criação de uma plataforma que aumentou significativamente o controle da agência sobre o código fonte, permitindo uma resolução de problemas mais rápida e eficiente.
+        - A implementação do novo CMS elevou a flexibilidade das soluções oferecidas aos clientes, possibilitando a criação de produtos mais personalizados e adaptáveis às suas necessidades.
+      `,
     }),
     format.jsonResumeWork({
       name: "Web BH Escola de Informática",
       position: "Instrutor",
       // url: null,
-      summary: `
-        <p>Atuei como instrutor dos cursos de PHP, MySQL, SQL Server, CSS,
-        Javascript, HTML5, Tableless e Action script.</p>
-      `,
       startDate: "2010-01-31",
       endDate: "2011-01-31",
+      summary: `
+        - Atuei como instrutor de diversos cursos de desenvolvimento web, incluindo PHP, MySQL, SQL Server, CSS, Javascript, HTML5, Tableless e Action script, para alunos de diferentes níveis de conhecimento.
+        - Responsável por planejar e ministrar aulas teóricas e práticas, criar materiais didáticos e avaliar o progresso dos alunos, garantindo a assimilação dos conceitos e o desenvolvimento de habilidades práticas.
+        - Desenvolvi fortes habilidades de comunicação, didática e liderança técnica ao guiar os alunos no aprendizado de tecnologias fundamentais para o desenvolvimento web.
+        - A experiência como instrutor me proporcionou uma compreensão aprofundada dos conceitos básicos e avançados dessas tecnologias, além da capacidade de explicar temas complexos de forma clara e acessível.
+      `,
     }),
   ],
   volunteer: [
@@ -185,35 +195,48 @@ let data = {
   ],
   education: [
     format.jsonResumeEducation({
-      institution: "Centro Universitário UNA",
-      area: "Cinema e Audiovisual",
-      studyType: "Bacharelado",
-      startDate: "2014-12-31",
-      endDate: "2017-12-31",
-      courses: [
-        "História da Arte",
-        "História do Cinema",
-        "Roteiro",
-        "Direção",
-        "Fotografia",
-        "Direção de fotografia",
-        "Direção de Arte",
-        "Teoria do Som",
-        "Captação de Som",
-        "Montagem e Edição",
-        "Análise Crítica",
-        "Animação",
-        "Semiótica",
-        "Legislação e Direito Autoral",
-      ],
-    }),
-    format.jsonResumeEducation({
       institution: "WebBH Escola de Informática",
       area: "Desenvolvimento Web",
       studyType: "Ensino Técnico",
       startDate: "2009-03-31",
       endDate: "2010-09-30",
       courses: ["PHP", "MySQL", "SQL Server", "CSS", "Javascript", "HTML5", "Tableless", "Action script"],
+    }),
+    // format.jsonResumeEducation({
+    //   institution: "Centro Universitário UNA",
+    //   area: "Cinema e Audiovisual",
+    //   studyType: "Bacharelado",
+    //   startDate: "2014-12-31",
+    //   endDate: "2017-12-31",
+    //   courses: [
+    //     "História da Arte",
+    //     "História do Cinema",
+    //     "Roteiro",
+    //     "Direção",
+    //     "Fotografia",
+    //     "Direção de fotografia",
+    //     "Direção de Arte",
+    //     "Teoria do Som",
+    //     "Captação de Som",
+    //     "Montagem e Edição",
+    //     "Análise Crítica",
+    //     "Animação",
+    //     "Semiótica",
+    //     "Legislação e Direito Autoral",
+    //   ],
+    // }),
+    format.jsonResumeEducation({
+      institution: "Unicesumar",
+      area: "Inteligência Artificial e Machine Learning",
+      studyType: "Bacharelado",
+      startDate: "2025-01-01",
+      // endDate: "2017-12-31",
+      courses: [
+        "Inteligência Artificial e Machine Learning",
+        "Fundamentos de Big Data",
+        "Go - Projeto de Vida",
+        "Matemática Aplicada à Computação",
+      ],
     }),
   ],
   awards: [
@@ -299,7 +322,9 @@ let data = {
   projects: [
     format.jsonResumeProject({
       name: "Corapost",
-      description: `Desenvolvimento da interface desenvolvida no Figma`,
+      description: `
+        Desenvolvimento da interface do usuário (UI) para o projeto Corapost, com base no design fornecido no Figma. Utilizei Vue.js, HTML, CSS e JavaScript criando um plugin Wordpress para transformar o design em um frontend funcional e responsivo.
+      `,
       url: "https://corapost.com",
       startDate: "2024-07-01",
       endDate: "2024-04-30",
@@ -332,18 +357,18 @@ let data = {
     format.jsonResumeProject({
       name: "Samarco",
       description: `
-        <p>Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel,
+        Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel,
         desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação
         poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema
         dinâmico e versátil para administrar e apresentar conteúdos
-        online de forma eficaz.</p>
+        online de forma eficaz.
 
-        <p>A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade,
+        A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade,
         com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta.
         Isso permitiu a criação e gestão de conteúdos de maneira simplificada,
         ao mesmo tempo em que ofereceu ferramentas de design avançadas para
         aprimorar a estética e a interatividade do site, atendendo às expectativas
-        do cliente e proporcionando uma experiência de usuário aprimorada.</p>
+        do cliente e proporcionando uma experiência de usuário aprimorada.
       `,
       url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
       startDate: "2020-08-31",
@@ -519,6 +544,7 @@ const dateStartEndSort = (a, b) => {
 
 data.work = data.work.sort(dateStartEndSort);
 data.projects = data.projects.sort(dateStartEndSort);
+data.education = data.education.sort(dateStartEndSort);
 
 data.skills = data.skills.sort((a, b) => {
   if (a.name < b.name) return -1;
