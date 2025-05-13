@@ -45,6 +45,7 @@ export default async (data) => {
           ### <%= item.name %>
           <%= format.trimLines(item.description) %> <br /><br />
           Link: [<%= item.url %>](<%= item.url %>) <br />
+          De <%= item.startDate %> até <%= item.endDate %> | <%= format.dateDuration(item.startDate, item.endDate) %> <br />
           <%= item.highlights.map(o => "*["+o+"]*").join(", ") %>
         <% }); %>
       <% } %>
