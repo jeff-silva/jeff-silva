@@ -77,14 +77,19 @@ let data = {
     //   startDate: "2024-01-29",
     //   endDate: "2024-06-07",
     // }),
-    // format.jsonResumeWork({
-    //   name: "Cardcom",
-    //   position: "Dev Fullstack",
-    //   url: "http://capp2.cardcombh.com.br",
-    //   summary: "Desenvolvimento dos produtos internos da empresa.",
-    //   startDate: "2024-01-01",
-    //   endDate: '',
-    // }),
+    format.jsonResumeWork({
+      name: "Cardcom",
+      position: "Dev Fullstack",
+      url: "http://capp2.cardcombh.com.br",
+      summary: `
+        - Liderei a reengenharia e implementação do sistema central da empresa do zero, migrando a arquitetura de Laravel 4 para NestJS.
+        - Desenvolvi integralmente o painel administrativo e as interfaces específicas para clientes e diferentes setores (administração, produção, expedição), otimizando o fluxo de trabalho.
+        - Automatizei o ciclo de vida do serviço de impressão de cartões de alta qualidade, desde o pedido do cliente, aprovação administrativa, até a gestão da produção e expedição.
+        - Responsável pela construção completa da plataforma, garantindo escalabilidade, manutenção e aprimoramento contínuo dos processos internos e externos.
+      `,
+      startDate: "2023-12-01",
+      endDate: "2025-05-01",
+    }),
     format.jsonResumeWork({
       name: "Search and Stay",
       position: "Dev Fullstack",
@@ -300,6 +305,7 @@ let data = {
     format.jsonResumeSkill({ name: "Composer", keywords: [] }),
     format.jsonResumeSkill({ name: "VuePress", keywords: [] }),
     format.jsonResumeSkill({ name: "MongoDB", keywords: [] }),
+    format.jsonResumeSkill({ name: "Google Compute Engine", keywords: [] }),
     format.jsonResumeSkill({ name: "Integração AI", keywords: [] }),
     format.jsonResumeSkill({ name: "Python", keywords: [] }),
     format.jsonResumeSkill({ name: "AdonisJS 6", keywords: [] }),

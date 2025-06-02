@@ -24,6 +24,15 @@ Vamos conectar e construir projetos que realmente impactem?
 
 ## Experiências
 
+### Cardcom | Dev Fullstack
+De 2023-12-01 até 2025-05-01 | 1 ano e 5 meses
+
+- Liderei a reengenharia e implementação do sistema central da empresa do zero, migrando a arquitetura de Laravel 4 para NestJS.
+- Desenvolvi integralmente o painel administrativo e as interfaces específicas para clientes e diferentes setores (administração, produção, expedição), otimizando o fluxo de trabalho.
+- Automatizei o ciclo de vida do serviço de impressão de cartões de alta qualidade, desde o pedido do cliente, aprovação administrativa, até a gestão da produção e expedição.
+- Responsável pela construção completa da plataforma, garantindo escalabilidade, manutenção e aprimoramento contínuo dos processos internos e externos.
+
+
 ### Search and Stay | Dev Fullstack
 De 2022-12-31 até 2023-11-30 | 11 meses
 
@@ -266,5 +275,5 @@ De 2012-12-31 até 2012-12-31 |  <br />
 
 
 ## Tecnologias utilizadas
-API REST, AdonisJS 6, Arquitetura MVC, Babylon, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Cálculos geospaciais, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, HTML5, Integração AI, JQuery, Javascript, Keycloak, LESS, Laravel, Linux, Mapas, MongoDB, MySQL, NPM, NestJS, Node.js, Nuxt 3, Otimização de página, PHP, PWA, Pagseguro, Postgres, Python, Rapier.js, React, Responsividade, SASS, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue 3, VuePress, Vuetify, WooCommerce, WordPress, YARN
+API REST, AdonisJS 6, Arquitetura MVC, Babylon, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Cálculos geospaciais, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, Google Compute Engine, HTML5, Integração AI, JQuery, Javascript, Keycloak, LESS, Laravel, Linux, Mapas, MongoDB, MySQL, NPM, NestJS, Node.js, Nuxt 3, Otimização de página, PHP, PWA, Pagseguro, Postgres, Python, Rapier.js, React, Responsividade, SASS, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue 3, VuePress, Vuetify, WooCommerce, WordPress, YARN
 
