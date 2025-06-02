@@ -79,7 +79,7 @@ let data = {
     // }),
     format.jsonResumeWork({
       name: "Cardcom",
-      position: "Dev Fullstack",
+      position: "Tech Lead",
       url: "http://capp2.cardcombh.com.br",
       summary: `
         - Liderei a reengenharia e implementação do sistema central da empresa do zero, migrando a arquitetura de Laravel 4 para NestJS.

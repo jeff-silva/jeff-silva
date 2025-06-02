@@ -24,7 +24,7 @@ Vamos conectar e construir projetos que realmente impactem?
 
 ## Experiências
 
-### Cardcom | Dev Fullstack
+### Cardcom | Tech Lead
 De 2023-12-01 até 2025-05-01 | 1 ano e 5 meses
 
 - Liderei a reengenharia e implementação do sistema central da empresa do zero, migrando a arquitetura de Laravel 4 para NestJS.
