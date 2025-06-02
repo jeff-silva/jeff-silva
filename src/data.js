@@ -318,7 +318,11 @@ let data = {
     format.jsonResumeLanguage({ language: "Inglês", fluency: "Leitura e Escrita" }),
   ],
   interests: [
-    // format.jsonResumeInterest({}),
+    format.jsonResumeInterest({ name: "Ciclismo", keywords: ["Bem Estar", "Desafios"] }),
+    format.jsonResumeInterest({
+      name: "Música (Tocar)",
+      keywords: ["Disciplina", "Habilidades Motoras", "Criatividade"],
+    }),
   ],
   references: [
     // format.jsonResumeReference({}),

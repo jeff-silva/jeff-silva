@@ -13,5 +13,5 @@ import signature from "./signature.js";
   await resumePdf(data);
   await resumeReadme(data);
   await resumeMd(data);
-  // await signature(data);
+  await signature(data);
 })();
