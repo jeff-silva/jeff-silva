@@ -59,23 +59,4 @@ export default async (data) => {
   );
 
   fs.writeFileSync("./data/jeferson-silva.md", output);
-
-  // const output = `
-
-  //   ${template.if(data.projects.length > 0, () => {
-  //     return (
-  //       `## Projetos \n` +
-  //       template.loop(data.projects, (item, index) => {
-  //         return `
-  //           ### ${item.name}
-  //           ${item.description}
-  //           ---
-  //         `;
-  //       })
-  //     );
-  //   })}
-
-  // `.replace(/\n\s+/g, `\n`);
-
-  // fs.writeFileSync("./data/jeferson-silva.md", output);
 };

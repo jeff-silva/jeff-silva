@@ -4,7 +4,7 @@ import textile from "textile-js";
 
 dayjs.locale("pt-br");
 
-export default {
+const format = {
   nl2br(content) {
     return content.replace(/\n/g, "<br />");
   },
@@ -144,7 +144,7 @@ export default {
 
   // https://jsonresume.org/schema
   jsonResumeBasics(data) {
-    return {
+    data = {
       name: "",
       label: "",
       image: "",
@@ -162,6 +162,8 @@ export default {
       profiles: [],
       ...data,
     };
+    data.summary = format.trimLines(data.summary);
+    return data;
   },
   jsonResumeLocation(data) {
     return {
@@ -180,7 +182,7 @@ export default {
     };
   },
   jsonResumeWork(data) {
-    return {
+    data = {
       name: "",
       position: "",
       // url: "",
@@ -190,9 +192,11 @@ export default {
       highlights: [],
       ...data,
     };
+    data.summary = format.trimLines(data.summary);
+    return data;
   },
   jsonResumeVolunteer(data) {
-    return {
+    data = {
       organization: "",
       position: "",
       url: "",
@@ -202,6 +206,8 @@ export default {
       highlights: [],
       ...data,
     };
+    data.summary = format.trimLines(data.summary);
+    return data;
   },
   jsonResumeEducation(data) {
     return {
@@ -217,13 +223,15 @@ export default {
     };
   },
   jsonResumeAward(data) {
-    return {
+    data = {
       title: "",
       date: "",
       awarder: "",
       summary: "",
       ...data,
     };
+    data.summary = format.trimLines(data.summary);
+    return data;
   },
   jsonResumeCertificate(data) {
     return {
@@ -235,7 +243,7 @@ export default {
     };
   },
   jsonResumePublication(data) {
-    return {
+    data = {
       name: "",
       publisher: "",
       releaseDate: "",
@@ -243,6 +251,8 @@ export default {
       summary: "",
       ...data,
     };
+    data.summary = format.trimLines(data.summary);
+    return data;
   },
   jsonResumeSkill(data) {
     return {
@@ -274,7 +284,7 @@ export default {
     };
   },
   jsonResumeProject(data) {
-    return {
+    data = {
       name: "",
       // startDate: "",
       // endDate: "",
@@ -283,5 +293,9 @@ export default {
       // url: "",
       ...data,
     };
+    data.description = format.trimLines(data.description);
+    return data;
   },
 };
+
+export default format;

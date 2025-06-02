@@ -27,77 +27,77 @@ Vamos conectar e construir projetos que realmente impactem?
 ### Search and Stay | Dev Fullstack
 De 2022-12-31 até 2023-11-30 | 11 meses
 
-- Responsável por realizar implementações de novas funcionalidades e correções de bugs no sistema Search and Stay.
-- Atuação no desenvolvimento do frontend utilizando Vue.js e Nuxt.js, focando na [Mencione um aspecto específico do frontend, ex: usabilidade, performance, novas seções].
-- Desenvolvimento e manutenção do backend utilizando o framework Laravel, incluindo a criação e consumo de APIs e a lógica de negócio da aplicação.
-- Trabalho com o plugin WordPress, realizando integrações ou modificações conforme a necessidade do sistema.
-- Colaboração com a equipe para garantir a qualidade do código e a entrega de soluções eficientes.
+* Responsável por realizar implementações de novas funcionalidades e correções de bugs no sistema Search and Stay. <br />
+* Atuação no desenvolvimento do frontend utilizando Vue.js e Nuxt.js, focando na [Mencione um aspecto específico do frontend, ex: usabilidade, performance, novas seções]. <br />
+* Desenvolvimento e manutenção do backend utilizando o framework Laravel, incluindo a criação e consumo de APIs e a lógica de negócio da aplicação. <br />
+* Trabalho com o plugin WordPress, realizando integrações ou modificações conforme a necessidade do sistema. <br />
+* Colaboração com a equipe para garantir a qualidade do código e a entrega de soluções eficientes.
 
 
 ### Listra | Dev Fullstack
 De 2020-10-31 até 2022-04-30 | 1 ano e 6 meses
 
-- Atuei como Desenvolvedor Fullstack, participando ativamente do desenvolvimento de sistemas web de alta visibilidade para clientes como Unidas Seminovos (busca de veículos), Samy Dana (site Alugar ou Comprar) e EPA Supermercados.
-- Experiência no desenvolvimento de soluções completas, abrangendo tanto o frontend (com Vue.js e React.js) quanto o backend (utilizando frameworks como Laravel e CakePHP).
-- Colaboração em equipes multidisciplinares para entregar funcionalidades complexas e otimizar a performance das aplicações.
-- Contribuição para a criação de interfaces de usuário intuitivas e eficientes, além da implementação de lógicas de negócio robustas no backend.
+* Atuei como Desenvolvedor Fullstack, participando ativamente do desenvolvimento de sistemas web de alta visibilidade para clientes como Unidas Seminovos (busca de veículos), Samy Dana (site Alugar ou Comprar) e EPA Supermercados. <br />
+* Experiência no desenvolvimento de soluções completas, abrangendo tanto o frontend (com Vue.js e React.js) quanto o backend (utilizando frameworks como Laravel e CakePHP). <br />
+* Colaboração em equipes multidisciplinares para entregar funcionalidades complexas e otimizar a performance das aplicações. <br />
+* Contribuição para a criação de interfaces de usuário intuitivas e eficientes, além da implementação de lógicas de negócio robustas no backend.
 
 
 ### Codificar Sistemas Tecnológicos | Dev Fullstack
 De 2017-02-28 até 2017-10-31 | 8 meses
 
-- Atuei como Desenvolvedor Fullstack, participando ativamente do ciclo de vida de diversos sistemas web.
-- Experiência no desenvolvimento de soluções tanto no frontend (com Vue.js e React.js) quanto no backend (principalmente com Laravel).
-- Expertise em integrações com APIs externas, incluindo a API da Google para funcionalidades como sincronização de agendas e calendários.
-- Colaboração com a equipe no desenvolvimento e implementação de funcionalidades complexas em diferentes projetos web.
+* Atuei como Desenvolvedor Fullstack, participando ativamente do ciclo de vida de diversos sistemas web. <br />
+* Experiência no desenvolvimento de soluções tanto no frontend (com Vue.js e React.js) quanto no backend (principalmente com Laravel). <br />
+* Expertise em integrações com APIs externas, incluindo a API da Google para funcionalidades como sincronização de agendas e calendários. <br />
+* Colaboração com a equipe no desenvolvimento e implementação de funcionalidades complexas em diferentes projetos web.
 
 
 ### Agência de Criação | Dev Fullstack
 De 2015-01-31 até 2017-02-28 | 2 anos e 1 mês
 
-- Responsável pelo desenvolvimento e evolução do CMS proprietário da agência, com foco nas tecnologias frontend Vue.js e Angular.js.
-- Atuação direta na identificação e implementação de melhorias arquiteturais e de código.
-- Contribuição significativa para otimizar a velocidade de correção de bugs e o tempo de entrega de projetos web.
+* Responsável pelo desenvolvimento e evolução do CMS proprietário da agência, com foco nas tecnologias frontend Vue.js e Angular.js. <br />
+* Atuação direta na identificação e implementação de melhorias arquiteturais e de código. <br />
+* Contribuição significativa para otimizar a velocidade de correção de bugs e o tempo de entrega de projetos web.
 
 
 ### Cushman & Wakefield | Dev Fullstack
 De 2012-05-02 até 2013-11-08 | 1 ano e 6 meses
 
-- Atuei como Desenvolvedor Fullstack terceirizado para a Vale do Rio Doce, sendo responsável pela análise das necessidades dos engenheiros e pela transformação de planilhas complexas em aplicações web robustas e intuitivas ([Mencione as tecnologias principais aqui, ex: PHP, Javascript, algum framework específico]).
-- Impacto: Eliminei os problemas recorrentes de perda de dados devido à corrupção de arquivos Excel e desbloqueei a colaboração simultânea de múltiplos engenheiros em um mesmo projeto, aumentando a eficiência do trabalho em equipe.
-- Em um projeto específico, desenvolvi uma interface inovadora com um gráfico de curva de Gauss para automatizar o preenchimento de dados de contratação mensal, reduzindo o tempo necessário para essa tarefa. A solução recebeu feedback positivo significativo pela sua usabilidade e eficiência.
+* Atuei como Desenvolvedor Fullstack terceirizado para a Vale do Rio Doce, sendo responsável pela análise das necessidades dos engenheiros e pela transformação de planilhas complexas em aplicações web robustas e intuitivas ([Mencione as tecnologias principais aqui, ex: PHP, Javascript, algum framework específico]). <br />
+* Impacto: Eliminei os problemas recorrentes de perda de dados devido à corrupção de arquivos Excel e desbloqueei a colaboração simultânea de múltiplos engenheiros em um mesmo projeto, aumentando a eficiência do trabalho em equipe. <br />
+* Em um projeto específico, desenvolvi uma interface inovadora com um gráfico de curva de Gauss para automatizar o preenchimento de dados de contratação mensal, reduzindo o tempo necessário para essa tarefa. A solução recebeu feedback positivo significativo pela sua usabilidade e eficiência.
 
 
 ### Netranet Networking | Dev Fullstack
 De 2011-01-13 até 2012-01-13 | 1 ano
 
-- Responsável pelo desenvolvimento do CMS proprietário da agência, desde a concepção da arquitetura até a implementação das funcionalidades utilizando como base PHP, Javascript e MySQL juntamente com outras bibliotecas amplamente utilizadas na época.
-- Liderança na criação de uma plataforma que aumentou significativamente o controle da agência sobre o código fonte, permitindo uma resolução de problemas mais rápida e eficiente.
-- A implementação do novo CMS elevou a flexibilidade das soluções oferecidas aos clientes, possibilitando a criação de produtos mais personalizados e adaptáveis às suas necessidades.
+* Responsável pelo desenvolvimento do CMS proprietário da agência, desde a concepção da arquitetura até a implementação das funcionalidades utilizando como base PHP, Javascript e MySQL juntamente com outras bibliotecas amplamente utilizadas na época. <br />
+* Liderança na criação de uma plataforma que aumentou significativamente o controle da agência sobre o código fonte, permitindo uma resolução de problemas mais rápida e eficiente. <br />
+* A implementação do novo CMS elevou a flexibilidade das soluções oferecidas aos clientes, possibilitando a criação de produtos mais personalizados e adaptáveis às suas necessidades.
 
 
 ### Labscript.dev (Empresa própria) | Dev Fullstack
-De 2011-01-01 até  | 14 anos e 4 meses
+De 2011-01-01 até  | 14 anos e 5 meses
 
-- Fundei e gerencio a Labscript.dev, uma empresa de serviços de desenvolvimento freelancer onde aplico minha expertise Fullstack para entregar soluções personalizadas para diversos clientes e projetos.
-- Atuo em todo o ciclo de desenvolvimento, desde a concepção e arquitetura de sistemas até a implementação, testes e deploy, garantindo soluções escaláveis, eficientes e alinhadas com as necessidades de cada projeto.
-- Minha experiência como freelancer me proporcionou a capacidade de me adaptar rapidamente a diferentes stacks tecnológicos, desafios de negócios e prazos, além de desenvolver excelentes habilidades de comunicação e gestão de projetos com clientes.
+* Fundei e gerencio a Labscript.dev, uma empresa de serviços de desenvolvimento freelancer onde aplico minha expertise Fullstack para entregar soluções personalizadas para diversos clientes e projetos. <br />
+* Atuo em todo o ciclo de desenvolvimento, desde a concepção e arquitetura de sistemas até a implementação, testes e deploy, garantindo soluções escaláveis, eficientes e alinhadas com as necessidades de cada projeto. <br />
+* Minha experiência como freelancer me proporcionou a capacidade de me adaptar rapidamente a diferentes stacks tecnológicos, desafios de negócios e prazos, além de desenvolver excelentes habilidades de comunicação e gestão de projetos com clientes.
 
 
 ### Web BH Escola de Informática | Instrutor
 De 2010-01-31 até 2011-01-31 | 1 ano
 
-- Atuei como instrutor de diversos cursos de desenvolvimento web, incluindo PHP, MySQL, SQL Server, CSS, Javascript, HTML5, Tableless e Action script, para alunos de diferentes níveis de conhecimento.
-- Responsável por planejar e ministrar aulas teóricas e práticas, criar materiais didáticos e avaliar o progresso dos alunos, garantindo a assimilação dos conceitos e o desenvolvimento de habilidades práticas.
-- Desenvolvi fortes habilidades de comunicação, didática e liderança técnica ao guiar os alunos no aprendizado de tecnologias fundamentais para o desenvolvimento web.
-- A experiência como instrutor me proporcionou uma compreensão aprofundada dos conceitos básicos e avançados dessas tecnologias, além da capacidade de explicar temas complexos de forma clara e acessível.
+* Atuei como instrutor de diversos cursos de desenvolvimento web, incluindo PHP, MySQL, SQL Server, CSS, Javascript, HTML5, Tableless e Action script, para alunos de diferentes níveis de conhecimento. <br />
+* Responsável por planejar e ministrar aulas teóricas e práticas, criar materiais didáticos e avaliar o progresso dos alunos, garantindo a assimilação dos conceitos e o desenvolvimento de habilidades práticas. <br />
+* Desenvolvi fortes habilidades de comunicação, didática e liderança técnica ao guiar os alunos no aprendizado de tecnologias fundamentais para o desenvolvimento web. <br />
+* A experiência como instrutor me proporcionou uma compreensão aprofundada dos conceitos básicos e avançados dessas tecnologias, além da capacidade de explicar temas complexos de forma clara e acessível.
 
 
 
 
 ## Cursos
 
-### Inteligência Artificial e Machine Learning | Unicesumar ~ 4 meses
+### Inteligência Artificial e Machine Learning | Unicesumar ~ 5 meses
 Matérias: Inteligência Artificial e Machine Learning, Fundamentos de Big Data, Go - Projeto de Vida, Matemática Aplicada à Computação
 
 ### Desenvolvimento Web | WebBH Escola de Informática ~ 1 ano e 6 meses
@@ -119,7 +119,7 @@ De 2024-07-01 até 2024-04-30 | 2 meses <br />
 
 Participei ativamente da construção do sistema Safe Register Car, uma solução desenvolvida pela Tecnol para otimizar o processo de envio de documentação veicular para seguradoras em nível nacional. Minha atuação como Desenvolvedor Fullstack envolveu a criação de uma interface de usuário intuitiva e simples para o cliente final utilizando Vue.js no frontend, facilitando o envio eficiente dos documentos necessários. No backend, utilizei Laravel para desenvolver a lógica da aplicação, o gerenciamento dos dados e a comunicação com as seguradoras, contribuindo para um fluxo de trabalho mais ágil e eficaz.
  <br /><br />
-Link: []() <br />
+Link: [https://saferegistercar.com.br](https://saferegistercar.com.br) <br />
 De 2023-12-15 até 2024-06-01 | 5 meses <br />
 
 

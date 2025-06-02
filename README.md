@@ -14,18 +14,15 @@
 
 <br />
 
-  Desenvolvedor Full-stack apaixonado por criar soluções tecnológicas e transformar processos complexos em experiências simples e eficientes.
-
-  Com mais de 10 anos de experiência, minha expertise abrange:
-  * Integração de sistemas com Inteligência Artificial
-  * Implementações e cálculos avançados utilizando mapas e geolocalização
-  * Otimização de performance para alta escalabilidade
-  * Estratégias de SEO
-  * Aplicação consistente de boas práticas de código em projetos complexos
-
-  Liderei com sucesso projetos que resultaram em significativa redução nos tempos de entrega e melhoraram a experiência do usuário, sempre priorizando a qualidade e a arquitetura escalável das soluções.
-
-  Vamos conectar e construir projetos que realmente impactem?
+Desenvolvedor Full-stack apaixonado por criar soluções tecnológicas e transformar processos complexos em experiências simples e eficientes.
+Com mais de 10 anos de experiência, minha expertise abrange:
+* Integração de sistemas com Inteligência Artificial
+* Implementações e cálculos avançados utilizando mapas e geolocalização
+* Otimização de performance para alta escalabilidade
+* Estratégias de SEO
+* Aplicação consistente de boas práticas de código em projetos complexos
+Liderei com sucesso projetos que resultaram em significativa redução nos tempos de entrega e melhoraram a experiência do usuário, sempre priorizando a qualidade e a arquitetura escalável das soluções.
+Vamos conectar e construir projetos que realmente impactem?
 
 
 ## Skills
