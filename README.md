@@ -27,7 +27,7 @@ Vamos conectar e construir projetos que realmente impactem?
 
 ## Skills
 
-API REST, AdonisJS 6, Arquitetura MVC, Babylon, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Cálculos geospaciais, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, HTML5, Integração AI, JQuery, Javascript, Keycloak, LESS, Laravel, Linux, Mapas, MySQL, NPM, NestJS, Node.js, Node.js, Nuxt 3, Otimização de página, PHP, PWA, Pagseguro, PostgreSQL, Postgres, Python, Rapier.js, React, React.js, Responsividade, SASS, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue 3, VuePress, Vuetify, WooCommerce, WordPress e YARN.
+API REST, AdonisJS 6, Arquitetura MVC, Babylon, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Cálculos geospaciais, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, HTML5, Integração AI, JQuery, Javascript, Keycloak, LESS, Laravel, Linux, Mapas, MongoDB, MySQL, NPM, NestJS, Node.js, Nuxt 3, Otimização de página, PHP, PWA, Pagseguro, Postgres, Python, Rapier.js, React, Responsividade, SASS, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue 3, VuePress, Vuetify, WooCommerce, WordPress e YARN.
 
 
 <!--curriculum:final-->
