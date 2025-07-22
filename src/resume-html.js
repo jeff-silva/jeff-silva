@@ -212,7 +212,7 @@ export default async (data) => {
                         <div style="min-width:20px;"></div>
                         <div style="font-size:20px;">
                           <div class="section-project-summary">
-                            ${project.description}
+                            ${format.markdownToHtml(project.description)}
                           </div>
                         </div>
                       </div>

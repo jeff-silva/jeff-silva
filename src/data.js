@@ -86,10 +86,10 @@ let data = {
       position: "Tech Lead",
       url: "http://capp2.cardcombh.com.br",
       summary: `
-        * Liderei a reengenharia e implementação do sistema central da empresa do zero, migrando a arquitetura de Laravel 4 para NestJS.
-        * Desenvolvi integralmente o painel administrativo e as interfaces específicas para clientes e diferentes setores (administração, produção, expedição), otimizando o fluxo de trabalho.
-        * Automatizei o ciclo de vida do serviço de impressão de cartões de alta qualidade, desde o pedido do cliente, aprovação administrativa, até a gestão da produção e expedição.
-        * Responsável pela construção completa da plataforma, garantindo escalabilidade, manutenção e aprimoramento contínuo dos processos internos e externos.
+        * **Liderança** e **reengenharia** do **sistema central** da empresa do zero, migrando a arquitetura de **Laravel 4 para NestJS**.
+        * Desenvolvimento **full-stack** de painel administrativo e interfaces para clientes e setores (administração, produção, expedição), **otimizando fluxos de trabalho**.
+        * **Automação completa** do ciclo de impressão de cartões: do pedido do cliente, aprovação administrativa, até gestão de produção e expedição, garantindo **eficiência e qualidade**.
+        * Construção de uma plataforma **escalável** e de **alta manutenção**, com foco no aprimoramento contínuo dos processos.
       `,
       startDate: "2023-12-01",
       endDate: "2025-05-01",
@@ -106,11 +106,9 @@ let data = {
       startDate: "2022-12-31",
       endDate: "2023-11-30",
       summary: `
-        * Responsável por realizar implementações de novas funcionalidades e correções de bugs no sistema Search and Stay. <br />
-        * Atuação no desenvolvimento do frontend utilizando Vue.js e Nuxt.js, focando na [Mencione um aspecto específico do frontend, ex: usabilidade, performance, novas seções]. <br />
-        * Desenvolvimento e manutenção do backend utilizando o framework Laravel, incluindo a criação e consumo de APIs e a lógica de negócio da aplicação. <br />
-        * Trabalho com o plugin WordPress, realizando integrações ou modificações conforme a necessidade do sistema. <br />
-        * Colaboração com a equipe para garantir a qualidade do código e a entrega de soluções eficientes.
+        * Desenvolvimento **Full-stack** (Vue.js, Nuxt.js, Laravel) no sistema Search and Stay, focando na **implementação de funcionalidades, correção de bugs e otimização de performance do frontend**.
+        * Criação e manutenção de **APIs** e lógica de negócio no backend, além de integrações e customizações com **WordPress**.
+        * Colaboração ativa com a equipe para garantir a **qualidade do código** e a **eficiência das entregas**.
       `,
     }),
     // format.jsonResumeWork({
@@ -135,10 +133,9 @@ let data = {
       startDate: "2020-10-31",
       endDate: "2022-04-30",
       summary: `
-        * Atuei como Desenvolvedor Fullstack, participando ativamente do desenvolvimento de sistemas web de alta visibilidade para clientes como Unidas Seminovos (busca de veículos), Samy Dana (site Alugar ou Comprar) e EPA Supermercados. <br />
-        * Experiência no desenvolvimento de soluções completas, abrangendo tanto o frontend (com Vue.js e React.js) quanto o backend (utilizando frameworks como Laravel e CakePHP). <br />
-        * Colaboração em equipes multidisciplinares para entregar funcionalidades complexas e otimizar a performance das aplicações. <br />
-        * Contribuição para a criação de interfaces de usuário intuitivas e eficientes, além da implementação de lógicas de negócio robustas no backend.
+        * Atuação **Fullstack** (Vue.js, React.js, Laravel, CakePHP) no desenvolvimento de **sistemas web de alta visibilidade** para grandes clientes como Unidas Seminovos, Samy Dana e EPA Supermercados.
+        * Responsável pela entrega de **soluções completas**, desde interfaces intuitivas até lógicas de negócio robustas no backend.
+        * Colaboração em equipes multidisciplinares para desenvolver **funcionalidades complexas** e **otimizar a performance** de aplicações de larga escala.
       `,
     }),
     format.jsonResumeWork({
@@ -148,10 +145,9 @@ let data = {
       startDate: "2017-02-28",
       endDate: "2017-10-31",
       summary: `
-        * Atuei como Desenvolvedor Fullstack, participando ativamente do ciclo de vida de diversos sistemas web. <br />
-        * Experiência no desenvolvimento de soluções tanto no frontend (com Vue.js e React.js) quanto no backend (principalmente com Laravel). <br />
-        * Expertise em integrações com APIs externas, incluindo a API da Google para funcionalidades como sincronização de agendas e calendários. <br />
-        * Colaboração com a equipe no desenvolvimento e implementação de funcionalidades complexas em diferentes projetos web.
+        * Atuação **Fullstack** (Vue.js, React.js, Laravel) no desenvolvimento e implementação de **sistemas web diversos**.
+        * **Expertise em integrações com APIs externas**, incluindo a API da Google para sincronização de agendas e calendários.
+        * Colaboração em equipe para desenvolver **funcionalidades complexas** em diferentes projetos web.
       `,
     }),
     format.jsonResumeWork({
@@ -161,9 +157,8 @@ let data = {
       startDate: "2015-01-31",
       endDate: "2017-02-28",
       summary: `
-        * Responsável pelo desenvolvimento e evolução do CMS proprietário da agência, com foco nas tecnologias frontend Vue.js e Angular.js. <br />
-        * Atuação direta na identificação e implementação de melhorias arquiteturais e de código. <br />
-        * Contribuição significativa para otimizar a velocidade de correção de bugs e o tempo de entrega de projetos web.
+        * **Desenvolvimento e evolução do CMS proprietário** da agência (Vue.js, Angular.js), com foco em **melhorias arquiteturais e de código**.
+        * Contribuição significativa para a **otimização da velocidade de correção de bugs** e a **redução do tempo de entrega** de projetos web.
       `,
     }),
     format.jsonResumeWork({
@@ -173,9 +168,9 @@ let data = {
       startDate: "2012-05-02",
       endDate: "2013-11-08",
       summary: `
-        * Atuei como Desenvolvedor Fullstack terceirizado para a Vale do Rio Doce, sendo responsável pela análise das necessidades dos engenheiros e pela transformação de planilhas complexas em aplicações web robustas e intuitivas ([Mencione as tecnologias principais aqui, ex: PHP, Javascript, algum framework específico]). <br />
-        * Impacto: Eliminei os problemas recorrentes de perda de dados devido à corrupção de arquivos Excel e desbloqueei a colaboração simultânea de múltiplos engenheiros em um mesmo projeto, aumentando a eficiência do trabalho em equipe. <br />
-        * Em um projeto específico, desenvolvi uma interface inovadora com um gráfico de curva de Gauss para automatizar o preenchimento de dados de contratação mensal, reduzindo o tempo necessário para essa tarefa. A solução recebeu feedback positivo significativo pela sua usabilidade e eficiência.
+        * Atuação **Fullstack** (PHP, JavaScript, [Mencione o framework específico aqui, ex: jQuery, Vue.js inicial]) como terceirizado para a **Vale do Rio Doce**, transformando **planilhas complexas em aplicações web robustas**.
+        * **Impacto Direto:** **Eliminei a perda de dados** por corrupção de Excel e **desbloqueei a colaboração simultânea**, **aumentando a eficiência** da equipe de engenharia.
+        * Desenvolvi **interface inovadora com automação** (gráfico de curva de Gauss) que **reduziu o tempo de preenchimento de dados** de contratação mensal, com **feedback positivo** pela usabilidade.
       `,
     }),
     format.jsonResumeWork({
@@ -185,9 +180,7 @@ let data = {
       startDate: "2011-01-13",
       endDate: "2012-01-13",
       summary: `
-        * Responsável pelo desenvolvimento do CMS proprietário da agência, desde a concepção da arquitetura até a implementação das funcionalidades utilizando como base PHP, Javascript e MySQL juntamente com outras bibliotecas amplamente utilizadas na época. <br />
-        * Liderança na criação de uma plataforma que aumentou significativamente o controle da agência sobre o código fonte, permitindo uma resolução de problemas mais rápida e eficiente. <br />
-        * A implementação do novo CMS elevou a flexibilidade das soluções oferecidas aos clientes, possibilitando a criação de produtos mais personalizados e adaptáveis às suas necessidades.
+        * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.
       `,
     }),
     format.jsonResumeWork({
@@ -197,10 +190,7 @@ let data = {
       startDate: "2010-01-31",
       endDate: "2011-01-31",
       summary: `
-        * Atuei como instrutor de diversos cursos de desenvolvimento web, incluindo PHP, MySQL, SQL Server, CSS, Javascript, HTML5, Tableless e Action script, para alunos de diferentes níveis de conhecimento. <br />
-        * Responsável por planejar e ministrar aulas teóricas e práticas, criar materiais didáticos e avaliar o progresso dos alunos, garantindo a assimilação dos conceitos e o desenvolvimento de habilidades práticas. <br />
-        * Desenvolvi fortes habilidades de comunicação, didática e liderança técnica ao guiar os alunos no aprendizado de tecnologias fundamentais para o desenvolvimento web. <br />
-        * A experiência como instrutor me proporcionou uma compreensão aprofundada dos conceitos básicos e avançados dessas tecnologias, além da capacidade de explicar temas complexos de forma clara e acessível.
+        * Atuação como instrutor de desenvolvimento web (PHP, MySQL, Javascript, HTML/CSS), capacitando alunos em diversas tecnologias e aprimorando **habilidades de comunicação, didática e liderança técnica**.
       `,
     }),
   ],
@@ -340,7 +330,8 @@ let data = {
     format.jsonResumeProject({
       name: "Corapost",
       description: `
-        Desenvolvimento da interface do usuário (UI) para o projeto Corapost, com base no design fornecido no Figma. Utilizei Vue.js, HTML, CSS e JavaScript criando um plugin Wordpress para transformar o design em um frontend funcional e responsivo.
+        * Desenvolvimento da **interface do usuário (UI) funcional e responsiva** para o projeto **Corapost**, com base em design de Figma.
+        * Utilização de **Vue.js, HTML, CSS e JavaScript** para criar um **plugin WordPress** que transformou o design em um frontend completo.
       `,
       url: "https://corapost.com",
       startDate: "2024-07-01",
@@ -350,7 +341,9 @@ let data = {
     format.jsonResumeProject({
       name: "Search and Stay",
       description: `
-        Responsável pela evolução contínua do sistema Search and Stay, atuando no desenvolvimento de novas funcionalidades e na resolução eficiente de bugs. Minha expertise abrange a criação de interfaces de usuário dinâmicas e responsivas com Vue.js e Nuxt.js no frontend, a construção de um backend robusto e escalável utilizando Laravel, e a integração e personalização do plugin WordPress para atender requisitos específicos do sistema. Colaborei ativamente com a equipe para garantir a entrega de um produto de alta qualidade e performance.
+        * **Evolução contínua** do sistema **Search and Stay**, com desenvolvimento de **novas funcionalidades** e **resolução eficiente de bugs**.
+        * Atuação **Fullstack**, construindo interfaces dinâmicas e responsivas com **Vue.js** e **Nuxt.js** (frontend) e backend **robusto e escalável** com **Laravel**.
+        * Experiência em **integração e personalização de plugin WordPress** para requisitos específicos do sistema, garantindo **alta qualidade e performance**.
       `,
       url: "https://searchandstay.com",
       startDate: "2022-12-31",
@@ -359,7 +352,9 @@ let data = {
     format.jsonResumeProject({
       name: "O Novo Mercado",
       description: `
-        Responsável pelo desenvolvimento do frontend da plataforma interna de vídeos e hub de profissionais "O Novo Mercado", utilizando Vue.js e a biblioteca de componentes Vuetify. Minha atuação focou na criação de uma interface de usuário intuitiva, responsiva e visualmente atraente para facilitar a navegação e a interação dos usuários com o conteúdo de vídeo e o perfil dos profissionais. Otimizei a performance da aplicação para garantir uma experiência fluida e eficiente, contribuindo para o engajamento dos usuários na plataforma.
+        * **Desenvolvimento frontend** da plataforma interna de vídeos e hub de profissionais **"O Novo Mercado"**.
+        * Construção de uma **interface de usuário intuitiva, responsiva e atraente** com **Vue.js** e **Vuetify**.
+        * Otimização da **performance** da aplicação para garantir uma **experiência fluida e eficiente**, contribuindo diretamente para o **engajamento dos usuários**.
       `,
       url: "https://onovomercado.com/",
       startDate: "2022-02-28",
@@ -368,7 +363,9 @@ let data = {
     format.jsonResumeProject({
       name: "Assinar ou comprar",
       description: `
-        Responsável pelo desenvolvimento da calculadora "Assinar ou Comprar", uma ferramenta estratégica desenvolvida em parceria com a Unidas e Samy Dana para auxiliar usuários na decisão entre comprar ou alugar um carro. Atuei no desenvolvimento Fullstack, utilizando Laravel, Vue.js e Element UI para criar uma aplicação intuitiva e precisa. O foco foi em implementar a lógica de cálculo complexa de forma eficiente e apresentar os resultados de maneira clara e acessível aos usuários, impactando diretamente na tomada de decisão informada sobre mobilidade.
+        * Desenvolvimento **Fullstack** (Laravel, Vue.js, Element UI) da **calculadora estratégica "Assinar ou Comprar"**, em parceria com **Unidas e Samy Dana**.
+        * Implementação de **lógica de cálculo complexa** para auxiliar usuários na decisão de comprar ou alugar um carro, garantindo **precisão e intuitividade**.
+        * Responsável por apresentar resultados de forma **clara e acessível**, **impactando diretamente na tomada de decisão informada** sobre mobilidade.
       `,
       url: "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
       startDate: "2021-12-31",
@@ -378,7 +375,9 @@ let data = {
     format.jsonResumeProject({
       name: "Samarco",
       description: `
-        Em colaboração estratégica com a agência Belo Horizontina Digital Pixel, liderei o desenvolvimento e a implementação de um eficiente gerenciador de conteúdo para a Samarco, utilizando a combinação poderosa de Wordpress e Elementor. Minha atuação envolveu a criação de um sistema dinâmico e versátil que simplificou a administração e apresentação de conteúdo online, resultando em maior eficácia na comunicação digital da Samarco. A expertise na integração da flexibilidade do Wordpress com a intuitividade do Elementor permitiu a construção de uma solução robusta, focada na facilidade de uso para o cliente e na entrega de uma experiência de usuário aprimorada através de design avançado e interatividade otimizada.
+        * **Liderança no desenvolvimento e implementação** de um **Gerenciador de Conteúdo** para a **Samarco**, em colaboração com a Digital Pixel.
+        * Criação de um sistema dinâmico e versátil utilizando **WordPress** e **Elementor**, **simplificando a administração** de conteúdo e **otimizando a comunicação digital**.
+        * Foco na **facilidade de uso** para o cliente e entrega de uma **experiência de usuário aprimorada** através de design e interatividade.
       `,
       url: "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
       startDate: "2020-08-31",
@@ -388,7 +387,9 @@ let data = {
     format.jsonResumeProject({
       name: "Faculdade Faveni",
       description: `
-        Responsável pela estilização avançada e customização de componentes do tema da Faculdade Faveni, utilizando a plataforma Wordpress com arquitetura Multisite. Minha atuação envolveu a adaptação visual e funcional do tema para atender às necessidades específicas de cada site da rede, garantindo a identidade visual da instituição e aprimorando a experiência do usuário. Trabalhei na otimização do CSS e na manipulação de funcionalidades através de hooks e filtros do Wordpress, assegurando a consistência e a performance da plataforma Multisite.
+        * **Estilização avançada e customização** do tema da **Faculdade Faveni** em plataforma **WordPress Multisite**.
+        * Adaptação visual e funcional do tema para atender **múltiplos sites da rede**, garantindo identidade visual e **aprimorando a experiência do usuário**.
+        * Otimização de **CSS** e manipulação de funcionalidades via **hooks e filtros do WordPress** para consistência e performance da rede Multisite.
       `,
       url: "https://web.archive.org/web/20220131193706/https://faveni.edu.br/",
       startDate: "2020-12-31",
@@ -397,13 +398,9 @@ let data = {
     }),
     format.jsonResumeProject({
       name: "Orbitae",
-      description: `Desenvolvemos apresentações de produtos especializados em perícia forense,
-        integrando Wordpress e Elementor com elementos personalizados.
-        Essa parceria estratégica com a Partners Comunicação Pro Business resultou em uma plataforma
-        dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor,
-        criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade
-        aos detalhes técnicos. Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente,
-        facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.`,
+      description: `* Desenvolvimento de **apresentações de produtos especializados em perícia forense**, em parceria com a **Partners Comunicação Pro Business**.
+      * Criação de plataforma **dinâmica e visualmente cativante** com **WordPress** e **Elementor**, integrando elementos personalizados.
+      * Foco em garantir **destaque e acessibilidade aos detalhes técnicos**, resultando em uma experiência de usuário **impactante e eficiente** para o público.`,
       url: "https://web.archive.org/web/20210517192720/https://orbitae.com.br/",
       startDate: "2019-01-31",
       endDate: "2019-08-31",
