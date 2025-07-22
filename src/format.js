@@ -104,7 +104,9 @@ const format = {
       parts.push(`${months} meses`);
     }
 
-    return parts.join(" e ");
+    const startDateFormat = startDate.format("MMM YYYY").toUpperCase();
+    const endDateFormat = endDate.format("MMM YYYY").toUpperCase();
+    return `${startDateFormat} ~ ${endDateFormat} (` + parts.join(" e ") + ")";
   },
 
   location(location) {

@@ -105,8 +105,34 @@ export default async (data) => {
           </div>
         </div>
 
-        <!-- Experience -->
+        
+        <!-- Skills -->
         <div class="section-wrapper" style="background:#562d69;">
+          <img
+            class="section-wrapper--icon"
+            src="https://api.iconify.design/ic:baseline-menu-book.svg?color=%23502562"
+            alt=""
+          />
+
+          <div class="section-content">
+              <div class="spacer"></div>
+              <h2 class="section-title">Skills</h2>
+              <div class="spacer"></div>
+
+              <div style="display:flex; align-items:center; flex-wrap:wrap; gap:15px;">
+                ${template.loop(data.skills, (skill, index) => {
+                  const pre = index == 0 ? "" : `<div>•</div>`;
+                  return `${pre}<div style="font-size:18px;">${skill.name}</div>`;
+                })}
+              </div>
+
+              <div class="spacer"></div>
+          </div>
+        </div>
+
+
+        <!-- Experience -->
+        <div class="section-wrapper" style="background:#603673;">
           <img
             class="section-wrapper--icon"
             src="https://api.iconify.design/material-symbols:elderly.svg?color=%23502562"
@@ -133,7 +159,7 @@ export default async (data) => {
 
                       <div style="display:flex; align-items:center; gap:10px;">
                         <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
-                        <div style="font-size:20px;">${format.dateDuration(work.startDate, work.endDate)}</div>
+                        <div style="font-size:15px;">${format.dateDuration(work.startDate, work.endDate)}</div>
                       </div>
 
                       <div style="display:flex; align-items:start; gap:10px;">
@@ -155,7 +181,7 @@ export default async (data) => {
         </div>
 
         <!-- Projects -->
-        <div class="section-wrapper" style="background:#603673;">
+        <div class="section-wrapper" style="background:#562d69;">
           <img
             class="section-wrapper--icon"
             src="https://api.iconify.design/carbon:portfolio.svg?color=%23502562"
@@ -198,7 +224,7 @@ export default async (data) => {
                         () => {
                           return `<div style="display:flex; align-items:center; gap:10px;">
                             <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
-                            <div style="font-size:20px;">
+                            <div style="font-size:15px;">
                               ${format.dateDuration(project.startDate, project.endDate)}
                             </div>
                           </div>`;
@@ -226,26 +252,12 @@ export default async (data) => {
           </div>
         </div>
 
-        <!-- Skills -->
-        <div class="section-wrapper" style="background:transparent;">
-          <img
-            class="section-wrapper--icon"
-            src="https://api.iconify.design/ic:baseline-menu-book.svg?color=%23502562"
-            alt=""
-          />
 
+        <!-- Footer -->
+        <div class="section-wrapper" style="background:transparent;">
           <div class="section-content">
               <div class="spacer"></div>
-              <h2 class="section-title">Skills</h2>
-              <div class="spacer"></div>
-
-              <div style="display:flex; align-items:center; flex-wrap:wrap; gap:15px;">
-                ${template.loop(data.skills, (skill, index) => {
-                  const pre = index == 0 ? "" : `<div>•</div>`;
-                  return `${pre}<div style="font-size:18px;">${skill.name}</div>`;
-                })}
-              </div>
-
+              <div class="section-text"><br /></div>
               <div class="spacer"></div>
           </div>
         </div>
