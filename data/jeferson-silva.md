@@ -1,6 +1,6 @@
 
 # Jeferson Silva
-## Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | React.js | Docker | Node.js | NestJS
+## Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | NestJS
 🌎 Belo Horizonte, Minas Gerais, BR
 
 Website: [https://jeff-silva.github.io/](https://jeff-silva.github.io/)

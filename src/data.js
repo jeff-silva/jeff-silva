@@ -4,7 +4,7 @@ let data = {
   $schema: "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/v1.0.0/schema.json",
   basics: format.jsonResumeBasics({
     name: "Jeferson Silva",
-    label: "Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | React.js | Docker | Node.js | NestJS",
+    label: "Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | NestJS",
     image: "",
     email: "jeferson.i.silva@gmail.com",
     phone: "+55 31 99527-1426",

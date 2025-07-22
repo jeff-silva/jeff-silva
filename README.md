@@ -1,7 +1,7 @@
 <!--curriculum:start-->
 
 # Jeferson Silva
-### Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | React.js | Docker | Node.js | NestJS
+### Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | NestJS
 
 
 [![Whatsapp](https://api.iconify.design/ic:baseline-whatsapp.svg?color=%23ffffff&height=30 'Whatsapp')](https://wa.me/message/NG7A2SW25XIEI1)
