@@ -17,7 +17,7 @@ Github: [https://github.com/jeff-silva](https://github.com/jeff-silva)
 * **Boas Práticas de Código** e liderança técnica em projetos complexos.
 Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
 <br />
-Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos.**
+Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
 
 
 ## Experiências
@@ -107,7 +107,9 @@ De 2024-07-01 até 2024-04-30 | 2 meses <br />
 
 ### Safe Register Car
 
-Participei ativamente da construção do sistema Safe Register Car, uma solução desenvolvida pela Tecnol para otimizar o processo de envio de documentação veicular para seguradoras em nível nacional. Minha atuação como Desenvolvedor Fullstack envolveu a criação de uma interface de usuário intuitiva e simples para o cliente final utilizando Vue.js no frontend, facilitando o envio eficiente dos documentos necessários. No backend, utilizei Laravel para desenvolver a lógica da aplicação, o gerenciamento dos dados e a comunicação com as seguradoras, contribuindo para um fluxo de trabalho mais ágil e eficaz.
+* Participação **Fullstack** na construção do **Safe Register Car** (Tecnol), otimizando o envio de **documentação veicular para seguradoras** em nível nacional.
+* Desenvolvimento de **interface de usuário intuitiva** com **Vue.js** (frontend) para envio eficiente de documentos.
+* Backend com **Laravel** para lógica da aplicação, **gerenciamento de dados e comunicação com seguradoras**, contribuindo para um **fluxo de trabalho ágil e eficaz**.
  <br /><br />
 Link: [https://saferegistercar.com.br](https://saferegistercar.com.br) <br />
 De 2023-12-15 até 2024-06-01 | 5 meses <br />
@@ -115,7 +117,9 @@ De 2023-12-15 até 2024-06-01 | 5 meses <br />
 
 ### Tecnohub
 
-Participei da construção e evolução do Tecnohub, uma plataforma centralizada da Tecnol que visa otimizar a comunicação e a interação entre a empresa, seus apoiadores, clientes e seguradoras. Minha atuação como Desenvolvedor Fullstack envolveu o desenvolvimento de funcionalidades para facilitar o fluxo de informações e a colaboração entre esses diferentes stakeholders. Trabalhei tanto no frontend, criando interfaces intuitivas para cada tipo de usuário, quanto no backend, desenvolvendo a lógica de negócio e as APIs necessárias para integrar os diversos serviços e garantir uma comunicação eficiente e transparente dentro do ecossistema Tecnol.
+* Participação **Fullstack** na construção e evolução do **Tecnohub** (Tecnol), plataforma centralizada para **otimizar a comunicação e interação** entre stakeholders.
+* Desenvolvimento de **funcionalidades** para facilitar o fluxo de informações e a **colaboração**, com **interfaces intuitivas** (frontend) para diferentes tipos de usuários.
+* No backend, criei **lógica de negócio e APIs** para **integrar diversos serviços**, garantindo **comunicação eficiente e transparente** no ecossistema Tecnol.
  <br /><br />
 Link: []() <br />
 De 2023-12-15 até 2024-06-01 | 5 meses <br />
@@ -123,7 +127,9 @@ De 2023-12-15 até 2024-06-01 | 5 meses <br />
 
 ### Manduí
 
-Responsável pelo desenvolvimento completo do website da Escola Infantil Manduí, uma plataforma criada para refletir seu ambiente acolhedor e abordagem educacional abrangente para crianças de 4 meses a 6 anos. O projeto utilizou tecnologias avançadas como Nuxt 3, Vue 3 e Vuetify 3 no frontend para garantir uma experiência interativa e informativa para pais e responsáveis. Para o backend, desenvolvi uma interface intuitiva com um painel lateral dinâmico para edição de elementos, com persistência de dados serverless através do Firebase, assegurando escalabilidade e eficiência.
+* **Desenvolvimento completo do website** da **Escola Infantil Manduí**, refletindo seu ambiente acolhedor e abordagem educacional.
+* Frontend construído com **Nuxt 3, Vue 3 e Vuetify 3**, garantindo uma **experiência interativa e informativa** para pais.
+* Backend com **interface intuitiva e painel lateral dinâmico** para edição de elementos, utilizando persistência de dados **serverless** via **Firebase**, assegurando **escalabilidade e eficiência**.
  <br /><br />
 Link: [https://mandui.com.br](https://mandui.com.br) <br />
 De 2023-01-01 até 2023-01-31 |  <br />
@@ -181,7 +187,9 @@ De 2020-08-31 até 2020-10-31 | 2 meses <br />
 
 ### Blog Banco da Amazônia
 
-Em parceria com a Partners Comunicação Pro Business, desenvolvi e mantive o blog de Notícias e Utilidades do Banco da Amazônia, utilizando a plataforma Wordpress e o page builder Elementor. Minha atuação envolveu a criação e customização de elementos personalizados para atender às necessidades específicas do conteúdo e da identidade visual do Banco. Trabalhei na estruturação do layout, na otimização da experiência do usuário e na garantia da responsividade do site, contribuindo para uma comunicação eficaz e acessível das informações do Banco da Amazônia.
+* Desenvolvimento e manutenção do **blog de Notícias e Utilidades do Banco da Amazônia**, em parceria com a **Partners Comunicação Pro Business**.
+* Criação e customização de elementos com **WordPress** e **Elementor**, garantindo a **identidade visual** e **otimizando a experiência do usuário**.
+* Atuação na **estruturação do layout e responsividade**, contribuindo para uma **comunicação eficaz e acessível** das informações do Banco.
  <br /><br />
 Link: [https://web.archive.org/web/20211229163534/https://basablog.com.br/](https://web.archive.org/web/20211229163534/https://basablog.com.br/) <br />
 De 2019-12-31 até 2019-12-31 |  <br />
@@ -189,7 +197,9 @@ De 2019-12-31 até 2019-12-31 |  <br />
 
 ### Habitat Group
 
-Responsável pelo desenvolvimento completo do website da clínica veterinária Habitat Group, utilizando a plataforma Wordpress e o page builder Elementor. Meu foco principal foi criar uma interface amigável e personalizada que facilitasse o acesso dos tutores às informações sobre os serviços da clínica, a qualificação dos profissionais e o sistema de agendamento de consultas. A arquitetura do site foi pensada para proporcionar uma experiência de usuário intuitiva e eficiente, refletindo o compromisso da Habitat Group com o atendimento de qualidade aos animais de estimação e seus tutores.
+* **Desenvolvimento completo do website** da clínica veterinária **Habitat Group**, utilizando **WordPress** e **Elementor**.
+* Criação de uma **interface amigável e personalizada** para facilitar o acesso a serviços, qualificação de profissionais e **sistema de agendamento de consultas**.
+* Foco em proporcionar uma **experiência de usuário intuitiva e eficiente**, refletindo o compromisso da clínica com a qualidade de atendimento.
  <br /><br />
 Link: [https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/](https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/) <br />
 De 2019-12-31 até 2019-12-31 |  <br />
@@ -205,7 +215,9 @@ De 2019-01-31 até 2019-08-31 | 7 meses <br />
 
 ### Cocks Skate
 
-Responsável pelo desenvolvimento e otimização do e-commerce especializado em produtos para skatistas "Cocks Skate", utilizando a plataforma Wordpress, o plugin WooCommerce e o page builder Elementor com elementos customizados. Minha atuação focou na criação de uma experiência de compra personalizada e intuitiva, com navegação e busca de produtos facilitadas. A integração dessas ferramentas garantiu um site dinâmico, com funcionalidades de e-commerce completas, um design atraente e responsivo, visando atender às necessidades e interesses específicos do público skatista e impulsionar as vendas.
+* **Desenvolvimento e otimização de e-commerce** para **"Cocks Skate"**, utilizando **WordPress, WooCommerce** e **Elementor** com elementos customizados.
+* Criação de uma **experiência de compra personalizada e intuitiva**, com navegação e busca de produtos facilitadas.
+* Implementação de **funcionalidades de e-commerce completas**, design **atraente e responsivo**, visando **impulsionar as vendas** e atender o público skatista.
  <br /><br />
 Link: [https://web.archive.org/web/20211226170044/https://cocksskate.com.br/](https://web.archive.org/web/20211226170044/https://cocksskate.com.br/) <br />
 De 2018-12-31 até 2018-12-31 |  <br />
@@ -213,7 +225,9 @@ De 2018-12-31 até 2018-12-31 |  <br />
 
 ### Don Desenvolvimento
 
-Responsável por realizar alterações no layout original e fornecer manutenções pontuais no website da Don Desenvolvimento, utilizando a plataforma Wordpress e a biblioteca JavaScript Vue.js. Minha atuação envolveu a adaptação e otimização do design existente, a implementação de novas funcionalidades utilizando Vue.js para uma experiência de usuário mais interativa, e a resolução eficiente de problemas e bugs para garantir a estabilidade e o bom funcionamento do site.
+* Realizei **alterações de layout e manutenções pontuais** no website da **Don Desenvolvimento**.
+* Utilização de **WordPress** e **Vue.js** para **adaptação e otimização do design existente**, e implementação de **novas funcionalidades interativas**.
+* Responsável pela **resolução eficiente de problemas e bugs**, garantindo a **estabilidade e o bom funcionamento** do site.
  <br /><br />
 Link: [https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/](https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/) <br />
 De 2018-12-31 até 2018-12-31 |  <br />
@@ -221,7 +235,9 @@ De 2018-12-31 até 2018-12-31 |  <br />
 
 ### Eiriz Saúde
 
-Responsável pela concepção e desenvolvimento exclusivo do sistema Wordpress para a clínica odontológica Eiriz Saúde, localizada em Porto, Portugal. Este projeto foi uma parceria dedicada a aprimorar a experiência do usuário e a eficiência dos serviços oferecidos online. O sistema incorporou recursos avançados de gerenciamento de conteúdo, com foco em usabilidade e interação fluida, garantindo a apresentação precisa dos serviços, a transmissão eficaz de informações aos pacientes e proporcionando uma experiência online completa e informativa.
+* **Concepção e desenvolvimento exclusivo** de um sistema **WordPress** para a clínica odontológica **Eiriz Saúde** (Porto, Portugal).
+* Foco em **aprimorar a experiência do usuário e a eficiência dos serviços online**, com **gerenciamento de conteúdo avançado** e **interação fluida**.
+* Garantiu a **apresentação precisa de serviços** e a **transmissão eficaz de informações**, proporcionando uma **experiência online completa e informativa**.
  <br /><br />
 Link: [http://eiriz-saude.unbox.pt](http://eiriz-saude.unbox.pt) <br />
 De 2018-12-31 até 2018-12-31 |  <br />
@@ -229,7 +245,9 @@ De 2018-12-31 até 2018-12-31 |  <br />
 
 ### Águas do Acuruí
 
-Responsável pelo desenvolvimento completo e personalizado do website para a cidade de Águas do Acuruí, utilizando a plataforma Wordpress como base. O projeto envolveu a construção meticulosa de um tema exclusivo, projetado sob medida para atender às demandas específicas e refletir a identidade singular da cidade, visando promover a região de forma cativante e informativa. Cada elemento do design e funcionalidade foi cuidadosamente planejado e implementado para destacar a autenticidade e os pontos fortes de Águas do Acuruí, proporcionando uma experiência online única e envolvente para os visitantes.
+* **Desenvolvimento completo e personalizado** do website para a cidade de **Águas do Acuruí**, utilizando **WordPress**.
+* Construção de um **tema exclusivo e sob medida**, refletindo a **identidade singular da cidade** e visando promover a região de forma **cativante e informativa**.
+* Planejamento e implementação de design e funcionalidades para destacar a **autenticidade e os pontos fortes**, proporcionando uma **experiência online única e envolvente** aos visitantes.
  <br /><br />
 Link: [https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/](https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/) <br />
 De 2017-12-31 até 2017-12-31 |  <br />
@@ -237,7 +255,9 @@ De 2017-12-31 até 2017-12-31 |  <br />
 
 ### Cantor Beto Santos
 
-Responsável pelo desenvolvimento completo do website do Cantor Beto Santos, implementando um CMS personalizado com recursos únicos, incluindo um player de música integrado. Uma funcionalidade chave do projeto foi a criação de um sistema intuitivo que permite o upload e a reprodução das músicas do cantor diretamente através do painel administrativo. Destaque para o design estratégico dos controles de reprodução, posicionados tanto no topo quanto no corpo do site, proporcionando uma experiência de usuário fluida e ininterrupta na audição das músicas durante a navegação.
+* **Desenvolvimento completo do website** para o **Cantor Beto Santos**, incluindo um **CMS personalizado com recursos únicos**.
+* Criação de um **player de música integrado** com sistema intuitivo de **upload e reprodução via painel administrativo**.
+* Destaque para o design estratégico dos controles de reprodução, garantindo uma **experiência de usuário fluida e ininterrupta** durante a navegação.
  <br /><br />
 Link: [https://web.archive.org/web/20211127021144/http://betosantos.net/](https://web.archive.org/web/20211127021144/http://betosantos.net/) <br />
 De 2017-12-31 até 2017-12-31 |  <br />
@@ -245,7 +265,9 @@ De 2017-12-31 até 2017-12-31 |  <br />
 
 ### Estrela Rural
 
-Responsável pelo desenvolvimento e implementação de um sistema de gerenciamento de conteúdo (CMS) e de leilões totalmente personalizado para atender às necessidades específicas da Estrela Rural. O projeto envolveu a concepção e a construção meticulosa de uma solução completa, baseada na plataforma customizada da agência, que otimizou a administração de conteúdo e a realização de leilões online de forma eficiente. A expertise aplicada na criação desta solução sob medida demonstrou a capacidade de entregar ferramentas que agregam valor significativo e melhoram a eficiência dos processos de gestão e negócios do cliente.
+* **Desenvolvimento e implementação** de um **CMS e sistema de leilões totalmente personalizados** para a **Estrela Rural**.
+* Concepção e construção de uma **solução completa**, baseada em plataforma customizada, otimizando a **administração de conteúdo** e a **realização de leilões online**.
+* Entregou valor significativo e **melhorou a eficiência dos processos de gestão e negócios** do cliente.
  <br /><br />
 Link: [https://web.archive.org/web/20220110211402/http://estrelarural.com.br/](https://web.archive.org/web/20220110211402/http://estrelarural.com.br/) <br />
 De 2012-12-31 até 2012-12-31 |  <br />
@@ -253,7 +275,9 @@ De 2012-12-31 até 2012-12-31 |  <br />
 
 ### ASSEMG
 
-Responsável pelo desenvolvimento e adaptação de um CMS exclusivo para o website da ASSEMG (Associação dos Empregados da MGS), com foco em atender às necessidades específicas da associação e proporcionar uma experiência de usuário única aos membros. O trabalho envolveu a customização meticulosa do CMS para garantir uma plataforma eficiente e funcional, oferecendo ferramentas específicas para a gestão interna, comunicação segura e interação personalizada entre os membros, facilitando a administração dos recursos disponíveis e agregando valor à experiência associativa online.
+* **Desenvolvimento e adaptação de um CMS exclusivo** para o website da **ASSEMG**, focado nas **necessidades específicas da associação**.
+* Criação de uma plataforma **eficiente e funcional** com ferramentas para **gestão interna, comunicação segura e interação personalizada** entre os membros.
+* Garantiu uma **experiência de usuário única** e **agregou valor** à gestão de recursos e à experiência associativa online.
  <br /><br />
 Link: [https://web.archive.org/web/20170612004919/http://assemg.org/](https://web.archive.org/web/20170612004919/http://assemg.org/) <br />
 De 2012-12-31 até 2012-12-31 |  <br />
