@@ -10,18 +10,16 @@ let data = {
     phone: "+55 31 99527-1426",
     url: "https://jeff-silva.github.io",
     summary: `
-      Desenvolvedor Full-stack apaixonado por criar soluções tecnológicas e transformar processos complexos em experiências simples e eficientes.
+      **Desenvolvedor Full-stack Sênior e Tech Lead** com mais de 10 anos de experiência em transformar desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
 
-      Com mais de 10 anos de experiência, minha expertise abrange:
-      * Integração de sistemas com Inteligência Artificial
-      * Implementações e cálculos avançados utilizando mapas e geolocalização
-      * Otimização de performance para alta escalabilidade
-      * Estratégias de SEO
-      * Aplicação consistente de boas práticas de código em projetos complexos
+      * **Integração de Sistemas** e implementação de **Inteligência Artificial** para otimização de processos.
+      * **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
+      * **Boas Práticas de Código** e liderança técnica em projetos complexos.
 
-      Liderei com sucesso projetos que resultaram em significativa redução nos tempos de entrega e melhoraram a experiência do usuário, sempre priorizando a qualidade e a arquitetura escalável das soluções.
+      Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
+      <br />
 
-      Vamos conectar e construir projetos que realmente impactem?
+      Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos.**
     `,
     location: {
       address: "",
@@ -49,19 +47,25 @@ let data = {
     ],
   }),
   work: [
-    format.jsonResumeWork({
-      name: "Labscript.dev (Empresa própria)",
-      position: "Dev Fullstack",
-      url: "https://labscript.dev",
-      summary: `
-        * Fundei e gerencio a Labscript.dev, uma empresa de serviços de desenvolvimento freelancer onde aplico minha expertise Fullstack para entregar soluções personalizadas para diversos clientes e projetos. <br />
-        * Atuo em todo o ciclo de desenvolvimento, desde a concepção e arquitetura de sistemas até a implementação, testes e deploy, garantindo soluções escaláveis, eficientes e alinhadas com as necessidades de cada projeto. <br />
-        * Minha experiência como freelancer me proporcionou a capacidade de me adaptar rapidamente a diferentes stacks tecnológicos, desafios de negócios e prazos, além de desenvolver excelentes habilidades de comunicação e gestão de projetos com clientes.
-      `,
-      startDate: "2011-01-01",
-      // endDate: "",
-      highlights: ["Empresa própria"],
-    }),
+    // format.jsonResumeWork({
+    //   name: "Labscript.dev (Empresa própria)",
+    //   position: "Dev Fullstack",
+    //   url: "https://labscript.dev",
+    //   summary: `
+    //     * Fundei e gerencio a Labscript.dev, uma empresa de serviços de desenvolvimento freelancer onde aplico minha expertise Fullstack para entregar soluções personalizadas para diversos clientes e projetos. <br />
+    //     * Atuo em todo o ciclo de desenvolvimento, desde a concepção e arquitetura de sistemas até a implementação, testes e deploy, garantindo soluções escaláveis, eficientes e alinhadas com as necessidades de cada projeto. <br />
+    //     * Minha experiência como freelancer me proporcionou a capacidade de me adaptar rapidamente a diferentes stacks tecnológicos, desafios de negócios e prazos, além de desenvolver excelentes habilidades de comunicação e gestão de projetos com clientes.
+    //   `,
+    //   startDate: "2011-01-01",
+    //   // endDate: "",
+    //   highlights: ["Empresa própria"],
+    //   meta: {
+    // summaryShort: `Fundador e gerente da Labscript.dev, onde atuo como Fullstack,
+    //   entregando soluções personalizadas do planejamento ao deploy. Adapto-me a diversas stacks e
+    //   gerencio projetos com excelência, garantindo escalabilidade e alinhamento com
+    //   os objetivos do cliente.`,
+    //   },
+    // }),
     // format.jsonResumeWork({
     //   name: "Timesystem",
     //   position: "Dev Fullstack",
@@ -82,13 +86,18 @@ let data = {
       position: "Tech Lead",
       url: "http://capp2.cardcombh.com.br",
       summary: `
-        - Liderei a reengenharia e implementação do sistema central da empresa do zero, migrando a arquitetura de Laravel 4 para NestJS.
-        - Desenvolvi integralmente o painel administrativo e as interfaces específicas para clientes e diferentes setores (administração, produção, expedição), otimizando o fluxo de trabalho.
-        - Automatizei o ciclo de vida do serviço de impressão de cartões de alta qualidade, desde o pedido do cliente, aprovação administrativa, até a gestão da produção e expedição.
-        - Responsável pela construção completa da plataforma, garantindo escalabilidade, manutenção e aprimoramento contínuo dos processos internos e externos.
+        * Liderei a reengenharia e implementação do sistema central da empresa do zero, migrando a arquitetura de Laravel 4 para NestJS.
+        * Desenvolvi integralmente o painel administrativo e as interfaces específicas para clientes e diferentes setores (administração, produção, expedição), otimizando o fluxo de trabalho.
+        * Automatizei o ciclo de vida do serviço de impressão de cartões de alta qualidade, desde o pedido do cliente, aprovação administrativa, até a gestão da produção e expedição.
+        * Responsável pela construção completa da plataforma, garantindo escalabilidade, manutenção e aprimoramento contínuo dos processos internos e externos.
       `,
       startDate: "2023-12-01",
       endDate: "2025-05-01",
+      meta: {
+        summaryShort: `Liderança e reengenharia de um sistema central do zero (Laravel 4 para NestJS),
+          incluindo desenvolvimento de painel administrativo e automação completa do ciclo de impressão de cartões.
+          Assegurei escalabilidade e otimização de processos do pedido à expedição.`,
+      },
     }),
     format.jsonResumeWork({
       name: "Search and Stay",

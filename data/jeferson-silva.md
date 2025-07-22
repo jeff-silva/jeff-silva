@@ -11,15 +11,13 @@ Github: [https://github.com/jeff-silva](https://github.com/jeff-silva)
 
 ## Resumo
 
-Desenvolvedor Full-stack apaixonado por criar soluções tecnológicas e transformar processos complexos em experiências simples e eficientes.
-Com mais de 10 anos de experiência, minha expertise abrange:
-* Integração de sistemas com Inteligência Artificial
-* Implementações e cálculos avançados utilizando mapas e geolocalização
-* Otimização de performance para alta escalabilidade
-* Estratégias de SEO
-* Aplicação consistente de boas práticas de código em projetos complexos
-Liderei com sucesso projetos que resultaram em significativa redução nos tempos de entrega e melhoraram a experiência do usuário, sempre priorizando a qualidade e a arquitetura escalável das soluções.
-Vamos conectar e construir projetos que realmente impactem?
+**Desenvolvedor Full-stack Sênior e Tech Lead** com mais de 10 anos de experiência em transformar desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
+* **Integração de Sistemas** e implementação de **Inteligência Artificial** para otimização de processos.
+* **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
+* **Boas Práticas de Código** e liderança técnica em projetos complexos.
+Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
+<br />
+Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos.**
 
 
 ## Experiências
@@ -27,10 +25,10 @@ Vamos conectar e construir projetos que realmente impactem?
 ### Cardcom | Tech Lead
 De 2023-12-01 até 2025-05-01 | 1 ano e 5 meses
 
-- Liderei a reengenharia e implementação do sistema central da empresa do zero, migrando a arquitetura de Laravel 4 para NestJS.
-- Desenvolvi integralmente o painel administrativo e as interfaces específicas para clientes e diferentes setores (administração, produção, expedição), otimizando o fluxo de trabalho.
-- Automatizei o ciclo de vida do serviço de impressão de cartões de alta qualidade, desde o pedido do cliente, aprovação administrativa, até a gestão da produção e expedição.
-- Responsável pela construção completa da plataforma, garantindo escalabilidade, manutenção e aprimoramento contínuo dos processos internos e externos.
+* Liderei a reengenharia e implementação do sistema central da empresa do zero, migrando a arquitetura de Laravel 4 para NestJS.
+* Desenvolvi integralmente o painel administrativo e as interfaces específicas para clientes e diferentes setores (administração, produção, expedição), otimizando o fluxo de trabalho.
+* Automatizei o ciclo de vida do serviço de impressão de cartões de alta qualidade, desde o pedido do cliente, aprovação administrativa, até a gestão da produção e expedição.
+* Responsável pela construção completa da plataforma, garantindo escalabilidade, manutenção e aprimoramento contínuo dos processos internos e externos.
 
 
 ### Search and Stay | Dev Fullstack
@@ -85,14 +83,6 @@ De 2011-01-13 até 2012-01-13 | 1 ano
 * A implementação do novo CMS elevou a flexibilidade das soluções oferecidas aos clientes, possibilitando a criação de produtos mais personalizados e adaptáveis às suas necessidades.
 
 
-### Labscript.dev (Empresa própria) | Dev Fullstack
-De 2011-01-01 até  | 14 anos e 5 meses
-
-* Fundei e gerencio a Labscript.dev, uma empresa de serviços de desenvolvimento freelancer onde aplico minha expertise Fullstack para entregar soluções personalizadas para diversos clientes e projetos. <br />
-* Atuo em todo o ciclo de desenvolvimento, desde a concepção e arquitetura de sistemas até a implementação, testes e deploy, garantindo soluções escaláveis, eficientes e alinhadas com as necessidades de cada projeto. <br />
-* Minha experiência como freelancer me proporcionou a capacidade de me adaptar rapidamente a diferentes stacks tecnológicos, desafios de negócios e prazos, além de desenvolver excelentes habilidades de comunicação e gestão de projetos com clientes.
-
-
 ### Web BH Escola de Informática | Instrutor
 De 2010-01-31 até 2011-01-31 | 1 ano
 
@@ -106,7 +96,7 @@ De 2010-01-31 até 2011-01-31 | 1 ano
 
 ## Cursos
 
-### Inteligência Artificial e Machine Learning | Unicesumar ~ 5 meses
+### Inteligência Artificial e Machine Learning | Unicesumar ~ 6 meses
 Matérias: Inteligência Artificial e Machine Learning, Fundamentos de Big Data, Go - Projeto de Vida, Matemática Aplicada à Computação
 
 ### Desenvolvimento Web | WebBH Escola de Informática ~ 1 ano e 6 meses

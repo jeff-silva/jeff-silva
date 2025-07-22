@@ -14,15 +14,13 @@
 
 <br />
 
-Desenvolvedor Full-stack apaixonado por criar soluções tecnológicas e transformar processos complexos em experiências simples e eficientes.
-Com mais de 10 anos de experiência, minha expertise abrange:
-* Integração de sistemas com Inteligência Artificial
-* Implementações e cálculos avançados utilizando mapas e geolocalização
-* Otimização de performance para alta escalabilidade
-* Estratégias de SEO
-* Aplicação consistente de boas práticas de código em projetos complexos
-Liderei com sucesso projetos que resultaram em significativa redução nos tempos de entrega e melhoraram a experiência do usuário, sempre priorizando a qualidade e a arquitetura escalável das soluções.
-Vamos conectar e construir projetos que realmente impactem?
+**Desenvolvedor Full-stack Sênior e Tech Lead** com mais de 10 anos de experiência em transformar desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
+* **Integração de Sistemas** e implementação de **Inteligência Artificial** para otimização de processos.
+* **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
+* **Boas Práticas de Código** e liderança técnica em projetos complexos.
+Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
+<br />
+Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos.**
 
 
 ## Skills

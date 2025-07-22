@@ -1,6 +1,7 @@
 import dayjs from "dayjs";
 import "dayjs/locale/pt-br.js";
 import textile from "textile-js";
+import _ from "lodash";
 
 dayjs.locale("pt-br");
 
@@ -182,17 +183,20 @@ const format = {
     };
   },
   jsonResumeWork(data) {
-    data = {
-      name: "",
-      position: "",
-      // url: "",
-      // startDate: "",
-      // endDate: "",
-      summary: "",
-      highlights: [],
-      ...data,
-    };
+    data = _.merge(
+      {
+        name: "",
+        position: "",
+        summary: "",
+        highlights: [],
+        meta: {
+          summaryShort: "",
+        },
+      },
+      data,
+    );
     data.summary = format.trimLines(data.summary);
+    data.meta.summaryShort = format.trimLines(data.meta.summaryShort);
     return data;
   },
   jsonResumeVolunteer(data) {
