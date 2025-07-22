@@ -9,7 +9,7 @@
 [![Linkedin](https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff&height=30 'Linkedin')](https://www.linkedin.com/in/jeferson-siqueira/)
 [![Github](https://api.iconify.design/mdi:github.svg?color=%23ffffff&height=30 'Github')](https://github.com/jeff-silva)
 [![Portfólio](https://api.iconify.design/material-symbols:home-rounded.svg?color=%23ffffff&height=30 'Portfólio')](https://jeff-silva.github.io)
-[![Currículo](https://api.iconify.design/streamline:business-user-curriculum.svg?color=%23ffffff&height=30 'Currículo')](https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf)
+[![Currículo](https://api.iconify.design/mdi:download.svg?color=%23ffffff&height=30 'Currículo')](https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf)
 
 
 <br />
@@ -19,7 +19,7 @@
 * **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
 * **Boas Práticas de Código** e liderança técnica em projetos complexos.
 Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
-<br />
+<br /><br />
 Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
 
 

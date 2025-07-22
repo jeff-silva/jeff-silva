@@ -16,7 +16,7 @@ Github: [https://github.com/jeff-silva](https://github.com/jeff-silva)
 * **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
 * **Boas Práticas de Código** e liderança técnica em projetos complexos.
 Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
-<br />
+<br /><br />
 Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
 
 

@@ -39,7 +39,7 @@ export default async (data) => {
     {
       name: "Currículo",
       url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf",
-      icon: "https://api.iconify.design/streamline:business-user-curriculum.svg",
+      icon: "https://api.iconify.design/mdi:download.svg",
       value: null,
     },
   ];
@@ -78,10 +78,11 @@ export default async (data) => {
             </div>
             <br />
 
-            <div style="display:flex; gap:15px; align-items:center;">
+            <div style="display:flex; gap:20px; align-items:center;">
               ${template.loop(links, (link, index) => {
-                return `<a href="${link.url}" target="_blank" title="${link.name}">
+                return `<a href="${link.url}" target="_blank" title="${link.name}" style="display:flex; align-items:center; gap:5px;">
                   <img src="${link.icon}?color=%23ffffff" alt="" style="height:20px;" />
+                  <span>${link.name}</span>
                 </a>`;
               })}
             </div>

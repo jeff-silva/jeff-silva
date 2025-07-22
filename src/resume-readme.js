@@ -37,7 +37,7 @@ export default async (data) => {
     {
       name: "Currículo",
       url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf",
-      icon: "https://api.iconify.design/streamline:business-user-curriculum.svg?color=%23ffffff&height=30",
+      icon: "https://api.iconify.design/mdi:download.svg?color=%23ffffff&height=30",
       value: null,
     },
   ];
