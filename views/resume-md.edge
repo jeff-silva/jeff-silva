@@ -1,0 +1,46 @@
+# {{ resume.data.basics.name }}
+## {{ resume.data.basics.label }}
+
+🌎 {{ resume.locationHumanized(resume.data.basics.location) }}
+
+@each(profile in resume.data.basics.profiles)
+{{ profile.network }}: [{{ profile.url }}]({{ profile.url }}) <br />
+@end
+
+## Resumo
+
+{{{ resume.trimLines(resume.data.basics.summary) }}}
+
+## Skills
+
+{{ resume.listHumanized(resume.data.skills, (skill) => skill.name) }}
+
+@if(resume.data.work.length > 0)
+## Experiência
+
+@each(work in resume.data.work)
+### {{ work.name }} | {{ work.position }}
+De {{ work.startDate }} até {{ work.endDate }} | {{ resume.dateDuration(work.startDate, work.endDate) }}
+{{ resume.trimLines(work.summary) }}
+<br />
+
+@end
+@end
+
+
+@if(resume.data.projects.length > 0)
+## Projetos
+
+@each(project in resume.data.projects)
+### {{ project.name }}
+{{{ resume.trimLines(project.description) }}} <br /><br />
+[Visitar Projeto]({{ project.url }}) <br />
+De {{ project.startDate }} até {{ project.endDate }} | {{ resume.dateDuration(project.startDate, project.endDate) }} <br />
+{{ resume.listHumanized(project.highlights, (item) => item.name) }}
+<br />
+@each((image, index) in project.meta.images)
+[Imagem {{ index+1 }}]({{ image.url }}) <br />
+@end
+
+@end
+@end

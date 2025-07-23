@@ -7,6 +7,9 @@ import dayjs from "dayjs";
 import "dayjs/locale/pt-br.js";
 dayjs.locale("pt-br");
 
+const edge = Edge.create();
+edge.mount(new URL("../views", import.meta.url));
+
 export default class JsonResume {
   profile = "";
   data = null;
@@ -102,6 +105,10 @@ export default class JsonResume {
     text = text.replace(/\n\s+/g, "\n");
     text = textile(text);
     return text;
+  }
+
+  trimLines(text) {
+    return text.replace(/\n\s+/g, `\n`);
   }
 
   listHumanized(items, call = (item) => item) {
@@ -341,14 +348,18 @@ export default class JsonResume {
   }
 
   async generateHtml() {
-    const edge = Edge.create();
-    edge.mount(new URL("../views", import.meta.url));
     const links = this.getLinks();
     const html = await edge.render("resume-html", { resume: this, links });
     fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.html`, html);
   }
 
-  async generatePdf() {}
+  async generatePdf() {
+    //
+  }
 
-  async generateMarkdown() {}
+  async generateMarkdown() {
+    const links = this.getLinks();
+    const html = await edge.render("resume-md", { resume: this, links });
+    fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.md`, html);
+  }
 }
