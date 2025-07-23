@@ -3,6 +3,10 @@ import _ from "lodash";
 import textile from "textile-js";
 import { Edge } from "edge.js";
 
+import dayjs from "dayjs";
+import "dayjs/locale/pt-br.js";
+dayjs.locale("pt-br");
+
 export default class JsonResume {
   profile = "";
   data = null;
@@ -113,6 +117,35 @@ export default class JsonResume {
     });
 
     return parts.join("");
+  }
+
+  dateDuration(startDate, endDate) {
+    startDate = dayjs(startDate || undefined);
+    endDate = dayjs(endDate || undefined);
+
+    let years = startDate.diff(endDate, "year");
+    years = Math.max(years, years * -1);
+
+    let months = startDate.diff(endDate, "month") % 12;
+    months = Math.max(months, months * -1);
+
+    let parts = [];
+
+    if (years == 1) {
+      parts.push(`${years} ano`);
+    } else if (years > 1) {
+      parts.push(`${years} anos`);
+    }
+
+    if (months == 1) {
+      parts.push(`${months} mês`);
+    } else if (months > 1) {
+      parts.push(`${months} meses`);
+    }
+
+    const startDateFormat = startDate.format("MMM YYYY").toUpperCase();
+    const endDateFormat = endDate.format("MMM YYYY").toUpperCase();
+    return `${startDateFormat} ~ ${endDateFormat} (` + parts.join(" e ") + ")";
   }
 
   locationDefault(data = {}) {
