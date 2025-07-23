@@ -12,17 +12,15 @@
     "test2": "node ./src/test.js"
   },
   "devDependencies": {
+    "@gradio/client": "^1.15.6",
     "adm-zip": "^0.5.10",
     "axios": "^1.6.1",
     "dayjs": "^1.11.10",
+    "edge.js": "^6.3.0",
     "lodash": "^4.17.21",
     "papaparse": "^5.4.1",
     "puppeteer": "^22.6.2",
     "squirrelly": "^9.1.0",
     "textile-js": "^2.1.1"
-  },
-  "dependencies": {
-    "@gradio/client": "^1.15.6",
-    "@huggingface/inference": "^4.5.3"
   }
 }

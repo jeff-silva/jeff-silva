@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ resume.data.basics.name }}</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+    * {margin:0; padding:0; font-family: "Fredoka", sans-serif;}
+    a {color:#fff !important;}
+    html, body {background:#401f4f; color:#fff; margin:0!important; padding:0!important;}
+    .spacer {height:50px;}
+    .section-title {text-transform:uppercase; font-size:30px;}
+    .section-text {display:flex; flex-direction:column; gap:15px; font-size:20px;}
+    .section-text-summary ul {margin-left:25px;}
+    .section-wrapper {position:relative; overflow:hidden;}
+    .section-wrapper--icon {position:absolute; top:-10px; right:-10px; height:300px; z-index:0;}
+    .section-content {position:relative; max-width:800px; margin:0 auto; padding:0 30px;}
+    .section-work-summary {display:flex; flex-direction:column; gap:10px;}
+  </style>
+</head>
+<body>
+  <div class="section-wrapper" style="background:transparent; color:#fff; padding:30px 0;">
+    <div class="section-content">
+      <h1 style="font-size:40px;">{{ resume.data.basics.name }}</h1>
+      <h3 style="font-size:20px;">{{ resume.data.basics.label }}</h3>
+      <br />
+
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+        <h3>{{ resume.locationHumanized(resume.data.basics.location) }}</h3>
+      </div>
+      <br />
+
+      <div style="display:flex; gap:20px; align-items:center;">
+        @each(link in links)
+        <a href="{{ link.url }}" target="_blank" title="{{ link.name }}" style="display:flex; align-items:center; gap:5px;">
+          <img src="{{ link.icon }}?color=%23ffffff" alt="" style="height:20px;" />
+          <span>{{ link.name }}</span>
+        </a>
+        @end
+      </div>
+    </div>
+  </div>
+
+  <div class="section-wrapper" style="background:#603673;">
+    <img
+      class="section-wrapper--icon"
+      src="https://api.iconify.design/ic:round-waving-hand.svg?color=%23502562"
+      alt=""
+    />
+
+    <div class="section-content">
+        <div class="spacer"></div>
+        <div class="section-text section-text-summary">
+          {{{ resume.markdownToHtml(resume.data.basics.summary) }}}
+        </div>
+        <div class="spacer"></div>
+    </div>
+  </div>
+
+<div class="section-wrapper" style="background:#562d69;">
+  <img
+    class="section-wrapper--icon"
+    src="https://api.iconify.design/ic:baseline-menu-book.svg?color=%23502562"
+    alt=""
+  />
+
+  <div class="section-content">
+      <div class="spacer"></div>
+      <h2 class="section-title">Skills</h2>
+      <div class="spacer"></div>
+
+      <div style="display:flex; align-items:center; flex-wrap:wrap; gap:15px; font-size:18px; line-height:26px;">
+        {{ resume.listHumanized(resume.data.skills, (skill) => skill.name) }}
+      </div>
+
+      <div class="spacer"></div>
+  </div>
+</div>
+      
+      {{--
+
+
+  <!-- Experience -->
+  <div class="section-wrapper" style="background:#603673;">
+    <img
+      class="section-wrapper--icon"
+      src="https://api.iconify.design/material-symbols:elderly.svg?color=%23502562"
+      alt=""
+    />
+    <div class="section-content">
+        <div class="spacer"></div>
+        <h2 class="section-title">Experiências</h2>
+        <div class="spacer"></div>
+
+        <div style="display:flex; flex-direction:column; gap:50px;">
+          
+<div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Cardcom &nbsp; | &nbsp; Tech Lead
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                  <div style="font-size:15px;">DEZ 2023 ~ MAI 2025 (1 ano e 5 meses)</div>
+                </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-work-summary">
+                      <ul>
+<li><b>Liderança</b> e <b>reengenharia</b> do <b>sistema central</b> da empresa do zero, migrando a arquitetura de <b>Laravel 4 para NestJS</b>.</li>
+<li>Desenvolvimento <b>full-stack</b> de painel administrativo e interfaces para clientes e setores (administração, produção, expedição), <b>otimizando fluxos de trabalho</b>.</li>
+<li><b>Automação completa</b> do ciclo de impressão de cartões: do pedido do cliente, aprovação administrativa, até gestão de produção e expedição, garantindo <b>eficiência e qualidade</b>.</li>
+<li>Construção de uma plataforma <b>escalável</b> e de <b>alta manutenção</b>, com foco no aprimoramento contínuo dos processos.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Search and Stay &nbsp; | &nbsp; Dev Fullstack
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                  <div style="font-size:15px;">DEZ 2022 ~ NOV 2023 (11 meses)</div>
+                </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-work-summary">
+                      <ul>
+<li>Desenvolvimento <b>Full-stack</b> (Vue.js, Nuxt.js, Laravel) no sistema Search and Stay, focando na <b>implementação de funcionalidades, correção de bugs e otimização de performance do frontend</b>.</li>
+<li>Criação e manutenção de <b>APIs</b> e lógica de negócio no backend, além de integrações e customizações com <b>WordPress</b>.</li>
+<li>Colaboração ativa com a equipe para garantir a <b>qualidade do código</b> e a <b>eficiência das entregas</b>.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Listra &nbsp; | &nbsp; Dev Fullstack
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                  <div style="font-size:15px;">OUT 2020 ~ ABR 2022 (1 ano e 6 meses)</div>
+                </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-work-summary">
+                      <ul>
+<li>Atuação <b>Fullstack</b> (Vue.js, React.js, Laravel, CakePHP) no desenvolvimento de <b>sistemas web de alta visibilidade</b> para grandes clientes como Unidas Seminovos, Samy Dana e <span class="caps">EPA</span> Supermercados.</li>
+<li>Responsável pela entrega de <b>soluções completas</b>, desde interfaces intuitivas até lógicas de negócio robustas no backend.</li>
+<li>Colaboração em equipes multidisciplinares para desenvolver <b>funcionalidades complexas</b> e <b>otimizar a performance</b> de aplicações de larga escala.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Codificar Sistemas Tecnológicos &nbsp; | &nbsp; Dev Fullstack
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                  <div style="font-size:15px;">FEV 2017 ~ OUT 2017 (8 meses)</div>
+                </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-work-summary">
+                      <ul>
+<li>Atuação <b>Fullstack</b> (Vue.js, React.js, Laravel) no desenvolvimento e implementação de <b>sistemas web diversos</b>.</li>
+<li><b>Expertise em integrações com APIs externas</b>, incluindo a <span class="caps">API</span> da Google para sincronização de agendas e calendários.</li>
+<li>Colaboração em equipe para desenvolver <b>funcionalidades complexas</b> em diferentes projetos web.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Agência de Criação &nbsp; | &nbsp; Dev Fullstack
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                  <div style="font-size:15px;">JAN 2015 ~ FEV 2017 (2 anos e 1 mês)</div>
+                </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-work-summary">
+                      <ul>
+<li><b>Desenvolvimento e evolução do <span class="caps">CMS</span> proprietário</b> da agência (Vue.js, Angular.js), com foco em <b>melhorias arquiteturais e de código</b>.</li>
+<li>Contribuição significativa para a <b>otimização da velocidade de correção de bugs</b> e a <b>redução do tempo de entrega</b> de projetos web.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Cushman & Wakefield &nbsp; | &nbsp; Dev Fullstack
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                  <div style="font-size:15px;">MAI 2012 ~ NOV 2013 (1 ano e 6 meses)</div>
+                </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-work-summary">
+                      <ul>
+<li>Atuação <b>Fullstack</b> (<span class="caps">PHP</span>, JavaScript, [Mencione o framework específico aqui, ex: jQuery, Vue.js inicial]) como terceirizado para a <b>Vale do Rio Doce</b>, transformando <b>planilhas complexas em aplicações web robustas</b>.</li>
+<li><b>Impacto Direto:</b> <b>Eliminei a perda de dados</b> por corrupção de Excel e <b>desbloqueei a colaboração simultânea</b>, <b>aumentando a eficiência</b> da equipe de engenharia.</li>
+<li>Desenvolvi <b>interface inovadora com automação</b> (gráfico de curva de Gauss) que <b>reduziu o tempo de preenchimento de dados</b> de contratação mensal, com <b>feedback positivo</b> pela usabilidade.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Netranet Networking &nbsp; | &nbsp; Dev Fullstack
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                  <div style="font-size:15px;">JAN 2011 ~ JAN 2012 (1 ano)</div>
+                </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-work-summary">
+                      <ul>
+<li><b>Liderança</b> no desenvolvimento e implementação de um <b><span class="caps">CMS</span> proprietário</b> (<span class="caps">PHP</span>, JavaScript, MySQL), que <b>aumentou o controle</b> sobre o código-fonte e a <b>flexibilidade</b> na entrega de soluções personalizadas, <b>agilizando a resolução de problemas</b>.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Web BH Escola de Informática &nbsp; | &nbsp; Instrutor
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                  <div style="font-size:15px;">JAN 2010 ~ JAN 2011 (1 ano)</div>
+                </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-work-summary">
+                      <ul>
+<li>Atuação como instrutor de desenvolvimento web (<span class="caps">PHP</span>, MySQL, Javascript, <span class="caps">HTML</span>/<span class="caps">CSS</span>), capacitando alunos em diversas tecnologias e aprimorando <b>habilidades de comunicação, didática e liderança técnica</b>.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div>
+        </div>
+
+        <div class="spacer"></div>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div class="section-wrapper" style="background:#562d69;">
+    <img
+      class="section-wrapper--icon"
+      src="https://api.iconify.design/carbon:portfolio.svg?color=%23502562"
+      alt=""
+    />
+    <div class="section-content">
+        <div class="spacer"></div>
+        <h2 class="section-title">Projetos</h2>
+        <div class="spacer"></div>
+
+        <div style="display:flex; flex-direction:column; gap:50px;">
+          
+<div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Corapost
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://corapost.com" target="_blank">https://corapost.com</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        JUL 2024 ~ ABR 2024 (2 meses)
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li>Desenvolvimento da <b>interface do usuário (UI) funcional e responsiva</b> para o projeto <b>Corapost</b>, com base em design de Figma.</li>
+<li>Utilização de <b>Vue.js, <span class="caps">HTML</span>, <span class="caps">CSS</span> e JavaScript</b> para criar um <b>plugin WordPress</b> que transformou o design em um frontend completo.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Safe Register Car
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://saferegistercar.com.br" target="_blank">https://saferegistercar.com.br</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2023 ~ JUN 2024 (5 meses)
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li>Participação <b>Fullstack</b> na construção do <b>Safe Register Car</b> (Tecnol), otimizando o envio de <b>documentação veicular para seguradoras</b> em nível nacional.</li>
+<li>Desenvolvimento de <b>interface de usuário intuitiva</b> com <b>Vue.js</b> (frontend) para envio eficiente de documentos.</li>
+<li>Backend com <b>Laravel</b> para lógica da aplicação, <b>gerenciamento de dados e comunicação com seguradoras</b>, contribuindo para um <b>fluxo de trabalho ágil e eficaz</b>.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Tecnohub
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2023 ~ JUN 2024 (5 meses)
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li>Participação <b>Fullstack</b> na construção e evolução do <b>Tecnohub</b> (Tecnol), plataforma centralizada para <b>otimizar a comunicação e interação</b> entre stakeholders.</li>
+<li>Desenvolvimento de <b>funcionalidades</b> para facilitar o fluxo de informações e a <b>colaboração</b>, com <b>interfaces intuitivas</b> (frontend) para diferentes tipos de usuários.</li>
+<li>No backend, criei <b>lógica de negócio e APIs</b> para <b>integrar diversos serviços</b>, garantindo <b>comunicação eficiente e transparente</b> no ecossistema Tecnol.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Manduí
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://mandui.com.br" target="_blank">https://mandui.com.br</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        JAN 2023 ~ JAN 2023 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Desenvolvimento completo do website</b> da <b>Escola Infantil Manduí</b>, refletindo seu ambiente acolhedor e abordagem educacional.</li>
+<li>Frontend construído com <b>Nuxt 3, Vue 3 e Vuetify 3</b>, garantindo uma <b>experiência interativa e informativa</b> para pais.</li>
+<li>Backend com <b>interface intuitiva e painel lateral dinâmico</b> para edição de elementos, utilizando persistência de dados <b>serverless</b> via <b>Firebase</b>, assegurando <b>escalabilidade e eficiência</b>.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Search and Stay
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://searchandstay.com" target="_blank">https://searchandstay.com</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2022 ~ NOV 2023 (11 meses)
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Evolução contínua</b> do sistema <b>Search and Stay</b>, com desenvolvimento de <b>novas funcionalidades</b> e <b>resolução eficiente de bugs</b>.</li>
+<li>Atuação <b>Fullstack</b>, construindo interfaces dinâmicas e responsivas com <b>Vue.js</b> e <b>Nuxt.js</b> (frontend) e backend <b>robusto e escalável</b> com <b>Laravel</b>.</li>
+<li>Experiência em <b>integração e personalização de plugin WordPress</b> para requisitos específicos do sistema, garantindo <b>alta qualidade e performance</b>.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    O Novo Mercado
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://onovomercado.com/" target="_blank">https://onovomercado.com/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        FEV 2022 ~ JUL 2022 (5 meses)
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Desenvolvimento frontend</b> da plataforma interna de vídeos e hub de profissionais <b>&#8220;O Novo Mercado&#8221;</b>.</li>
+<li>Construção de uma <b>interface de usuário intuitiva, responsiva e atraente</b> com <b>Vue.js</b> e <b>Vuetify</b>.</li>
+<li>Otimização da <b>performance</b> da aplicação para garantir uma <b>experiência fluida e eficiente</b>, contribuindo diretamente para o <b>engajamento dos usuários</b>.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Assinar ou comprar
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/" target="_blank">https://assinaroucomprar.com.br/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2021 ~ DEZ 2021 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li>Desenvolvimento <b>Fullstack</b> (Laravel, Vue.js, Element UI) da <b>calculadora estratégica &#8220;Assinar ou Comprar&#8221;</b>, em parceria com <b>Unidas e Samy Dana</b>.</li>
+<li>Implementação de <b>lógica de cálculo complexa</b> para auxiliar usuários na decisão de comprar ou alugar um carro, garantindo <b>precisão e intuitividade</b>.</li>
+<li>Responsável por apresentar resultados de forma <b>clara e acessível</b>, <b>impactando diretamente na tomada de decisão informada</b> sobre mobilidade.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Faculdade Faveni
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20220131193706/https://faveni.edu.br/" target="_blank">https://faveni.edu.br/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2020 ~ DEZ 2021 (1 ano)
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Estilização avançada e customização</b> do tema da <b>Faculdade Faveni</b> em plataforma <b>WordPress Multisite</b>.</li>
+<li>Adaptação visual e funcional do tema para atender <b>múltiplos sites da rede</b>, garantindo identidade visual e <b>aprimorando a experiência do usuário</b>.</li>
+<li>Otimização de <b><span class="caps">CSS</span></b> e manipulação de funcionalidades via <b>hooks e filtros do WordPress</b> para consistência e performance da rede Multisite.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Samarco
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20220130172103/https://www.samarco.com/" target="_blank">https://www.samarco.com/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        AGO 2020 ~ OUT 2020 (2 meses)
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Liderança no desenvolvimento e implementação</b> de um <b>Gerenciador de Conteúdo</b> para a <b>Samarco</b>, em colaboração com a Digital Pixel.</li>
+<li>Criação de um sistema dinâmico e versátil utilizando <b>WordPress</b> e <b>Elementor</b>, <b>simplificando a administração</b> de conteúdo e <b>otimizando a comunicação digital</b>.</li>
+<li>Foco na <b>facilidade de uso</b> para o cliente e entrega de uma <b>experiência de usuário aprimorada</b> através de design e interatividade.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Blog Banco da Amazônia
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20211229163534/https://basablog.com.br/" target="_blank">https://basablog.com.br/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2019 ~ DEZ 2019 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li>Desenvolvimento e manutenção do <b>blog de Notícias e Utilidades do Banco da Amazônia</b>, em parceria com a <b>Partners Comunicação Pro Business</b>.</li>
+<li>Criação e customização de elementos com <b>WordPress</b> e <b>Elementor</b>, garantindo a <b>identidade visual</b> e <b>otimizando a experiência do usuário</b>.</li>
+<li>Atuação na <b>estruturação do layout e responsividade</b>, contribuindo para uma <b>comunicação eficaz e acessível</b> das informações do Banco.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Habitat Group
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/" target="_blank">https://habitatgroup.com.br/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2019 ~ DEZ 2019 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Desenvolvimento completo do website</b> da clínica veterinária <b>Habitat Group</b>, utilizando <b>WordPress</b> e <b>Elementor</b>.</li>
+<li>Criação de uma <b>interface amigável e personalizada</b> para facilitar o acesso a serviços, qualificação de profissionais e <b>sistema de agendamento de consultas</b>.</li>
+<li>Foco em proporcionar uma <b>experiência de usuário intuitiva e eficiente</b>, refletindo o compromisso da clínica com a qualidade de atendimento.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Orbitae
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20210517192720/https://orbitae.com.br/" target="_blank">https://orbitae.com.br/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        JAN 2019 ~ AGO 2019 (7 meses)
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li>Desenvolvimento de <b>apresentações de produtos especializados em perícia forense</b>, em parceria com a <b>Partners Comunicação Pro Business</b>.</li>
+<li>Criação de plataforma <b>dinâmica e visualmente cativante</b> com <b>WordPress</b> e <b>Elementor</b>, integrando elementos personalizados.</li>
+<li>Foco em garantir <b>destaque e acessibilidade aos detalhes técnicos</b>, resultando em uma experiência de usuário <b>impactante e eficiente</b> para o público.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Cocks Skate
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20211226170044/https://cocksskate.com.br/" target="_blank">https://cocksskate.com.br/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2018 ~ DEZ 2018 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Desenvolvimento e otimização de e-commerce</b> para <b>&#8220;Cocks Skate&#8221;</b>, utilizando <b>WordPress, WooCommerce</b> e <b>Elementor</b> com elementos customizados.</li>
+<li>Criação de uma <b>experiência de compra personalizada e intuitiva</b>, com navegação e busca de produtos facilitadas.</li>
+<li>Implementação de <b>funcionalidades de e-commerce completas</b>, design <b>atraente e responsivo</b>, visando <b>impulsionar as vendas</b> e atender o público skatista.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Don Desenvolvimento
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/" target="_blank">http://dondesenvolvimento.com.br/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2018 ~ DEZ 2018 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li>Realizei <b>alterações de layout e manutenções pontuais</b> no website da <b>Don Desenvolvimento</b>.</li>
+<li>Utilização de <b>WordPress</b> e <b>Vue.js</b> para <b>adaptação e otimização do design existente</b>, e implementação de <b>novas funcionalidades interativas</b>.</li>
+<li>Responsável pela <b>resolução eficiente de problemas e bugs</b>, garantindo a <b>estabilidade e o bom funcionamento</b> do site.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Eiriz Saúde
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="http://eiriz-saude.unbox.pt" target="_blank">http://eiriz-saude.unbox.pt</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2018 ~ DEZ 2018 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Concepção e desenvolvimento exclusivo</b> de um sistema <b>WordPress</b> para a clínica odontológica <b>Eiriz Saúde</b> (Porto, Portugal).</li>
+<li>Foco em <b>aprimorar a experiência do usuário e a eficiência dos serviços online</b>, com <b>gerenciamento de conteúdo avançado</b> e <b>interação fluida</b>.</li>
+<li>Garantiu a <b>apresentação precisa de serviços</b> e a <b>transmissão eficaz de informações</b>, proporcionando uma <b>experiência online completa e informativa</b>.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Águas do Acuruí
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/" target="_blank">http://aguasdoacurui.com.br/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2017 ~ DEZ 2017 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Desenvolvimento completo e personalizado</b> do website para a cidade de <b>Águas do Acuruí</b>, utilizando <b>WordPress</b>.</li>
+<li>Construção de um <b>tema exclusivo e sob medida</b>, refletindo a <b>identidade singular da cidade</b> e visando promover a região de forma <b>cativante e informativa</b>.</li>
+<li>Planejamento e implementação de design e funcionalidades para destacar a <b>autenticidade e os pontos fortes</b>, proporcionando uma <b>experiência online única e envolvente</b> aos visitantes.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Cantor Beto Santos
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20211127021144/http://betosantos.net/" target="_blank">http://betosantos.net/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2017 ~ DEZ 2017 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Desenvolvimento completo do website</b> para o <b>Cantor Beto Santos</b>, incluindo um <b><span class="caps">CMS</span> personalizado com recursos únicos</b>.</li>
+<li>Criação de um <b>player de música integrado</b> com sistema intuitivo de <b>upload e reprodução via painel administrativo</b>.</li>
+<li>Destaque para o design estratégico dos controles de reprodução, garantindo uma <b>experiência de usuário fluida e ininterrupta</b> durante a navegação.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    Estrela Rural
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20220110211402/http://estrelarural.com.br/" target="_blank">http://estrelarural.com.br/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2012 ~ DEZ 2012 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Desenvolvimento e implementação</b> de um <b><span class="caps">CMS</span> e sistema de leilões totalmente personalizados</b> para a <b>Estrela Rural</b>.</li>
+<li>Concepção e construção de uma <b>solução completa</b>, baseada em plataforma customizada, otimizando a <b>administração de conteúdo</b> e a <b>realização de leilões online</b>.</li>
+<li>Entregou valor significativo e <b>melhorou a eficiência dos processos de gestão e negócios</b> do cliente.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div><div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff" alt="" />
+                  <h3 style="font-size:20px; text-transform:uppercase;">
+                    ASSEMG
+                  </h3>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px; display:none;">
+                  <img style="height:20px;" src="https://api.iconify.design/material-symbols:location-on.svg?height=12&color=%23ffffff" alt="" />
+                </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:attach-file.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:20px;"><a href="https://web.archive.org/web/20170612004919/http://assemg.org/" target="_blank">http://assemg.org/</a></a></div>
+                    </div>
+
+                <div style="display:flex; align-items:center; gap:10px;">
+                      <img style="height:20px;" src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+                      <div style="font-size:15px;">
+                        DEZ 2012 ~ DEZ 2012 ()
+                      </div>
+                    </div>
+
+                <div style="display:flex; align-items:start; gap:10px;">
+                  <div style="min-width:20px;"></div>
+                  <div style="font-size:20px;">
+                    <div class="section-project-summary">
+                      <ul>
+<li><b>Desenvolvimento e adaptação de um <span class="caps">CMS</span> exclusivo</b> para o website da <b><span class="caps">ASSEMG</span></b>, focado nas <b>necessidades específicas da associação</b>.</li>
+<li>Criação de uma plataforma <b>eficiente e funcional</b> com ferramentas para <b>gestão interna, comunicação segura e interação personalizada</b> entre os membros.</li>
+<li>Garantiu uma <b>experiência de usuário única</b> e <b>agregou valor</b> à gestão de recursos e à experiência associativa online.</li>
+</ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:5px;"></div>
+              </div>
+        </div>
+
+        <div class="spacer"></div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="section-wrapper" style="background:transparent;">
+    <div class="section-content">
+        <div class="spacer"></div>
+        <div class="section-text"><br /></div>
+        <div class="spacer"></div>
+    </div>
+  </div>
+  --}}
+  
+  <pre>{{{ JSON.stringify(resume, null, 2) }}}</pre>
+</body>
+</html>
