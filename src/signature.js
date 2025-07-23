@@ -36,5 +36,5 @@ export default async (data) => {
         </table>
     </div>`,
   );
-  fs.writeFileSync("./data/signature.html", format.trimLines(content));
+  fs.writeFileSync("./docs/signature.html", format.trimLines(content));
 };

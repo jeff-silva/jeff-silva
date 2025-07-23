@@ -267,5 +267,5 @@ export default async (data) => {
       </body>
     </html>`;
 
-  fs.writeFileSync("./data/jeferson-silva.html", output);
+  fs.writeFileSync("./docs/jeferson-silva.html", output);
 };

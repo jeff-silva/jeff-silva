@@ -34,7 +34,20 @@ export default async (data) => {
       job_role: "Full Stack Developer",
     });
 
-    fs.writeFileSync("./data/jeferson-silva-ats-score.html", file.result.data.join("\n"));
+    fs.writeFileSync(
+      "./docs/jeferson-silva-ats-score.html",
+      [
+        `<!DOCTYPE html><html lang="en">`,
+        `<head>`,
+        ` <meta charset="UTF-8" />`,
+        ` <meta name="viewport" content="width=device-width, initial-scale=1.0" />`,
+        ` <title>Score</title>`,
+        `</head>`,
+        `<body>`,
+        file.result.data.join("\n"),
+        `</body></html>`,
+      ].join("\n"),
+    );
 
     // const client = await Client.connect("luansouza4444/AvaliadorCV");
     // const result = await client.predict("/analisar_curriculo", {

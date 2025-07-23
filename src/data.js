@@ -383,6 +383,9 @@ let data = {
       startDate: "2021-12-31",
       endDate: "2021-12-31",
       highlights: ["Listra"],
+      meta: {
+        images: [{ file: "assinar-ou-comprar.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Samarco",
@@ -417,6 +420,9 @@ let data = {
       startDate: "2019-01-31",
       endDate: "2019-08-31",
       highlights: ["Labscript.dev"],
+      meta: {
+        images: [{ file: "orbitae.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Blog Banco da Amazônia",
@@ -429,6 +435,9 @@ let data = {
       startDate: "2019-12-31",
       endDate: "2019-12-31",
       highlights: ["Labscript.dev"],
+      meta: {
+        images: [{ file: "blog-banco-da-amazonia.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Habitat Group",
@@ -441,6 +450,9 @@ let data = {
       startDate: "2019-12-31",
       endDate: "2019-12-31",
       highlights: ["Labscript.dev"],
+      meta: {
+        images: [{ file: "habitat-group.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Cocks Skate",
@@ -453,6 +465,9 @@ let data = {
       startDate: "2018-12-31",
       endDate: "2018-12-31",
       highlights: ["Labscript.dev"],
+      meta: {
+        images: [{ file: "cocks-skate.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Don Desenvolvimento",
@@ -465,6 +480,9 @@ let data = {
       startDate: "2018-12-31",
       endDate: "2018-12-31",
       highlights: ["Labscript.dev"],
+      meta: {
+        images: [{ file: "don-desenvolvimento.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Eiriz Saúde",
@@ -477,6 +495,9 @@ let data = {
       startDate: "2018-12-31",
       endDate: "2018-12-31",
       highlights: ["Labscript.dev"],
+      meta: {
+        images: [{ file: "eiriz-saude.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Águas do Acuruí",
@@ -489,6 +510,9 @@ let data = {
       startDate: "2017-12-31",
       endDate: "2017-12-31",
       highlights: ["Agência de Criação"],
+      meta: {
+        images: [{ file: "aguas-do-acurui.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Cantor Beto Santos",
@@ -501,6 +525,9 @@ let data = {
       startDate: "2017-12-31",
       endDate: "2017-12-31",
       highlights: ["Agência de Criação"],
+      meta: {
+        images: [{ file: "cantor-beto-santos.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Estrela Rural",
@@ -525,6 +552,9 @@ let data = {
       startDate: "2012-12-31",
       endDate: "2012-12-31",
       highlights: ["Agência de Criação"],
+      meta: {
+        images: [{ file: "assemg.jpg", name: "" }],
+      },
     }),
     format.jsonResumeProject({
       name: "Manduí",
@@ -537,6 +567,13 @@ let data = {
       startDate: "2023-01-01",
       endDate: "2023-01-31",
       highlights: ["Labscript.dev"],
+      meta: {
+        images: [
+          { file: "mandui-01.jpg", name: "" },
+          { file: "mandui-02.jpg", name: "" },
+          { file: "mandui-03.jpg", name: "" },
+        ],
+      },
     }),
     format.jsonResumeProject({
       name: "Safe Register Car",

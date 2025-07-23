@@ -9,11 +9,11 @@ export default async (data) => {
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
-  await page.goto("file://" + path.resolve("data", "jeferson-silva.html"), { waitUntil: "networkidle0" });
+  await page.goto("file://" + path.resolve("docs", "jeferson-silva.html"), { waitUntil: "networkidle0" });
   await page.emulateMediaType("screen");
 
   await page.pdf({
-    path: path.resolve("data", "jeferson-silva.pdf"),
+    path: path.resolve("docs", "jeferson-silva.pdf"),
     margin: { top: "50px", right: "50px", bottom: "50px", left: "50px" },
     printBackground: true,
     format: "A4",

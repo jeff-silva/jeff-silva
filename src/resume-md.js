@@ -58,5 +58,5 @@ export default async (data) => {
     `.replace(/\n\s+/g, `\n`),
   );
 
-  fs.writeFileSync("./data/jeferson-silva.md", output);
+  fs.writeFileSync("./docs/jeferson-silva.md", output);
 };

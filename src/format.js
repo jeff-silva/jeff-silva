@@ -290,16 +290,21 @@ const format = {
     };
   },
   jsonResumeProject(data) {
-    data = {
-      name: "",
-      // startDate: "",
-      // endDate: "",
-      description: "",
-      highlights: [],
-      // url: "",
-      ...data,
-    };
+    data = _.merge(
+      {
+        name: "",
+        description: "",
+        highlights: [],
+        meta: {
+          images: [],
+        },
+      },
+      data,
+    );
     data.description = format.trimLines(data.description);
+    data.meta.images = data.meta.images.map((image) => {
+      return _.merge({ file: "", name: "" }, image);
+    });
     return data;
   },
 };
