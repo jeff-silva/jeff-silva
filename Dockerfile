@@ -2,7 +2,8 @@ FROM node:22
 
 WORKDIR /app
 
-# RUN npm install
+COPY package.json yarn.lock ./
+RUN npm install
 
 # Instala dependências do Chromium
 RUN apt-get update && \
@@ -12,4 +13,8 @@ RUN apt-get update && \
   apt-get update && \
   apt-get install -y google-chrome-stable
 
-CMD npm install && node ./src/index.js
+COPY . .
+
+ARG ENTRYPOINT_FILE="index.js"
+ENV ENTRYPOINT_FILE=${ENTRYPOINT_FILE}
+CMD ["/bin/sh", "-c", "node ./src/${ENTRYPOINT_FILE}"]

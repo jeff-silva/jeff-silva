@@ -6,7 +6,8 @@
   "author": "Jeferson Silva <jeferson.i.silva@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "docker compose up --build --force-recreate --remove-orphans",
+    "dev": "ENTRYPOINT_FILE=\"dev.js\" docker compose up --build --force-recreate --remove-orphans",
+    "score": "ENTRYPOINT_FILE=\"score.js\" docker compose up --build --force-recreate --remove-orphans",
     "dev2": "node ./src/index.js",
     "test2": "node ./src/test.js"
   },
@@ -19,5 +20,9 @@
     "puppeteer": "^22.6.2",
     "squirrelly": "^9.1.0",
     "textile-js": "^2.1.1"
+  },
+  "dependencies": {
+    "@gradio/client": "^1.15.6",
+    "@huggingface/inference": "^4.5.3"
   }
 }

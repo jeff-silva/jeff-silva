@@ -12,7 +12,7 @@ Github: [https://github.com/jeff-silva](https://github.com/jeff-silva)
 ## Resumo
 
 **Desenvolvedor Full-stack Sênior e Tech Lead** com mais de 10 anos de experiência em transformar desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
-* **Integração de Sistemas** e implementação de **Inteligência Artificial** para otimização de processos.
+* **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
 * **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
 * **Boas Práticas de Código** e liderança técnica em projetos complexos.
 Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.

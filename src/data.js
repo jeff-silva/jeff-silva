@@ -12,7 +12,7 @@ let data = {
     summary: `
       **Desenvolvedor Full-stack Sênior e Tech Lead** com mais de 10 anos de experiência em transformar desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
 
-      * **Integração de Sistemas** e implementação de **Inteligência Artificial** para otimização de processos.
+      * **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
       * **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
       * **Boas Práticas de Código** e liderança técnica em projetos complexos.
 
