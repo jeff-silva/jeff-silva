@@ -120,10 +120,11 @@ export default async (data) => {
               <h2 class="section-title">Skills</h2>
               <div class="spacer"></div>
 
-              <div style="display:flex; align-items:center; flex-wrap:wrap; gap:15px; font-size:18px;">
+              <div style="display:flex; align-items:center; flex-wrap:wrap; gap:15px; font-size:18px; line-height:26px;">
                 ${template.loop(data.skills, (skill, index) => {
-                  // const pre = index == 0 ? "" : `<div>•</div>`;
-                  const pre = index == data.skills.length - 1 ? " e " : ", ";
+                  let pre = "";
+                  if (index > 0) pre = ", ";
+                  if (index == data.skills.length - 1) pre = " e ";
                   return `${pre}${skill.name}`;
                 })}
               </div>

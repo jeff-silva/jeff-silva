@@ -1,5 +1,7 @@
 import format from "./format.js";
 
+const experienceYears = new Date().getFullYear() - 2011;
+
 let data = {
   $schema: "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/v1.0.0/schema.json",
   basics: format.jsonResumeBasics({
@@ -10,7 +12,7 @@ let data = {
     phone: "+55 31 99527-1426",
     url: "https://jeff-silva.github.io",
     summary: `
-      **Desenvolvedor Full-stack Sênior e Tech Lead** com mais de 10 anos de experiência em transformar desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
+      **Desenvolvedor Full-stack Sênior e Tech Lead** há **${experienceYears} anos** transformarmando desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
 
       * **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
       * **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
@@ -311,6 +313,16 @@ let data = {
     format.jsonResumeSkill({ name: "Cálculos geospaciais", keywords: [] }),
     format.jsonResumeSkill({ name: "Mapas", keywords: [] }),
     format.jsonResumeSkill({ name: "NestJS", keywords: ["Main Stack"] }),
+    format.jsonResumeSkill({ name: "GraphQL", keywords: [] }),
+    format.jsonResumeSkill({ name: "Responsive Design", keywords: [] }),
+    format.jsonResumeSkill({ name: "UI/UX", keywords: [] }),
+    format.jsonResumeSkill({ name: "Web Accessibility", keywords: [] }),
+    format.jsonResumeSkill({ name: "Redis", keywords: [] }),
+    format.jsonResumeSkill({ name: "JWT", keywords: [] }),
+    format.jsonResumeSkill({ name: "Rest API", keywords: [] }),
+    format.jsonResumeSkill({ name: "Authentication", keywords: [] }),
+    format.jsonResumeSkill({ name: "SQL", keywords: [] }),
+    format.jsonResumeSkill({ name: "Deployment", keywords: [] }),
   ],
   languages: [
     format.jsonResumeLanguage({ language: "Português Brasileiro", fluency: "Nativo" }),

@@ -11,7 +11,7 @@ Github: [https://github.com/jeff-silva](https://github.com/jeff-silva)
 
 ## Resumo
 
-**Desenvolvedor Full-stack Sênior e Tech Lead** com mais de 10 anos de experiência em transformar desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
+**Desenvolvedor Full-stack Sênior e Tech Lead** há **14 anos** transformarmando desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
 * **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
 * **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
 * **Boas Práticas de Código** e liderança técnica em projetos complexos.
@@ -286,5 +286,5 @@ De 2012-12-31 até 2012-12-31 | DEZ 2012 ~ DEZ 2012 () <br />
 
 
 ## Tecnologias utilizadas
-API REST, AdonisJS 6, Arquitetura MVC, Babylon, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Cálculos geospaciais, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, Google Compute Engine, HTML5, Integração AI, JQuery, Javascript, Keycloak, LESS, Laravel, Linux, Mapas, MongoDB, MySQL, NPM, NestJS, Node.js, Nuxt 3, Otimização de página, PHP, PWA, Pagseguro, Postgres, Python, Rapier.js, React, Responsividade, SASS, SEO, SOAP, Scrum, Stripe, Three.js, Typescript, Unity, Vue 3, VuePress, Vuetify, WooCommerce, WordPress, YARN
+API REST, AdonisJS 6, Arquitetura MVC, Authentication, Babylon, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Cálculos geospaciais, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, Google Compute Engine, GraphQL, HTML5, Integração AI, JQuery, JWT, Javascript, Keycloak, LESS, Laravel, Linux, Mapas, MongoDB, MySQL, NPM, NestJS, Node.js, Nuxt 3, Otimização de página, PHP, PWA, Pagseguro, Postgres, Python, Rapier.js, React, Redis, Responsive Design, Responsividade, Rest API, SASS, SEO, SOAP, SQL, Scrum, Stripe, Three.js, Typescript, UI/UX, Unity, Vue 3, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress, YARN
 
