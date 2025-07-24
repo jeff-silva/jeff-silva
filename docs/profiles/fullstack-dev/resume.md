@@ -139,7 +139,7 @@ De 2022-02-28 até 2022-07-31 | FEV 2022 ~ JUL 2022 (5 meses) <br />
 De 2021-12-31 até 2021-12-31 | DEZ 2021 ~ DEZ 2021 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/assinar-ou-comprar.jpg) <br />
 
 ### Samarco
 
@@ -172,7 +172,7 @@ De 2020-12-31 até 2021-12-31 | DEZ 2020 ~ DEZ 2021 (1 ano) <br />
 De 2019-01-31 até 2019-08-31 | JAN 2019 ~ AGO 2019 (7 meses) <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/orbitae.jpg) <br />
 
 ### Blog Banco da Amazônia
 
@@ -184,7 +184,7 @@ De 2019-01-31 até 2019-08-31 | JAN 2019 ~ AGO 2019 (7 meses) <br />
 De 2019-12-31 até 2019-12-31 | DEZ 2019 ~ DEZ 2019 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/blog-banco-da-amazonia.jpg) <br />
 
 ### Habitat Group
 
@@ -196,7 +196,7 @@ De 2019-12-31 até 2019-12-31 | DEZ 2019 ~ DEZ 2019 () <br />
 De 2019-12-31 até 2019-12-31 | DEZ 2019 ~ DEZ 2019 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/habitat-group.jpg) <br />
 
 ### Cocks Skate
 
@@ -208,7 +208,7 @@ De 2019-12-31 até 2019-12-31 | DEZ 2019 ~ DEZ 2019 () <br />
 De 2018-12-31 até 2018-12-31 | DEZ 2018 ~ DEZ 2018 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/cocks-skate.jpg) <br />
 
 ### Don Desenvolvimento
 
@@ -220,7 +220,7 @@ De 2018-12-31 até 2018-12-31 | DEZ 2018 ~ DEZ 2018 () <br />
 De 2018-12-31 até 2018-12-31 | DEZ 2018 ~ DEZ 2018 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/don-desenvolvimento.jpg) <br />
 
 ### Eiriz Saúde
 
@@ -232,7 +232,7 @@ De 2018-12-31 até 2018-12-31 | DEZ 2018 ~ DEZ 2018 () <br />
 De 2018-12-31 até 2018-12-31 | DEZ 2018 ~ DEZ 2018 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/eiriz-saude.jpg) <br />
 
 ### Águas do Acuruí
 
@@ -244,7 +244,7 @@ De 2018-12-31 até 2018-12-31 | DEZ 2018 ~ DEZ 2018 () <br />
 De 2017-12-31 até 2017-12-31 | DEZ 2017 ~ DEZ 2017 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/aguas-do-acurui.jpg) <br />
 
 ### Cantor Beto Santos
 
@@ -256,7 +256,7 @@ De 2017-12-31 até 2017-12-31 | DEZ 2017 ~ DEZ 2017 () <br />
 De 2017-12-31 até 2017-12-31 | DEZ 2017 ~ DEZ 2017 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/cantor-beto-santos.jpg) <br />
 
 ### Estrela Rural
 
@@ -279,7 +279,7 @@ De 2012-12-31 até 2012-12-31 | DEZ 2012 ~ DEZ 2012 () <br />
 De 2012-12-31 até 2012-12-31 | DEZ 2012 ~ DEZ 2012 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/assemg.jpg) <br />
 
 ### Manduí
 
@@ -291,9 +291,9 @@ De 2012-12-31 até 2012-12-31 | DEZ 2012 ~ DEZ 2012 () <br />
 De 2023-01-01 até 2023-01-31 | JAN 2023 ~ JAN 2023 () <br />
 .
 <br />
-[Imagem 1](undefined) <br />
-[Imagem 2](undefined) <br />
-[Imagem 3](undefined) <br />
+[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-01.jpg) <br />
+[Imagem 2](https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-02.jpg) <br />
+[Imagem 3](https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-03.jpg) <br />
 
 ### Safe Register Car
 

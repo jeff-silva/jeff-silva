@@ -329,7 +329,7 @@ export default class JsonResume {
     );
     data.meta.images = data.meta.images.map((image) => {
       image = _.merge({ file: "", name: "" }, image);
-      image.file = `https://jeff-silva.github.io/jeff-silva/projects/${image.file}`;
+      image.file = `https://jeff-silva.github.io/jeff-silva/assets/projects/${image.file}`;
       return image;
     });
     return data;

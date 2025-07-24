@@ -39,7 +39,7 @@ De {{ project.startDate }} até {{ project.endDate }} | {{ resume.dateDuration(p
 {{ resume.listHumanized(project.highlights, (item) => item.name) }}
 <br />
 @each((image, index) in project.meta.images)
-[Imagem {{ index+1 }}]({{ image.url }}) <br />
+[Imagem {{ index+1 }}]({{ image.file }}) <br />
 @end
 
 @end
