@@ -337,10 +337,13 @@ export default class JsonResume {
 
   async generate() {
     await fs.promises.mkdir(`./docs/profiles/${this.profile}`, { recursive: true });
-    await fs.promises.writeFile(`./docs/profiles/index.html`, `index.html`);
 
     fs.promises.writeFile(`./docs/index.html`, await edge.render("index", {}));
     fs.promises.writeFile(`./docs/profiles/index.html`, await edge.render("profiles-index", {}));
+    fs.promises.writeFile(
+      `./docs/profiles/${this.profile}/index.html`,
+      await edge.render("profiles-profile", { resume: this, links: this.getLinks() }),
+    );
 
     await this.generateJson();
     await this.generateHtml();
