@@ -6,15 +6,19 @@
   <title>Jeferson Silva</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+    :root {
+      --color-main: #4e2562;
+    }
+    
     * {margin:0; padding:0; font-family: "Fredoka", sans-serif;}
     a {color:#fff !important;}
-    html, body {background:#401f4f; color:#fff; margin:0!important; padding:0!important;}
+    html, body {background: var(--color-main); color: #fff; margin: 0 !important; padding: 0 !important;}
     .spacer {height:50px;}
     .section-title {text-transform:uppercase; font-size:30px;}
     .section-text {display:flex; flex-direction:column; gap:15px; font-size:20px;}
     .section-text-summary ul {margin-left:25px;}
     .section-wrapper {position:relative; overflow:hidden;}
-    .section-wrapper--icon {position:absolute; top:-10px; right:-10px; height:300px; z-index:0;}
+    .section-wrapper--icon {position:absolute; top:-10px; right:-10px; height:300px; z-index:0; opacity:.5;}
     .section-content {position:relative; max-width:800px; margin:0 auto; padding:0 30px;}
     .section-work-summary {display:flex; flex-direction:column; gap:10px;}
   </style>
@@ -22,7 +26,7 @@
 <body>
 
   <!-- Header -->
-  <div class="section-wrapper" style="background:transparent; color:#fff; padding:30px 0;">
+  <div class="section-wrapper" style="color:#fff; padding:30px 0; border-top: solid 1px #00000011;">
     <div class="section-content">
       <h1 style="font-size:40px;">Jeferson Silva</h1>
       <h3 style="font-size:20px;">Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | NestJS</h3>
@@ -65,7 +69,7 @@
 
 
   <!-- Summary -->
-  <div class="section-wrapper" style="background:#603673;">
+  <div class="section-wrapper" style="background:#ffffff12; border-top: solid 1px #00000011;">
     <img
       class="section-wrapper--icon"
       src="https://api.iconify.design/ic:round-waving-hand.svg?color=%23502562"
@@ -91,7 +95,7 @@ Pronto para desenvolver e integrar soluções que impulsionem o crescimento do s
 
 
   <!-- Skills -->
-  <div class="section-wrapper" style="background:#562d69;">
+  <div class="section-wrapper" style="background:#ffffff09; border-top: solid 1px #00000011;">
     <img
       class="section-wrapper--icon"
       src="https://api.iconify.design/ic:baseline-menu-book.svg?color=%23502562"
@@ -113,7 +117,7 @@ Pronto para desenvolver e integrar soluções que impulsionem o crescimento do s
 
 
   <!-- Experience -->
-  <div class="section-wrapper" style="background:#603673;">
+  <div class="section-wrapper" style="background:#ffffff12;  border-top: solid 1px #00000011;">
     <img
       class="section-wrapper--icon"
       src="https://api.iconify.design/material-symbols:elderly.svg?color=%23502562"
@@ -385,7 +389,7 @@ Pronto para desenvolver e integrar soluções que impulsionem o crescimento do s
 
 
   <!-- Projects -->
-  <div class="section-wrapper" style="background:#562d69;">
+  <div class="section-wrapper" style="background:#ffffff09;  border-top: solid 1px #00000011;">
     <img
       class="section-wrapper--icon"
       src="https://api.iconify.design/carbon:portfolio.svg?color=%23502562"
@@ -1177,7 +1181,7 @@ Pronto para desenvolver e integrar soluções que impulsionem o crescimento do s
 
 
   <!-- Footer -->
-  <div class="section-wrapper" style="background:transparent;">
+  <div class="section-wrapper" style="border-top: solid 1px #00000011;">
     <div class="section-content">
         <div class="spacer"></div>
         <div class="section-text"><br /></div>

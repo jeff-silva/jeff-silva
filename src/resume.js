@@ -1,6 +1,8 @@
 import fs from "fs";
+import path from "path";
 import _ from "lodash";
 import textile from "textile-js";
+import puppeteer from "puppeteer";
 import { Edge } from "edge.js";
 
 import dayjs from "dayjs";
@@ -354,7 +356,25 @@ export default class JsonResume {
   }
 
   async generatePdf() {
-    //
+    const browser = await puppeteer.launch({
+      executablePath: "/usr/bin/google-chrome",
+      ignoreDefaultArgs: ["--disable-extensions"],
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
+    const page = await browser.newPage();
+    await page.goto("file://" + path.resolve("docs", "profiles", this.profile, "resume.html"), {
+      waitUntil: "networkidle0",
+    });
+    await page.emulateMediaType("screen");
+
+    await page.pdf({
+      path: path.resolve("docs", "profiles", this.profile, "resume.pdf"),
+      margin: { top: "0", right: "0", bottom: "0", left: "0" },
+      printBackground: true,
+      format: "A4",
+    });
+
+    await browser.close();
   }
 
   async generateMarkdown() {
