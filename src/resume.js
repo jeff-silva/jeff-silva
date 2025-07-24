@@ -96,7 +96,7 @@ export default class JsonResume {
       },
       {
         name: "Currículo",
-        url: "https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf",
+        url: "https://jeff-silva.github.io/jeff-silva/profiles/fullstack-dev/resume.pdf",
         icon: "https://api.iconify.design/mdi:download.svg",
         value: null,
       },
@@ -342,7 +342,7 @@ export default class JsonResume {
     fs.promises.writeFile(`./docs/profiles/index.html`, await edge.render("profiles-index", {}));
     fs.promises.writeFile(
       `./docs/profiles/${this.profile}/index.html`,
-      await edge.render("profiles-profile", { resume: this, links: this.getLinks() }),
+      await edge.render("profiles-profile", { resume: this }),
     );
 
     await this.generateJson();
@@ -356,8 +356,7 @@ export default class JsonResume {
   }
 
   async generateHtml() {
-    const links = this.getLinks();
-    const html = await edge.render("profiles-resume-html", { resume: this, links });
+    const html = await edge.render("profiles-resume-html", { resume: this });
     fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.html`, html);
   }
 
@@ -384,8 +383,7 @@ export default class JsonResume {
   }
 
   async generateMarkdown() {
-    const links = this.getLinks();
-    const html = await edge.render("profiles-resume-md", { resume: this, links });
+    const html = await edge.render("profiles-resume-md", { resume: this });
     fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.md`, html);
   }
 }

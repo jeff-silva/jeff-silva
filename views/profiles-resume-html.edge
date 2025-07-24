@@ -39,7 +39,7 @@
       <br />
 
       <div style="display:flex; gap:20px; align-items:center;">
-        @each(link in links)
+        @each(link in resume.getLinks())
         <a href="{{ link.url }}" target="_blank" title="{{ link.name }}" style="display:flex; align-items:center; gap:5px;">
           <img src="{{ link.icon }}?color=%23ffffff" alt="" style="height:20px;" />
           <span>{{ link.name }}</span>
