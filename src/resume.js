@@ -339,6 +339,9 @@ export default class JsonResume {
     await fs.promises.mkdir(`./docs/profiles/${this.profile}`, { recursive: true });
     await fs.promises.writeFile(`./docs/profiles/index.html`, `index.html`);
 
+    fs.promises.writeFile(`./docs/index.html`, await edge.render("index", {}));
+    fs.promises.writeFile(`./docs/profiles/index.html`, await edge.render("profiles-index", {}));
+
     await this.generateJson();
     await this.generateHtml();
     await this.generatePdf();
@@ -351,7 +354,7 @@ export default class JsonResume {
 
   async generateHtml() {
     const links = this.getLinks();
-    const html = await edge.render("resume-html", { resume: this, links });
+    const html = await edge.render("profiles-resume-html", { resume: this, links });
     fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.html`, html);
   }
 
@@ -379,7 +382,7 @@ export default class JsonResume {
 
   async generateMarkdown() {
     const links = this.getLinks();
-    const html = await edge.render("resume-md", { resume: this, links });
+    const html = await edge.render("profiles-resume-md", { resume: this, links });
     fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.md`, html);
   }
 }
