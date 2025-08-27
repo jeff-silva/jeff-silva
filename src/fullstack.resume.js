@@ -396,7 +396,7 @@ export default class FullstackResume extends Resume {
           endDate: "2021-12-31",
           highlights: ["Listra"],
           meta: {
-            images: [{ file: "assinar-ou-comprar.jpg", name: "" }],
+            images: [{ file: "assets/projects/assinar-ou-comprar.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -434,7 +434,7 @@ export default class FullstackResume extends Resume {
           endDate: "2019-08-31",
           highlights: ["Labscript.dev"],
           meta: {
-            images: [{ file: "orbitae.jpg", name: "" }],
+            images: [{ file: "assets/projects/orbitae.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -449,7 +449,7 @@ export default class FullstackResume extends Resume {
           endDate: "2019-12-31",
           highlights: ["Labscript.dev"],
           meta: {
-            images: [{ file: "blog-banco-da-amazonia.jpg", name: "" }],
+            images: [{ file: "assets/projects/blog-banco-da-amazonia.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -464,7 +464,7 @@ export default class FullstackResume extends Resume {
           endDate: "2019-12-31",
           highlights: ["Labscript.dev"],
           meta: {
-            images: [{ file: "habitat-group.jpg", name: "" }],
+            images: [{ file: "assets/projects/habitat-group.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -479,7 +479,7 @@ export default class FullstackResume extends Resume {
           endDate: "2018-12-31",
           highlights: ["Labscript.dev"],
           meta: {
-            images: [{ file: "cocks-skate.jpg", name: "" }],
+            images: [{ file: "assets/projects/cocks-skate.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -494,7 +494,7 @@ export default class FullstackResume extends Resume {
           endDate: "2018-12-31",
           highlights: ["Labscript.dev"],
           meta: {
-            images: [{ file: "don-desenvolvimento.jpg", name: "" }],
+            images: [{ file: "assets/projects/don-desenvolvimento.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -509,7 +509,7 @@ export default class FullstackResume extends Resume {
           endDate: "2018-12-31",
           highlights: ["Labscript.dev"],
           meta: {
-            images: [{ file: "eiriz-saude.jpg", name: "" }],
+            images: [{ file: "assets/projects/eiriz-saude.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -524,7 +524,7 @@ export default class FullstackResume extends Resume {
           endDate: "2017-12-31",
           highlights: ["Agência de Criação"],
           meta: {
-            images: [{ file: "aguas-do-acurui.jpg", name: "" }],
+            images: [{ file: "assets/projects/aguas-do-acurui.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -539,7 +539,7 @@ export default class FullstackResume extends Resume {
           endDate: "2017-12-31",
           highlights: ["Agência de Criação"],
           meta: {
-            images: [{ file: "cantor-beto-santos.jpg", name: "" }],
+            images: [{ file: "assets/projects/cantor-beto-santos.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -566,7 +566,7 @@ export default class FullstackResume extends Resume {
           endDate: "2012-12-31",
           highlights: ["Agência de Criação"],
           meta: {
-            images: [{ file: "assemg.jpg", name: "" }],
+            images: [{ file: "assets/projects/assemg.jpg", name: "" }],
           },
         }),
         this.projectsDefault({
@@ -582,9 +582,9 @@ export default class FullstackResume extends Resume {
           highlights: ["Labscript.dev"],
           meta: {
             images: [
-              { file: "mandui-01.jpg", name: "" },
-              { file: "mandui-02.jpg", name: "" },
-              { file: "mandui-03.jpg", name: "" },
+              { file: "assets/projects/mandui-01.jpg", name: "" },
+              { file: "assets/projects/mandui-02.jpg", name: "" },
+              { file: "assets/projects/mandui-03.jpg", name: "" },
             ],
           },
         }),
