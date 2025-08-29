@@ -31,10 +31,11 @@ export default class FullstackResume extends Resume {
           - **Boas Práticas de Código** e liderança técnica em projetos complexos.
 
           Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
-          <br />
 
           Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
-        `.replace(/\n\s+/g, `\n\s`),
+        `
+          // .replace(/\n\n/g, `\n\n\n`)
+          .replace(/\n\s*/g, `\n`),
         location: this.locationDefault({
           address: "",
           postalCode: "",
@@ -100,11 +101,11 @@ export default class FullstackResume extends Resume {
           position: "Tech Lead",
           url: "http://capp2.cardcombh.com.br",
           summary: `
-        * **Liderança** e **reengenharia** do **sistema central** da empresa do zero, migrando a arquitetura de **Laravel 4 para NestJS**.
-        * Desenvolvimento **full-stack** de painel administrativo e interfaces para clientes e setores (administração, produção, expedição), **otimizando fluxos de trabalho**.
-        * **Automação completa** do ciclo de impressão de cartões: do pedido do cliente, aprovação administrativa, até gestão de produção e expedição, garantindo **eficiência e qualidade**.
-        * Construção de uma plataforma **escalável** e de **alta manutenção**, com foco no aprimoramento contínuo dos processos.
-      `,
+            * **Liderança** e **reengenharia** do **sistema central** da empresa do zero, migrando a arquitetura de **Laravel 4 para NestJS**.
+            * Desenvolvimento **full-stack** de painel administrativo e interfaces para clientes e setores (administração, produção, expedição), **otimizando fluxos de trabalho**.
+            * **Automação completa** do ciclo de impressão de cartões: do pedido do cliente, aprovação administrativa, até gestão de produção e expedição, garantindo **eficiência e qualidade**.
+            * Construção de uma plataforma **escalável** e de **alta manutenção**, com foco no aprimoramento contínuo dos processos.
+          `,
           startDate: "2023-12-01",
           endDate: "2025-05-01",
           meta: {
@@ -120,10 +121,10 @@ export default class FullstackResume extends Resume {
           startDate: "2022-12-31",
           endDate: "2023-11-30",
           summary: `
-        * Desenvolvimento **Full-stack** (Vue.js, Nuxt.js, Laravel) no sistema Search and Stay, focando na **implementação de funcionalidades, correção de bugs e otimização de performance do frontend**.
-        * Criação e manutenção de **APIs** e lógica de negócio no backend, além de integrações e customizações com **WordPress**.
-        * Colaboração ativa com a equipe para garantir a **qualidade do código** e a **eficiência das entregas**.
-      `,
+            * Desenvolvimento **Full-stack** (Vue.js, Nuxt.js, Laravel) no sistema Search and Stay, focando na **implementação de funcionalidades, correção de bugs e otimização de performance do frontend**.
+            * Criação e manutenção de **APIs** e lógica de negócio no backend, além de integrações e customizações com **WordPress**.
+            * Colaboração ativa com a equipe para garantir a **qualidade do código** e a **eficiência das entregas**.
+          `,
         }),
         // this.workDefault({
         //   name: "Rehagro",
@@ -147,10 +148,10 @@ export default class FullstackResume extends Resume {
           startDate: "2020-10-31",
           endDate: "2022-04-30",
           summary: `
-        * Atuação **Fullstack** (Vue.js, React.js, Laravel, CakePHP) no desenvolvimento de **sistemas web de alta visibilidade** para grandes clientes como Unidas Seminovos, Samy Dana e EPA Supermercados.
-        * Responsável pela entrega de **soluções completas**, desde interfaces intuitivas até lógicas de negócio robustas no backend.
-        * Colaboração em equipes multidisciplinares para desenvolver **funcionalidades complexas** e **otimizar a performance** de aplicações de larga escala.
-      `,
+            * Atuação **Fullstack** (Vue.js, React.js, Laravel, CakePHP) no desenvolvimento de **sistemas web de alta visibilidade** para grandes clientes como Unidas Seminovos, Samy Dana e EPA Supermercados.
+            * Responsável pela entrega de **soluções completas**, desde interfaces intuitivas até lógicas de negócio robustas no backend.
+            * Colaboração em equipes multidisciplinares para desenvolver **funcionalidades complexas** e **otimizar a performance** de aplicações de larga escala.
+          `,
         }),
         this.workDefault({
           name: "Codificar Sistemas Tecnológicos",
@@ -159,10 +160,10 @@ export default class FullstackResume extends Resume {
           startDate: "2017-02-28",
           endDate: "2017-10-31",
           summary: `
-        * Atuação **Fullstack** (Vue.js, React.js, Laravel) no desenvolvimento e implementação de **sistemas web diversos**.
-        * **Expertise em integrações com APIs externas**, incluindo a API da Google para sincronização de agendas e calendários.
-        * Colaboração em equipe para desenvolver **funcionalidades complexas** em diferentes projetos web.
-      `,
+            * Atuação **Fullstack** (Vue.js, React.js, Laravel) no desenvolvimento e implementação de **sistemas web diversos**.
+            * **Expertise em integrações com APIs externas**, incluindo a API da Google para sincronização de agendas e calendários.
+            * Colaboração em equipe para desenvolver **funcionalidades complexas** em diferentes projetos web.
+          `,
         }),
         this.workDefault({
           name: "Agência de Criação",
@@ -171,9 +172,9 @@ export default class FullstackResume extends Resume {
           startDate: "2015-01-31",
           endDate: "2017-02-28",
           summary: `
-        * **Desenvolvimento e evolução do CMS proprietário** da agência (Vue.js, Angular.js), com foco em **melhorias arquiteturais e de código**.
-        * Contribuição significativa para a **otimização da velocidade de correção de bugs** e a **redução do tempo de entrega** de projetos web.
-      `,
+            * **Desenvolvimento e evolução do CMS proprietário** da agência (Vue.js, Angular.js), com foco em **melhorias arquiteturais e de código**.
+            * Contribuição significativa para a **otimização da velocidade de correção de bugs** e a **redução do tempo de entrega** de projetos web.
+          `,
         }),
         this.workDefault({
           name: "Cushman & Wakefield",
@@ -182,10 +183,10 @@ export default class FullstackResume extends Resume {
           startDate: "2012-05-02",
           endDate: "2013-11-08",
           summary: `
-        * Atuação **Fullstack** (PHP, JavaScript, [Mencione o framework específico aqui, ex: jQuery, Vue.js inicial]) como terceirizado para a **Vale do Rio Doce**, transformando **planilhas complexas em aplicações web robustas**.
-        * **Impacto Direto:** **Eliminei a perda de dados** por corrupção de Excel e **desbloqueei a colaboração simultânea**, **aumentando a eficiência** da equipe de engenharia.
-        * Desenvolvi **interface inovadora com automação** (gráfico de curva de Gauss) que **reduziu o tempo de preenchimento de dados** de contratação mensal, com **feedback positivo** pela usabilidade.
-      `,
+            * Atuação **Fullstack** (PHP, JavaScript, [Mencione o framework específico aqui, ex: jQuery, Vue.js inicial]) como terceirizado para a **Vale do Rio Doce**, transformando **planilhas complexas em aplicações web robustas**.
+            * **Impacto Direto:** **Eliminei a perda de dados** por corrupção de Excel e **desbloqueei a colaboração simultânea**, **aumentando a eficiência** da equipe de engenharia.
+            * Desenvolvi **interface inovadora com automação** (gráfico de curva de Gauss) que **reduziu o tempo de preenchimento de dados** de contratação mensal, com **feedback positivo** pela usabilidade.
+          `,
         }),
         this.workDefault({
           name: "Netranet Networking",
@@ -194,8 +195,8 @@ export default class FullstackResume extends Resume {
           startDate: "2011-01-13",
           endDate: "2012-01-13",
           summary: `
-        * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.
-      `,
+            * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.
+          `,
         }),
         this.workDefault({
           name: "Web BH Escola de Informática",
@@ -204,8 +205,8 @@ export default class FullstackResume extends Resume {
           startDate: "2010-01-31",
           endDate: "2011-01-31",
           summary: `
-        * Atuação como instrutor de desenvolvimento web (PHP, MySQL, Javascript, HTML/CSS), capacitando alunos em diversas tecnologias e aprimorando **habilidades de comunicação, didática e liderança técnica**.
-      `,
+            * Atuação como instrutor de desenvolvimento web (PHP, MySQL, Javascript, HTML/CSS), capacitando alunos em diversas tecnologias e aprimorando **habilidades de comunicação, didática e liderança técnica**.
+          `,
         }),
       ],
       volunteer: [

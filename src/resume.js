@@ -18,6 +18,7 @@ export default class JsonResume {
 
   constructor() {
     this.data = this.getData();
+    console.log(this.data.basics.summary);
   }
 
   getData() {
