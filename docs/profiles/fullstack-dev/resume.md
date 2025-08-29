@@ -10,18 +10,18 @@ Github: [https://github.com/jeff-silva](https://github.com/jeff-silva) <br />
 ## Resumo
 
 
-**Desenvolvedor Full-stack Sênior e Tech Lead** há **14 anos** transformarmando desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
-* **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
-* **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
-* **Boas Práticas de Código** e liderança técnica em projetos complexos.
-Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
-<br />
-Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
-
+s**Desenvolvedor Full-stack Sênior e Tech Lead** há **14 anos** transformarmando desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
+s- **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
+s- **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
+s- **Boas Práticas de Código** e liderança técnica em projetos complexos.
+sLiderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
+s<br />
+sPronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
+s
 
 ## Skills
 
-Vue 3, Laravel, React, Node.js, PHP, Docker, Docker Compose, Nuxt 3, API REST, Bootstrap, Otimização de página, Arquitetura MVC, Documentação, SOAP, HTML5, Git, PWA, Unity, Firebase, MySQL, Elementor, YARN, Javascript, Typescript, WooCommerce, Responsividade, Vuetify, Linux, JQuery, WordPress, NPM, Scrum, CSS3, Postgres, Keycloak, Clean Architecture, Clean Code, DynamoDB, SEO, Design Patterns, Express.js, Three.js, Babylon, Pagseguro, Stripe, SASS, LESS, Rapier.js, Composer, VuePress, MongoDB, Google Compute Engine, Integração AI, Python, AdonisJS 6, Cálculos geospaciais, Mapas, NestJS, GraphQL, Responsive Design, UI/UX, Web Accessibility, Redis, JWT, Rest API, Authentication, SQL e Deployment.
+Vue 3, Laravel, React, Node.js, PHP, Docker, Docker Compose, Nuxt 3, API REST, Bootstrap, Otimização de página, Arquitetura MVC, Documentação, SOAP, HTML5, Git, PWA, Unity, Firebase, MySQL, Elementor, YARN, Javascript, Typescript, WooCommerce, Responsividade, Vuetify, Linux, JQuery, WordPress, NPM, Scrum, CSS3, Postgres, Keycloak, Clean Architecture, Clean Code, DynamoDB, SEO, Design Patterns, Express.js, Three.js, Babylon, Pagseguro, Stripe, SASS, LESS, Rapier.js, Composer, VuePress, MongoDB, Google Compute Engine, Integração AI, Python, AdonisJS 6, Cálculos geospaciais, Mapas, NestJS, GraphQL, Responsive Design, UI/UX, Web Accessibility, Redis, JWT, Rest API, Authentication, SQL, Deployment e Prisma.
 
 ## Experiência
 

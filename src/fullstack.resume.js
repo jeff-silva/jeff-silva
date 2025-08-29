@@ -26,15 +26,15 @@ export default class FullstackResume extends Resume {
         summary: `
           **Desenvolvedor Full-stack Sênior e Tech Lead** há **${experienceYears} anos** transformarmando desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
 
-          * **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
-          * **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
-          * **Boas Práticas de Código** e liderança técnica em projetos complexos.
+          - **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
+          - **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
+          - **Boas Práticas de Código** e liderança técnica em projetos complexos.
 
           Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
           <br />
 
           Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
-        `,
+        `.replace(/\n\s+/g, `\n\s`),
         location: this.locationDefault({
           address: "",
           postalCode: "",
@@ -335,6 +335,7 @@ export default class FullstackResume extends Resume {
         this.skillsDefault({ name: "Authentication", keywords: [] }),
         this.skillsDefault({ name: "SQL", keywords: [] }),
         this.skillsDefault({ name: "Deployment", keywords: [] }),
+        this.skillsDefault({ name: "Prisma", keywords: [] }),
       ],
       languages: [
         this.languagesDefault({ language: "Português Brasileiro", fluency: "Nativo" }),
