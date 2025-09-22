@@ -20,7 +20,7 @@ Pronto para desenvolver e integrar soluções que impulsionem o crescimento do s
 
 ## Skills
 
-Vue 3, Laravel, React, Node.js, PHP, Docker, Docker Compose, Nuxt 3, API REST, Bootstrap, Otimização de página, Arquitetura MVC, Documentação, SOAP, HTML5, Git, PWA, Unity, Firebase, MySQL, Elementor, YARN, Javascript, Typescript, WooCommerce, Responsividade, Vuetify, Linux, JQuery, WordPress, NPM, Scrum, CSS3, Postgres, Keycloak, Clean Architecture, Clean Code, DynamoDB, SEO, Design Patterns, Express.js, Three.js, Babylon, Pagseguro, Stripe, SASS, LESS, Rapier.js, Composer, VuePress, MongoDB, Google Compute Engine, Integração AI, Python, AdonisJS 6, Cálculos geospaciais, Mapas, NestJS, GraphQL, Responsive Design, UI/UX, Web Accessibility, Redis, JWT, Rest API, Authentication, SQL, Deployment e Prisma.
+Vue 3, Laravel, React, Node.js, PHP, Docker, Docker Compose, Nuxt 3, API REST, Bootstrap, Otimização de página, Arquitetura MVC, Documentação, SOAP, HTML5, Git, PWA, Unity, Firebase, MySQL, Elementor, YARN, Javascript, Typescript, WooCommerce, Responsividade, Vuetify, Linux, JQuery, WordPress, NPM, Scrum, CSS3, Postgres, Keycloak, Clean Architecture, Clean Code, DynamoDB, SEO, Design Patterns, Express.js, Three.js, Babylon, Pagseguro, Stripe, SASS, LESS, Rapier.js, Composer, VuePress, MongoDB, Google Compute Engine, Integração AI, Python, AdonisJS 6, Cálculos geospaciais, Mapas, NestJS, GraphQL, Responsive Design, UI/UX, Web Accessibility, Redis, JWT, Rest API, Authentication, SQL, Deployment, Prisma e Tailwind.
 
 ## Experiência
 
