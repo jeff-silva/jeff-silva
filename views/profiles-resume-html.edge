@@ -95,26 +95,32 @@
       </div>
       <br />
 
-      <div style="display:flex; gap:20px; align-items:center;">
+      <div style="display:flex; flex-direction:column; gap:5px;">
         @each(link in resume.getLinks())
-        <a href="{{ link.url }}" target="_blank" title="{{ link.name }}"
-          style="display:flex; align-items:center; gap:5px;">
-          <img src="{{ link.icon }}?color=%23ffffff" alt="" style="height:20px;" />
-          <span>{{ link.name }}</span>
-        </a>
+        <div>
+          <a href="{{ link.url }}" target="_blank" title="{{ link.name }}"
+            style="display:flex; align-items:center; gap:5px;">
+            <img src="{{ link.icon }}?color=%23ffffff" alt="" style="height:20px;" />
+            <span>{{ link.name }}</span>
+          </a>
+        </div>
         @end
       </div>
+
     </div>
   </div>
 
 
   <!-- Summary -->
   <div class="section-wrapper" style="background:#ffffff12; border-top: solid 1px #00000011;">
-    <img class="section-wrapper--icon" src="https://api.iconify.design/ic:round-waving-hand.svg?color=%23502562"
-      alt="" />
+    {{-- <img class="section-wrapper--icon" src="https://api.iconify.design/ic:round-waving-hand.svg?color=%23502562"
+      alt="" /> --}}
 
     <div class="section-content">
       <div class="spacer"></div>
+      <h2 class="section-title">Resumo</h2>
+      <div class="spacer"></div>
+
       <div class="section-text section-text-summary">
         {{{ resume.markdownToHtml(resume.data.basics.summary) }}}
       </div>
@@ -123,18 +129,46 @@
   </div>
 
 
-  <!-- Skills -->
+  <!-- Education -->
   <div class="section-wrapper" style="background:#ffffff09; border-top: solid 1px #00000011;">
-    <img class="section-wrapper--icon" src="https://api.iconify.design/ic:baseline-menu-book.svg?color=%23502562"
-      alt="" />
+    {{-- <img class="section-wrapper--icon" src="https://api.iconify.design/ic:round-waving-hand.svg?color=%23502562"
+      alt="" /> --}}
 
     <div class="section-content">
       <div class="spacer"></div>
-      <h2 class="section-title">Skills</h2>
+      <h2 class="section-title">Formação</h2>
       <div class="spacer"></div>
 
-      <div style="display:flex; align-items:center; flex-wrap:wrap; gap:15px; font-size:18px; line-height:26px;">
-        {{ resume.listHumanized(resume.data.skills, (skill) => skill.name) }}
+      <div style="display:flex; flex-direction:column; gap:50px;">
+        @each(item in resume.data.education.reverse())
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <div style="display:flex; align-items:center; gap:10px;">
+            <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff"
+              alt="" />
+            <h3 style="font-size:20px; text-transform:uppercase;">
+              <div>{{ item.studyType }} {{ item.area }}</div>
+              <div>em {{ item.institution }}</div>
+            </h3>
+          </div>
+
+          {{-- <div style="display:flex; align-items:center; gap:10px;">
+            <img style="height:20px;"
+              src="https://api.iconify.design/material-symbols:calendar-month.svg?height=12&color=%23ffffff" alt="" />
+            <div style="font-size:15px;">{{ resume.dateDuration(item.startDate, item.endDate) }}</div>
+          </div> --}}
+
+          <div style="display:flex; align-items:start; gap:10px;">
+            <div style="min-width:20px;"></div>
+            <div style="font-size:20px;">
+              <div class="section-work-summary">
+                {{ item.courses.join(', ') }}
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:5px;"></div>
+        </div>
+        @end
       </div>
 
       <div class="spacer"></div>
@@ -144,11 +178,12 @@
 
   <!-- Experience -->
   <div class="section-wrapper" style="background:#ffffff12;  border-top: solid 1px #00000011;">
-    <img class="section-wrapper--icon" src="https://api.iconify.design/material-symbols:elderly.svg?color=%23502562"
-      alt="" />
+    {{-- <img class="section-wrapper--icon"
+      src="https://api.iconify.design/material-symbols:elderly.svg?color=%23502562" alt="" /> --}}
+
     <div class="section-content">
       <div class="spacer"></div>
-      <h2 class="section-title">Experiências</h2>
+      <h2 class="section-title">Principais Experiências</h2>
       <div class="spacer"></div>
 
       <div style="display:flex; flex-direction:column; gap:50px;">
@@ -192,16 +227,38 @@
   </div>
 
 
-  <!-- Projects -->
-  <div class="section-wrapper" style="background:#ffffff09;  border-top: solid 1px #00000011;">
-    <img class="section-wrapper--icon" src="https://api.iconify.design/carbon:portfolio.svg?color=%23502562" alt="" />
+  <!-- Skills -->
+  <div class="section-wrapper" style="background:#ffffff09; border-top: solid 1px #00000011;">
+    {{-- <img class="section-wrapper--icon" src="https://api.iconify.design/ic:baseline-menu-book.svg?color=%23502562"
+      alt="" /> --}}
+
     <div class="section-content">
       <div class="spacer"></div>
-      <h2 class="section-title">Projetos</h2>
+      <h2 class="section-title">Skills</h2>
+      <div class="spacer"></div>
+
+      <div style="display:flex; align-items:center; flex-wrap:wrap; gap:15px; font-size:18px; line-height:26px;">
+        Em minha lista completa de tecnologias que conheço, constam {{ resume.listHumanized(resume.data.skills,
+        (skill) => skill.name) }}
+      </div>
+
+      <div class="spacer"></div>
+    </div>
+  </div>
+
+
+  <!-- Projects -->
+  {{--
+  <div class="section-wrapper" style="background:#ffffff09;  border-top: solid 1px #00000011;">
+    <img class="section-wrapper--icon" src="https://api.iconify.design/carbon:portfolio.svg?color=%23502562" alt="" />
+
+    <div class="section-content">
+      <div class="spacer"></div>
+      <h2 class="section-title">Principais Projetos</h2>
       <div class="spacer"></div>
 
       <div style="display:flex; flex-direction:column; gap:50px;">
-        @each(project in resume.data.projects)
+        @each(project in resume.data.projects.slice(0, 5))
         <div style="display:flex; flex-direction:column; gap:10px;">
           <div style="display:flex; align-items:center; gap:10px;">
             <img style="height:20px;" src="https://api.iconify.design/mdi:briefcase.svg?height=12&color=%23ffffff"
@@ -253,6 +310,7 @@
       <div class="spacer"></div>
     </div>
   </div>
+  --}}
 
 
   <!-- Footer -->

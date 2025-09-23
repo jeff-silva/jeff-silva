@@ -18,7 +18,7 @@ export default class FullstackResume extends Resume {
       },
       basics: {
         name: "Jeferson Silva",
-        label: "Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | NestJS",
+        label: "Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | Nest.js",
         image: "",
         email: "jeferson.i.silva@gmail.com",
         phone: "+55 31 99527-1426",
@@ -27,18 +27,18 @@ export default class FullstackResume extends Resume {
           **Desenvolvedor Full-stack** com **${experienceYears} anos** de experiência em arquitetura escalável, microservices e cloud.
 
           Stack principal:
-          - Frontend: **Vue.js, Nuxt, React.js, Next.js, Tailwind, Vuetify3**;
-          - Backend: **Node.js, NestJS, Express, PHP, Laravel**;
-          - Database: **MySQL, Postgres, Firebase (Realtime e Firestore)**;
+
+          - Frontend: **Vue.js, Nuxt 4, React.js, Next.js, Tailwind, Vuetify 3**;
+          - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;
+          - Database: **MySQL, PostgreSQL, Firebase (Realtime e Firestore)**;
           - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native**.
 
           Expertise:
+
           - Integração de sistemas & processo de automação AI-driven;
           - Alta escalabilidade & otimização de performance;
           - Boas práticas de código, clean architecture & liderança técnica;
           - Metodologia Agile / Scrum, Microservices.
-
-          Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
 
           Busco oportunidades como Líder técnico / desenvolvedor Full Stack, com foco em arquitetura escalável, microservices, CI/CD e cloud computing.
         `,
@@ -107,15 +107,16 @@ export default class FullstackResume extends Resume {
           position: "Tech Lead",
           url: "http://capp2.cardcombh.com.br",
           summary: `
-            * **Liderança** e **reengenharia** do **sistema central** da empresa do zero, migrando a arquitetura de **Laravel 4 para NestJS**.
-            * Desenvolvimento **full-stack** de painel administrativo e interfaces para clientes e setores (administração, produção, expedição), **otimizando fluxos de trabalho**.
-            * **Automação completa** do ciclo de impressão de cartões: do pedido do cliente, aprovação administrativa, até gestão de produção e expedição, garantindo **eficiência e qualidade**.
-            * Construção de uma plataforma **escalável** e de **alta manutenção**, com foco no aprimoramento contínuo dos processos.
+            * **Arquitetura**: Estruturei a separação de um monólito simples em frontend + backend baseado em Rest API;
+            * **Reengenharia**: Conduzi conversão API Rest de Laravel 4.2 para Nest.js 11;
+            * **Estruturação**: Separei o sistema em camadas e módulos independentes com comunicação via mensageria;
+            * **Governança e Segurança**: implementei sistema de permissões robusto e melhorei o controle de acesso;
+            * **Escalabilidade**: Desenvolvi sistema multinível com grupos de usuários controlados por hierarquia, função e nível.
           `,
           startDate: "2023-12-01",
           endDate: "2025-05-01",
           meta: {
-            summaryShort: `Liderança e reengenharia de um sistema central do zero (Laravel 4 para NestJS),
+            summaryShort: `Liderança e reengenharia de um sistema central do zero (Laravel 4 para Nest.js),
           incluindo desenvolvimento de painel administrativo e automação completa do ciclo de impressão de cartões.
           Assegurei escalabilidade e otimização de processos do pedido à expedição.`,
           },
@@ -171,17 +172,17 @@ export default class FullstackResume extends Resume {
             * Colaboração em equipe para desenvolver **funcionalidades complexas** em diferentes projetos web.
           `,
         }),
-        this.workDefault({
-          name: "Agência de Criação",
-          position: "Dev Fullstack",
-          url: "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
-          startDate: "2015-01-31",
-          endDate: "2017-02-28",
-          summary: `
-            * **Desenvolvimento e evolução do CMS proprietário** da agência (Vue.js, Angular.js), com foco em **melhorias arquiteturais e de código**.
-            * Contribuição significativa para a **otimização da velocidade de correção de bugs** e a **redução do tempo de entrega** de projetos web.
-          `,
-        }),
+        // this.workDefault({
+        //   name: "Agência de Criação",
+        //   position: "Dev Fullstack",
+        //   url: "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
+        //   startDate: "2015-01-31",
+        //   endDate: "2017-02-28",
+        //   summary: `
+        //     * **Desenvolvimento e evolução do CMS proprietário** da agência (Vue.js, Angular.js), com foco em **melhorias arquiteturais e de código**.
+        //     * Contribuição significativa para a **otimização da velocidade de correção de bugs** e a **redução do tempo de entrega** de projetos web.
+        //   `,
+        // }),
         this.workDefault({
           name: "Cushman & Wakefield",
           position: "Dev Fullstack",
@@ -194,16 +195,16 @@ export default class FullstackResume extends Resume {
             * Desenvolvi **interface inovadora com automação** (gráfico de curva de Gauss) que **reduziu o tempo de preenchimento de dados** de contratação mensal, com **feedback positivo** pela usabilidade.
           `,
         }),
-        this.workDefault({
-          name: "Netranet Networking",
-          position: "Dev Fullstack",
-          url: "https://www.linkedin.com/company/netranet-networking/",
-          startDate: "2011-01-13",
-          endDate: "2012-01-13",
-          summary: `
-            * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.
-          `,
-        }),
+        // this.workDefault({
+        //   name: "Netranet Networking",
+        //   position: "Dev Fullstack",
+        //   url: "https://www.linkedin.com/company/netranet-networking/",
+        //   startDate: "2011-01-13",
+        //   endDate: "2012-01-13",
+        //   summary: `
+        //     * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.
+        //   `,
+        // }),
         this.workDefault({
           name: "Web BH Escola de Informática",
           position: "Instrutor",
@@ -255,7 +256,7 @@ export default class FullstackResume extends Resume {
           area: "Inteligência Artificial e Machine Learning",
           studyType: "Bacharelado",
           startDate: "2025-01-01",
-          // endDate: "2017-12-31",
+          endDate: "2028-12-31",
           courses: [
             "Inteligência Artificial e Machine Learning",
             "Fundamentos de Big Data",
@@ -307,7 +308,7 @@ export default class FullstackResume extends Resume {
         this.skillsDefault({ name: "NPM", keywords: [] }),
         this.skillsDefault({ name: "Scrum", keywords: [] }),
         this.skillsDefault({ name: "CSS3", keywords: ["Frontend"] }),
-        this.skillsDefault({ name: "Postgres", keywords: ["Stack"] }),
+        this.skillsDefault({ name: "PostgreSQL", keywords: ["Stack"] }),
         this.skillsDefault({ name: "Keycloak", keywords: [] }),
         this.skillsDefault({ name: "Clean Architecture", keywords: [] }),
         this.skillsDefault({ name: "Clean Code", keywords: [] }),
@@ -331,7 +332,7 @@ export default class FullstackResume extends Resume {
         this.skillsDefault({ name: "AdonisJS", keywords: ["Backend"] }),
         this.skillsDefault({ name: "Cálculos geospaciais", keywords: ["Frontend"] }),
         this.skillsDefault({ name: "Mapas", keywords: ["Frontend"] }),
-        this.skillsDefault({ name: "NestJS", keywords: ["Stack", "Backend"] }),
+        this.skillsDefault({ name: "Nest.js", keywords: ["Stack", "Backend"] }),
         this.skillsDefault({ name: "GraphQL", keywords: ["Backend"] }),
         this.skillsDefault({ name: "Responsive Design", keywords: [] }),
         this.skillsDefault({ name: "UI/UX", keywords: ["Frontend"] }),

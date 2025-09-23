@@ -1,5 +1,5 @@
 # Jeferson Silva
-## Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | NestJS
+## Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | Nest.js
 
 🌎 Belo Horizonte, Minas Gerais, BR
 
@@ -13,35 +13,36 @@ Github: [https://github.com/jeff-silva](https://github.com/jeff-silva) <br />
 **Desenvolvedor Full-stack** com **14 anos** de experiência em arquitetura escalável, microservices e cloud.
 
 Stack principal:
-- Frontend: **Vue.js, Nuxt, React.js, Next.js, Tailwind, Vuetify3**;
-- Backend: **Node.js, NestJS, Express, PHP, Laravel**;
-- Database: **MySQL, Postgres, Firebase (Realtime e Firestore)**;
+
+- Frontend: **Vue.js, Nuxt 4, React.js, Next.js, Tailwind, Vuetify 3**;
+- Backend: **Node.js, Nest.js, Express, PHP, Laravel**;
+- Database: **MySQL, PostgreSQL, Firebase (Realtime e Firestore)**;
 - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native**.
 
 Expertise:
+
 - Integração de sistemas & processo de automação AI-driven;
 - Alta escalabilidade & otimização de performance;
 - Boas práticas de código, clean architecture & liderança técnica;
 - Metodologia Agile / Scrum, Microservices.
-
-Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
 
 Busco oportunidades como Líder técnico / desenvolvedor Full Stack, com foco em arquitetura escalável, microservices, CI/CD e cloud computing.
 
 
 ## Skills
 
-AdonisJS, Arquitetura MVC, Babylon, Bootstrap, Cálculos geospaciais, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Electron, Elementor, Express.js, Firebase, Git, Google Cloud Platform, GraphQL, HTML5, Integração AI, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Mapas, MongoDB, MySQL, NestJS, Node.js, NPM, Nuxt, OAuth 2, Otimização de página, Pagseguro, PHP, Postgres, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, Responsividade, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress e YARN.
+AdonisJS, Arquitetura MVC, Babylon, Bootstrap, Cálculos geospaciais, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Electron, Elementor, Express.js, Firebase, Git, Google Cloud Platform, GraphQL, HTML5, Integração AI, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Mapas, MongoDB, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Otimização de página, Pagseguro, PHP, PostgreSQL, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, Responsividade, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress e YARN.
 
 ## Experiência
 
 ### Cardcom | Tech Lead
 DEZ 2023 ~ MAI 2025
 
-* **Liderança** e **reengenharia** do **sistema central** da empresa do zero, migrando a arquitetura de **Laravel 4 para NestJS**.
-* Desenvolvimento **full-stack** de painel administrativo e interfaces para clientes e setores (administração, produção, expedição), **otimizando fluxos de trabalho**.
-* **Automação completa** do ciclo de impressão de cartões: do pedido do cliente, aprovação administrativa, até gestão de produção e expedição, garantindo **eficiência e qualidade**.
-* Construção de uma plataforma **escalável** e de **alta manutenção**, com foco no aprimoramento contínuo dos processos.
+* **Arquitetura**: Estruturei a separação de um monólito simples em frontend + backend baseado em Rest API;
+* **Reengenharia**: Conduzi conversão API Rest de Laravel 4.2 para Nest.js 11;
+* **Estruturação**: Separei o sistema em camadas e módulos independentes com comunicação via mensageria;
+* **Governança e Segurança**: implementei sistema de permissões robusto e melhorei o controle de acesso;
+* **Escalabilidade**: Desenvolvi sistema multinível com grupos de usuários controlados por hierarquia, função e nível.
 
 <br />
 
@@ -72,11 +73,12 @@ FEV 2017 ~ OUT 2017
 
 <br />
 
-### Agência de Criação | Dev Fullstack
-JAN 2015 ~ FEV 2017
+### Cushman &amp; Wakefield | Dev Fullstack
+MAI 2012 ~ NOV 2013
 
-* **Desenvolvimento e evolução do CMS proprietário** da agência (Vue.js, Angular.js), com foco em **melhorias arquiteturais e de código**.
-* Contribuição significativa para a **otimização da velocidade de correção de bugs** e a **redução do tempo de entrega** de projetos web.
+* Atuação **Fullstack** (PHP, JavaScript, [Mencione o framework específico aqui, ex: jQuery, Vue.js inicial]) como terceirizado para a **Vale do Rio Doce**, transformando **planilhas complexas em aplicações web robustas**.
+* **Impacto Direto:** **Eliminei a perda de dados** por corrupção de Excel e **desbloqueei a colaboração simultânea**, **aumentando a eficiência** da equipe de engenharia.
+* Desenvolvi **interface inovadora com automação** (gráfico de curva de Gauss) que **reduziu o tempo de preenchimento de dados** de contratação mensal, com **feedback positivo** pela usabilidade.
 
 <br />
 

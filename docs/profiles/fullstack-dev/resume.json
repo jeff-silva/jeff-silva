@@ -10,12 +10,12 @@
   },
   "basics": {
     "name": "Jeferson Silva",
-    "label": "Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | NestJS",
+    "label": "Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | Nest.js",
     "image": "",
     "email": "jeferson.i.silva@gmail.com",
     "phone": "+55 31 99527-1426",
     "url": "https://jeff-silva.github.io",
-    "summary": "\n          **Desenvolvedor Full-stack** com **14 anos** de experiência em arquitetura escalável, microservices e cloud.\n\n          Stack principal:\n          - Frontend: **Vue.js, Nuxt, React.js, Next.js, Tailwind, Vuetify3**;\n          - Backend: **Node.js, NestJS, Express, PHP, Laravel**;\n          - Database: **MySQL, Postgres, Firebase (Realtime e Firestore)**;\n          - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native**.\n\n          Expertise:\n          - Integração de sistemas & processo de automação AI-driven;\n          - Alta escalabilidade & otimização de performance;\n          - Boas práticas de código, clean architecture & liderança técnica;\n          - Metodologia Agile / Scrum, Microservices.\n\n          Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.\n\n          Busco oportunidades como Líder técnico / desenvolvedor Full Stack, com foco em arquitetura escalável, microservices, CI/CD e cloud computing.\n        ",
+    "summary": "\n          **Desenvolvedor Full-stack** com **14 anos** de experiência em arquitetura escalável, microservices e cloud.\n\n          Stack principal:\n\n          - Frontend: **Vue.js, Nuxt 4, React.js, Next.js, Tailwind, Vuetify 3**;\n          - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;\n          - Database: **MySQL, PostgreSQL, Firebase (Realtime e Firestore)**;\n          - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native**.\n\n          Expertise:\n\n          - Integração de sistemas & processo de automação AI-driven;\n          - Alta escalabilidade & otimização de performance;\n          - Boas práticas de código, clean architecture & liderança técnica;\n          - Metodologia Agile / Scrum, Microservices.\n\n          Busco oportunidades como Líder técnico / desenvolvedor Full Stack, com foco em arquitetura escalável, microservices, CI/CD e cloud computing.\n        ",
     "location": {
       "address": "",
       "postalCode": "",
@@ -51,11 +51,11 @@
       "name": "Cardcom",
       "position": "Tech Lead",
       "url": "http://capp2.cardcombh.com.br",
-      "summary": "\n            * **Liderança** e **reengenharia** do **sistema central** da empresa do zero, migrando a arquitetura de **Laravel 4 para NestJS**.\n            * Desenvolvimento **full-stack** de painel administrativo e interfaces para clientes e setores (administração, produção, expedição), **otimizando fluxos de trabalho**.\n            * **Automação completa** do ciclo de impressão de cartões: do pedido do cliente, aprovação administrativa, até gestão de produção e expedição, garantindo **eficiência e qualidade**.\n            * Construção de uma plataforma **escalável** e de **alta manutenção**, com foco no aprimoramento contínuo dos processos.\n          ",
+      "summary": "\n            * **Arquitetura**: Estruturei a separação de um monólito simples em frontend + backend baseado em Rest API;\n            * **Reengenharia**: Conduzi conversão API Rest de Laravel 4.2 para Nest.js 11;\n            * **Estruturação**: Separei o sistema em camadas e módulos independentes com comunicação via mensageria;\n            * **Governança e Segurança**: implementei sistema de permissões robusto e melhorei o controle de acesso;\n            * **Escalabilidade**: Desenvolvi sistema multinível com grupos de usuários controlados por hierarquia, função e nível.\n          ",
       "startDate": "2023-12-01",
       "endDate": "2025-05-01",
       "meta": {
-        "summaryShort": "Liderança e reengenharia de um sistema central do zero (Laravel 4 para NestJS),\n          incluindo desenvolvimento de painel administrativo e automação completa do ciclo de impressão de cartões.\n          Assegurei escalabilidade e otimização de processos do pedido à expedição."
+        "summaryShort": "Liderança e reengenharia de um sistema central do zero (Laravel 4 para Nest.js),\n          incluindo desenvolvimento de painel administrativo e automação completa do ciclo de impressão de cartões.\n          Assegurei escalabilidade e otimização de processos do pedido à expedição."
       }
     },
     {
@@ -103,38 +103,12 @@
       "studyType": "",
       "score": "",
       "courses": [],
-      "name": "Agência de Criação",
-      "position": "Dev Fullstack",
-      "url": "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
-      "startDate": "2015-01-31",
-      "endDate": "2017-02-28",
-      "summary": "\n            * **Desenvolvimento e evolução do CMS proprietário** da agência (Vue.js, Angular.js), com foco em **melhorias arquiteturais e de código**.\n            * Contribuição significativa para a **otimização da velocidade de correção de bugs** e a **redução do tempo de entrega** de projetos web.\n          "
-    },
-    {
-      "institution": "",
-      "area": "",
-      "studyType": "",
-      "score": "",
-      "courses": [],
       "name": "Cushman & Wakefield",
       "position": "Dev Fullstack",
       "url": "https://www.linkedin.com/company/cushman-and-wakefield/",
       "startDate": "2012-05-02",
       "endDate": "2013-11-08",
       "summary": "\n            * Atuação **Fullstack** (PHP, JavaScript, [Mencione o framework específico aqui, ex: jQuery, Vue.js inicial]) como terceirizado para a **Vale do Rio Doce**, transformando **planilhas complexas em aplicações web robustas**.\n            * **Impacto Direto:** **Eliminei a perda de dados** por corrupção de Excel e **desbloqueei a colaboração simultânea**, **aumentando a eficiência** da equipe de engenharia.\n            * Desenvolvi **interface inovadora com automação** (gráfico de curva de Gauss) que **reduziu o tempo de preenchimento de dados** de contratação mensal, com **feedback positivo** pela usabilidade.\n          "
-    },
-    {
-      "institution": "",
-      "area": "",
-      "studyType": "",
-      "score": "",
-      "courses": [],
-      "name": "Netranet Networking",
-      "position": "Dev Fullstack",
-      "url": "https://www.linkedin.com/company/netranet-networking/",
-      "startDate": "2011-01-13",
-      "endDate": "2012-01-13",
-      "summary": "\n            * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.\n          "
     },
     {
       "institution": "",
@@ -180,7 +154,8 @@
         "Go - Projeto de Vida",
         "Matemática Aplicada à Computação"
       ],
-      "startDate": "2025-01-01"
+      "startDate": "2025-01-01",
+      "endDate": "2028-12-31"
     }
   ],
   "awards": [],
@@ -415,7 +390,7 @@
       ]
     },
     {
-      "name": "NestJS",
+      "name": "Nest.js",
       "level": "",
       "keywords": [
         "Stack",
@@ -472,7 +447,7 @@
       ]
     },
     {
-      "name": "Postgres",
+      "name": "PostgreSQL",
       "level": "",
       "keywords": [
         "Stack"

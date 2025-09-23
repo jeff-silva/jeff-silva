@@ -13,8 +13,6 @@ RUN apt-get update && \
   apt-get update && \
   apt-get install -y google-chrome-stable
 
-COPY . .
-
 ARG ENTRYPOINT_FILE="index.js"
 ENV ENTRYPOINT_FILE=${ENTRYPOINT_FILE}
 CMD ["/bin/sh", "-c", "node ./src/${ENTRYPOINT_FILE}"]

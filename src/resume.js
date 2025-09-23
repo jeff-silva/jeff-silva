@@ -68,25 +68,25 @@ export default class JsonResume {
   getLinks() {
     return [
       {
-        name: "Whatsapp",
+        name: "(31) 99527-1426",
         url: "https://wa.me/message/NG7A2SW25XIEI1",
         icon: "https://api.iconify.design/ic:baseline-whatsapp.svg",
         value: this.data.basics.phone,
       },
       {
-        name: "E-mail",
+        name: this.data.basics.email,
         url: `mailto:${this.data.basics.email}`,
         icon: "https://api.iconify.design/ic:outline-alternate-email.svg",
         value: this.data.basics.email,
       },
       {
-        name: "Linkedin",
+        name: "https://www.linkedin.com/in/jeferson-siqueira/",
         url: "https://www.linkedin.com/in/jeferson-siqueira/",
         icon: "https://api.iconify.design/mdi:linkedin.svg",
         value: null,
       },
       {
-        name: "Github",
+        name: "https://github.com/jeff-silva",
         url: "https://github.com/jeff-silva",
         icon: "https://api.iconify.design/mdi:github.svg",
         value: null,
@@ -97,12 +97,12 @@ export default class JsonResume {
         icon: "https://api.iconify.design/material-symbols:home-rounded.svg",
         value: null,
       },
-      {
-        name: "Currículo",
-        url: "https://jeff-silva.github.io/jeff-silva/profiles/fullstack-dev/resume.pdf",
-        icon: "https://api.iconify.design/mdi:download.svg",
-        value: null,
-      },
+      // {
+      //   name: "Download",
+      //   url: "https://jeff-silva.github.io/jeff-silva/profiles/fullstack-dev/resume.pdf",
+      //   icon: "https://api.iconify.design/mdi:download.svg",
+      //   value: null,
+      // },
     ];
   }
 
