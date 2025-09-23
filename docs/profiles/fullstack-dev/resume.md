@@ -10,22 +10,33 @@ Github: [https://github.com/jeff-silva](https://github.com/jeff-silva) <br />
 ## Resumo
 
 
-**Desenvolvedor Full-stack Sênior e Tech Lead** há **14 anos** transformarmando desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
-- **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
-- **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
-- **Boas Práticas de Código** e liderança técnica em projetos complexos.
+**Desenvolvedor Full-stack** com **14 anos** de experiência em arquitetura escalável, microservices e cloud.
+
+Stack principal:
+- Frontend: **Vue.js, Nuxt, React.js, Next.js, Tailwind, Vuetify3**;
+- Backend: **Node.js, NestJS, Express, PHP, Laravel**;
+- Database: **MySQL, Postgres, Firebase (Realtime e Firestore)**;
+- DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native**.
+
+Expertise:
+- Integração de sistemas & processo de automação AI-driven;
+- Alta escalabilidade & otimização de performance;
+- Boas práticas de código, clean architecture & liderança técnica;
+- Metodologia Agile / Scrum, Microservices.
+
 Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
-Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
+
+Busco oportunidades como Líder técnico / desenvolvedor Full Stack, com foco em arquitetura escalável, microservices, CI/CD e cloud computing.
 
 
 ## Skills
 
-Vue 3, Laravel, React, Node.js, PHP, Docker, Docker Compose, Nuxt 3, API REST, Bootstrap, Otimização de página, Arquitetura MVC, Documentação, SOAP, HTML5, Git, PWA, Unity, Firebase, MySQL, Elementor, YARN, Javascript, Typescript, WooCommerce, Responsividade, Vuetify, Linux, JQuery, WordPress, NPM, Scrum, CSS3, Postgres, Keycloak, Clean Architecture, Clean Code, DynamoDB, SEO, Design Patterns, Express.js, Three.js, Babylon, Pagseguro, Stripe, SASS, LESS, Rapier.js, Composer, VuePress, MongoDB, Google Compute Engine, Integração AI, Python, AdonisJS 6, Cálculos geospaciais, Mapas, NestJS, GraphQL, Responsive Design, UI/UX, Web Accessibility, Redis, JWT, Rest API, Authentication, SQL, Deployment, Prisma e Tailwind.
+AdonisJS, Arquitetura MVC, Babylon, Bootstrap, Cálculos geospaciais, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Electron, Elementor, Express.js, Firebase, Git, Google Cloud Platform, GraphQL, HTML5, Integração AI, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Mapas, MongoDB, MySQL, NestJS, Node.js, NPM, Nuxt, OAuth 2, Otimização de página, Pagseguro, PHP, Postgres, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, Responsividade, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress e YARN.
 
 ## Experiência
 
 ### Cardcom | Tech Lead
-De 2023-12-01 até 2025-05-01 | DEZ 2023 ~ MAI 2025 (1 ano e 5 meses)
+DEZ 2023 ~ MAI 2025
 
 * **Liderança** e **reengenharia** do **sistema central** da empresa do zero, migrando a arquitetura de **Laravel 4 para NestJS**.
 * Desenvolvimento **full-stack** de painel administrativo e interfaces para clientes e setores (administração, produção, expedição), **otimizando fluxos de trabalho**.
@@ -35,7 +46,7 @@ De 2023-12-01 até 2025-05-01 | DEZ 2023 ~ MAI 2025 (1 ano e 5 meses)
 <br />
 
 ### Search and Stay | Dev Fullstack
-De 2022-12-31 até 2023-11-30 | DEZ 2022 ~ NOV 2023 (11 meses)
+DEZ 2022 ~ NOV 2023
 
 * Desenvolvimento **Full-stack** (Vue.js, Nuxt.js, Laravel) no sistema Search and Stay, focando na **implementação de funcionalidades, correção de bugs e otimização de performance do frontend**.
 * Criação e manutenção de **APIs** e lógica de negócio no backend, além de integrações e customizações com **WordPress**.
@@ -44,7 +55,7 @@ De 2022-12-31 até 2023-11-30 | DEZ 2022 ~ NOV 2023 (11 meses)
 <br />
 
 ### Listra | Dev Fullstack
-De 2020-10-31 até 2022-04-30 | OUT 2020 ~ ABR 2022 (1 ano e 6 meses)
+OUT 2020 ~ ABR 2022
 
 * Atuação **Fullstack** (Vue.js, React.js, Laravel, CakePHP) no desenvolvimento de **sistemas web de alta visibilidade** para grandes clientes como Unidas Seminovos, Samy Dana e EPA Supermercados.
 * Responsável pela entrega de **soluções completas**, desde interfaces intuitivas até lógicas de negócio robustas no backend.
@@ -53,7 +64,7 @@ De 2020-10-31 até 2022-04-30 | OUT 2020 ~ ABR 2022 (1 ano e 6 meses)
 <br />
 
 ### Codificar Sistemas Tecnológicos | Dev Fullstack
-De 2017-02-28 até 2017-10-31 | FEV 2017 ~ OUT 2017 (8 meses)
+FEV 2017 ~ OUT 2017
 
 * Atuação **Fullstack** (Vue.js, React.js, Laravel) no desenvolvimento e implementação de **sistemas web diversos**.
 * **Expertise em integrações com APIs externas**, incluindo a API da Google para sincronização de agendas e calendários.
@@ -62,256 +73,52 @@ De 2017-02-28 até 2017-10-31 | FEV 2017 ~ OUT 2017 (8 meses)
 <br />
 
 ### Agência de Criação | Dev Fullstack
-De 2015-01-31 até 2017-02-28 | JAN 2015 ~ FEV 2017 (2 anos e 1 mês)
+JAN 2015 ~ FEV 2017
 
 * **Desenvolvimento e evolução do CMS proprietário** da agência (Vue.js, Angular.js), com foco em **melhorias arquiteturais e de código**.
 * Contribuição significativa para a **otimização da velocidade de correção de bugs** e a **redução do tempo de entrega** de projetos web.
 
 <br />
 
-### Cushman &amp; Wakefield | Dev Fullstack
-De 2012-05-02 até 2013-11-08 | MAI 2012 ~ NOV 2013 (1 ano e 6 meses)
-
-* Atuação **Fullstack** (PHP, JavaScript, [Mencione o framework específico aqui, ex: jQuery, Vue.js inicial]) como terceirizado para a **Vale do Rio Doce**, transformando **planilhas complexas em aplicações web robustas**.
-* **Impacto Direto:** **Eliminei a perda de dados** por corrupção de Excel e **desbloqueei a colaboração simultânea**, **aumentando a eficiência** da equipe de engenharia.
-* Desenvolvi **interface inovadora com automação** (gráfico de curva de Gauss) que **reduziu o tempo de preenchimento de dados** de contratação mensal, com **feedback positivo** pela usabilidade.
-
-<br />
-
-### Netranet Networking | Dev Fullstack
-De 2011-01-13 até 2012-01-13 | JAN 2011 ~ JAN 2012 (1 ano)
-
-* **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.
-
-<br />
-
-### Web BH Escola de Informática | Instrutor
-De 2010-01-31 até 2011-01-31 | JAN 2010 ~ JAN 2011 (1 ano)
-
-* Atuação como instrutor de desenvolvimento web (PHP, MySQL, Javascript, HTML/CSS), capacitando alunos em diversas tecnologias e aprimorando **habilidades de comunicação, didática e liderança técnica**.
-
-<br />
 
 
+## Projetos (5 últimos)
 
-## Projetos
-
-### Corapost
-
-* Desenvolvimento da **interface do usuário (UI) funcional e responsiva** para o projeto **Corapost**, com base em design de Figma.
-* Utilização de **Vue.js, HTML, CSS e JavaScript** para criar um **plugin WordPress** que transformou o design em um frontend completo.
- <br /><br />
-[Visitar Projeto](https://corapost.com) <br />
-De 2024-07-01 até 2024-04-30 | JUL 2024 ~ ABR 2024 (2 meses) <br />
-.
-<br />
-
-### Search and Stay
+### Search and Stay | DEZ 2022 ~ NOV 2023 (11 meses)
+[Visitar projeto](https://searchandstay.com)
 
 * **Evolução contínua** do sistema **Search and Stay**, com desenvolvimento de **novas funcionalidades** e **resolução eficiente de bugs**.
 * Atuação **Fullstack**, construindo interfaces dinâmicas e responsivas com **Vue.js** e **Nuxt.js** (frontend) e backend **robusto e escalável** com **Laravel**.
 * Experiência em **integração e personalização de plugin WordPress** para requisitos específicos do sistema, garantindo **alta qualidade e performance**.
  <br /><br />
-[Visitar Projeto](https://searchandstay.com) <br />
-De 2022-12-31 até 2023-11-30 | DEZ 2022 ~ NOV 2023 (11 meses) <br />
 
-<br />
+### Corapost | ABR 2024 ~ JUL 2024 (3 meses)
+[Visitar projeto](https://corapost.com)
 
-### O Novo Mercado
+* Desenvolvimento da **interface do usuário (UI) funcional e responsiva** para o projeto **Corapost**, com base em design de Figma.
+* Utilização de **Vue.js, HTML, CSS e JavaScript** para criar um **plugin WordPress** que transformou o design em um frontend completo.
+ <br /><br />
+
+### O Novo Mercado | FEV 2022 ~ JUL 2022 (5 meses)
+[Visitar projeto](https://onovomercado.com/)
 
 * **Desenvolvimento frontend** da plataforma interna de vídeos e hub de profissionais **"O Novo Mercado"**.
 * Construção de uma **interface de usuário intuitiva, responsiva e atraente** com **Vue.js** e **Vuetify**.
 * Otimização da **performance** da aplicação para garantir uma **experiência fluida e eficiente**, contribuindo diretamente para o **engajamento dos usuários**.
  <br /><br />
-[Visitar Projeto](https://onovomercado.com/) <br />
-De 2022-02-28 até 2022-07-31 | FEV 2022 ~ JUL 2022 (5 meses) <br />
 
-<br />
-
-### Assinar ou comprar
+### Assinar ou comprar | DEZ 2021 ~ DEZ 2021 (1 mês)
+[Visitar projeto](https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/) | [Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/assinar-ou-comprar.jpg)
 
 * Desenvolvimento **Fullstack** (Laravel, Vue.js, Element UI) da **calculadora estratégica "Assinar ou Comprar"**, em parceria com **Unidas e Samy Dana**.
 * Implementação de **lógica de cálculo complexa** para auxiliar usuários na decisão de comprar ou alugar um carro, garantindo **precisão e intuitividade**.
 * Responsável por apresentar resultados de forma **clara e acessível**, **impactando diretamente na tomada de decisão informada** sobre mobilidade.
  <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/) <br />
-De 2021-12-31 até 2021-12-31 | DEZ 2021 ~ DEZ 2021 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/assinar-ou-comprar.jpg) <br />
 
-### Samarco
+### Samarco | AGO 2020 ~ OUT 2020 (2 meses)
+[Visitar projeto](https://web.archive.org/web/20220130172103/https://www.samarco.com/)
 
 * **Liderança no desenvolvimento e implementação** de um **Gerenciador de Conteúdo** para a **Samarco**, em colaboração com a Digital Pixel.
 * Criação de um sistema dinâmico e versátil utilizando **WordPress** e **Elementor**, **simplificando a administração** de conteúdo e **otimizando a comunicação digital**.
 * Foco na **facilidade de uso** para o cliente e entrega de uma **experiência de usuário aprimorada** através de design e interatividade.
  <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20220130172103/https://www.samarco.com/) <br />
-De 2020-08-31 até 2020-10-31 | AGO 2020 ~ OUT 2020 (2 meses) <br />
-.
-<br />
-
-### Faculdade Faveni
-
-* **Estilização avançada e customização** do tema da **Faculdade Faveni** em plataforma **WordPress Multisite**.
-* Adaptação visual e funcional do tema para atender **múltiplos sites da rede**, garantindo identidade visual e **aprimorando a experiência do usuário**.
-* Otimização de **CSS** e manipulação de funcionalidades via **hooks e filtros do WordPress** para consistência e performance da rede Multisite.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20220131193706/https://faveni.edu.br/) <br />
-De 2020-12-31 até 2021-12-31 | DEZ 2020 ~ DEZ 2021 (1 ano) <br />
-.
-<br />
-
-### Orbitae
-* Desenvolvimento de **apresentações de produtos especializados em perícia forense**, em parceria com a **Partners Comunicação Pro Business**.
-* Criação de plataforma **dinâmica e visualmente cativante** com **WordPress** e **Elementor**, integrando elementos personalizados.
-* Foco em garantir **destaque e acessibilidade aos detalhes técnicos**, resultando em uma experiência de usuário **impactante e eficiente** para o público.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20210517192720/https://orbitae.com.br/) <br />
-De 2019-01-31 até 2019-08-31 | JAN 2019 ~ AGO 2019 (7 meses) <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/orbitae.jpg) <br />
-
-### Blog Banco da Amazônia
-
-* Desenvolvimento e manutenção do **blog de Notícias e Utilidades do Banco da Amazônia**, em parceria com a **Partners Comunicação Pro Business**.
-* Criação e customização de elementos com **WordPress** e **Elementor**, garantindo a **identidade visual** e **otimizando a experiência do usuário**.
-* Atuação na **estruturação do layout e responsividade**, contribuindo para uma **comunicação eficaz e acessível** das informações do Banco.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20211229163534/https://basablog.com.br/) <br />
-De 2019-12-31 até 2019-12-31 | DEZ 2019 ~ DEZ 2019 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/blog-banco-da-amazonia.jpg) <br />
-
-### Habitat Group
-
-* **Desenvolvimento completo do website** da clínica veterinária **Habitat Group**, utilizando **WordPress** e **Elementor**.
-* Criação de uma **interface amigável e personalizada** para facilitar o acesso a serviços, qualificação de profissionais e **sistema de agendamento de consultas**.
-* Foco em proporcionar uma **experiência de usuário intuitiva e eficiente**, refletindo o compromisso da clínica com a qualidade de atendimento.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/) <br />
-De 2019-12-31 até 2019-12-31 | DEZ 2019 ~ DEZ 2019 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/habitat-group.jpg) <br />
-
-### Cocks Skate
-
-* **Desenvolvimento e otimização de e-commerce** para **"Cocks Skate"**, utilizando **WordPress, WooCommerce** e **Elementor** com elementos customizados.
-* Criação de uma **experiência de compra personalizada e intuitiva**, com navegação e busca de produtos facilitadas.
-* Implementação de **funcionalidades de e-commerce completas**, design **atraente e responsivo**, visando **impulsionar as vendas** e atender o público skatista.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20211226170044/https://cocksskate.com.br/) <br />
-De 2018-12-31 até 2018-12-31 | DEZ 2018 ~ DEZ 2018 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/cocks-skate.jpg) <br />
-
-### Don Desenvolvimento
-
-* Realizei **alterações de layout e manutenções pontuais** no website da **Don Desenvolvimento**.
-* Utilização de **WordPress** e **Vue.js** para **adaptação e otimização do design existente**, e implementação de **novas funcionalidades interativas**.
-* Responsável pela **resolução eficiente de problemas e bugs**, garantindo a **estabilidade e o bom funcionamento** do site.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/) <br />
-De 2018-12-31 até 2018-12-31 | DEZ 2018 ~ DEZ 2018 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/don-desenvolvimento.jpg) <br />
-
-### Eiriz Saúde
-
-* **Concepção e desenvolvimento exclusivo** de um sistema **WordPress** para a clínica odontológica **Eiriz Saúde** (Porto, Portugal).
-* Foco em **aprimorar a experiência do usuário e a eficiência dos serviços online**, com **gerenciamento de conteúdo avançado** e **interação fluida**.
-* Garantiu a **apresentação precisa de serviços** e a **transmissão eficaz de informações**, proporcionando uma **experiência online completa e informativa**.
- <br /><br />
-[Visitar Projeto](http://eiriz-saude.unbox.pt) <br />
-De 2018-12-31 até 2018-12-31 | DEZ 2018 ~ DEZ 2018 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/eiriz-saude.jpg) <br />
-
-### Águas do Acuruí
-
-* **Desenvolvimento completo e personalizado** do website para a cidade de **Águas do Acuruí**, utilizando **WordPress**.
-* Construção de um **tema exclusivo e sob medida**, refletindo a **identidade singular da cidade** e visando promover a região de forma **cativante e informativa**.
-* Planejamento e implementação de design e funcionalidades para destacar a **autenticidade e os pontos fortes**, proporcionando uma **experiência online única e envolvente** aos visitantes.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/) <br />
-De 2017-12-31 até 2017-12-31 | DEZ 2017 ~ DEZ 2017 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/aguas-do-acurui.jpg) <br />
-
-### Cantor Beto Santos
-
-* **Desenvolvimento completo do website** para o **Cantor Beto Santos**, incluindo um **CMS personalizado com recursos únicos**.
-* Criação de um **player de música integrado** com sistema intuitivo de **upload e reprodução via painel administrativo**.
-* Destaque para o design estratégico dos controles de reprodução, garantindo uma **experiência de usuário fluida e ininterrupta** durante a navegação.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20211127021144/http://betosantos.net/) <br />
-De 2017-12-31 até 2017-12-31 | DEZ 2017 ~ DEZ 2017 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/cantor-beto-santos.jpg) <br />
-
-### Estrela Rural
-
-* **Desenvolvimento e implementação** de um **CMS e sistema de leilões totalmente personalizados** para a **Estrela Rural**.
-* Concepção e construção de uma **solução completa**, baseada em plataforma customizada, otimizando a **administração de conteúdo** e a **realização de leilões online**.
-* Entregou valor significativo e **melhorou a eficiência dos processos de gestão e negócios** do cliente.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20220110211402/http://estrelarural.com.br/) <br />
-De 2012-12-31 até 2012-12-31 | DEZ 2012 ~ DEZ 2012 () <br />
-.
-<br />
-
-### ASSEMG
-
-* **Desenvolvimento e adaptação de um CMS exclusivo** para o website da **ASSEMG**, focado nas **necessidades específicas da associação**.
-* Criação de uma plataforma **eficiente e funcional** com ferramentas para **gestão interna, comunicação segura e interação personalizada** entre os membros.
-* Garantiu uma **experiência de usuário única** e **agregou valor** à gestão de recursos e à experiência associativa online.
- <br /><br />
-[Visitar Projeto](https://web.archive.org/web/20170612004919/http://assemg.org/) <br />
-De 2012-12-31 até 2012-12-31 | DEZ 2012 ~ DEZ 2012 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/assemg.jpg) <br />
-
-### Manduí
-
-* **Desenvolvimento completo do website** da **Escola Infantil Manduí**, refletindo seu ambiente acolhedor e abordagem educacional.
-* Frontend construído com **Nuxt 3, Vue 3 e Vuetify 3**, garantindo uma **experiência interativa e informativa** para pais.
-* Backend com **interface intuitiva e painel lateral dinâmico** para edição de elementos, utilizando persistência de dados **serverless** via **Firebase**, assegurando **escalabilidade e eficiência**.
- <br /><br />
-[Visitar Projeto](https://mandui.com.br) <br />
-De 2023-01-01 até 2023-01-31 | JAN 2023 ~ JAN 2023 () <br />
-.
-<br />
-[Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-01.jpg) <br />
-[Imagem 2](https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-02.jpg) <br />
-[Imagem 3](https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-03.jpg) <br />
-
-### Safe Register Car
-
-* Participação **Fullstack** na construção do **Safe Register Car** (Tecnol), otimizando o envio de **documentação veicular para seguradoras** em nível nacional.
-* Desenvolvimento de **interface de usuário intuitiva** com **Vue.js** (frontend) para envio eficiente de documentos.
-* Backend com **Laravel** para lógica da aplicação, **gerenciamento de dados e comunicação com seguradoras**, contribuindo para um **fluxo de trabalho ágil e eficaz**.
- <br /><br />
-[Visitar Projeto](https://saferegistercar.com.br) <br />
-De 2023-12-15 até 2024-06-01 | DEZ 2023 ~ JUN 2024 (5 meses) <br />
-
-<br />
-
-### Tecnohub
-
-* Participação **Fullstack** na construção e evolução do **Tecnohub** (Tecnol), plataforma centralizada para **otimizar a comunicação e interação** entre stakeholders.
-* Desenvolvimento de **funcionalidades** para facilitar o fluxo de informações e a **colaboração**, com **interfaces intuitivas** (frontend) para diferentes tipos de usuários.
-* No backend, criei **lógica de negócio e APIs** para **integrar diversos serviços**, garantindo **comunicação eficiente e transparente** no ecossistema Tecnol.
- <br /><br />
-[Visitar Projeto](undefined) <br />
-De 2023-12-15 até 2024-06-01 | DEZ 2023 ~ JUN 2024 (5 meses) <br />
-
-<br />

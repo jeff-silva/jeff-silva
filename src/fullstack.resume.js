@@ -24,18 +24,24 @@ export default class FullstackResume extends Resume {
         phone: "+55 31 99527-1426",
         url: "https://jeff-silva.github.io",
         summary: `
-          **Desenvolvedor Full-stack Sênior e Tech Lead** há **${experienceYears} anos** transformarmando desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
+          **Desenvolvedor Full-stack** com **${experienceYears} anos** de experiência em arquitetura escalável, microservices e cloud.
 
-          - **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
-          - **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
-          - **Boas Práticas de Código** e liderança técnica em projetos complexos.
+          Stack principal:
+          - Frontend: **Vue.js, Nuxt, React.js, Next.js, Tailwind, Vuetify3**;
+          - Backend: **Node.js, NestJS, Express, PHP, Laravel**;
+          - Database: **MySQL, Postgres, Firebase (Realtime e Firestore)**;
+          - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native**.
+
+          Expertise:
+          - Integração de sistemas & processo de automação AI-driven;
+          - Alta escalabilidade & otimização de performance;
+          - Boas práticas de código, clean architecture & liderança técnica;
+          - Metodologia Agile / Scrum, Microservices.
 
           Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
 
-          Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
-        `
-          // .replace(/\n\n/g, `\n\n\n`)
-          .replace(/\n\s*/g, `\n`),
+          Busco oportunidades como Líder técnico / desenvolvedor Full Stack, com foco em arquitetura escalável, microservices, CI/CD e cloud computing.
+        `,
         location: this.locationDefault({
           address: "",
           postalCode: "",
@@ -268,15 +274,15 @@ export default class FullstackResume extends Resume {
         // this.publicationsDefault({}),
       ],
       skills: [
-        this.skillsDefault({ name: "Vue 3", keywords: ["Frontend", "Stack"] }),
+        this.skillsDefault({ name: "Vue", keywords: ["Frontend", "Stack"] }),
         this.skillsDefault({ name: "Laravel", keywords: ["Backend", "Stack"] }),
         this.skillsDefault({ name: "React", keywords: ["Frontend"] }),
         this.skillsDefault({ name: "Node.js", keywords: ["Backend", "Stack"] }),
         this.skillsDefault({ name: "PHP", keywords: ["Backend", "Stack"] }),
         this.skillsDefault({ name: "Docker", keywords: ["Stack", "DevOps"] }),
         this.skillsDefault({ name: "Docker Compose", keywords: ["Stack", "DevOps"] }),
-        this.skillsDefault({ name: "Nuxt 3", keywords: ["Stack", "Frontend"] }),
-        this.skillsDefault({ name: "API REST", keywords: ["Backend"] }),
+        this.skillsDefault({ name: "Nuxt", keywords: ["Stack", "Frontend"] }),
+        this.skillsDefault({ name: "REST APIs", keywords: ["Backend"] }),
         this.skillsDefault({ name: "Bootstrap", keywords: ["Frontend"] }),
         this.skillsDefault({ name: "Otimização de página", keywords: [] }),
         this.skillsDefault({ name: "Arquitetura MVC", keywords: [] }),
@@ -319,10 +325,10 @@ export default class FullstackResume extends Resume {
         this.skillsDefault({ name: "Composer", keywords: [] }),
         this.skillsDefault({ name: "VuePress", keywords: ["Frontend"] }),
         this.skillsDefault({ name: "MongoDB", keywords: ["Database"] }),
-        this.skillsDefault({ name: "Google Compute Engine", keywords: ["DevOps"] }),
+        this.skillsDefault({ name: "Google Cloud Platform", keywords: ["DevOps"] }),
         this.skillsDefault({ name: "Integração AI", keywords: ["AI"] }),
         this.skillsDefault({ name: "Python", keywords: ["Backend"] }),
-        this.skillsDefault({ name: "AdonisJS 6", keywords: ["Backend"] }),
+        this.skillsDefault({ name: "AdonisJS", keywords: ["Backend"] }),
         this.skillsDefault({ name: "Cálculos geospaciais", keywords: ["Frontend"] }),
         this.skillsDefault({ name: "Mapas", keywords: ["Frontend"] }),
         this.skillsDefault({ name: "NestJS", keywords: ["Stack", "Backend"] }),
@@ -332,12 +338,14 @@ export default class FullstackResume extends Resume {
         this.skillsDefault({ name: "Web Accessibility", keywords: ["Frontend"] }),
         this.skillsDefault({ name: "Redis", keywords: [] }),
         this.skillsDefault({ name: "JWT", keywords: [] }),
-        this.skillsDefault({ name: "Rest API", keywords: ["Backend"] }),
-        this.skillsDefault({ name: "Authentication", keywords: ["Backend"] }),
+        this.skillsDefault({ name: "OAuth 2", keywords: ["Backend"] }),
         this.skillsDefault({ name: "SQL", keywords: ["Database"] }),
         this.skillsDefault({ name: "Deployment", keywords: [] }),
         this.skillsDefault({ name: "Prisma", keywords: ["Database"] }),
         this.skillsDefault({ name: "Tailwind", keywords: ["Frontend"] }),
+        this.skillsDefault({ name: "Kafka", keywords: [] }),
+        this.skillsDefault({ name: "RabbitMQ", keywords: [] }),
+        this.skillsDefault({ name: "Electron", keywords: [] }),
       ],
       languages: [
         this.languagesDefault({ language: "Português Brasileiro", fluency: "Nativo" }),
@@ -355,17 +363,6 @@ export default class FullstackResume extends Resume {
       ],
       projects: [
         this.projectsDefault({
-          name: "Corapost",
-          description: `
-            * Desenvolvimento da **interface do usuário (UI) funcional e responsiva** para o projeto **Corapost**, com base em design de Figma.
-            * Utilização de **Vue.js, HTML, CSS e JavaScript** para criar um **plugin WordPress** que transformou o design em um frontend completo.
-          `,
-          url: "https://corapost.com",
-          startDate: "2024-07-01",
-          endDate: "2024-04-30",
-          highlights: ["Labscript.dev"],
-        }),
-        this.projectsDefault({
           name: "Search and Stay",
           description: `
             * **Evolução contínua** do sistema **Search and Stay**, com desenvolvimento de **novas funcionalidades** e **resolução eficiente de bugs**.
@@ -375,6 +372,17 @@ export default class FullstackResume extends Resume {
           url: "https://searchandstay.com",
           startDate: "2022-12-31",
           endDate: "2023-11-30",
+        }),
+        this.projectsDefault({
+          name: "Corapost",
+          description: `
+            * Desenvolvimento da **interface do usuário (UI) funcional e responsiva** para o projeto **Corapost**, com base em design de Figma.
+            * Utilização de **Vue.js, HTML, CSS e JavaScript** para criar um **plugin WordPress** que transformou o design em um frontend completo.
+          `,
+          url: "https://corapost.com",
+          startDate: "2024-04-01",
+          endDate: "2024-07-30",
+          highlights: ["Labscript.dev"],
         }),
         this.projectsDefault({
           name: "O Novo Mercado",
@@ -425,6 +433,25 @@ export default class FullstackResume extends Resume {
           startDate: "2020-12-31",
           endDate: "2021-12-31",
           highlights: ["Labscript.dev"],
+        }),
+        this.projectsDefault({
+          name: "Manduí",
+          description: `
+            * **Desenvolvimento completo do website** da **Escola Infantil Manduí**, refletindo seu ambiente acolhedor e abordagem educacional.
+            * Frontend construído com **Nuxt 3, Vue 3 e Vuetify 3**, garantindo uma **experiência interativa e informativa** para pais.
+            * Backend com **interface intuitiva e painel lateral dinâmico** para edição de elementos, utilizando persistência de dados via **Firebase**, assegurando **escalabilidade e eficiência**.
+          `,
+          url: "https://mandui.com.br",
+          startDate: "2023-01-01",
+          endDate: "2023-01-31",
+          highlights: ["Labscript.dev"],
+          meta: {
+            images: [
+              { file: "assets/projects/mandui-01.jpg", name: "" },
+              { file: "assets/projects/mandui-02.jpg", name: "" },
+              { file: "assets/projects/mandui-03.jpg", name: "" },
+            ],
+          },
         }),
         this.projectsDefault({
           name: "Orbitae",
@@ -570,25 +597,6 @@ export default class FullstackResume extends Resume {
           highlights: ["Agência de Criação"],
           meta: {
             images: [{ file: "assets/projects/assemg.jpg", name: "" }],
-          },
-        }),
-        this.projectsDefault({
-          name: "Manduí",
-          description: `
-            * **Desenvolvimento completo do website** da **Escola Infantil Manduí**, refletindo seu ambiente acolhedor e abordagem educacional.
-            * Frontend construído com **Nuxt 3, Vue 3 e Vuetify 3**, garantindo uma **experiência interativa e informativa** para pais.
-            * Backend com **interface intuitiva e painel lateral dinâmico** para edição de elementos, utilizando persistência de dados **serverless** via **Firebase**, assegurando **escalabilidade e eficiência**.
-          `,
-          url: "https://mandui.com.br",
-          startDate: "2023-01-01",
-          endDate: "2023-01-31",
-          highlights: ["Labscript.dev"],
-          meta: {
-            images: [
-              { file: "assets/projects/mandui-01.jpg", name: "" },
-              { file: "assets/projects/mandui-02.jpg", name: "" },
-              { file: "assets/projects/mandui-03.jpg", name: "" },
-            ],
           },
         }),
         this.projectsDefault({

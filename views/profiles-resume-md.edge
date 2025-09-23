@@ -18,9 +18,9 @@
 @if(resume.data.work.length > 0)
 ## Experiência
 
-@each(work in resume.data.work)
+@each(work in resume.data.work.slice(0, 5))
 ### {{ work.name }} | {{ work.position }}
-De {{ work.startDate }} até {{ work.endDate }} | {{ resume.dateDuration(work.startDate, work.endDate) }}
+{{ resume.dateDuration(work.startDate, work.endDate, false) }}
 {{ resume.trimLines(work.summary) }}
 <br />
 
@@ -29,18 +29,15 @@ De {{ work.startDate }} até {{ work.endDate }} | {{ resume.dateDuration(work.st
 
 
 @if(resume.data.projects.length > 0)
-## Projetos
+## Projetos (5 últimos)
 
-@each(project in resume.data.projects)
-### {{ project.name }}
+@each(project in resume.data.projects.slice(0, 5))
+### {{ project.name }} | {{ resume.dateDuration(project.startDate, project.endDate, true) }}
+{{ [
+(project.url ? `[Visitar projeto](${project.url})` : null),
+...project.meta.images.map((o, i) => `[Imagem ${i+1}](${o.file})`),
+].filter(o => !!o).join(' | ') }}
 {{{ resume.trimLines(project.description) }}} <br /><br />
-[Visitar Projeto]({{ project.url }}) <br />
-De {{ project.startDate }} até {{ project.endDate }} | {{ resume.dateDuration(project.startDate, project.endDate) }} <br />
-{{ resume.listHumanized(project.highlights, (item) => item.name) }}
-<br />
-@each((image, index) in project.meta.images)
-[Imagem {{ index+1 }}]({{ image.file }}) <br />
-@end
 
 @end
 @end

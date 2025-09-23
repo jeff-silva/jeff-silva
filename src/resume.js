@@ -18,7 +18,9 @@ export default class JsonResume {
 
   constructor() {
     this.data = this.getData();
-    console.log(this.data.basics.summary);
+    this.data.skills = this.data.skills.sort((a, b) => {
+      return a.name.localeCompare(b.name, "pt-BR", { sensitivity: "base" });
+    });
   }
 
   getData() {
@@ -105,13 +107,13 @@ export default class JsonResume {
   }
 
   markdownToHtml(text) {
-    text = text.replace(/\n\s+/g, "\n");
+    text = this.trimLines(text);
     text = textile(text);
     return text;
   }
 
   trimLines(text) {
-    return text.replace(/\n\s+/g, `\n`);
+    return text.replace(/\n +/g, `\n`);
   }
 
   listHumanized(items, call = (item) => item) {
@@ -129,7 +131,7 @@ export default class JsonResume {
     return parts.join("");
   }
 
-  dateDuration(startDate, endDate) {
+  dateDuration(startDate, endDate, showDuration = false) {
     startDate = dayjs(startDate || undefined);
     endDate = dayjs(endDate || undefined);
 
@@ -153,9 +155,16 @@ export default class JsonResume {
       parts.push(`${months} meses`);
     }
 
+    if (parts.length == 0) {
+      parts = ["1 mês"];
+    }
+
     const startDateFormat = startDate.format("MMM YYYY").toUpperCase();
     const endDateFormat = endDate.format("MMM YYYY").toUpperCase();
-    return `${startDateFormat} ~ ${endDateFormat} (` + parts.join(" e ") + ")";
+
+    let str = `${startDateFormat} ~ ${endDateFormat}`;
+    if (showDuration) str += " (" + parts.join(" e ") + ")";
+    return str;
   }
 
   locationDefault(data = {}) {
@@ -353,7 +362,7 @@ export default class JsonResume {
   }
 
   async generateJson() {
-    fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.json`, JSON.stringify(this.data));
+    fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.json`, JSON.stringify(this.data, null, 2));
   }
 
   async generateHtml() {
