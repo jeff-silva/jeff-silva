@@ -1,32 +1,30 @@
 <!--curriculum:start-->
 
 # Jeferson Silva
+
 ### Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | NestJS
 
-
-[![Whatsapp](https://api.iconify.design/ic:baseline-whatsapp.svg?color=%23ffffff&height=30 'Whatsapp')](https://wa.me/message/NG7A2SW25XIEI1)
-[![E-mail](https://api.iconify.design/ic:outline-alternate-email.svg?color=%23ffffff&height=30 'E-mail')](mailto:jeferson.i.silva@gmail.com)
-[![Linkedin](https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff&height=30 'Linkedin')](https://www.linkedin.com/in/jeferson-siqueira/)
-[![Github](https://api.iconify.design/mdi:github.svg?color=%23ffffff&height=30 'Github')](https://github.com/jeff-silva)
-[![Portfólio](https://api.iconify.design/material-symbols:home-rounded.svg?color=%23ffffff&height=30 'Portfólio')](https://jeff-silva.github.io)
-[![Currículo](https://api.iconify.design/mdi:download.svg?color=%23ffffff&height=30 'Currículo')](https://raw.githubusercontent.com/jeff-silva/jeff-silva/main/data/jeferson-silva.pdf)
-
+[![Whatsapp](https://api.iconify.design/ic:baseline-whatsapp.svg?color=%23ffffff&height=30 "Whatsapp")](https://wa.me/message/NG7A2SW25XIEI1)
+[![E-mail](https://api.iconify.design/ic:outline-alternate-email.svg?color=%23ffffff&height=30 "E-mail")](mailto:jeferson.i.silva@gmail.com)
+[![Linkedin](https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff&height=30 "Linkedin")](https://www.linkedin.com/in/jeferson-siqueira/)
+[![Github](https://api.iconify.design/mdi:github.svg?color=%23ffffff&height=30 "Github")](https://github.com/jeff-silva)
+[![Portfólio](https://api.iconify.design/material-symbols:home-rounded.svg?color=%23ffffff&height=30 "Portfólio")](https://jeff-silva.github.io)
+[![Currículo](https://api.iconify.design/mdi:download.svg?color=%23ffffff&height=30 "Currículo")](https://raw.githubusercontent.com/jeff-silva/jeff-silva/refs/heads/main/docs/profiles/fullstack-dev/resume.pdf)
 
 <br />
 
 **Desenvolvedor Full-stack Sênior e Tech Lead** há **14 anos** transformarmando desafios complexos em soluções tecnológicas eficazes e escaláveis. Especialista em:
-* **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
-* **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
-* **Boas Práticas de Código** e liderança técnica em projetos complexos.
-Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
-<br /><br />
-Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
 
+- **Integração de Sistemas** e implementação de **Inteligência Artificial**, para otimização de processos.
+- **Arquiteturas de Alta Escalabilidade** e otimização de performance (incluindo SEO).
+- **Boas Práticas de Código** e liderança técnica em projetos complexos.
+  Liderei o desenvolvimento de soluções que **reduziram significativamente os tempos de entrega** e **aprimoraram a experiência do usuário**, sempre com foco em qualidade e arquitetura robusta.
+  <br /><br />
+  Pronto para desenvolver e integrar soluções que impulsionem o crescimento do seu negócio. **Vamos construir o futuro da sua tecnologia juntos**.
 
 ## Skills
 
 API REST, AdonisJS 6, Arquitetura MVC, Authentication, Babylon, Bootstrap, CSS3, Clean Architecture, Clean Code, Composer, Cálculos geospaciais, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Elementor, Express.js, Firebase, Git, Google Compute Engine, GraphQL, HTML5, Integração AI, JQuery, JWT, Javascript, Keycloak, LESS, Laravel, Linux, Mapas, MongoDB, MySQL, NPM, NestJS, Node.js, Nuxt 3, Otimização de página, PHP, PWA, Pagseguro, Postgres, Python, Rapier.js, React, Redis, Responsive Design, Responsividade, Rest API, SASS, SEO, SOAP, SQL, Scrum, Stripe, Three.js, Typescript, UI/UX, Unity, Vue 3, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress e YARN.
-
 
 <!--curriculum:final-->
 
