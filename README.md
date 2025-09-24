@@ -1,5 +1,4 @@
 <!--curriculum:start-->
-
 # Jeferson Silva
 
 ### Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | Nest.js
@@ -22,15 +21,19 @@ Stack principal:
 
 Busco oportunidades como **Líder técnico** / desenvolvedor **Full Stack**, com foco em arquitetura escalável, **microservices**, **CI/CD**, **AI** e **cloud computing**.
 
+
 ## Skills
 
 AdonisJS, Arquitetura MVC, Babylon, Bootstrap, Cálculos geospaciais, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Electron, Elementor, Express.js, Firebase, Git, Google Cloud Platform, GraphQL, HTML5, Integração AI, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Mapas, MongoDB, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Otimização de página, Pagseguro, PHP, PostgreSQL, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress, YARN
-
 <!--curriculum:final-->
 
+<br />
+
+<p align="center">
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeff-silva&layout=compact&langs_count=7&theme=dracula" />
 
-<br />
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHBuOWZneXdodnJvbnB1dG43NnJkbzlnNWQ3dGFneTE4bGUwZDRyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/111ebonMs90YLu/giphy.gif" />
+    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHBuOWZneXdodnJvbnB1dG43NnJkbzlnNWQ3dGFneTE4bGUwZDRyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/111ebonMs90YLu/giphy.gif" />
+
+</p>
 
 <!-- ![Snake animation](https://github.com/jeff-silva/jeff-silva/blob/output/github-contribution-grid-snake.svg) -->
