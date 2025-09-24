@@ -65,45 +65,71 @@ export default class JsonResume {
     };
   }
 
-  getLinks() {
-    return [
+  getLinks(opts = {}) {
+    opts = {
+      only: [],
+      except: [],
+      ...opts,
+    };
+
+    let items = [
       {
+        id: "whatsapp",
         name: "(31) 99527-1426",
         url: "https://wa.me/message/NG7A2SW25XIEI1",
         icon: "https://api.iconify.design/ic:baseline-whatsapp.svg",
         value: this.data.basics.phone,
       },
       {
+        id: "email",
         name: this.data.basics.email,
         url: `mailto:${this.data.basics.email}`,
         icon: "https://api.iconify.design/ic:outline-alternate-email.svg",
         value: this.data.basics.email,
       },
       {
+        id: "linkedin",
         name: "https://www.linkedin.com/in/jeferson-siqueira/",
         url: "https://www.linkedin.com/in/jeferson-siqueira/",
         icon: "https://api.iconify.design/mdi:linkedin.svg",
         value: null,
       },
       {
+        id: "github",
         name: "https://github.com/jeff-silva",
         url: "https://github.com/jeff-silva",
         icon: "https://api.iconify.design/mdi:github.svg",
         value: null,
       },
       {
+        id: "portfolio",
         name: "Portfólio",
         url: "https://jeff-silva.github.io",
         icon: "https://api.iconify.design/material-symbols:home-rounded.svg",
         value: null,
       },
-      // {
-      //   name: "Download",
-      //   url: "https://jeff-silva.github.io/jeff-silva/profiles/fullstack-dev/resume.pdf",
-      //   icon: "https://api.iconify.design/mdi:download.svg",
-      //   value: null,
-      // },
+      {
+        id: "download",
+        name: "Download",
+        url: "https://jeff-silva.github.io/jeff-silva/profiles/fullstack-dev/resume.pdf",
+        icon: "https://api.iconify.design/mdi:download.svg",
+        value: null,
+      },
     ];
+
+    if (opts.only.length > 0) {
+      items = items.filter((o) => {
+        return opts.only.includes(o.id);
+      });
+    }
+
+    if (opts.except.length > 0) {
+      items = items.filter((o) => {
+        return !opts.except.includes(o.id);
+      });
+    }
+
+    return items;
   }
 
   markdownToHtml(text) {
@@ -348,6 +374,10 @@ export default class JsonResume {
     return data;
   }
 
+  async onGenerate() {
+    //
+  }
+
   async generate() {
     await fs.promises.mkdir(`./docs/profiles/${this.profile}`, { recursive: true });
 
@@ -362,6 +392,7 @@ export default class JsonResume {
     await this.generateHtml();
     await this.generatePdf();
     await this.generateMarkdown();
+    await this.onGenerate();
   }
 
   async generateJson() {

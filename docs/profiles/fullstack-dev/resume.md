@@ -24,7 +24,7 @@ Busco oportunidades como **Líder técnico** / desenvolvedor **Full Stack**, com
 
 ## Skills
 
-AdonisJS, Arquitetura MVC, Babylon, Bootstrap, Cálculos geospaciais, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Electron, Elementor, Express.js, Firebase, Git, Google Cloud Platform, GraphQL, HTML5, Integração AI, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Mapas, MongoDB, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Otimização de página, Pagseguro, PHP, PostgreSQL, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, Responsividade, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress e YARN.
+AdonisJS, Arquitetura MVC, Babylon, Bootstrap, Cálculos geospaciais, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Electron, Elementor, Express.js, Firebase, Git, Google Cloud Platform, GraphQL, HTML5, Integração AI, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Mapas, MongoDB, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Otimização de página, Pagseguro, PHP, PostgreSQL, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress e YARN.
 
 ## Experiência
 

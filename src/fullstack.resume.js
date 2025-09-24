@@ -1,7 +1,27 @@
 import Resume from "./resume.js";
+import fs from "fs";
 
 export default class FullstackResume extends Resume {
   profile = "fullstack-dev";
+
+  async onGenerate() {
+    let output = [];
+    output.push(`# ${this.data.basics.name}`, "");
+    output.push(`### ${this.data.basics.label}`, "");
+
+    this.getLinks().map((link) => {
+      output.push(`[![${link.name}](${link.icon}?color=%23ffffff&height=30 "${link.name}")](${link.url})`);
+    });
+
+    output.push(this.trimLines(this.data.basics.summary));
+    output.push("", "## Skills", "");
+    output.push(this.data.skills.map((o) => o.name).join(", "));
+    output = output.join("\n");
+
+    let readme = fs.readFileSync("./README.md", "utf8");
+    readme = readme.replace(/(<!--curriculum:start-->)([\s\S]*?)(<!--curriculum:final-->)/m, `$1\n${output}\n$3`);
+    fs.writeFileSync("./README.md", readme);
+  }
 
   getData() {
     const experienceYears = new Date().getFullYear() - 2011;
@@ -336,7 +356,6 @@ export default class FullstackResume extends Resume {
         this.skillsDefault({ name: "Javascript", keywords: ["Stack", "Frontend"] }),
         this.skillsDefault({ name: "Typescript", keywords: ["Stack", "Frontend"] }),
         this.skillsDefault({ name: "WooCommerce", keywords: ["Frontend"] }),
-        this.skillsDefault({ name: "Responsividade", keywords: [] }),
         this.skillsDefault({ name: "Vuetify", keywords: ["Stack", "Frontend"] }),
         this.skillsDefault({ name: "Linux", keywords: ["Stack"] }),
         this.skillsDefault({ name: "JQuery", keywords: ["Frontend"] }),
