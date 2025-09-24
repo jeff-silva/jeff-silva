@@ -31,6 +31,6 @@ AdonisJS, Arquitetura MVC, Babylon, Bootstrap, Cálculos geospaciais, Clean Arch
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeff-silva&layout=compact&langs_count=7&theme=dracula" />
 
 <br />
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWVzY25qZGxtODIwOGZiOGFwcjQ3M3NmcDZxNjlzYXUzNnltOTUzbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11ISwbgCxEzMyY/giphy.gif" />
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHBuOWZneXdodnJvbnB1dG43NnJkbzlnNWQ3dGFneTE4bGUwZDRyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/111ebonMs90YLu/giphy.gif" />
 
 <!-- ![Snake animation](https://github.com/jeff-silva/jeff-silva/blob/output/github-contribution-grid-snake.svg) -->
