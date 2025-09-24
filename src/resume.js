@@ -159,8 +159,8 @@ export default class JsonResume {
       parts = ["1 mês"];
     }
 
-    const startDateFormat = startDate.format("MMM YYYY").toUpperCase();
-    const endDateFormat = endDate.format("MMM YYYY").toUpperCase();
+    const startDateFormat = startDate.format("MM/YYYY").toUpperCase();
+    const endDateFormat = endDate.format("MM/YYYY").toUpperCase();
 
     let str = `${startDateFormat} ~ ${endDateFormat}`;
     if (showDuration) str += " (" + parts.join(" e ") + ")";
@@ -204,14 +204,17 @@ export default class JsonResume {
   workDefault(data = {}) {
     data = _.merge(
       {
-        institution: "",
-        // url: "",
-        area: "",
-        studyType: "",
-        // startDate: "",
-        // endDate: "",
-        score: "",
-        courses: [],
+        name: "",
+        position: "",
+        url: "",
+        startDate: "",
+        endDate: "",
+        summary: "",
+        highlights: [],
+        meta: {
+          important: false,
+          // summaryShort: "",
+        },
       },
       data,
     );

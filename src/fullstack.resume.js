@@ -31,16 +31,9 @@ export default class FullstackResume extends Resume {
           - Frontend: **Vue.js, Nuxt 4, React.js, Next.js, Tailwind, Vuetify 3**;
           - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;
           - Database: **MySQL, PostgreSQL, Firebase (Realtime e Firestore)**;
-          - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native**.
+          - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.
 
-          Expertise:
-
-          - Integração de sistemas & processo de automação AI-driven;
-          - Alta escalabilidade & otimização de performance;
-          - Boas práticas de código, clean architecture & liderança técnica;
-          - Metodologia Agile / Scrum, Microservices.
-
-          Busco oportunidades como Líder técnico / desenvolvedor Full Stack, com foco em arquitetura escalável, microservices, CI/CD e cloud computing.
+          Busco oportunidades como **Líder técnico** / desenvolvedor **Full Stack**, com foco em arquitetura escalável, **microservices**, **CI/CD**, **AI** e **cloud computing**.
         `,
         location: this.locationDefault({
           address: "",
@@ -107,19 +100,25 @@ export default class FullstackResume extends Resume {
           position: "Tech Lead",
           url: "http://capp2.cardcombh.com.br",
           summary: `
-            * **Arquitetura**: Estruturei a separação de um monólito simples em frontend + backend baseado em Rest API;
-            * **Reengenharia**: Conduzi conversão API Rest de Laravel 4.2 para Nest.js 11;
-            * **Estruturação**: Separei o sistema em camadas e módulos independentes com comunicação via mensageria;
-            * **Governança e Segurança**: implementei sistema de permissões robusto e melhorei o controle de acesso;
-            * **Escalabilidade**: Desenvolvi sistema multinível com grupos de usuários controlados por hierarquia, função e nível.
+            Sistema de Pedidos de Crachás.
+
+            **Responsabilidades**
+
+            * Conduzi a migração do backend de Laravel 4.2 para **Nest.js 11**, modernizando APIs e documentando endpoints via **Swagger**.
+            * Estruturei a separação em **frontend** + **backend** desacoplados, com módulos independentes e comunicação via **RabbitMQ**.
+            * **Reestruturei** o fluxo de pedidos, créditos e entregas, criando um painel administrativo robusto para clientes e setores internos.
+            * Implementei um sistema de **permissões multinível** com papéis, funções e hierarquia de acesso.
+            
+            **Resultados**
+
+            * Aumento de **performance** e redução de custos operacionais com a adoção de **Node.js** e bibliotecas otimizadas.
+            * Melhoria significativa da **segurança e governança** de acessos, reduzindo riscos de uso indevido.
+            * Habilitei clientes a integrarem seus próprios sistemas via API, possibilitando **automação** de pedidos e ganho de **produtividade**.
+            * Deixei a base arquitetural pronta para evoluir para **microservices**, garantindo escalabilidade futura.
           `,
           startDate: "2023-12-01",
-          endDate: "2025-05-01",
-          meta: {
-            summaryShort: `Liderança e reengenharia de um sistema central do zero (Laravel 4 para Nest.js),
-          incluindo desenvolvimento de painel administrativo e automação completa do ciclo de impressão de cartões.
-          Assegurei escalabilidade e otimização de processos do pedido à expedição.`,
-          },
+          endDate: "2025-08-01",
+          meta: { important: true },
         }),
         this.workDefault({
           name: "Search and Stay",
@@ -128,10 +127,22 @@ export default class FullstackResume extends Resume {
           startDate: "2022-12-31",
           endDate: "2023-11-30",
           summary: `
-            * Desenvolvimento **Full-stack** (Vue.js, Nuxt.js, Laravel) no sistema Search and Stay, focando na **implementação de funcionalidades, correção de bugs e otimização de performance do frontend**.
-            * Criação e manutenção de **APIs** e lógica de negócio no backend, além de integrações e customizações com **WordPress**.
-            * Colaboração ativa com a equipe para garantir a **qualidade do código** e a **eficiência das entregas**.
+            Plataforma de Aluguel de Imóveis por Temporada na Austrália.
+
+            **Responsabilidades**
+
+            * Desenvolvi plugin **WordPress** que consumia imóveis via **REST API**, permitindo exibição automática em sites de proprietários.
+            * Criei tema **WordPress** customizável, eliminando a necessidade de código manual para apresentação de imóveis.
+            * Contribuí para a manutenção da **REST API** da plataforma, corrigindo bugs e implementando integrações.
+            * Apoiei melhorias e correções no **frontend**, garantindo **estabilidade e usabilidade**.
+            
+            **Resultados**
+
+            * Entreguei funcionalidades e correções dentro dos prazos definidos, com foco em **código limpo e escalabilidade**.
+            * Reduzi esforço de manutenção ao aplicar **padrões de arquitetura e boas práticas**.
+            * Facilitei a expansão futura da plataforma, criando soluções reutilizáveis e flexíveis.
           `,
+          meta: { important: true },
         }),
         // this.workDefault({
         //   name: "Rehagro",
@@ -155,10 +166,19 @@ export default class FullstackResume extends Resume {
           startDate: "2020-10-31",
           endDate: "2022-04-30",
           summary: `
-            * Atuação **Fullstack** (Vue.js, React.js, Laravel, CakePHP) no desenvolvimento de **sistemas web de alta visibilidade** para grandes clientes como Unidas Seminovos, Samy Dana e EPA Supermercados.
-            * Responsável pela entrega de **soluções completas**, desde interfaces intuitivas até lógicas de negócio robustas no backend.
-            * Colaboração em equipes multidisciplinares para desenvolver **funcionalidades complexas** e **otimizar a performance** de aplicações de larga escala.
+            Agência de marketing.
+
+            **Responsabilidades**
+            * Desenvolvi a calculadora “Assinar ou Comprar?”, parceria entre Samy Dana e Unidas, que orientava usuários entre comprar ou alugar um carro e os direcionava automaticamente para a plataforma da Unidas.
+            * Implementei melhorias no filtro de veículos da Unidas Seminovos, incluindo parâmetros complexos e busca por geolocalização.
+            * Desenvolvi e mantive soluções web para clientes como Unidas, EPA e Mineirão, com foco em escalabilidade e experiência do usuário.
+
+            **Resultados**
+            * Aumentei o engajamento e a geração de leads para a Unidas por meio da calculadora interativa.
+            * Melhorei a experiência de busca de veículos, reduzindo o tempo de resposta e tornando os filtros mais eficientes.
+            * Elevei a qualidade do código e a escalabilidade das aplicações, garantindo entregas consistentes dentro dos prazos.
           `,
+          meta: { important: true },
         }),
         this.workDefault({
           name: "Codificar Sistemas Tecnológicos",
@@ -172,17 +192,25 @@ export default class FullstackResume extends Resume {
             * Colaboração em equipe para desenvolver **funcionalidades complexas** em diferentes projetos web.
           `,
         }),
-        // this.workDefault({
-        //   name: "Agência de Criação",
-        //   position: "Dev Fullstack",
-        //   url: "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
-        //   startDate: "2015-01-31",
-        //   endDate: "2017-02-28",
-        //   summary: `
-        //     * **Desenvolvimento e evolução do CMS proprietário** da agência (Vue.js, Angular.js), com foco em **melhorias arquiteturais e de código**.
-        //     * Contribuição significativa para a **otimização da velocidade de correção de bugs** e a **redução do tempo de entrega** de projetos web.
-        //   `,
-        // }),
+        this.workDefault({
+          name: "Agência de Criação",
+          position: "Dev Fullstack",
+          url: "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
+          startDate: "2015-01-31",
+          endDate: "2017-02-28",
+          summary: `
+            Sistemas internos vendidos pela agência
+
+            **Responsabilidades**
+            * Desenvolvi um CMS proprietário comercializado pela agência, projetado para atender múltiplos clientes.
+            * Estruturei o sistema de forma modular, permitindo a instalação sob demanda de funcionalidades específicas conforme a necessidade de cada projeto.
+
+            **Resultados**
+            * Aumentei a satisfação dos clientes, entregando aplicações com maior fluidez, rapidez e usabilidade.
+            * Reduzi o tempo de implantação para a equipe técnica, simplificando o processo de instalação e manutenção.
+          `,
+          meta: { important: true },
+        }),
         this.workDefault({
           name: "Cushman & Wakefield",
           position: "Dev Fullstack",
@@ -190,21 +218,29 @@ export default class FullstackResume extends Resume {
           startDate: "2012-05-02",
           endDate: "2013-11-08",
           summary: `
-            * Atuação **Fullstack** (PHP, JavaScript, [Mencione o framework específico aqui, ex: jQuery, Vue.js inicial]) como terceirizado para a **Vale do Rio Doce**, transformando **planilhas complexas em aplicações web robustas**.
-            * **Impacto Direto:** **Eliminei a perda de dados** por corrupção de Excel e **desbloqueei a colaboração simultânea**, **aumentando a eficiência** da equipe de engenharia.
-            * Desenvolvi **interface inovadora com automação** (gráfico de curva de Gauss) que **reduziu o tempo de preenchimento de dados** de contratação mensal, com **feedback positivo** pela usabilidade.
+            Empresa terceirizada da Vale do Rio Doce, conversão de planilhas **Excel** para sistemas.
+
+            **Responsabilidades**
+            * Convergi sistemas baseados em planilhas **Excel** para aplicações web, utilizando **PHP**, **JavaScript**.
+            * Desenvolvi interfaces otimizadas para entrada de dados, com soluções automatizadas e responsivas.
+
+            **Resultados**
+            * Eliminei perdas recorrentes de dados causadas por corrupção de arquivos **Excel**.
+            * Habilitei colaboração simultânea entre equipes, aumentando a eficiência da engenharia.
+            * Reduzi significativamente o tempo de preenchimento de dados com uma interface inteligente baseada em **curva de Gauss**, que recebeu feedback positivo dos usuários.
+          `,
+          meta: { important: true },
+        }),
+        this.workDefault({
+          name: "Netranet Networking",
+          position: "Dev Fullstack",
+          url: "https://www.linkedin.com/company/netranet-networking/",
+          startDate: "2011-01-13",
+          endDate: "2012-01-13",
+          summary: `
+            * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.
           `,
         }),
-        // this.workDefault({
-        //   name: "Netranet Networking",
-        //   position: "Dev Fullstack",
-        //   url: "https://www.linkedin.com/company/netranet-networking/",
-        //   startDate: "2011-01-13",
-        //   endDate: "2012-01-13",
-        //   summary: `
-        //     * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.
-        //   `,
-        // }),
         this.workDefault({
           name: "Web BH Escola de Informática",
           position: "Instrutor",
@@ -404,6 +440,7 @@ export default class FullstackResume extends Resume {
             * Responsável por apresentar resultados de forma **clara e acessível**, **impactando diretamente na tomada de decisão informada** sobre mobilidade.
           `,
           url: "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
+          // url: 'https://assinaroucomprar.listradigital.com.br/',
           startDate: "2021-12-31",
           endDate: "2021-12-31",
           highlights: ["Listra"],
