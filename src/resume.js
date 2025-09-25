@@ -3,6 +3,7 @@ import path from "path";
 import _ from "lodash";
 import textile from "textile-js";
 import puppeteer from "puppeteer";
+import boxen from "boxen";
 import { Edge } from "edge.js";
 
 import dayjs from "dayjs";
@@ -76,6 +77,7 @@ export default class JsonResume {
       {
         id: "whatsapp",
         name: "(31) 99527-1426",
+        description: "Whatsapp",
         url: "https://wa.me/message/NG7A2SW25XIEI1",
         icon: "https://api.iconify.design/ic:baseline-whatsapp.svg",
         value: this.data.basics.phone,
@@ -83,6 +85,7 @@ export default class JsonResume {
       {
         id: "email",
         name: this.data.basics.email,
+        description: "E-mail",
         url: `mailto:${this.data.basics.email}`,
         icon: "https://api.iconify.design/ic:outline-alternate-email.svg",
         value: this.data.basics.email,
@@ -90,6 +93,7 @@ export default class JsonResume {
       {
         id: "linkedin",
         name: "https://www.linkedin.com/in/jeferson-siqueira/",
+        description: "Linkedin",
         url: "https://www.linkedin.com/in/jeferson-siqueira/",
         icon: "https://api.iconify.design/mdi:linkedin.svg",
         value: null,
@@ -97,6 +101,7 @@ export default class JsonResume {
       {
         id: "github",
         name: "https://github.com/jeff-silva",
+        description: "Github",
         url: "https://github.com/jeff-silva",
         icon: "https://api.iconify.design/mdi:github.svg",
         value: null,
@@ -104,6 +109,7 @@ export default class JsonResume {
       {
         id: "portfolio",
         name: "Portfólio",
+        description: "Portfólio",
         url: "https://jeff-silva.github.io",
         icon: "https://api.iconify.design/material-symbols:home-rounded.svg",
         value: null,
@@ -111,6 +117,7 @@ export default class JsonResume {
       {
         id: "download",
         name: "Download",
+        description: "Baixar PDF",
         url: "https://jeff-silva.github.io/jeff-silva/profiles/fullstack-dev/resume.pdf",
         icon: "https://api.iconify.design/mdi:download.svg",
         value: null,
@@ -130,6 +137,10 @@ export default class JsonResume {
     }
 
     return items;
+  }
+
+  boxen(...args) {
+    return boxen(...args);
   }
 
   markdownToHtml(text) {
@@ -392,6 +403,7 @@ export default class JsonResume {
     await this.generateHtml();
     await this.generatePdf();
     await this.generateMarkdown();
+    await this.generateTxt();
     await this.onGenerate();
   }
 
@@ -429,5 +441,10 @@ export default class JsonResume {
   async generateMarkdown() {
     const html = await edge.render("profiles-resume-md", { resume: this });
     fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.md`, html);
+  }
+
+  async generateTxt() {
+    const text = await edge.render("profiles-resume-txt", { resume: this });
+    fs.promises.writeFile(`./docs/profiles/${this.profile}/resume.txt`, text);
   }
 }

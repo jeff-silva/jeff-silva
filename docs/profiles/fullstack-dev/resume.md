@@ -1,11 +1,19 @@
+<pre>╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                   JEFERSON SILVA                                                     ║
+║                  FULLSTACK SÊNIOR | AI | TECH LEAD | LARAVEL | VUE.JS | DOCKER | NODE.JS | NEST.JS                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+</pre>
+
 # Jeferson Silva
-## Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | Nest.js
+
+[![(31) 99527-1426](https://api.iconify.design/ic:baseline-whatsapp.svg?color=%23ffffff&height=30 "(31) 99527-1426")](https://wa.me/message/NG7A2SW25XIEI1)
+[![jeferson.i.silva@gmail.com](https://api.iconify.design/ic:outline-alternate-email.svg?color=%23ffffff&height=30 "jeferson.i.silva@gmail.com")](mailto:jeferson.i.silva@gmail.com)
+[![https://www.linkedin.com/in/jeferson-siqueira/](https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff&height=30 "https://www.linkedin.com/in/jeferson-siqueira/")](https://www.linkedin.com/in/jeferson-siqueira/)
+[![https://github.com/jeff-silva](https://api.iconify.design/mdi:github.svg?color=%23ffffff&height=30 "https://github.com/jeff-silva")](https://github.com/jeff-silva)
+[![Portfólio](https://api.iconify.design/material-symbols:home-rounded.svg?color=%23ffffff&height=30 "Portfólio")](https://jeff-silva.github.io)
+[![Download](https://api.iconify.design/mdi:download.svg?color=%23ffffff&height=30 "Download")](https://jeff-silva.github.io/jeff-silva/profiles/fullstack-dev/resume.pdf)
 
 🌎 Belo Horizonte, Minas Gerais, BR
-
-Website: [https://jeff-silva.github.io/](https://jeff-silva.github.io/) <br />
-LinkedIn: [https://www.linkedin.com/in/jeferson-siqueira/](https://www.linkedin.com/in/jeferson-siqueira/) <br />
-Github: [https://github.com/jeff-silva](https://github.com/jeff-silva) <br />
 
 ## Resumo
 
