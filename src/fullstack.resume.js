@@ -13,6 +13,7 @@ export default class FullstackResume extends Resume {
           padding: 0.5,
           width: 120,
           textAlignment: "center",
+          borderStyle: "round",
         }) +
         "</pre>",
     );
