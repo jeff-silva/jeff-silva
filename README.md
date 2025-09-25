@@ -1,7 +1,9 @@
 <!--curriculum:start-->
+<pre>┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                   JEFERSON SILVA                                                     │
+│                  FULLSTACK SÊNIOR | AI | TECH LEAD | LARAVEL | VUE.JS | DOCKER | NODE.JS | NEST.JS                   │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘</pre>
 # Jeferson Silva
-
-### Fullstack Sênior | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | Nest.js
 
 [![(31) 99527-1426](https://api.iconify.design/ic:baseline-whatsapp.svg?color=%23ffffff&height=30 "(31) 99527-1426")](https://wa.me/message/NG7A2SW25XIEI1)
 [![jeferson.i.silva@gmail.com](https://api.iconify.design/ic:outline-alternate-email.svg?color=%23ffffff&height=30 "jeferson.i.silva@gmail.com")](mailto:jeferson.i.silva@gmail.com)

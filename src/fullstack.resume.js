@@ -6,8 +6,18 @@ export default class FullstackResume extends Resume {
 
   async onGenerate() {
     let output = [];
+
+    output.push(
+      "<pre>" +
+        this.boxen([this.data.basics.name.toUpperCase(), this.data.basics.label.toUpperCase()].join("\n"), {
+          padding: 0.5,
+          width: 120,
+          textAlignment: "center",
+        }) +
+        "</pre>",
+    );
+
     output.push(`# ${this.data.basics.name}`, "");
-    output.push(`### ${this.data.basics.label}`, "");
 
     this.getLinks().map((link) => {
       output.push(`[![${link.name}](${link.icon}?color=%23ffffff&height=30 "${link.name}")](${link.url})`);
