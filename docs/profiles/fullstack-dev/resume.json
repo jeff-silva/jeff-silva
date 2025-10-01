@@ -96,7 +96,7 @@
       "url": "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
       "startDate": "2015-01-31",
       "endDate": "2017-02-28",
-      "summary": "\n            Sistemas internos vendidos pela agência\n\n            **Responsabilidades**\n            * Desenvolvi um CMS proprietário comercializado pela agência, projetado para atender múltiplos clientes.\n            * Estruturei o sistema de forma modular, permitindo a instalação sob demanda de funcionalidades específicas conforme a necessidade de cada projeto.\n\n            **Resultados**\n            * Aumentei a satisfação dos clientes, entregando aplicações com maior fluidez, rapidez e usabilidade.\n            * Reduzi o tempo de implantação para a equipe técnica, simplificando o processo de instalação e manutenção.\n          ",
+      "summary": "\n            Sistemas internos vendidos pela agência\n\n            **Responsabilidades**\n            * Desenvolvi um CMS proprietário comercializado pela agência, projetado para atender múltiplos clientes.\n            * Estruturei o sistema de forma modular, permitindo a instalação sob demanda de funcionalidades específicas conforme a necessidade de cada projeto.\n\n            **Resultados**\n            * Aumentei a satisfação dos clientes, entregando aplicações com maior fluidez, rapidez e usabilidade.\n            * Reduzi o tempo de implantação para a equipe técnica, simplificando o processo de instalação e manutenção.\n            \n            **Tecnologias**\n            Laravel, PHP, Code Igniter, Cake, Python, Node.JS, Vue, Vue 2 Wordpress Plugin, Wordpress Theme.\n          ",
       "highlights": [],
       "meta": {
         "important": true
@@ -108,7 +108,7 @@
       "url": "https://www.linkedin.com/company/cushman-and-wakefield/",
       "startDate": "2012-05-02",
       "endDate": "2013-11-08",
-      "summary": "\n            Empresa terceirizada da Vale do Rio Doce, conversão de planilhas **Excel** para sistemas.\n\n            **Responsabilidades**\n            * Convergi sistemas baseados em planilhas **Excel** para aplicações web, utilizando **PHP**, **JavaScript**.\n            * Desenvolvi interfaces otimizadas para entrada de dados, com soluções automatizadas e responsivas.\n\n            **Resultados**\n            * Eliminei perdas recorrentes de dados causadas por corrupção de arquivos **Excel**.\n            * Habilitei colaboração simultânea entre equipes, aumentando a eficiência da engenharia.\n            * Reduzi significativamente o tempo de preenchimento de dados com uma interface inteligente baseada em **curva de Gauss**, que recebeu feedback positivo dos usuários.\n          ",
+      "summary": "\n            Empresa terceirizada da Vale do Rio Doce, conversão de planilhas **Excel** para sistemas.\n\n            **Responsabilidades**\n            * Convergi sistemas baseados em planilhas **Excel** para aplicações web, utilizando **PHP**, **JavaScript**.\n            * Desenvolvi interfaces otimizadas para entrada de dados, com soluções automatizadas e responsivas.\n\n            **Resultados**\n            * Eliminei perdas recorrentes de dados causadas por corrupção de arquivos **Excel**.\n            * Habilitei colaboração simultânea entre equipes, aumentando a eficiência da engenharia.\n            * Reduzi significativamente o tempo de preenchimento de dados com uma interface inteligente baseada em **curva de Gauss**, que recebeu feedback positivo dos usuários.\n            \n            **Tecnologias**\n            PHP, Code Igniter, Cake, Javascript, Jquery.\n          ",
       "highlights": [],
       "meta": {
         "important": true
@@ -120,7 +120,7 @@
       "url": "https://www.linkedin.com/company/netranet-networking/",
       "startDate": "2011-01-13",
       "endDate": "2012-01-13",
-      "summary": "\n            * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.\n          ",
+      "summary": "\n            * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.\n\n            **Tecnologias**\n            PHP, Code Igniter, Cake, Javascript, Jquery.\n          ",
       "highlights": [],
       "meta": {
         "important": false
@@ -132,7 +132,7 @@
       "url": "",
       "startDate": "2010-01-31",
       "endDate": "2011-01-31",
-      "summary": "\n            * Atuação como instrutor de desenvolvimento web (PHP, MySQL, Javascript, HTML/CSS), capacitando alunos em diversas tecnologias e aprimorando **habilidades de comunicação, didática e liderança técnica**.\n          ",
+      "summary": "\n            * Atuação como instrutor de desenvolvimento web (PHP, MySQL, Javascript, HTML/CSS), capacitando alunos em diversas tecnologias e aprimorando **habilidades de comunicação, didática e liderança técnica**.\n\n            **Tecnologias**\n            PHP, MySQL, SQLServer, ASP.net, Javascript, HTML, CSS, Tableless, Action Script.\n          ",
       "highlights": [],
       "meta": {
         "important": false

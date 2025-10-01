@@ -14,19 +14,19 @@
 
 **Full-stack Developer** with **14 years** of experience in scalable architecture, microservices, and cloud.
 
-Main stack:
+Main Stack:
 
 - Frontend: **Vue.js 3, Nuxt 4, Vuetify 3, React.js, Next.js, Tailwind**;
 - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;
 - Database: **MySQL, PostgreSQL, Firebase (Realtime and Firestore)**;
 - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.
 
-Seeking opportunities as a **Technical Leader** / **Full Stack** developer, with a focus on scalable architecture, **microservices**, **CI/CD**, **AI**, and **cloud computing**.
+Seeking opportunities as a **Technical Lead** / **Full Stack** developer, focused on scalable architecture, **microservices**, **CI/CD**, **AI**, and **cloud computing**.
 
 
 ## Skills
 
-AdonisJS, AI Integration, Babylon, Bootstrap, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentation, DynamoDB, Electron, Elementor, Express.js, Firebase, Geospatial calculations, Git, Google Cloud Platform, GraphQL, HTML5, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Maps, MongoDB, MVC Architecture, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Page Optimization, Pagseguro, PHP, PostgreSQL, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress, YARN
+AdonisJS, AI Integration, Babylon, Bootstrap, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentation, DynamoDB, Electron, Elementor, Express.js, Firebase, Geospatial Calculations, Git, Google Cloud Platform, GraphQL, HTML5, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Maps, MongoDB, MVC Architecture, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Page Optimization, Pagseguro, PHP, PostgreSQL, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress, YARN
 <!--curriculum:final-->
 
 <br />

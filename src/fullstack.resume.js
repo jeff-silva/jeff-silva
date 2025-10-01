@@ -251,6 +251,9 @@ export default class FullstackResume extends Resume {
             **Resultados**
             * Aumentei a satisfação dos clientes, entregando aplicações com maior fluidez, rapidez e usabilidade.
             * Reduzi o tempo de implantação para a equipe técnica, simplificando o processo de instalação e manutenção.
+            
+            **Tecnologias**
+            Laravel, PHP, Code Igniter, Cake, Python, Node.JS, Vue, Vue 2 Wordpress Plugin, Wordpress Theme.
           `,
           meta: { important: true },
         }),
@@ -271,6 +274,9 @@ export default class FullstackResume extends Resume {
             * Eliminei perdas recorrentes de dados causadas por corrupção de arquivos **Excel**.
             * Habilitei colaboração simultânea entre equipes, aumentando a eficiência da engenharia.
             * Reduzi significativamente o tempo de preenchimento de dados com uma interface inteligente baseada em **curva de Gauss**, que recebeu feedback positivo dos usuários.
+            
+            **Tecnologias**
+            PHP, Code Igniter, Cake, Javascript, Jquery.
           `,
           meta: { important: true },
         }),
@@ -282,6 +288,9 @@ export default class FullstackResume extends Resume {
           endDate: "2012-01-13",
           summary: `
             * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas, **agilizando a resolução de problemas**.
+
+            **Tecnologias**
+            PHP, Code Igniter, Cake, Javascript, Jquery.
           `,
         }),
         this.workDefault({
@@ -292,6 +301,9 @@ export default class FullstackResume extends Resume {
           endDate: "2011-01-31",
           summary: `
             * Atuação como instrutor de desenvolvimento web (PHP, MySQL, Javascript, HTML/CSS), capacitando alunos em diversas tecnologias e aprimorando **habilidades de comunicação, didática e liderança técnica**.
+
+            **Tecnologias**
+            PHP, MySQL, SQLServer, ASP.net, Javascript, HTML, CSS, Tableless, Action Script.
           `,
         }),
       ],

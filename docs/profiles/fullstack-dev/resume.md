@@ -128,6 +128,9 @@ Sistemas internos vendidos pela agência
 * Aumentei a satisfação dos clientes, entregando aplicações com maior fluidez, rapidez e usabilidade.
 * Reduzi o tempo de implantação para a equipe técnica, simplificando o processo de instalação e manutenção.
 
+**Tecnologias**
+Laravel, PHP, Code Igniter, Cake, Python, Node.JS, Vue, Vue 2 Wordpress Plugin, Wordpress Theme.
+
 <br />
 
 
