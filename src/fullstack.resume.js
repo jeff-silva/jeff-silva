@@ -34,7 +34,7 @@ export default class FullstackResume extends Resume {
     fs.writeFileSync("./README.md", readme);
   }
 
-  getData() {
+  async getData() {
     const experienceYears = new Date().getFullYear() - 2011;
 
     return {
@@ -59,7 +59,7 @@ export default class FullstackResume extends Resume {
 
           Stack principal:
 
-          - Frontend: **Vue.js, Nuxt 4, React.js, Next.js, Tailwind, Vuetify 3**;
+          - Frontend: **Vue.js 3, Nuxt 4, Vuetify 3, React.js, Next.js, Tailwind**;
           - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;
           - Database: **MySQL, PostgreSQL, Firebase (Realtime e Firestore)**;
           - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.
@@ -146,6 +146,9 @@ export default class FullstackResume extends Resume {
             * Melhoria significativa da **segurança e governança** de acessos, reduzindo riscos de uso indevido.
             * Habilitei clientes a integrarem seus próprios sistemas via API, possibilitando **automação** de pedidos e ganho de **produtividade**.
             * Deixei a base arquitetural pronta para evoluir para **microservices**, garantindo escalabilidade futura.
+            
+            **Tecnologias**
+            Laravel, PHP, Angular, Node.js, Nest.js 11, Vue 3, Nuxt 4, Vuetify 3, MySQL, SQlite 3, OpenAPI, Swagger, RabbitMQ.
           `,
           startDate: "2023-12-01",
           endDate: "2025-08-01",
@@ -172,6 +175,9 @@ export default class FullstackResume extends Resume {
             * Entreguei funcionalidades e correções dentro dos prazos definidos, com foco em **código limpo e escalabilidade**.
             * Reduzi esforço de manutenção ao aplicar **padrões de arquitetura e boas práticas**.
             * Facilitei a expansão futura da plataforma, criando soluções reutilizáveis e flexíveis.
+            
+            **Tecnologias**
+            Laravel, PHP, Vue 3, Vuetify 3, Wordpress Plugin, Wordpress Theme.
           `,
           meta: { important: true },
         }),
@@ -208,6 +214,9 @@ export default class FullstackResume extends Resume {
             * Aumentei o engajamento e a geração de leads para a Unidas por meio da calculadora interativa.
             * Melhorei a experiência de busca de veículos, reduzindo o tempo de resposta e tornando os filtros mais eficientes.
             * Elevei a qualidade do código e a escalabilidade das aplicações, garantindo entregas consistentes dentro dos prazos.
+            
+            **Tecnologias**
+            Laravel, PHP, CakePHP, Rest API, Open API, Swagger, Vue 3, Vuetify 3, Nuxt 3, React, Python, Wordpress Plugin, Wordpress Theme.
           `,
           meta: { important: true },
         }),
@@ -221,6 +230,9 @@ export default class FullstackResume extends Resume {
             * Atuação **Fullstack** (Vue.js, React.js, Laravel) no desenvolvimento e implementação de **sistemas web diversos**.
             * **Expertise em integrações com APIs externas**, incluindo a API da Google para sincronização de agendas e calendários.
             * Colaboração em equipe para desenvolver **funcionalidades complexas** em diferentes projetos web.
+            
+            **Tecnologias**
+            Laravel, PHP, Codeigniter, Vue 3, Angular, React.js, Python, Rest API, OpenAPI.
           `,
         }),
         this.workDefault({

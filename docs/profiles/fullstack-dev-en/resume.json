@@ -1,0 +1,985 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/v1.0.0/schema.json",
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "updatedAt": {
+      "date": "2023-12-06T14:20:14-03:00",
+      "formatted": "Dec 2023"
+    }
+  },
+  "basics": {
+    "name": "Jeferson Silva",
+    "label": "Senior Fullstack | AI | Tech Lead | Laravel | Vue.js | Docker | Node.js | Nest.js",
+    "image": "",
+    "email": "jeferson.i.silva@gmail.com",
+    "phone": "+55 31 99527-1426",
+    "url": "https://jeff-silva.github.io",
+    "summary": "\n          **Full-stack Developer** with **14 years** of experience in scalable architecture, microservices, and cloud.\n\n          Main stack:\n\n          - Frontend: **Vue.js 3, Nuxt 4, Vuetify 3, React.js, Next.js, Tailwind**;\n          - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;\n          - Database: **MySQL, PostgreSQL, Firebase (Realtime and Firestore)**;\n          - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.\n\n          Seeking opportunities as a **Technical Leader** / **Full Stack** developer, with a focus on scalable architecture, **microservices**, **CI/CD**, **AI**, and **cloud computing**.\n        ",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Belo Horizonte",
+      "region": "Minas Gerais",
+      "countryCode": "BR"
+    },
+    "profiles": [
+      {
+        "network": "Website",
+        "username": "jeff-silva",
+        "url": "https://jeff-silva.github.io/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jeferson-siqueira",
+        "url": "https://www.linkedin.com/in/jeferson-siqueira/"
+      },
+      {
+        "network": "Github",
+        "username": "jeff-silva",
+        "url": "https://github.com/jeff-silva"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Cardcom",
+      "position": "Tech Lead",
+      "url": "http://capp2.cardcombh.com.br",
+      "startDate": "2023-12-01",
+      "endDate": "2025-08-01",
+      "summary": "\n            Badge Order System.\n\n            **Responsibilities**\n\n            * Led the backend migration from Laravel 4.2 to **Nest.js 11**, modernizing APIs and documenting endpoints via **Swagger**.\n            * Structured the separation into decoupled **frontend** + **backend**, with independent modules and communication via **RabbitMQ**.\n            * **Restructured** the order, credit, and delivery flow, creating a robust administrative panel for clients and internal departments.\n            * Implemented a **multi-level permissions system** with roles, functions, and access hierarchy.\n            \n            **Results**\n\n            * Increased **performance** and reduced operational costs with the adoption of **Node.js** and optimized libraries.\n            * Significant improvement in access **security and governance**, reducing risks of misuse.\n            * Enabled clients to integrate their own systems via API, allowing order **automation** and **productivity** gains.\n            * Left the architectural foundation ready to evolve into **microservices**, ensuring future scalability.\n            \n            **Technologies**\n            Laravel, PHP, Angular, Node.js, Nest.js 11, Vue 3, Nuxt 4, Vuetify 3, MySQL, SQlite 3, OpenAPI, Swagger, RabbitMQ.\n          ",
+      "highlights": [],
+      "meta": {
+        "important": true
+      }
+    },
+    {
+      "name": "Search and Stay",
+      "position": "Fullstack Developer",
+      "url": "https://www.linkedin.com/company/search-and-stay/",
+      "startDate": "2022-12-31",
+      "endDate": "2023-11-30",
+      "summary": "\n            Seasonal Property Rental Platform in Australia.\n\n            **Responsibilities**\n\n            * Developed a **WordPress** plugin that consumed properties via **REST API**, allowing automatic display on owner websites.\n            * Created a customizable **WordPress** theme, eliminating the need for manual code for property presentation.\n            * Contributed to the maintenance of the platform's **REST API**, fixing bugs and implementing integrations.\n            * Supported improvements and corrections in the **frontend**, ensuring **stability and usability**.\n            \n            **Results**\n\n            * Delivered features and corrections within defined deadlines, focusing on **clean code and scalability**.\n            * Reduced maintenance effort by applying **architecture patterns and best practices**.\n            * Facilitated future platform expansion by creating reusable and flexible solutions.\n            \n            **Technologies**\n            Laravel, PHP, Vue 3, Vuetify 3, Wordpress Plugin, Wordpress Theme.\n          ",
+      "highlights": [],
+      "meta": {
+        "important": true
+      }
+    },
+    {
+      "name": "Listra",
+      "position": "Fullstack Developer",
+      "url": "https://www.linkedin.com/company/listradigital/",
+      "startDate": "2020-10-31",
+      "endDate": "2022-04-30",
+      "summary": "\n            Marketing agency.\n\n            **Responsibilities**\n            * Developed the “Subscribe or Buy?” calculator, a partnership between Samy Dana and Unidas, which guided users between buying or renting a car and automatically directed them to the Unidas platform.\n            * Implemented improvements in Unidas Seminovos' vehicle filter, including complex parameters and geolocation search.\n            * Developed and maintained web solutions for clients such as Unidas, EPA, and Mineirão, focusing on scalability and user experience.\n\n            **Results**\n            * Increased engagement and lead generation for Unidas through the interactive calculator.\n            * Improved vehicle search experience, reducing response time and making filters more efficient.\n            * Raised code quality and application scalability, ensuring consistent deliveries within deadlines.\n            \n            **Technologies**\n            Laravel, PHP, CakePHP, Rest API, Open API, Swagger, Vue 3, Vuetify 3, Nuxt 3, React, Python, Wordpress Plugin, Wordpress Theme.\n          ",
+      "highlights": [],
+      "meta": {
+        "important": true
+      }
+    },
+    {
+      "name": "Codificar Sistemas Tecnológicos",
+      "position": "Fullstack Developer",
+      "url": "https://www.linkedin.com/company/codificar/",
+      "startDate": "2017-02-28",
+      "endDate": "2017-10-31",
+      "summary": "\n            * **Fullstack** (Vue.js, React.js, Laravel) work in the development and implementation of **various web systems**.\n            * **Expertise in integrations with external APIs**, including Google's API for agenda and calendar synchronization.\n            * Team collaboration to develop **complex functionalities** in different web projects.\n            \n            **Technologies**\n            Laravel, PHP, Codeigniter, Vue 3, Angular, React.js, Python, Rest API, OpenAPI.\n          ",
+      "highlights": [],
+      "meta": {
+        "important": false
+      }
+    },
+    {
+      "name": "Agência de Criação",
+      "position": "Fullstack Developer",
+      "url": "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
+      "startDate": "2015-01-31",
+      "endDate": "2017-02-28",
+      "summary": "\n            Internal systems sold by the agency\n\n            **Responsibilities**\n            * Developed a proprietary CMS commercialized by the agency, designed to serve multiple clients.\n            * Structured the system modularly, allowing on-demand installation of specific functionalities according to each project's needs.\n\n            **Results**\n            * Increased customer satisfaction by delivering applications with greater fluidity, speed, and usability.\n            * Reduced deployment time for the technical team, simplifying the installation and maintenance process.\n          ",
+      "highlights": [],
+      "meta": {
+        "important": true
+      }
+    },
+    {
+      "name": "Cushman & Wakefield",
+      "position": "Fullstack Developer",
+      "url": "https://www.linkedin.com/company/cushman-and-wakefield/",
+      "startDate": "2012-05-02",
+      "endDate": "2013-11-08",
+      "summary": "\n            Outsourced company for Vale do Rio Doce, converting **Excel** spreadsheets to systems.\n\n            **Responsibilities**\n            * Converted **Excel** spreadsheet-based systems to web applications, using **PHP**, **JavaScript**.\n            * Developed optimized data entry interfaces, with automated and responsive solutions.\n\n            **Results**\n            * Eliminated recurrent data losses caused by **Excel** file corruption.\n            * Enabled simultaneous collaboration among teams, increasing engineering efficiency.\n            * Significantly reduced data entry time with an intelligent interface based on a **Gaussian curve**, which received positive user feedback.\n          ",
+      "highlights": [],
+      "meta": {
+        "important": true
+      }
+    },
+    {
+      "name": "Netranet Networking",
+      "position": "Fullstack Developer",
+      "url": "https://www.linkedin.com/company/netranet-networking/",
+      "startDate": "2011-01-13",
+      "endDate": "2012-01-13",
+      "summary": "\n            * **Leadership** in the development and implementation of a **proprietary CMS** (PHP, JavaScript, MySQL), which **increased control** over source code and **flexibility** in delivering customized solutions, **streamlining problem-solving**.\n          ",
+      "highlights": [],
+      "meta": {
+        "important": false
+      }
+    },
+    {
+      "name": "Web BH Escola de Informática",
+      "position": "Instructor",
+      "url": "",
+      "startDate": "2010-01-31",
+      "endDate": "2011-01-31",
+      "summary": "\n            * Served as a web development instructor (PHP, MySQL, Javascript, HTML/CSS), training students in various technologies and improving **communication, teaching, and technical leadership skills**.\n          ",
+      "highlights": [],
+      "meta": {
+        "important": false
+      }
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "WebBH School of Informatics",
+      "area": "Web Development",
+      "studyType": "Technical Education",
+      "score": "",
+      "courses": [
+        "PHP",
+        "MySQL",
+        "SQL Server",
+        "CSS",
+        "Javascript",
+        "HTML5",
+        "Tableless",
+        "Action script"
+      ],
+      "startDate": "2009-03-31",
+      "endDate": "2010-09-30"
+    },
+    {
+      "institution": "Unicesumar",
+      "area": "Artificial Intelligence and Machine Learning",
+      "studyType": "Bachelor's Degree",
+      "score": "",
+      "courses": [
+        "Artificial Intelligence and Machine Learning",
+        "Big Data Fundamentals",
+        "Go - Life Project",
+        "Applied Mathematics for Computing"
+      ],
+      "startDate": "2025-01-01",
+      "endDate": "2028-12-31"
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "AdonisJS",
+      "level": "",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "AI Integration",
+      "level": "",
+      "keywords": [
+        "AI"
+      ]
+    },
+    {
+      "name": "Babylon",
+      "level": "",
+      "keywords": [
+        "Game",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Clean Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Clean Code",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Composer",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS3",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Design Patterns",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": [
+        "Stack",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "Docker Compose",
+      "level": "",
+      "keywords": [
+        "Stack",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "Documentation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DynamoDB",
+      "level": "",
+      "keywords": [
+        "Database"
+      ]
+    },
+    {
+      "name": "Electron",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Elementor",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Express.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Firebase",
+      "level": "",
+      "keywords": [
+        "Database"
+      ]
+    },
+    {
+      "name": "Geospatial calculations",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": [
+        "Stack"
+      ]
+    },
+    {
+      "name": "Google Cloud Platform",
+      "level": "",
+      "keywords": [
+        "DevOps"
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "level": "",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Javascript",
+      "level": "",
+      "keywords": [
+        "Stack",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "JQuery",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "JWT",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kafka",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Keycloak",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Laravel",
+      "level": "",
+      "keywords": [
+        "Backend",
+        "Stack"
+      ]
+    },
+    {
+      "name": "LESS",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": [
+        "Stack"
+      ]
+    },
+    {
+      "name": "Maps",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": [
+        "Database"
+      ]
+    },
+    {
+      "name": "MVC Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": [
+        "Stack",
+        "Database"
+      ]
+    },
+    {
+      "name": "Nest.js",
+      "level": "",
+      "keywords": [
+        "Stack",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": [
+        "Backend",
+        "Stack"
+      ]
+    },
+    {
+      "name": "NPM",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Nuxt",
+      "level": "",
+      "keywords": [
+        "Stack",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "OAuth 2",
+      "level": "",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Page Optimization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Pagseguro",
+      "level": "",
+      "keywords": [
+        "Payment Gateway",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": [
+        "Backend",
+        "Stack"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": [
+        "Stack"
+      ]
+    },
+    {
+      "name": "Prisma",
+      "level": "",
+      "keywords": [
+        "Database"
+      ]
+    },
+    {
+      "name": "PWA",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rapier.js",
+      "level": "",
+      "keywords": [
+        "Game",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Redis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Responsive Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST APIs",
+      "level": "",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Scrum",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SEO",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "SOAP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": [
+        "Database"
+      ]
+    },
+    {
+      "name": "Stripe",
+      "level": "",
+      "keywords": [
+        "Payment Gateway",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Three.js",
+      "level": "",
+      "keywords": [
+        "Game",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Typescript",
+      "level": "",
+      "keywords": [
+        "Stack",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "UI/UX",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Unity",
+      "level": "",
+      "keywords": [
+        "Game"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "",
+      "keywords": [
+        "Frontend",
+        "Stack"
+      ]
+    },
+    {
+      "name": "VuePress",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Vuetify",
+      "level": "",
+      "keywords": [
+        "Stack",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Web Accessibility",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "WooCommerce",
+      "level": "",
+      "keywords": [
+        "Frontend"
+      ]
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "YARN",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Brazilian Portuguese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Reading and Writing"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cycling",
+      "keywords": [
+        "Well-being",
+        "Challenges"
+      ]
+    },
+    {
+      "name": "Music (Playing)",
+      "keywords": [
+        "Discipline",
+        "Motor Skills",
+        "Creativity"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Search and Stay",
+      "description": "\n            * **Continuous evolution** of the **Search and Stay** system, with the development of **new functionalities** and **efficient bug resolution**.\n            * **Fullstack** work, building dynamic and responsive interfaces with **Vue.js** and **Nuxt.js** (frontend) and a **robust and scalable** backend with **Laravel**.\n            * Experience in **integrating and customizing WordPress plugins** for specific system requirements, ensuring **high quality and performance**.\n          ",
+      "highlights": [],
+      "meta": {
+        "images": []
+      },
+      "url": "https://searchandstay.com",
+      "startDate": "2022-12-31",
+      "endDate": "2023-11-30"
+    },
+    {
+      "name": "Corapost",
+      "description": "\n            * Development of the **functional and responsive user interface (UI)** for the **Corapost** project, based on Figma design.\n            * Utilized **Vue.js, HTML, CSS, and JavaScript** to create a **WordPress plugin** that transformed the design into a complete frontend.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": []
+      },
+      "url": "https://corapost.com",
+      "startDate": "2024-04-01",
+      "endDate": "2024-07-30"
+    },
+    {
+      "name": "O Novo Mercado",
+      "description": "\n            * **Frontend development** for the internal video platform and professional hub **\"O Novo Mercado\"**.\n            * Built an **intuitive, responsive, and attractive user interface** with **Vue.js** and **Vuetify**.\n            * Optimized application **performance** to ensure a **fluid and efficient experience**, directly contributing to **user engagement**.\n          ",
+      "highlights": [],
+      "meta": {
+        "images": []
+      },
+      "url": "https://onovomercado.com/",
+      "startDate": "2022-02-28",
+      "endDate": "2022-07-31"
+    },
+    {
+      "name": "Assinar ou comprar",
+      "description": "\n            * **Fullstack development** (Laravel, Vue.js, Element UI) of the **strategic calculator \"Subscribe or Buy\"**, in partnership with **Unidas and Samy Dana**.\n            * Implemented **complex calculation logic** to assist users in deciding whether to buy or rent a car, ensuring **precision and intuitiveness**.\n            * Responsible for presenting results in a **clear and accessible** way, **directly impacting informed decision-making** on mobility.\n          ",
+      "highlights": [
+        "Listra"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/assinar-ou-comprar.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/",
+      "startDate": "2021-12-31",
+      "endDate": "2021-12-31"
+    },
+    {
+      "name": "Samarco",
+      "description": "\n            * **Leadership in the development and implementation** of a **Content Manager** for **Samarco**, in collaboration with Digital Pixel.\n            * Created a dynamic and versatile system using **WordPress** and **Elementor**, **simplifying content administration** and **optimizing digital communication**.\n            * Focused on **ease of use** for the client and delivered an **enhanced user experience** through design and interactivity.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": []
+      },
+      "url": "https://web.archive.org/web/20220130172103/https://www.samarco.com/",
+      "startDate": "2020-08-31",
+      "endDate": "2020-10-31"
+    },
+    {
+      "name": "Faculdade Faveni",
+      "description": "\n            * **Advanced styling and customization** of the **Faculdade Faveni** theme on a **WordPress Multisite** platform.\n            * Visual and functional adaptation of the theme to serve **multiple network sites**, ensuring visual identity and **enhancing user experience**.\n            * Optimized **CSS** and manipulated functionalities via **WordPress hooks and filters** for Multisite network consistency and performance.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": []
+      },
+      "url": "https://web.archive.org/web/20220131193706/https://faveni.edu.br/",
+      "startDate": "2020-12-31",
+      "endDate": "2021-12-31"
+    },
+    {
+      "name": "Manduí",
+      "description": "\n            * **Complete website development** for the **Manduí Preschool**, reflecting its welcoming environment and educational approach.\n            * Frontend built with **Nuxt 3, Vue 3, and Vuetify 3**, ensuring an **interactive and informative experience** for parents.\n            * Backend with an **intuitive interface and dynamic side panel** for element editing, using data persistence via **Firebase**, ensuring **scalability and efficiency**.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-01.jpg",
+            "name": ""
+          },
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-02.jpg",
+            "name": ""
+          },
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-03.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://mandui.com.br",
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-31"
+    },
+    {
+      "name": "Orbitae",
+      "description": "* Development of **specialized forensic product presentations**, in partnership with **Partners Comunicação Pro Business**.\n            * Created a **dynamic and visually captivating** platform with **WordPress** and **Elementor**, integrating customized elements.\n            * Focused on ensuring **prominence and accessibility to technical details**, resulting in an **impactful and efficient** user experience for the audience.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/orbitae.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://web.archive.org/web/20210517192720/https://orbitae.com.br/",
+      "startDate": "2019-01-31",
+      "endDate": "2019-08-31"
+    },
+    {
+      "name": "Blog Banco da Amazônia",
+      "description": "\n            * Development and maintenance of the **News and Utilities blog for Banco da Amazônia**, in partnership with **Partners Comunicação Pro Business**.\n            * Created and customized elements with **WordPress** and **Elementor**, ensuring **visual identity** and **optimizing user experience**.\n            * Involved in **layout structuring and responsiveness**, contributing to **effective and accessible communication** of the Bank's information.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/blog-banco-da-amazonia.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://web.archive.org/web/20211229163534/https://basablog.com.br/",
+      "startDate": "2019-12-31",
+      "endDate": "2019-12-31"
+    },
+    {
+      "name": "Habitat Group",
+      "description": "\n            * **Complete website development** for the veterinary clinic **Habitat Group**, using **WordPress** and **Elementor**.\n            * Created a **friendly and personalized interface** to facilitate access to services, professional qualification, and a **consultation scheduling system**.\n            * Focused on providing an **intuitive and efficient user experience**, reflecting the clinic's commitment to quality of service.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/habitat-group.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://web.archive.org/web/20220110082741/https://habitatgroup.com.br/",
+      "startDate": "2019-12-31",
+      "endDate": "2019-12-31"
+    },
+    {
+      "name": "Cocks Skate",
+      "description": "\n            * **E-commerce development and optimization** for **\"Cocks Skate\"**, using **WordPress, WooCommerce**, and **Elementor** with customized elements.\n            * Created a **personalized and intuitive shopping experience**, with easy navigation and product search.\n            * Implemented **complete e-commerce functionalities**, an **attractive and responsive design**, aiming to **boost sales** and cater to the skateboarding audience.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/cocks-skate.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://web.archive.org/web/20211226170044/https://cocksskate.com.br/",
+      "startDate": "2018-12-31",
+      "endDate": "2018-12-31"
+    },
+    {
+      "name": "Don Desenvolvimento",
+      "description": "\n            * Performed **layout changes and specific maintenance** on the **Don Desenvolvimento** website.\n            * Utilized **WordPress** and **Vue.js** for **adaptation and optimization of the existing design**, and implementation of **new interactive functionalities**.\n            * Responsible for **efficient problem and bug resolution**, ensuring the site's **stability and proper functioning**.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/don-desenvolvimento.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://web.archive.org/web/20181224004334/http://dondesenvolvimento.com.br/",
+      "startDate": "2018-12-31",
+      "endDate": "2018-12-31"
+    },
+    {
+      "name": "Eiriz Saúde",
+      "description": "\n            * **Conception and exclusive development** of a **WordPress** system for the dental clinic **Eiriz Saúde** (Porto, Portugal).\n            * Focused on **enhancing user experience and online service efficiency**, with **advanced content management** and **fluid interaction**.\n            * Ensured **accurate service presentation** and **effective information transmission**, providing a **complete and informative online experience**.\n          ",
+      "highlights": [
+        "Labscript.dev"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/eiriz-saude.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "http://eiriz-saude.unbox.pt",
+      "startDate": "2018-12-31",
+      "endDate": "2018-12-31"
+    },
+    {
+      "name": "Águas do Acuruí",
+      "description": "\n            * **Complete and personalized website development** for the city of **Águas do Acuruí**, using **WordPress**.\n            * Built an **exclusive and custom-made theme**, reflecting the **city's unique identity** and aiming to promote the region in a **captivating and informative** way.\n            * Planned and implemented design and functionalities to highlight **authenticity and strengths**, providing a **unique and engaging online experience** for visitors.\n          ",
+      "highlights": [
+        "Agência de Criação"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/aguas-do-acurui.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://web.archive.org/web/20210302055106/http://aguasdoacurui.com.br/",
+      "startDate": "2017-12-31",
+      "endDate": "2017-12-31"
+    },
+    {
+      "name": "Cantor Beto Santos",
+      "description": "\n            * **Complete website development** for **Singer Beto Santos**, including a **custom CMS with unique features**.\n            * Created an **integrated music player** with an intuitive **upload and playback system via the administrative panel**.\n            * Highlighted the strategic design of playback controls, ensuring a **fluid and uninterrupted user experience** during navigation.\n          ",
+      "highlights": [
+        "Agência de Criação"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/cantor-beto-santos.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://web.archive.org/web/20211127021144/http://betosantos.net/",
+      "startDate": "2017-12-31",
+      "endDate": "2017-12-31"
+    },
+    {
+      "name": "Estrela Rural",
+      "description": "\n            * **Development and implementation** of a **fully customized CMS and auction system** for **Estrela Rural**.\n            * Conceived and built a **complete solution**, based on a customized platform, optimizing **content administration** and **online auction execution**.\n            * Delivered significant value and **improved the efficiency of the client's management and business processes**.\n          ",
+      "highlights": [
+        "Agência de Criação"
+      ],
+      "meta": {
+        "images": []
+      },
+      "url": "https://web.archive.org/web/20220110211402/http://estrelarural.com.br/",
+      "startDate": "2012-12-31",
+      "endDate": "2012-12-31"
+    },
+    {
+      "name": "ASSEMG",
+      "description": "\n            * **Development and adaptation of an exclusive CMS** for the **ASSEMG** website, focused on the **association's specific needs**.\n            * Created an **efficient and functional** platform with tools for **internal management, secure communication, and personalized interaction** among members.\n            * Ensured a **unique user experience** and **added value** to resource management and the online associative experience.\n          ",
+      "highlights": [
+        "Agência de Criação"
+      ],
+      "meta": {
+        "images": [
+          {
+            "file": "https://jeff-silva.github.io/jeff-silva/assets/projects/assemg.jpg",
+            "name": ""
+          }
+        ]
+      },
+      "url": "https://web.archive.org/web/20170612004919/http://assemg.org/",
+      "startDate": "2012-12-31",
+      "endDate": "2012-12-31"
+    },
+    {
+      "name": "Safe Register Car",
+      "description": "\n            * **Fullstack** participation in the construction of **Safe Register Car** (Tecnol), optimizing the submission of **vehicle documentation to insurance companies** nationwide.\n            * Development of an **intuitive user interface** with **Vue.js** (frontend) for efficient document submission.\n            * Backend with **Laravel** for application logic, **data management, and communication with insurance companies**, contributing to an **agile and effective workflow**.\n          ",
+      "highlights": [],
+      "meta": {
+        "images": []
+      },
+      "url": "https://saferegistercar.com.br",
+      "startDate": "2023-12-15",
+      "endDate": "2024-06-01"
+    },
+    {
+      "name": "Tecnohub",
+      "description": "\n            * **Fullstack** participation in the construction and evolution of **Tecnohub** (Tecnol), a centralized platform to **optimize communication and interaction** among stakeholders.\n            * Development of **functionalities** to facilitate information flow and **collaboration**, with **intuitive interfaces** (frontend) for different types of users.\n            * On the backend, I created **business logic and APIs** to **integrate various services**, ensuring **efficient and transparent communication** within the Tecnol ecosystem.\n          ",
+      "highlights": [],
+      "meta": {
+        "images": []
+      },
+      "startDate": "2023-12-15",
+      "endDate": "2024-06-01"
+    }
+  ]
+}

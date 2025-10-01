@@ -1,6 +1,6 @@
 ╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 ║ JEFERSON SILVA                                                                                                       ║
-║ FULLSTACK SÊNIOR | AI | TECH LEAD | LARAVEL | VUE.JS | DOCKER | NODE.JS | NEST.JS                                    ║
+║ SENIOR FULLSTACK | AI | TECH LEAD | LARAVEL | VUE.JS | DOCKER | NODE.JS | NEST.JS                                    ║
 ║ -------------------------------------------------------------------------------------------------------------------  ║
 ║                                                                                                                      ║
 ║ Localização:                                                                                                         ║
@@ -29,27 +29,27 @@
 │ RESUMO                                                                                                               │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ **Desenvolvedor Full-stack** com **14 anos** de experiência em arquitetura escalável, microservices e cloud.         │
+│ **Full-stack Developer** with **14 years** of experience in scalable architecture, microservices, and cloud.         │
 │                                                                                                                      │
-│ Stack principal:                                                                                                     │
+│ Main stack:                                                                                                          │
 │                                                                                                                      │
 │ - Frontend: **Vue.js 3, Nuxt 4, Vuetify 3, React.js, Next.js, Tailwind**;                                            │
 │ - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;                                                              │
-│ - Database: **MySQL, PostgreSQL, Firebase (Realtime e Firestore)**;                                                  │
+│ - Database: **MySQL, PostgreSQL, Firebase (Realtime and Firestore)**;                                                │
 │ - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.             │
 │                                                                                                                      │
-│ Busco oportunidades como **Líder técnico** / desenvolvedor **Full Stack**, com foco em arquitetura escalável,        │
-│ **microservices**, **CI/CD**, **AI** e **cloud computing**.                                                          │
+│ Seeking opportunities as a **Technical Leader** / **Full Stack** developer, with a focus on scalable architecture,   │
+│ **microservices**, **CI/CD**, **AI**, and **cloud computing**.                                                       │
 │                                                                                                                      │
 └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │ SKILLS                                                                                                               │
 │ -------------------------------------------------------------------------------------------------------------------  │
-│ AdonisJS, Arquitetura MVC, Babylon, Bootstrap, Cálculos geospaciais, Clean Architecture, Clean Code, Composer,       │
-│ CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Electron, Elementor, Express.js,  │
-│ Firebase, Git, Google Cloud Platform, GraphQL, HTML5, Integração AI, Javascript, JQuery, JWT, Kafka, Keycloak,       │
-│ Laravel, LESS, Linux, Mapas, MongoDB, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Otimização de página, Pagseguro,  │
+│ AdonisJS, AI Integration, Babylon, Bootstrap, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design     │
+│ Patterns, Docker, Docker Compose, Documentation, DynamoDB, Electron, Elementor, Express.js, Firebase, Geospatial     │
+│ calculations, Git, Google Cloud Platform, GraphQL, HTML5, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS,   │
+│ Linux, Maps, MongoDB, MVC Architecture, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Page Optimization, Pagseguro,   │
 │ PHP, PostgreSQL, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, REST APIs, SASS, Scrum,  │
 │ SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility,     │
 │ WooCommerce, WordPress e YARN.                                                                                       │
@@ -63,141 +63,138 @@
 │ CARDCOM | TECH LEAD | 12/2023 ~ 08/2025                                                                              │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ Sistema de Pedidos de Crachás.                                                                                       │
+│ Badge Order System.                                                                                                  │
 │                                                                                                                      │
-│ **Responsabilidades**                                                                                                │
+│ **Responsibilities**                                                                                                 │
 │                                                                                                                      │
-│ * Conduzi a migração do backend de Laravel 4.2 para **Nest.js 11**, modernizando APIs e documentando endpoints via   │
+│ * Led the backend migration from Laravel 4.2 to **Nest.js 11**, modernizing APIs and documenting endpoints via       │
 │ **Swagger**.                                                                                                         │
-│ * Estruturei a separação em **frontend** + **backend** desacoplados, com módulos independentes e comunicação via     │
-│ **RabbitMQ**.                                                                                                        │
-│ * **Reestruturei** o fluxo de pedidos, créditos e entregas, criando um painel administrativo robusto para clientes   │
-│ e setores internos.                                                                                                  │
-│ * Implementei um sistema de **permissões multinível** com papéis, funções e hierarquia de acesso.                    │
+│ * Structured the separation into decoupled **frontend** + **backend**, with independent modules and communication    │
+│ via **RabbitMQ**.                                                                                                    │
+│ * **Restructured** the order, credit, and delivery flow, creating a robust administrative panel for clients and      │
+│ internal departments.                                                                                                │
+│ * Implemented a **multi-level permissions system** with roles, functions, and access hierarchy.                      │
 │                                                                                                                      │
-│ **Resultados**                                                                                                       │
+│ **Results**                                                                                                          │
 │                                                                                                                      │
-│ * Aumento de **performance** e redução de custos operacionais com a adoção de **Node.js** e bibliotecas otimizadas.  │
-│ * Melhoria significativa da **segurança e governança** de acessos, reduzindo riscos de uso indevido.                 │
-│ * Habilitei clientes a integrarem seus próprios sistemas via API, possibilitando **automação** de pedidos e ganho    │
-│ de **produtividade**.                                                                                                │
-│ * Deixei a base arquitetural pronta para evoluir para **microservices**, garantindo escalabilidade futura.           │
+│ * Increased **performance** and reduced operational costs with the adoption of **Node.js** and optimized libraries.  │
+│ * Significant improvement in access **security and governance**, reducing risks of misuse.                           │
+│ * Enabled clients to integrate their own systems via API, allowing order **automation** and **productivity** gains.  │
+│ * Left the architectural foundation ready to evolve into **microservices**, ensuring future scalability.             │
 │                                                                                                                      │
-│ **Tecnologias**                                                                                                      │
+│ **Technologies**                                                                                                     │
 │ Laravel, PHP, Angular, Node.js, Nest.js 11, Vue 3, Nuxt 4, Vuetify 3, MySQL, SQlite 3, OpenAPI, Swagger, RabbitMQ.   │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ SEARCH AND STAY | DEV FULLSTACK | 12/2022 ~ 11/2023                                                                  │
+│ SEARCH AND STAY | FULLSTACK DEVELOPER | 12/2022 ~ 11/2023                                                            │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ Plataforma de Aluguel de Imóveis por Temporada na Austrália.                                                         │
+│ Seasonal Property Rental Platform in Australia.                                                                      │
 │                                                                                                                      │
-│ **Responsabilidades**                                                                                                │
+│ **Responsibilities**                                                                                                 │
 │                                                                                                                      │
-│ * Desenvolvi plugin **WordPress** que consumia imóveis via **REST API**, permitindo exibição automática em sites de  │
-│ proprietários.                                                                                                       │
-│ * Criei tema **WordPress** customizável, eliminando a necessidade de código manual para apresentação de imóveis.     │
-│ * Contribuí para a manutenção da **REST API** da plataforma, corrigindo bugs e implementando integrações.            │
-│ * Apoiei melhorias e correções no **frontend**, garantindo **estabilidade e usabilidade**.                           │
+│ * Developed a **WordPress** plugin that consumed properties via **REST API**, allowing automatic display on owner    │
+│ websites.                                                                                                            │
+│ * Created a customizable **WordPress** theme, eliminating the need for manual code for property presentation.        │
+│ * Contributed to the maintenance of the platform&#x27;s **REST API**, fixing bugs and implementing integrations.     │
+│ * Supported improvements and corrections in the **frontend**, ensuring **stability and usability**.                  │
 │                                                                                                                      │
-│ **Resultados**                                                                                                       │
+│ **Results**                                                                                                          │
 │                                                                                                                      │
-│ * Entreguei funcionalidades e correções dentro dos prazos definidos, com foco em **código limpo e escalabilidade**.  │
-│ * Reduzi esforço de manutenção ao aplicar **padrões de arquitetura e boas práticas**.                                │
-│ * Facilitei a expansão futura da plataforma, criando soluções reutilizáveis e flexíveis.                             │
+│ * Delivered features and corrections within defined deadlines, focusing on **clean code and scalability**.           │
+│ * Reduced maintenance effort by applying **architecture patterns and best practices**.                               │
+│ * Facilitated future platform expansion by creating reusable and flexible solutions.                                 │
 │                                                                                                                      │
-│ **Tecnologias**                                                                                                      │
+│ **Technologies**                                                                                                     │
 │ Laravel, PHP, Vue 3, Vuetify 3, Wordpress Plugin, Wordpress Theme.                                                   │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ LISTRA | DEV FULLSTACK | 10/2020 ~ 04/2022                                                                           │
+│ LISTRA | FULLSTACK DEVELOPER | 10/2020 ~ 04/2022                                                                     │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ Agência de marketing.                                                                                                │
+│ Marketing agency.                                                                                                    │
 │                                                                                                                      │
-│ **Responsabilidades**                                                                                                │
-│ * Desenvolvi a calculadora “Assinar ou Comprar?”, parceria entre Samy Dana e Unidas, que orientava usuários entre    │
-│ comprar ou alugar um carro e os direcionava automaticamente para a plataforma da Unidas.                             │
-│ * Implementei melhorias no filtro de veículos da Unidas Seminovos, incluindo parâmetros complexos e busca por        │
-│ geolocalização.                                                                                                      │
-│ * Desenvolvi e mantive soluções web para clientes como Unidas, EPA e Mineirão, com foco em escalabilidade e          │
-│ experiência do usuário.                                                                                              │
+│ **Responsibilities**                                                                                                 │
+│ * Developed the “Subscribe or Buy?” calculator, a partnership between Samy Dana and Unidas, which guided users       │
+│ between buying or renting a car and automatically directed them to the Unidas platform.                              │
+│ * Implemented improvements in Unidas Seminovos&#x27; vehicle filter, including complex parameters and geolocation    │
+│ search.                                                                                                              │
+│ * Developed and maintained web solutions for clients such as Unidas, EPA, and Mineirão, focusing on scalability and  │
+│ user experience.                                                                                                     │
 │                                                                                                                      │
-│ **Resultados**                                                                                                       │
-│ * Aumentei o engajamento e a geração de leads para a Unidas por meio da calculadora interativa.                      │
-│ * Melhorei a experiência de busca de veículos, reduzindo o tempo de resposta e tornando os filtros mais eficientes.  │
-│ * Elevei a qualidade do código e a escalabilidade das aplicações, garantindo entregas consistentes dentro dos        │
-│ prazos.                                                                                                              │
+│ **Results**                                                                                                          │
+│ * Increased engagement and lead generation for Unidas through the interactive calculator.                            │
+│ * Improved vehicle search experience, reducing response time and making filters more efficient.                      │
+│ * Raised code quality and application scalability, ensuring consistent deliveries within deadlines.                  │
 │                                                                                                                      │
-│ **Tecnologias**                                                                                                      │
+│ **Technologies**                                                                                                     │
 │ Laravel, PHP, CakePHP, Rest API, Open API, Swagger, Vue 3, Vuetify 3, Nuxt 3, React, Python, Wordpress Plugin,       │
 │ Wordpress Theme.                                                                                                     │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ CODIFICAR SISTEMAS TECNOLÓGICOS | DEV FULLSTACK | 02/2017 ~ 10/2017                                                  │
+│ CODIFICAR SISTEMAS TECNOLÓGICOS | FULLSTACK DEVELOPER | 02/2017 ~ 10/2017                                            │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * Atuação **Fullstack** (Vue.js, React.js, Laravel) no desenvolvimento e implementação de **sistemas web             │
-│ diversos**.                                                                                                          │
-│ * **Expertise em integrações com APIs externas**, incluindo a API da Google para sincronização de agendas e          │
-│ calendários.                                                                                                         │
-│ * Colaboração em equipe para desenvolver **funcionalidades complexas** em diferentes projetos web.                   │
+│ * **Fullstack** (Vue.js, React.js, Laravel) work in the development and implementation of **various web systems**.   │
+│ * **Expertise in integrations with external APIs**, including Google&#x27;s API for agenda and calendar              │
+│ synchronization.                                                                                                     │
+│ * Team collaboration to develop **complex functionalities** in different web projects.                               │
 │                                                                                                                      │
-│ **Tecnologias**                                                                                                      │
+│ **Technologies**                                                                                                     │
 │ Laravel, PHP, Codeigniter, Vue 3, Angular, React.js, Python, Rest API, OpenAPI.                                      │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ AGÊNCIA DE CRIAÇÃO | DEV FULLSTACK | 01/2015 ~ 02/2017                                                               │
+│ AGÊNCIA DE CRIAÇÃO | FULLSTACK DEVELOPER | 01/2015 ~ 02/2017                                                         │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ Sistemas internos vendidos pela agência                                                                              │
+│ Internal systems sold by the agency                                                                                  │
 │                                                                                                                      │
-│ **Responsabilidades**                                                                                                │
-│ * Desenvolvi um CMS proprietário comercializado pela agência, projetado para atender múltiplos clientes.             │
-│ * Estruturei o sistema de forma modular, permitindo a instalação sob demanda de funcionalidades específicas          │
-│ conforme a necessidade de cada projeto.                                                                              │
+│ **Responsibilities**                                                                                                 │
+│ * Developed a proprietary CMS commercialized by the agency, designed to serve multiple clients.                      │
+│ * Structured the system modularly, allowing on-demand installation of specific functionalities according to each     │
+│ project&#x27;s needs.                                                                                                │
 │                                                                                                                      │
-│ **Resultados**                                                                                                       │
-│ * Aumentei a satisfação dos clientes, entregando aplicações com maior fluidez, rapidez e usabilidade.                │
-│ * Reduzi o tempo de implantação para a equipe técnica, simplificando o processo de instalação e manutenção.          │
+│ **Results**                                                                                                          │
+│ * Increased customer satisfaction by delivering applications with greater fluidity, speed, and usability.            │
+│ * Reduced deployment time for the technical team, simplifying the installation and maintenance process.              │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ CUSHMAN &amp; WAKEFIELD | DEV FULLSTACK | 05/2012 ~ 11/2013                                                          │
+│ CUSHMAN &amp; WAKEFIELD | FULLSTACK DEVELOPER | 05/2012 ~ 11/2013                                                    │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ Empresa terceirizada da Vale do Rio Doce, conversão de planilhas **Excel** para sistemas.                            │
+│ Outsourced company for Vale do Rio Doce, converting **Excel** spreadsheets to systems.                               │
 │                                                                                                                      │
-│ **Responsabilidades**                                                                                                │
-│ * Convergi sistemas baseados em planilhas **Excel** para aplicações web, utilizando **PHP**, **JavaScript**.         │
-│ * Desenvolvi interfaces otimizadas para entrada de dados, com soluções automatizadas e responsivas.                  │
+│ **Responsibilities**                                                                                                 │
+│ * Converted **Excel** spreadsheet-based systems to web applications, using **PHP**, **JavaScript**.                  │
+│ * Developed optimized data entry interfaces, with automated and responsive solutions.                                │
 │                                                                                                                      │
-│ **Resultados**                                                                                                       │
-│ * Eliminei perdas recorrentes de dados causadas por corrupção de arquivos **Excel**.                                 │
-│ * Habilitei colaboração simultânea entre equipes, aumentando a eficiência da engenharia.                             │
-│ * Reduzi significativamente o tempo de preenchimento de dados com uma interface inteligente baseada em **curva de    │
-│ Gauss**, que recebeu feedback positivo dos usuários.                                                                 │
+│ **Results**                                                                                                          │
+│ * Eliminated recurrent data losses caused by **Excel** file corruption.                                              │
+│ * Enabled simultaneous collaboration among teams, increasing engineering efficiency.                                 │
+│ * Significantly reduced data entry time with an intelligent interface based on a **Gaussian curve**, which received  │
+│ positive user feedback.                                                                                              │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ NETRANET NETWORKING | DEV FULLSTACK | 01/2011 ~ 01/2012                                                              │
+│ NETRANET NETWORKING | FULLSTACK DEVELOPER | 01/2011 ~ 01/2012                                                        │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Liderança** no desenvolvimento e implementação de um **CMS proprietário** (PHP, JavaScript, MySQL), que          │
-│ **aumentou o controle** sobre o código-fonte e a **flexibilidade** na entrega de soluções personalizadas,            │
-│ **agilizando a resolução de problemas**.                                                                             │
+│ * **Leadership** in the development and implementation of a **proprietary CMS** (PHP, JavaScript, MySQL), which      │
+│ **increased control** over source code and **flexibility** in delivering customized solutions, **streamlining        │
+│ problem-solving**.                                                                                                   │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ WEB BH ESCOLA DE INFORMÁTICA | INSTRUTOR | 01/2010 ~ 01/2011                                                         │
+│ WEB BH ESCOLA DE INFORMÁTICA | INSTRUCTOR | 01/2010 ~ 01/2011                                                        │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * Atuação como instrutor de desenvolvimento web (PHP, MySQL, Javascript, HTML/CSS), capacitando alunos em diversas   │
-│ tecnologias e aprimorando **habilidades de comunicação, didática e liderança técnica**.                              │
+│ * Served as a web development instructor (PHP, MySQL, Javascript, HTML/CSS), training students in various            │
+│ technologies and improving **communication, teaching, and technical leadership skills**.                             │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 
@@ -210,12 +207,12 @@
 │ https://searchandstay.com                                                                                            │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Evolução contínua** do sistema **Search and Stay**, com desenvolvimento de **novas funcionalidades** e           │
-│ **resolução eficiente de bugs**.                                                                                     │
-│ * Atuação **Fullstack**, construindo interfaces dinâmicas e responsivas com **Vue.js** e **Nuxt.js** (frontend) e    │
-│ backend **robusto e escalável** com **Laravel**.                                                                     │
-│ * Experiência em **integração e personalização de plugin WordPress** para requisitos específicos do sistema,         │
-│ garantindo **alta qualidade e performance**.                                                                         │
+│ * **Continuous evolution** of the **Search and Stay** system, with the development of **new functionalities** and    │
+│ **efficient bug resolution**.                                                                                        │
+│ * **Fullstack** work, building dynamic and responsive interfaces with **Vue.js** and **Nuxt.js** (frontend) and a    │
+│ **robust and scalable** backend with **Laravel**.                                                                    │
+│ * Experience in **integrating and customizing WordPress plugins** for specific system requirements, ensuring **high  │
+│ quality and performance**.                                                                                           │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -223,10 +220,10 @@
 │ https://corapost.com                                                                                                 │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * Desenvolvimento da **interface do usuário (UI) funcional e responsiva** para o projeto **Corapost**, com base em   │
-│ design de Figma.                                                                                                     │
-│ * Utilização de **Vue.js, HTML, CSS e JavaScript** para criar um **plugin WordPress** que transformou o design em    │
-│ um frontend completo.                                                                                                │
+│ * Development of the **functional and responsive user interface (UI)** for the **Corapost** project, based on Figma  │
+│ design.                                                                                                              │
+│ * Utilized **Vue.js, HTML, CSS, and JavaScript** to create a **WordPress plugin** that transformed the design into   │
+│ a complete frontend.                                                                                                 │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -234,10 +231,10 @@
 │ https://onovomercado.com/                                                                                            │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Desenvolvimento frontend** da plataforma interna de vídeos e hub de profissionais **"O Novo Mercado"**.          │
-│ * Construção de uma **interface de usuário intuitiva, responsiva e atraente** com **Vue.js** e **Vuetify**.          │
-│ * Otimização da **performance** da aplicação para garantir uma **experiência fluida e eficiente**, contribuindo      │
-│ diretamente para o **engajamento dos usuários**.                                                                     │
+│ * **Frontend development** for the internal video platform and professional hub **"O Novo Mercado"**.                │
+│ * Built an **intuitive, responsive, and attractive user interface** with **Vue.js** and **Vuetify**.                 │
+│ * Optimized application **performance** to ensure a **fluid and efficient experience**, directly contributing to     │
+│ **user engagement**.                                                                                                 │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -248,12 +245,12 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/assinar-ou-comprar.jpg                                       │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * Desenvolvimento **Fullstack** (Laravel, Vue.js, Element UI) da **calculadora estratégica "Assinar ou Comprar"**,   │
-│ em parceria com **Unidas e Samy Dana**.                                                                              │
-│ * Implementação de **lógica de cálculo complexa** para auxiliar usuários na decisão de comprar ou alugar um carro,   │
-│ garantindo **precisão e intuitividade**.                                                                             │
-│ * Responsável por apresentar resultados de forma **clara e acessível**, **impactando diretamente na tomada de        │
-│ decisão informada** sobre mobilidade.                                                                                │
+│ * **Fullstack development** (Laravel, Vue.js, Element UI) of the **strategic calculator "Subscribe or Buy"**, in     │
+│ partnership with **Unidas and Samy Dana**.                                                                           │
+│ * Implemented **complex calculation logic** to assist users in deciding whether to buy or rent a car, ensuring       │
+│ **precision and intuitiveness**.                                                                                     │
+│ * Responsible for presenting results in a **clear and accessible** way, **directly impacting informed                │
+│ decision-making** on mobility.                                                                                       │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -261,12 +258,12 @@
 │ https://web.archive.org/web/20220130172103/https://www.samarco.com/                                                  │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Liderança no desenvolvimento e implementação** de um **Gerenciador de Conteúdo** para a **Samarco**, em          │
-│ colaboração com a Digital Pixel.                                                                                     │
-│ * Criação de um sistema dinâmico e versátil utilizando **WordPress** e **Elementor**, **simplificando a              │
-│ administração** de conteúdo e **otimizando a comunicação digital**.                                                  │
-│ * Foco na **facilidade de uso** para o cliente e entrega de uma **experiência de usuário aprimorada** através de     │
-│ design e interatividade.                                                                                             │
+│ * **Leadership in the development and implementation** of a **Content Manager** for **Samarco**, in collaboration    │
+│ with Digital Pixel.                                                                                                  │
+│ * Created a dynamic and versatile system using **WordPress** and **Elementor**, **simplifying content                │
+│ administration** and **optimizing digital communication**.                                                           │
+│ * Focused on **ease of use** for the client and delivered an **enhanced user experience** through design and         │
+│ interactivity.                                                                                                       │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -274,11 +271,11 @@
 │ https://web.archive.org/web/20220131193706/https://faveni.edu.br/                                                    │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Estilização avançada e customização** do tema da **Faculdade Faveni** em plataforma **WordPress Multisite**.     │
-│ * Adaptação visual e funcional do tema para atender **múltiplos sites da rede**, garantindo identidade visual e      │
-│ **aprimorando a experiência do usuário**.                                                                            │
-│ * Otimização de **CSS** e manipulação de funcionalidades via **hooks e filtros do WordPress** para consistência e    │
-│ performance da rede Multisite.                                                                                       │
+│ * **Advanced styling and customization** of the **Faculdade Faveni** theme on a **WordPress Multisite** platform.    │
+│ * Visual and functional adaptation of the theme to serve **multiple network sites**, ensuring visual identity and    │
+│ **enhancing user experience**.                                                                                       │
+│ * Optimized **CSS** and manipulated functionalities via **WordPress hooks and filters** for Multisite network        │
+│ consistency and performance.                                                                                         │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -291,12 +288,12 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/mandui-03.jpg                                                │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Desenvolvimento completo do website** da **Escola Infantil Manduí**, refletindo seu ambiente acolhedor e         │
-│ abordagem educacional.                                                                                               │
-│ * Frontend construído com **Nuxt 3, Vue 3 e Vuetify 3**, garantindo uma **experiência interativa e informativa**     │
-│ para pais.                                                                                                           │
-│ * Backend com **interface intuitiva e painel lateral dinâmico** para edição de elementos, utilizando persistência    │
-│ de dados via **Firebase**, assegurando **escalabilidade e eficiência**.                                              │
+│ * **Complete website development** for the **Manduí Preschool**, reflecting its welcoming environment and            │
+│ educational approach.                                                                                                │
+│ * Frontend built with **Nuxt 3, Vue 3, and Vuetify 3**, ensuring an **interactive and informative experience** for   │
+│ parents.                                                                                                             │
+│ * Backend with an **intuitive interface and dynamic side panel** for element editing, using data persistence via     │
+│ **Firebase**, ensuring **scalability and efficiency**.                                                               │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -306,12 +303,12 @@
 │ Preview(s):                                                                                                          │
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/orbitae.jpg                                                  │
 │ -------------------------------------------------------------------------------------------------------------------  │
-│ * Desenvolvimento de **apresentações de produtos especializados em perícia forense**, em parceria com a **Partners   │
-│ Comunicação Pro Business**.                                                                                          │
-│ * Criação de plataforma **dinâmica e visualmente cativante** com **WordPress** e **Elementor**, integrando           │
-│ elementos personalizados.                                                                                            │
-│ * Foco em garantir **destaque e acessibilidade aos detalhes técnicos**, resultando em uma experiência de usuário     │
-│ **impactante e eficiente** para o público.                                                                           │
+│ * Development of **specialized forensic product presentations**, in partnership with **Partners Comunicação Pro      │
+│ Business**.                                                                                                          │
+│ * Created a **dynamic and visually captivating** platform with **WordPress** and **Elementor**, integrating          │
+│ customized elements.                                                                                                 │
+│ * Focused on ensuring **prominence and accessibility to technical details**, resulting in an **impactful and         │
+│ efficient** user experience for the audience.                                                                        │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -322,12 +319,12 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/blog-banco-da-amazonia.jpg                                   │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * Desenvolvimento e manutenção do **blog de Notícias e Utilidades do Banco da Amazônia**, em parceria com a          │
+│ * Development and maintenance of the **News and Utilities blog for Banco da Amazônia**, in partnership with          │
 │ **Partners Comunicação Pro Business**.                                                                               │
-│ * Criação e customização de elementos com **WordPress** e **Elementor**, garantindo a **identidade visual** e        │
-│ **otimizando a experiência do usuário**.                                                                             │
-│ * Atuação na **estruturação do layout e responsividade**, contribuindo para uma **comunicação eficaz e acessível**   │
-│ das informações do Banco.                                                                                            │
+│ * Created and customized elements with **WordPress** and **Elementor**, ensuring **visual identity** and             │
+│ **optimizing user experience**.                                                                                      │
+│ * Involved in **layout structuring and responsiveness**, contributing to **effective and accessible communication**  │
+│ of the Bank's information.                                                                                           │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -338,12 +335,12 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/habitat-group.jpg                                            │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Desenvolvimento completo do website** da clínica veterinária **Habitat Group**, utilizando **WordPress** e       │
+│ * **Complete website development** for the veterinary clinic **Habitat Group**, using **WordPress** and              │
 │ **Elementor**.                                                                                                       │
-│ * Criação de uma **interface amigável e personalizada** para facilitar o acesso a serviços, qualificação de          │
-│ profissionais e **sistema de agendamento de consultas**.                                                             │
-│ * Foco em proporcionar uma **experiência de usuário intuitiva e eficiente**, refletindo o compromisso da clínica     │
-│ com a qualidade de atendimento.                                                                                      │
+│ * Created a **friendly and personalized interface** to facilitate access to services, professional qualification,    │
+│ and a **consultation scheduling system**.                                                                            │
+│ * Focused on providing an **intuitive and efficient user experience**, reflecting the clinic's commitment to         │
+│ quality of service.                                                                                                  │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -354,12 +351,11 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/cocks-skate.jpg                                              │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Desenvolvimento e otimização de e-commerce** para **"Cocks Skate"**, utilizando **WordPress, WooCommerce** e     │
-│ **Elementor** com elementos customizados.                                                                            │
-│ * Criação de uma **experiência de compra personalizada e intuitiva**, com navegação e busca de produtos              │
-│ facilitadas.                                                                                                         │
-│ * Implementação de **funcionalidades de e-commerce completas**, design **atraente e responsivo**, visando            │
-│ **impulsionar as vendas** e atender o público skatista.                                                              │
+│ * **E-commerce development and optimization** for **"Cocks Skate"**, using **WordPress, WooCommerce**, and           │
+│ **Elementor** with customized elements.                                                                              │
+│ * Created a **personalized and intuitive shopping experience**, with easy navigation and product search.             │
+│ * Implemented **complete e-commerce functionalities**, an **attractive and responsive design**, aiming to **boost    │
+│ sales** and cater to the skateboarding audience.                                                                     │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -370,11 +366,11 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/don-desenvolvimento.jpg                                      │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * Realizei **alterações de layout e manutenções pontuais** no website da **Don Desenvolvimento**.                    │
-│ * Utilização de **WordPress** e **Vue.js** para **adaptação e otimização do design existente**, e implementação de   │
-│ **novas funcionalidades interativas**.                                                                               │
-│ * Responsável pela **resolução eficiente de problemas e bugs**, garantindo a **estabilidade e o bom funcionamento**  │
-│ do site.                                                                                                             │
+│ * Performed **layout changes and specific maintenance** on the **Don Desenvolvimento** website.                      │
+│ * Utilized **WordPress** and **Vue.js** for **adaptation and optimization of the existing design**, and              │
+│ implementation of **new interactive functionalities**.                                                               │
+│ * Responsible for **efficient problem and bug resolution**, ensuring the site's **stability and proper               │
+│ functioning**.                                                                                                       │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -385,12 +381,12 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/eiriz-saude.jpg                                              │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Concepção e desenvolvimento exclusivo** de um sistema **WordPress** para a clínica odontológica **Eiriz Saúde**  │
-│ (Porto, Portugal).                                                                                                   │
-│ * Foco em **aprimorar a experiência do usuário e a eficiência dos serviços online**, com **gerenciamento de          │
-│ conteúdo avançado** e **interação fluida**.                                                                          │
-│ * Garantiu a **apresentação precisa de serviços** e a **transmissão eficaz de informações**, proporcionando uma      │
-│ **experiência online completa e informativa**.                                                                       │
+│ * **Conception and exclusive development** of a **WordPress** system for the dental clinic **Eiriz Saúde** (Porto,   │
+│ Portugal).                                                                                                           │
+│ * Focused on **enhancing user experience and online service efficiency**, with **advanced content management** and   │
+│ **fluid interaction**.                                                                                               │
+│ * Ensured **accurate service presentation** and **effective information transmission**, providing a **complete and   │
+│ informative online experience**.                                                                                     │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -401,12 +397,11 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/aguas-do-acurui.jpg                                          │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Desenvolvimento completo e personalizado** do website para a cidade de **Águas do Acuruí**, utilizando           │
-│ **WordPress**.                                                                                                       │
-│ * Construção de um **tema exclusivo e sob medida**, refletindo a **identidade singular da cidade** e visando         │
-│ promover a região de forma **cativante e informativa**.                                                              │
-│ * Planejamento e implementação de design e funcionalidades para destacar a **autenticidade e os pontos fortes**,     │
-│ proporcionando uma **experiência online única e envolvente** aos visitantes.                                         │
+│ * **Complete and personalized website development** for the city of **Águas do Acuruí**, using **WordPress**.        │
+│ * Built an **exclusive and custom-made theme**, reflecting the **city's unique identity** and aiming to promote the  │
+│ region in a **captivating and informative** way.                                                                     │
+│ * Planned and implemented design and functionalities to highlight **authenticity and strengths**, providing a        │
+│ **unique and engaging online experience** for visitors.                                                              │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -417,12 +412,11 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/cantor-beto-santos.jpg                                       │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Desenvolvimento completo do website** para o **Cantor Beto Santos**, incluindo um **CMS personalizado com        │
-│ recursos únicos**.                                                                                                   │
-│ * Criação de um **player de música integrado** com sistema intuitivo de **upload e reprodução via painel             │
-│ administrativo**.                                                                                                    │
-│ * Destaque para o design estratégico dos controles de reprodução, garantindo uma **experiência de usuário fluida e   │
-│ ininterrupta** durante a navegação.                                                                                  │
+│ * **Complete website development** for **Singer Beto Santos**, including a **custom CMS with unique features**.      │
+│ * Created an **integrated music player** with an intuitive **upload and playback system via the administrative       │
+│ panel**.                                                                                                             │
+│ * Highlighted the strategic design of playback controls, ensuring a **fluid and uninterrupted user experience**      │
+│ during navigation.                                                                                                   │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -430,11 +424,10 @@
 │ https://web.archive.org/web/20220110211402/http://estrelarural.com.br/                                               │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Desenvolvimento e implementação** de um **CMS e sistema de leilões totalmente personalizados** para a **Estrela  │
-│ Rural**.                                                                                                             │
-│ * Concepção e construção de uma **solução completa**, baseada em plataforma customizada, otimizando a                │
-│ **administração de conteúdo** e a **realização de leilões online**.                                                  │
-│ * Entregou valor significativo e **melhorou a eficiência dos processos de gestão e negócios** do cliente.            │
+│ * **Development and implementation** of a **fully customized CMS and auction system** for **Estrela Rural**.         │
+│ * Conceived and built a **complete solution**, based on a customized platform, optimizing **content                  │
+│ administration** and **online auction execution**.                                                                   │
+│ * Delivered significant value and **improved the efficiency of the client's management and business processes**.     │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -445,12 +438,12 @@
 │ https://jeff-silva.github.io/jeff-silva/assets/projects/assemg.jpg                                                   │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * **Desenvolvimento e adaptação de um CMS exclusivo** para o website da **ASSEMG**, focado nas **necessidades        │
-│ específicas da associação**.                                                                                         │
-│ * Criação de uma plataforma **eficiente e funcional** com ferramentas para **gestão interna, comunicação segura e    │
-│ interação personalizada** entre os membros.                                                                          │
-│ * Garantiu uma **experiência de usuário única** e **agregou valor** à gestão de recursos e à experiência             │
-│ associativa online.                                                                                                  │
+│ * **Development and adaptation of an exclusive CMS** for the **ASSEMG** website, focused on the **association's      │
+│ specific needs**.                                                                                                    │
+│ * Created an **efficient and functional** platform with tools for **internal management, secure communication, and   │
+│ personalized interaction** among members.                                                                            │
+│ * Ensured a **unique user experience** and **added value** to resource management and the online associative         │
+│ experience.                                                                                                          │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -458,23 +451,22 @@
 │ https://saferegistercar.com.br                                                                                       │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * Participação **Fullstack** na construção do **Safe Register Car** (Tecnol), otimizando o envio de **documentação   │
-│ veicular para seguradoras** em nível nacional.                                                                       │
-│ * Desenvolvimento de **interface de usuário intuitiva** com **Vue.js** (frontend) para envio eficiente de            │
-│ documentos.                                                                                                          │
-│ * Backend com **Laravel** para lógica da aplicação, **gerenciamento de dados e comunicação com seguradoras**,        │
-│ contribuindo para um **fluxo de trabalho ágil e eficaz**.                                                            │
+│ * **Fullstack** participation in the construction of **Safe Register Car** (Tecnol), optimizing the submission of    │
+│ **vehicle documentation to insurance companies** nationwide.                                                         │
+│ * Development of an **intuitive user interface** with **Vue.js** (frontend) for efficient document submission.       │
+│ * Backend with **Laravel** for application logic, **data management, and communication with insurance companies**,   │
+│ contributing to an **agile and effective workflow**.                                                                 │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ TECNOHUB | 12/2023 ~ 06/2024 (5 meses)                                                                               │
 │ -------------------------------------------------------------------------------------------------------------------  │
 │                                                                                                                      │
-│ * Participação **Fullstack** na construção e evolução do **Tecnohub** (Tecnol), plataforma centralizada para         │
-│ **otimizar a comunicação e interação** entre stakeholders.                                                           │
-│ * Desenvolvimento de **funcionalidades** para facilitar o fluxo de informações e a **colaboração**, com              │
-│ **interfaces intuitivas** (frontend) para diferentes tipos de usuários.                                              │
-│ * No backend, criei **lógica de negócio e APIs** para **integrar diversos serviços**, garantindo **comunicação       │
-│ eficiente e transparente** no ecossistema Tecnol.                                                                    │
+│ * **Fullstack** participation in the construction and evolution of **Tecnohub** (Tecnol), a centralized platform to  │
+│ **optimize communication and interaction** among stakeholders.                                                       │
+│ * Development of **functionalities** to facilitate information flow and **collaboration**, with **intuitive          │
+│ interfaces** (frontend) for different types of users.                                                                │
+│ * On the backend, I created **business logic and APIs** to **integrate various services**, ensuring **efficient and  │
+│ transparent communication** within the Tecnol ecosystem.                                                             │
 │                                                                                                                      │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯

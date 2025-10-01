@@ -19,5 +19,7 @@
 // })();
 
 import FullstackResume from "./fullstack.resume.js";
-const resume = new FullstackResume();
-resume.generate();
+import FullstackEnResume from "./fullstack-en.resume.js";
+
+new FullstackResume().generate();
+new FullstackEnResume().generate();

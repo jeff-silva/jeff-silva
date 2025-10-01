@@ -17,14 +17,14 @@ export default class JsonResume {
   profile = "";
   data = null;
 
-  constructor() {
-    this.data = this.getData();
+  async init() {
+    this.data = await this.getData();
     this.data.skills = this.data.skills.sort((a, b) => {
       return a.name.localeCompare(b.name, "pt-BR", { sensitivity: "base" });
     });
   }
 
-  getData() {
+  async getData() {
     return {
       $schema: "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/v1.0.0/schema.json",
       meta: {
@@ -390,6 +390,7 @@ export default class JsonResume {
   }
 
   async generate() {
+    await this.init();
     await fs.promises.mkdir(`./docs/profiles/${this.profile}`, { recursive: true });
 
     fs.promises.writeFile(`./docs/index.html`, await edge.render("index", {}));

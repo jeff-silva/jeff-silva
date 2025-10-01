@@ -22,7 +22,7 @@
 
 Stack principal:
 
-- Frontend: **Vue.js, Nuxt 4, React.js, Next.js, Tailwind, Vuetify 3**;
+- Frontend: **Vue.js 3, Nuxt 4, Vuetify 3, React.js, Next.js, Tailwind**;
 - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;
 - Database: **MySQL, PostgreSQL, Firebase (Realtime e Firestore)**;
 - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.
@@ -55,6 +55,9 @@ Sistema de Pedidos de Crachás.
 * Habilitei clientes a integrarem seus próprios sistemas via API, possibilitando **automação** de pedidos e ganho de **produtividade**.
 * Deixei a base arquitetural pronta para evoluir para **microservices**, garantindo escalabilidade futura.
 
+**Tecnologias**
+Laravel, PHP, Angular, Node.js, Nest.js 11, Vue 3, Nuxt 4, Vuetify 3, MySQL, SQlite 3, OpenAPI, Swagger, RabbitMQ.
+
 <br />
 
 ### Search and Stay | Dev Fullstack
@@ -75,6 +78,9 @@ Plataforma de Aluguel de Imóveis por Temporada na Austrália.
 * Reduzi esforço de manutenção ao aplicar **padrões de arquitetura e boas práticas**.
 * Facilitei a expansão futura da plataforma, criando soluções reutilizáveis e flexíveis.
 
+**Tecnologias**
+Laravel, PHP, Vue 3, Vuetify 3, Wordpress Plugin, Wordpress Theme.
+
 <br />
 
 ### Listra | Dev Fullstack
@@ -92,6 +98,9 @@ Agência de marketing.
 * Melhorei a experiência de busca de veículos, reduzindo o tempo de resposta e tornando os filtros mais eficientes.
 * Elevei a qualidade do código e a escalabilidade das aplicações, garantindo entregas consistentes dentro dos prazos.
 
+**Tecnologias**
+Laravel, PHP, CakePHP, Rest API, Open API, Swagger, Vue 3, Vuetify 3, Nuxt 3, React, Python, Wordpress Plugin, Wordpress Theme.
+
 <br />
 
 ### Codificar Sistemas Tecnológicos | Dev Fullstack
@@ -100,6 +109,9 @@ Agência de marketing.
 * Atuação **Fullstack** (Vue.js, React.js, Laravel) no desenvolvimento e implementação de **sistemas web diversos**.
 * **Expertise em integrações com APIs externas**, incluindo a API da Google para sincronização de agendas e calendários.
 * Colaboração em equipe para desenvolver **funcionalidades complexas** em diferentes projetos web.
+
+**Tecnologias**
+Laravel, PHP, Codeigniter, Vue 3, Angular, React.js, Python, Rest API, OpenAPI.
 
 <br />
 
