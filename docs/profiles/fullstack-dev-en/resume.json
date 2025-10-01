@@ -15,7 +15,7 @@
     "email": "jeferson.i.silva@gmail.com",
     "phone": "+55 31 99527-1426",
     "url": "https://jeff-silva.github.io",
-    "summary": "\n          **Full-stack Developer** with **14 years** of experience in scalable architecture, microservices, and cloud.\n\n          Main Stack:\n\n          - Frontend: **Vue.js 3, Nuxt 4, Vuetify 3, React.js, Next.js, Tailwind**;\n          - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;\n          - Database: **MySQL, PostgreSQL, Firebase (Realtime and Firestore)**;\n          - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.\n\n          Seeking opportunities as a **Technical Lead** / **Full Stack** developer, focusing on scalable architecture, **microservices**, **CI/CD**, **AI**, and **cloud computing**.\n        ",
+    "summary": "\n          **Full-stack Developer** with **14 years** of experience in scalable architecture, microservices, and cloud.\n\n          Main Stack:\n\n          - Frontend: **Vue.js 3, Nuxt 4, Vuetify 3, React.js, Next.js, Tailwind**;\n          - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;\n          - Database: **MySQL, PostgreSQL, Firebase (Realtime and Firestore)**;\n          - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.\n\n          Seeking opportunities as a **Technical Leader** / **Full Stack** developer, focusing on scalable architecture, **microservices**, **CI/CD**, **AI**, and **cloud computing**.\n        ",
     "location": {
       "address": "",
       "postalCode": "",
@@ -48,7 +48,7 @@
       "url": "http://capp2.cardcombh.com.br",
       "startDate": "2023-12-01",
       "endDate": "2025-08-01",
-      "summary": "\n            Badge Ordering System.\n\n            **Responsibilities**\n\n            * Led the backend migration from Laravel 4.2 to **Nest.js 11**, modernizing APIs and documenting endpoints via **Swagger**.\n            * Structured the separation into **decoupled frontend + backend**, with independent modules and communication via **RabbitMQ**.\n            * **Restructured** the order, credit, and delivery flow, creating a robust administrative panel for clients and internal departments.\n            * Implemented a **multi-level permission system** with roles, functions, and access hierarchy.\n            \n            **Results**\n\n            * Increased **performance** and reduced operational costs with the adoption of **Node.js** and optimized libraries.\n            * Significant improvement in **access security and governance**, reducing risks of misuse.\n            * Enabled clients to integrate their own systems via API, enabling **order automation** and **productivity gains**.\n            * Prepared the architectural foundation for evolution to **microservices**, ensuring future scalability.\n            \n            **Technologies**\n            Laravel, PHP, Angular, Node.js, Nest.js 11, Vue 3, Nuxt 4, Vuetify 3, MySQL, SQlite 3, OpenAPI, Swagger, RabbitMQ.\n          ",
+      "summary": "\n            Badge Ordering System.\n\n            **Responsibilities**\n\n            * Led the backend migration from Laravel 4.2 to **Nest.js 11**, modernizing APIs and documenting endpoints via **Swagger**.\n            * Structured the separation into decoupled **frontend** + **backend**, with independent modules and communication via **RabbitMQ**.\n            * **Restructured** the order, credit, and delivery flow, creating a robust administrative panel for clients and internal departments.\n            * Implemented a **multi-level permissions system** with roles, functions, and access hierarchy.\n            \n            **Results**\n\n            * Increased **performance** and reduced operational costs with the adoption of **Node.js** and optimized libraries.\n            * Significantly improved access **security and governance**, reducing risks of misuse.\n            * Enabled clients to integrate their own systems via API, allowing order **automation** and **productivity** gains.\n            * Prepared the architectural foundation for evolving into **microservices**, ensuring future scalability.\n            \n            **Technologies**\n            Laravel, PHP, Angular, Node.js, Nest.js 11, Vue 3, Nuxt 4, Vuetify 3, MySQL, SQlite 3, OpenAPI, Swagger, RabbitMQ.\n          ",
       "highlights": [],
       "meta": {
         "important": true
@@ -56,11 +56,11 @@
     },
     {
       "name": "Search and Stay",
-      "position": "Fullstack Dev",
+      "position": "Fullstack Developer",
       "url": "https://www.linkedin.com/company/search-and-stay/",
       "startDate": "2022-12-31",
       "endDate": "2023-11-30",
-      "summary": "\n            Seasonal Property Rental Platform in Australia.\n\n            **Responsibilities**\n\n            * Developed a **WordPress plugin** that consumed properties via **REST API**, allowing automatic display on owner websites.\n            * Created a customizable **WordPress theme**, eliminating the need for manual code for property presentation.\n            * Contributed to the maintenance of the platform's **REST API**, fixing bugs and implementing integrations.\n            * Supported frontend improvements and fixes, ensuring **stability and usability**.\n            \n            **Results**\n\n            * Delivered features and fixes within defined deadlines, focusing on **clean code and scalability**.\n            * Reduced maintenance effort by applying **architectural patterns and best practices**.\n            * Facilitated future platform expansion by creating reusable and flexible solutions.\n            \n            **Technologies**\n            Laravel, PHP, Vue 3, Vuetify 3, Wordpress Plugin, Wordpress Theme.\n          ",
+      "summary": "\n            Vacation Rental Platform in Australia.\n\n            **Responsibilities**\n\n            * Developed a **WordPress** plugin that consumed properties via **REST API**, allowing automatic display on owners' websites.\n            * Created a customizable **WordPress** theme, eliminating the need for manual code for property presentation.\n            * Contributed to the maintenance of the platform's **REST API**, fixing bugs and implementing integrations.\n            * Supported improvements and corrections in the **frontend**, ensuring **stability and usability**.\n            \n            **Results**\n\n            * Delivered functionalities and corrections within defined deadlines, focusing on **clean code and scalability**.\n            * Reduced maintenance effort by applying **architectural patterns and best practices**.\n            * Facilitated future platform expansion by creating reusable and flexible solutions.\n            \n            **Technologies**\n            Laravel, PHP, Vue 3, Vuetify 3, Wordpress Plugin, Wordpress Theme.\n          ",
       "highlights": [],
       "meta": {
         "important": true
@@ -68,11 +68,11 @@
     },
     {
       "name": "Listra",
-      "position": "Fullstack Dev",
+      "position": "Fullstack Developer",
       "url": "https://www.linkedin.com/company/listradigital/",
       "startDate": "2020-10-31",
       "endDate": "2022-04-30",
-      "summary": "\n            Marketing agency.\n\n            **Responsibilities**\n            * Developed the “Subscribe or Buy?” calculator, a partnership between Samy Dana and Unidas, which guided users on whether to buy or rent a car and automatically directed them to the Unidas platform.\n            * Implemented improvements to Unidas Seminovos' vehicle filter, including complex parameters and geolocation search.\n            * Developed and maintained web solutions for clients such as Unidas, EPA, and Mineirão, focusing on scalability and user experience.\n\n            **Results**\n            * Increased engagement and lead generation for Unidas through the interactive calculator.\n            * Improved the vehicle search experience, reducing response time and making filters more efficient.\n            * Elevated code quality and application scalability, ensuring consistent deliveries within deadlines.\n            \n            **Technologies**\n            Laravel, PHP, CakePHP, Rest API, Open API, Swagger, Vue 3, Vuetify 3, Nuxt 3, React, Python, Wordpress Plugin, Wordpress Theme.\n          ",
+      "summary": "\n            Marketing agency.\n\n            **Responsibilities**\n            * Developed the “Subscribe or Buy?” calculator, a partnership between Samy Dana and Unidas, which guided users between buying or renting a car and automatically directed them to the Unidas platform.\n            * Implemented improvements in the Unidas Seminovos vehicle filter, including complex parameters and geolocation search.\n            * Developed and maintained web solutions for clients like Unidas, EPA, and Mineirão, focusing on scalability and user experience.\n\n            **Results**\n            * Increased engagement and lead generation for Unidas through the interactive calculator.\n            * Improved the vehicle search experience, reducing response time and making filters more efficient.\n            * Raised code quality and application scalability, ensuring consistent deliveries within deadlines.\n            \n            **Technologies**\n            Laravel, PHP, CakePHP, Rest API, Open API, Swagger, Vue 3, Vuetify 3, Nuxt 3, React, Python, Wordpress Plugin, Wordpress Theme.\n          ",
       "highlights": [],
       "meta": {
         "important": true
@@ -80,11 +80,11 @@
     },
     {
       "name": "Codificar Sistemas Tecnológicos",
-      "position": "Fullstack Dev",
+      "position": "Fullstack Developer",
       "url": "https://www.linkedin.com/company/codificar/",
       "startDate": "2017-02-28",
       "endDate": "2017-10-31",
-      "summary": "\n            * **Fullstack** role (Vue.js, React.js, Laravel) in the development and implementation of **various web systems**.\n            * **Expertise in integrations with external APIs**, including Google's API for agenda and calendar synchronization.\n            * Team collaboration to develop **complex functionalities** in different web projects.\n            \n            **Technologies**\n            Laravel, PHP, Codeigniter, Vue 3, Angular, React.js, Python, Rest API, OpenAPI.\n          ",
+      "summary": "\n            * **Fullstack** (Vue.js, React.js, Laravel) involvement in the development and implementation of **various web systems**.\n            * **Expertise in integrations with external APIs**, including the Google API for syncing agendas and calendars.\n            * Team collaboration to develop **complex functionalities** in different web projects.\n            \n            **Tecnologies**\n            Laravel, PHP, Codeigniter, Vue 3, Angular, React.js, Python, Rest API, OpenAPI.\n          ",
       "highlights": [],
       "meta": {
         "important": false
@@ -92,11 +92,11 @@
     },
     {
       "name": "Agência de Criação",
-      "position": "Fullstack Dev",
+      "position": "Fullstack Developer",
       "url": "https://www.linkedin.com/company/ag%C3%AAncia-de-cria%C3%A7%C3%A3o/",
       "startDate": "2015-01-31",
       "endDate": "2017-02-28",
-      "summary": "\n            Internal systems sold by the agency\n\n            **Responsibilities**\n            * Developed a proprietary CMS commercialized by the agency, designed to serve multiple clients.\n            * Structured the system in a modular way, allowing on-demand installation of specific functionalities according to the needs of each project.\n\n            **Results**\n            * Increased customer satisfaction by delivering applications with greater fluidity, speed, and usability.\n            * Reduced deployment time for the technical team, simplifying the installation and maintenance process.\n            \n            **Technologies**\n            Laravel, PHP, Code Igniter, Cake, Python, Node.JS, Vue, Vue 2 Wordpress Plugin, Wordpress Theme.\n          ",
+      "summary": "\n            Internal systems sold by the agency\n\n            **Responsibilities**\n            * Developed a proprietary CMS marketed by the agency, designed to serve multiple clients.\n            * Structured the system modularly, allowing on-demand installation of specific functionalities according to each project's needs.\n\n            **Results**\n            * Increased customer satisfaction by delivering applications with greater fluidity, speed, and usability.\n            * Reduced deployment time for the technical team, simplifying the installation and maintenance process.\n            \n            **Technologies**\n            Laravel, PHP, Code Igniter, Cake, Python, Node.JS, Vue, Vue 2 Wordpress Plugin, Wordpress Theme.\n          ",
       "highlights": [],
       "meta": {
         "important": true
@@ -104,11 +104,11 @@
     },
     {
       "name": "Cushman & Wakefield",
-      "position": "Fullstack Dev",
+      "position": "Fullstack Developer",
       "url": "https://www.linkedin.com/company/cushman-and-wakefield/",
       "startDate": "2012-05-02",
       "endDate": "2013-11-08",
-      "summary": "\n            Third-party company for Vale do Rio Doce, converting **Excel** spreadsheets to systems.\n\n            **Responsibilities**\n            * Converted **Excel**-based systems to web applications, using **PHP**, **JavaScript**.\n            * Developed optimized data entry interfaces with automated and responsive solutions.\n\n            **Results**\n            * Eliminated recurrent data losses caused by **Excel** file corruption.\n            * Enabled simultaneous collaboration between teams, increasing engineering efficiency.\n            * Significantly reduced data entry time with a smart interface based on a **Gaussian curve**, which received positive user feedback.\n            \n            **Technologies**\n            PHP, Code Igniter, Cake, Javascript, Jquery.\n          ",
+      "summary": "\n            Outsourced company for Vale do Rio Doce, converting **Excel** spreadsheets to systems.\n\n            **Responsibilities**\n            * Converted **Excel** spreadsheet-based systems into web applications, using **PHP**, **JavaScript**.\n            * Developed optimized data entry interfaces, with automated and responsive solutions.\n\n            **Results**\n            * Eliminated recurring data losses caused by **Excel** file corruption.\n            * Enabled simultaneous team collaboration, increasing engineering efficiency.\n            * Significantly reduced data entry time with an intelligent interface based on **Gaussian curve**, which received positive user feedback.\n            \n            **Technologies**\n            PHP, Code Igniter, Cake, Javascript, Jquery.\n          ",
       "highlights": [],
       "meta": {
         "important": true
@@ -116,11 +116,11 @@
     },
     {
       "name": "Netranet Networking",
-      "position": "Fullstack Dev",
+      "position": "Fullstack Developer",
       "url": "https://www.linkedin.com/company/netranet-networking/",
       "startDate": "2011-01-13",
       "endDate": "2012-01-13",
-      "summary": "\n            * **Leadership** in the development and implementation of a **proprietary CMS** (PHP, JavaScript, MySQL), which **increased control** over the source code and **flexibility** in delivering customized solutions, **accelerating problem resolution**.\n\n            **Technologies**\n            PHP, Code Igniter, Cake, Javascript, Jquery.\n          ",
+      "summary": "\n            * **Leadership** in the development and implementation of a **proprietary CMS** (PHP, JavaScript, MySQL), which **increased control** over the source code and **flexibility** in delivering customized solutions, **streamlining problem resolution**.\n\n            **Technologies**\n            PHP, Code Igniter, Cake, Javascript, Jquery.\n          ",
       "highlights": [],
       "meta": {
         "important": false
@@ -132,7 +132,7 @@
       "url": "",
       "startDate": "2010-01-31",
       "endDate": "2011-01-31",
-      "summary": "\n            * Acted as a web development instructor (PHP, MySQL, Javascript, HTML/CSS), training students in various technologies and enhancing **communication, didactic, and technical leadership skills**.\n\n            **Technologies**\n            PHP, MySQL, SQLServer, ASP.net, Javascript, HTML, CSS, Tableless, Action Script.\n          ",
+      "summary": "\n            * Served as a web development instructor (PHP, MySQL, Javascript, HTML/CSS), training students in various technologies and enhancing **communication, teaching, and technical leadership skills**.\n\n            **Technologies**\n            PHP, MySQL, SQLServer, ASP.net, Javascript, HTML, CSS, Tableless, Action Script.\n          ",
       "highlights": [],
       "meta": {
         "important": false
@@ -142,7 +142,7 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "WebBH School of Informatics",
+      "institution": "WebBH Escola de Informática",
       "area": "Web Development",
       "studyType": "Technical Education",
       "score": "",
@@ -682,7 +682,7 @@
   "projects": [
     {
       "name": "Search and Stay",
-      "description": "\n            * **Continuous evolution** of the **Search and Stay** system, with development of **new features** and **efficient bug resolution**.\n            * **Fullstack** role, building dynamic and responsive interfaces with **Vue.js** and **Nuxt.js** (frontend) and a **robust and scalable backend** with **Laravel**.\n            * Experience in **integration and customization of WordPress plugins** for specific system requirements, ensuring **high quality and performance**.\n          ",
+      "description": "\n            * **Continuous evolution** of the **Search and Stay** system, with development of **new functionalities** and **efficient bug resolution**.\n            * **Fullstack** involvement, building dynamic and responsive interfaces with **Vue.js** and **Nuxt.js** (frontend) and a **robust and scalable** backend with **Laravel**.\n            * Experience in **integrating and customizing WordPress plugins** for specific system requirements, ensuring **high quality and performance**.\n          ",
       "highlights": [],
       "meta": {
         "images": []
@@ -693,7 +693,7 @@
     },
     {
       "name": "Corapost",
-      "description": "\n            * Development of the **functional and responsive user interface (UI)** for the **Corapost** project, based on Figma design.\n            * Utilization of **Vue.js, HTML, CSS, and JavaScript** to create a **WordPress plugin** that transformed the design into a complete frontend.\n          ",
+      "description": "\n            * Development of a **functional and responsive user interface (UI)** for the **Corapost** project, based on Figma design.\n            * Used **Vue.js, HTML, CSS, and JavaScript** to create a **WordPress plugin** that transformed the design into a complete frontend.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -705,8 +705,8 @@
       "endDate": "2024-07-30"
     },
     {
-      "name": "O Novo Mercado",
-      "description": "\n            * **Frontend development** of the internal video platform and professional hub **\"O Novo Mercado\"**.\n            * Construction of an **intuitive, responsive, and attractive user interface** with **Vue.js** and **Vuetify**.\n            * Optimization of application **performance** to ensure a **fluid and efficient experience**, directly contributing to **user engagement**.\n          ",
+      "name": "The New Market",
+      "description": "\n            * **Frontend development** of the internal video platform and professional hub **\"O Novo Mercado\"**.\n            * Built an **intuitive, responsive, and attractive user interface** with **Vue.js** and **Vuetify**.\n            * Optimized application **performance** to ensure a **fluid and efficient experience**, directly contributing to **user engagement**.\n          ",
       "highlights": [],
       "meta": {
         "images": []
@@ -716,8 +716,8 @@
       "endDate": "2022-07-31"
     },
     {
-      "name": "Assinar ou comprar",
-      "description": "\n            * **Fullstack development** (Laravel, Vue.js, Element UI) of the **strategic calculator \"Subscribe or Buy\"**, in partnership with **Unidas and Samy Dana**.\n            * Implementation of **complex calculation logic** to assist users in deciding whether to buy or rent a car, ensuring **accuracy and intuitiveness**.\n            * Responsible for presenting results **clearly and accessibly**, **directly impacting informed decision-making** on mobility.\n          ",
+      "name": "Subscribe or Buy",
+      "description": "\n            * **Fullstack** development (Laravel, Vue.js, Element UI) of the **strategic calculator \"Subscribe or Buy\"**, in partnership with **Unidas and Samy Dana**.\n            * Implemented **complex calculation logic** to assist users in deciding whether to buy or rent a car, ensuring **accuracy and intuitiveness**.\n            * Responsible for presenting results **clearly and accessibly**, **directly impacting informed decision-making** regarding mobility.\n          ",
       "highlights": [
         "Listra"
       ],
@@ -735,7 +735,7 @@
     },
     {
       "name": "Samarco",
-      "description": "\n            * **Leadership in the development and implementation** of a **Content Manager** for **Samarco**, in collaboration with Digital Pixel.\n            * Creation of a dynamic and versatile system using **WordPress** and **Elementor**, **simplifying content administration** and **optimizing digital communication**.\n            * Focus on **ease of use** for the client and delivery of an **enhanced user experience** through design and interactivity.\n          ",
+      "description": "\n            * **Leadership in the development and implementation** of a **Content Manager** for **Samarco**, in collaboration with Digital Pixel.\n            * Created a dynamic and versatile system using **WordPress** and **Elementor**, **simplifying content administration** and **optimizing digital communication**.\n            * Focus on **ease of use** for the client and delivery of an **enhanced user experience** through design and interactivity.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -748,7 +748,7 @@
     },
     {
       "name": "Faculdade Faveni",
-      "description": "\n            * **Advanced styling and customization** of the **Faculdade Faveni** theme on a **WordPress Multisite platform**.\n            * Visual and functional adaptation of the theme to serve **multiple network sites**, ensuring visual identity and **enhancing the user experience**.\n            * Optimization of **CSS** and manipulation of functionalities via **WordPress hooks and filters** for Multisite network consistency and performance.\n          ",
+      "description": "\n            * **Advanced styling and customization** of the **Faculdade Faveni** theme on a **WordPress Multisite** platform.\n            * Visual and functional adaptation of the theme to serve **multiple network sites**, ensuring visual identity and **enhancing the user experience**.\n            * **CSS** optimization and functionality manipulation via **WordPress hooks and filters** for Multisite network consistency and performance.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -761,7 +761,7 @@
     },
     {
       "name": "Manduí",
-      "description": "\n            * **Complete website development** for **Manduí Preschool**, reflecting its welcoming environment and educational approach.\n            * Frontend built with **Nuxt 3, Vue 3, and Vuetify 3**, ensuring an **interactive and informative experience** for parents.\n            * Backend with an **intuitive interface and dynamic sidebar panel** for element editing, using data persistence via **Firebase**, ensuring **scalability and efficiency**.\n          ",
+      "description": "\n            * **Full website development** for **Manduí Children's School**, reflecting its welcoming environment and educational approach.\n            * Frontend built with **Nuxt 3, Vue 3, and Vuetify 3**, ensuring an **interactive and informative experience** for parents.\n            * Backend with an **intuitive interface and dynamic sidebar** for element editing, using data persistence via **Firebase**, ensuring **scalability and efficiency**.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -787,7 +787,7 @@
     },
     {
       "name": "Orbitae",
-      "description": "* Development of **specialized forensic expertise product presentations**, in partnership with **Partners Comunicação Pro Business**.\n            * Creation of a **dynamic and visually captivating platform** with **WordPress** and **Elementor**, integrating customized elements.\n            * Focus on ensuring **prominence and accessibility to technical details**, resulting in an **impactful and efficient user experience** for the audience.\n          ",
+      "description": "* Development of **specialized forensic expertise product presentations**, in partnership with **Partners Comunicação Pro Business**.\n            * Creation of a **dynamic and visually captivating platform** with **WordPress** and **Elementor**, integrating custom elements.\n            * Focus on ensuring **prominence and accessibility to technical details**, resulting in an **impactful and efficient** user experience for the audience.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -805,7 +805,7 @@
     },
     {
       "name": "Blog Banco da Amazônia",
-      "description": "\n            * Development and maintenance of the **News and Utilities blog for Banco da Amazônia**, in partnership with **Partners Comunicação Pro Business**.\n            * Creation and customization of elements with **WordPress** and **Elementor**, ensuring **visual identity** and **optimizing the user experience**.\n            * Involvement in **layout and responsiveness structuring**, contributing to **effective and accessible communication** of the Bank's information.\n          ",
+      "description": "\n            * Development and maintenance of the **Banco da Amazônia News and Utilities blog**, in partnership with **Partners Comunicação Pro Business**.\n            * Creation and customization of elements with **WordPress** and **Elementor**, ensuring **visual identity** and **optimizing the user experience**.\n            * Involvement in **layout structuring and responsiveness**, contributing to **effective and accessible communication** of the Bank's information.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -823,7 +823,7 @@
     },
     {
       "name": "Habitat Group",
-      "description": "\n            * **Complete website development** for the **Habitat Group veterinary clinic**, using **WordPress** and **Elementor**.\n            * Creation of a **friendly and personalized interface** to facilitate access to services, professional qualification, and **appointment scheduling system**.\n            * Focus on providing an **intuitive and efficient user experience**, reflecting the clinic's commitment to quality of care.\n          ",
+      "description": "\n            * **Full website development** for the veterinary clinic **Habitat Group**, using **WordPress** and **Elementor**.\n            * Created a **friendly and personalized interface** to facilitate access to services, professional qualifications, and a **consultation scheduling system**.\n            * Focus on providing an **intuitive and efficient user experience**, reflecting the clinic's commitment to quality service.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -841,7 +841,7 @@
     },
     {
       "name": "Cocks Skate",
-      "description": "\n            * **E-commerce development and optimization** for **\"Cocks Skate\"**, using **WordPress, WooCommerce** and **Elementor** with customized elements.\n            * Creation of a **personalized and intuitive shopping experience**, with facilitated navigation and product search.\n            * Implementation of **complete e-commerce functionalities**, **attractive and responsive design**, aiming to **boost sales** and serve the skateboarding audience.\n          ",
+      "description": "\n            * **E-commerce development and optimization** for **\"Cocks Skate\"**, using **WordPress, WooCommerce**, and **Elementor** with custom elements.\n            * Created a **personalized and intuitive shopping experience**, with facilitated product navigation and search.\n            * Implemented **complete e-commerce functionalities**, **attractive and responsive design**, aiming to **boost sales** and cater to the skateboarding audience.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -858,8 +858,8 @@
       "endDate": "2018-12-31"
     },
     {
-      "name": "Don Desenvolvimento",
-      "description": "\n            * Performed **layout changes and punctual maintenance** on the **Don Desenvolvimento** website.\n            * Utilization of **WordPress** and **Vue.js** for **adaptation and optimization of existing design**, and implementation of **new interactive functionalities**.\n            * Responsible for **efficient problem and bug resolution**, ensuring the **stability and proper functioning** of the site.\n          ",
+      "name": "Don Development",
+      "description": "\n            * Performed **layout changes and specific maintenance** on the **Don Development** website.\n            * Used **WordPress** and **Vue.js** for **adaptation and optimization of the existing design**, and implementation of **new interactive functionalities**.\n            * Responsible for **efficient problem and bug resolution**, ensuring the **stability and proper functioning** of the site.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -877,7 +877,7 @@
     },
     {
       "name": "Eiriz Saúde",
-      "description": "\n            * **Conception and exclusive development** of a **WordPress system** for the **Eiriz Saúde dental clinic** (Porto, Portugal).\n            * Focus on **enhancing user experience and online service efficiency**, with **advanced content management** and **fluid interaction**.\n            * Ensured **precise service presentation** and **effective information transmission**, providing a **complete and informative online experience**.\n          ",
+      "description": "\n            * **Exclusive conception and development** of a **WordPress** system for the dental clinic **Eiriz Saúde** (Porto, Portugal).\n            * Focus on **enhancing user experience and online service efficiency**, with **advanced content management** and **fluid interaction**.\n            * Ensured **accurate service presentation** and **effective information transmission**, providing a **complete and informative online experience**.\n          ",
       "highlights": [
         "Labscript.dev"
       ],
@@ -895,7 +895,7 @@
     },
     {
       "name": "Águas do Acuruí",
-      "description": "\n            * **Complete and personalized website development** for the city of **Águas do Acuruí**, using **WordPress**.\n            * Construction of an **exclusive and tailor-made theme**, reflecting the **unique identity of the city** and aiming to promote the region in a **captivating and informative way**.\n            * Planning and implementation of design and functionalities to highlight **authenticity and strengths**, providing a **unique and engaging online experience** for visitors.\n          ",
+      "description": "\n            * **Complete and personalized website development** for the city of **Águas do Acuruí**, using **WordPress**.\n            * Built an **exclusive and custom theme**, reflecting the **city's unique identity** and aiming to promote the region in a **captivating and informative** way.\n            * Planned and implemented design and functionalities to highlight the **authenticity and strengths**, providing a **unique and engaging online experience** for visitors.\n          ",
       "highlights": [
         "Agência de Criação"
       ],
@@ -912,8 +912,8 @@
       "endDate": "2017-12-31"
     },
     {
-      "name": "Cantor Beto Santos",
-      "description": "\n            * **Complete website development** for **Singer Beto Santos**, including a **customized CMS with unique features**.\n            * Creation of an **integrated music player** with an intuitive **upload and playback system via the administrative panel**.\n            * Emphasis on the strategic design of playback controls, ensuring a **fluid and uninterrupted user experience** during navigation.\n          ",
+      "name": "Singer Beto Santos",
+      "description": "\n            * **Full website development** for **Singer Beto Santos**, including a **custom CMS with unique features**.\n            * Created an **integrated music player** with an intuitive system for **uploading and playing via the administrative panel**.\n            * Emphasis on the strategic design of playback controls, ensuring a **fluid and uninterrupted user experience** during navigation.\n          ",
       "highlights": [
         "Agência de Criação"
       ],
@@ -944,7 +944,7 @@
     },
     {
       "name": "ASSEMG",
-      "description": "\n            * **Development and adaptation of an exclusive CMS** for the **ASSEMG website**, focused on the **specific needs of the association**.\n            * Creation of an **efficient and functional platform** with tools for **internal management, secure communication, and personalized interaction** among members.\n            * Ensured a **unique user experience** and **added value** to resource management and the online associative experience.\n          ",
+      "description": "\n            * **Development and adaptation of an exclusive CMS** for the **ASSEMG** website, focused on the **specific needs of the association**.\n            * Created an **efficient and functional platform** with tools for **internal management, secure communication, and personalized interaction** among members.\n            * Ensured a **unique user experience** and **added value** to resource management and the online associative experience.\n          ",
       "highlights": [
         "Agência de Criação"
       ],
@@ -962,7 +962,7 @@
     },
     {
       "name": "Safe Register Car",
-      "description": "\n            * **Fullstack participation** in the construction of **Safe Register Car** (Tecnol), optimizing the submission of **vehicle documentation to insurers** nationwide.\n            * Development of an **intuitive user interface** with **Vue.js** (frontend) for efficient document submission.\n            * Backend with **Laravel** for application logic, **data management, and communication with insurers**, contributing to an **agile and effective workflow**.\n          ",
+      "description": "\n            * **Fullstack** involvement in building **Safe Register Car** (Tecnol), optimizing the submission of **vehicle documentation to insurers** nationwide.\n            * Developed an **intuitive user interface** with **Vue.js** (frontend) for efficient document submission.\n            * Backend with **Laravel** for application logic, **data management, and communication with insurers**, contributing to an **agile and effective workflow**.\n          ",
       "highlights": [],
       "meta": {
         "images": []
@@ -973,7 +973,7 @@
     },
     {
       "name": "Tecnohub",
-      "description": "\n            * **Fullstack participation** in the construction and evolution of **Tecnohub** (Tecnol), a centralized platform to **optimize communication and interaction** among stakeholders.\n            * Development of **functionalities** to facilitate information flow and **collaboration**, with **intuitive interfaces** (frontend) for different types of users.\n            * In the backend, I created **business logic and APIs** to **integrate various services**, ensuring **efficient and transparent communication** within the Tecnol ecosystem.\n          ",
+      "description": "\n            * **Fullstack** involvement in the construction and evolution of **Tecnohub** (Tecnol), a centralized platform to **optimize communication and interaction** among stakeholders.\n            * Development of **functionalities** to facilitate information flow and **collaboration**, with **intuitive interfaces** (frontend) for different types of users.\n            * On the backend, I created **business logic and APIs** to **integrate various services**, ensuring **efficient and transparent communication** within the Tecnol ecosystem.\n          ",
       "highlights": [],
       "meta": {
         "images": []

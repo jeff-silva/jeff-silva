@@ -15,6 +15,7 @@ edge.mount(new URL("../views", import.meta.url));
 
 export default class JsonResume {
   profile = "";
+  language = "en";
   data = null;
 
   async init() {
@@ -22,6 +23,19 @@ export default class JsonResume {
     this.data.skills = this.data.skills.sort((a, b) => {
       return a.name.localeCompare(b.name, "pt-BR", { sensitivity: "base" });
     });
+  }
+
+  translation(translations = {}) {
+    translations = {
+      default: "",
+      ...translations,
+    };
+
+    if (typeof translations[this.language] == "undefined") {
+      return translations.default;
+    }
+
+    return translations[this.language];
   }
 
   async getData() {

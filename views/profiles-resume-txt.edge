@@ -7,7 +7,12 @@
 {{ resume.data.basics.label.toUpperCase() }}
 {{ separator1 }}
 
-Localização:
+{{
+  resume.translation({
+    default: 'Localização',
+    en: 'Localization',
+  })
+}}:
 {{ resume.locationHumanized(resume.data.basics.location) }}
 @each(link in resume.getLinks())
 
@@ -18,7 +23,12 @@ Localização:
 
 
 @component('components/boxen', { resume, width, padding })
-RESUMO
+{{
+  resume.translation({
+    default: 'RESUMO',
+    en: 'SUMMARY',
+  })
+}}
 {{ separator1 }}
 {{{ resume.trimLines(resume.data.basics.summary) }}}
 @end
@@ -32,7 +42,12 @@ SKILLS
 
 @if(resume.data.work.length > 0)
 @component('components/boxen', { resume, width, padding, textAlignment: 'center', borderStyle: 'double' })
-EXPERIÊNCIA
+{{
+  resume.translation({
+    default: 'EXPERIÊNCIA',
+    en: 'EXPERIENCES',
+  })
+}}
 @end
 
 @each(work in resume.data.work)
@@ -47,7 +62,12 @@ EXPERIÊNCIA
 
 @if(resume.data.projects.length > 0)
 @component('components/boxen', { resume, width, padding, textAlignment: 'center', borderStyle: 'double' })
-PROJETOS
+{{
+  resume.translation({
+    default: 'PROJETOS',
+    en: 'PROJECTS',
+  })
+}}
 @end
 @each(project in resume.data.projects)
 @component('components/boxen', { resume, width, padding, borderStyle: 'round' })

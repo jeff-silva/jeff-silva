@@ -3,6 +3,7 @@ import fs from "fs";
 
 export default class FullstackResume extends Resume {
   profile = "fullstack-dev";
+  language = "pt-BR";
 
   async onGenerate() {
     let output = [];

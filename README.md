@@ -21,7 +21,7 @@ Main Stack:
 - Database: **MySQL, PostgreSQL, Firebase (Realtime and Firestore)**;
 - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.
 
-Seeking opportunities as a **Technical Lead** / **Full Stack** developer, focusing on scalable architecture, **microservices**, **CI/CD**, **AI**, and **cloud computing**.
+Seeking opportunities as a **Technical Leader** / **Full Stack** developer, focusing on scalable architecture, **microservices**, **CI/CD**, **AI**, and **cloud computing**.
 
 
 ## Skills

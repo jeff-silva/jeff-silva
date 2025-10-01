@@ -16,7 +16,12 @@
 
 🌎 {{ resume.locationHumanized(resume.data.basics.location) }}
 
-## Resumo
+## {{
+  resume.translation({
+    default: 'Resumo',
+    en: 'Summary',
+  })
+}}
 
 {{{ resume.trimLines(resume.data.basics.summary) }}}
 
@@ -25,7 +30,12 @@
 {{ resume.listHumanized(resume.data.skills, (skill) => skill.name) }}
 
 @if(resume.data.work.length > 0)
-## Experiência
+## {{
+  resume.translation({
+    default: 'Experiência',
+    en: 'Experience',
+  })
+}}
 
 @each(work in resume.data.work.slice(0, 5))
 ### {{ work.name }} | {{ work.position }}
@@ -38,7 +48,12 @@
 
 
 @if(resume.data.projects.length > 0)
-## Projetos (5 últimos)
+## {{
+  resume.translation({
+    default: 'Projetos (5 últimos)',
+    en: 'Projects (last 5)',
+  })
+}}
 
 @each(project in resume.data.projects.slice(0, 5))
 ### {{ project.name }} | {{ resume.dateDuration(project.startDate, project.endDate, true) }}

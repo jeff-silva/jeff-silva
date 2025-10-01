@@ -3,6 +3,7 @@ import FullstackResume from "./fullstack.resume.js";
 
 export default class FullstackEnResume extends FullstackResume {
   profile = "fullstack-dev-en";
+  language = "en";
 
   async getData() {
     const data = await super.getData();
