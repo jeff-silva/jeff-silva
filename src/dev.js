@@ -1,25 +1,8 @@
-// import data from "./data.js";
+// import FullstackResume from "./fullstack.resume.js";
+// new FullstackResume().generate();
 
-// import resumeJson from "./resume-json.js";
-// import resumeHtml from "./resume-html.js";
-// import resumePdf from "./resume-pdf.js";
-// import resumeAtsScore from "./resume-ats-score.js";
-// import resumeReadme from "./resume-readme.js";
-// import resumeMd from "./resume-md.js";
-// import signature from "./signature.js";
+// import FullstackEnResume from "./fullstack-en.resume.js";
+// new FullstackEnResume().generate();
 
-// (async () => {
-//   await resumeJson(data);
-//   await resumeHtml(data);
-//   await resumePdf(data);
-//   // await resumeAtsScore(data);
-//   await resumeReadme(data);
-//   await resumeMd(data);
-//   await signature(data);
-// })();
-
-import FullstackResume from "./fullstack.resume.js";
-import FullstackEnResume from "./fullstack-en.resume.js";
-
-new FullstackResume().generate();
-new FullstackEnResume().generate();
+import FullstackAtsResume from "./fullstack-ats.resume.js";
+new FullstackAtsResume().generate();

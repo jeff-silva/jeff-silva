@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "ENTRYPOINT_FILE=\"dev.js\" docker compose up --build --force-recreate --remove-orphans",
     "score": "ENTRYPOINT_FILE=\"score.js\" docker compose up --build --force-recreate --remove-orphans",
+    "ats": "ENTRYPOINT_FILE=\"ats.js\" docker compose up --build --force-recreate --remove-orphans",
     "dev2": "node ./src/index.js",
     "test2": "node ./src/test.js"
   },
@@ -23,6 +24,7 @@
     "textile-js": "^2.1.1"
   },
   "dependencies": {
+    "@google/genai": "^1.22.0",
     "boxen": "^8.0.1",
     "edge.js": "^6.3.0"
   }

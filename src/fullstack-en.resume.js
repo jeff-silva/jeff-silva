@@ -10,7 +10,6 @@ export default class FullstackEnResume extends FullstackResume {
 
     // data.basics.label = data.basics.label.replace("Fullstack Sênior", "Senior Fullstack");
 
-    const API_KEY = "AIzaSyAYtlxKn-fL-gYF5eupQ8KdYb5oAZpHaJc";
     const text = [
       `- Traduza os valores do JSON a seguir para o EN-US`,
       `- Apenas os valores devem ser traduzidos, os atributos devem ser mantidos.`,
@@ -26,11 +25,11 @@ export default class FullstackEnResume extends FullstackResume {
         url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent`,
         headers: {
           "Content-Type": "application/json",
-          // Authorization: `Bearer ${API_KEY}`,
-          "x-goog-api-key": API_KEY,
+          "x-goog-api-key": process.env.GEMINI_API_KEY,
         },
         data: { contents: [{ parts: [{ text }] }] },
       });
+
       if (resp.data.candidates[0]) {
         const candidate = resp.data.candidates[0];
         if (candidate.content.parts[0]) {

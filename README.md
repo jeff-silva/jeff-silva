@@ -1,7 +1,7 @@
 <!--curriculum:start-->
 <pre>╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │                                                   JEFERSON SILVA                                                     │
-│                  SENIOR FULLSTACK | AI | TECH LEAD | LARAVEL | VUE.JS | DOCKER | NODE.JS | NEST.JS                   │
+│                  FULLSTACK SÊNIOR | AI | TECH LEAD | LARAVEL | VUE.JS | DOCKER | NODE.JS | NEST.JS                   │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯</pre>
 # Jeferson Silva
 
@@ -12,21 +12,21 @@
 [![Portfólio](https://api.iconify.design/material-symbols:home-rounded.svg?color=%23ffffff&height=30 "Portfólio")](https://jeff-silva.github.io)
 [![Download](https://api.iconify.design/mdi:download.svg?color=%23ffffff&height=30 "Download")](https://jeff-silva.github.io/jeff-silva/profiles/fullstack-dev/resume.pdf)
 
-**Full-stack Developer** with **14 years** of experience in scalable architecture, microservices, and cloud.
+**Desenvolvedor Full-stack** com **14 anos** de experiência em arquitetura escalável, microservices e cloud.
 
-Main Stack:
+Stack principal:
 
 - Frontend: **Vue.js 3, Nuxt 4, Vuetify 3, React.js, Next.js, Tailwind**;
 - Backend: **Node.js, Nest.js, Express, PHP, Laravel**;
-- Database: **MySQL, PostgreSQL, Firebase (Realtime and Firestore)**;
+- Database: **MySQL, PostgreSQL, Firebase (Realtime e Firestore)**;
 - DevOps & Cloud: **Google Cloud Platform, Docker, Docker Compose, CI/CD, Cloud-native, Microservices**.
 
-Seeking opportunities as a **Technical Leader** / **Full Stack** developer, focusing on scalable architecture, **microservices**, **CI/CD**, **AI**, and **cloud computing**.
+Busco oportunidades como **Líder técnico** / desenvolvedor **Full Stack**, com foco em arquitetura escalável, **microservices**, **CI/CD**, **AI** e **cloud computing**.
 
 
 ## Skills
 
-AdonisJS, AI Integration, Babylon, Bootstrap, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentation, DynamoDB, Electron, Elementor, Express.js, Firebase, Geospatial calculations, Git, Google Cloud Platform, GraphQL, HTML5, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Maps, MongoDB, MVC Architecture, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Page Optimization, Pagseguro, PHP, PostgreSQL, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress, YARN
+AdonisJS, Arquitetura MVC, Babylon, Bootstrap, Cálculos geospaciais, Clean Architecture, Clean Code, Composer, CSS3, Deployment, Design Patterns, Docker, Docker Compose, Documentação, DynamoDB, Electron, Elementor, Express.js, Firebase, Git, Google Cloud Platform, GraphQL, HTML5, Integração AI, Javascript, JQuery, JWT, Kafka, Keycloak, Laravel, LESS, Linux, Mapas, MongoDB, MySQL, Nest.js, Node.js, NPM, Nuxt, OAuth 2, Otimização de página, Pagseguro, PHP, PostgreSQL, Prisma, PWA, Python, RabbitMQ, Rapier.js, React, Redis, Responsive Design, REST APIs, SASS, Scrum, SEO, SOAP, SQL, Stripe, Tailwind, Three.js, Typescript, UI/UX, Unity, Vue, VuePress, Vuetify, Web Accessibility, WooCommerce, WordPress, YARN
 <!--curriculum:final-->
 
 <br />
