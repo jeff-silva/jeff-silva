@@ -306,9 +306,9 @@ Ensinei conceitos essenciais de HTML, CSS e JavaScript.
 ## 🛠️ Habilidades (Skills)
 
 - **Linguagens de Programação:** TypeScript, JavaScript, PHP, HTML, CSS
-- **Frameworks e Bibliotecas:** Node.js, NestJS, Express, React.js, Vue.js (Vue 3), Nuxt.js (Nuxt 3 e Nuxt 4), Angular.js, Laravel, CakePHP, Inertia.js, Tailwind CSS, Vuetify, Element UI
+- **Frameworks e Bibliotecas:** Node.js, NestJS, Express, React.js, Vue.js (Vue 3), Nuxt.js (Nuxt 3 e Nuxt 4), Angular.js, Laravel, CakePHP, Inertia.js, Tailwind CSS, Vuetify, Element UI, Three.js, bitECS
 - **Bancos de Dados:** PostgreSQL, MySQL, Redis, MongoDB, Firebase (Firestore, Cloud Functions), Supabase
-- **Ferramentas e DevOps:** Docker, AWS, GCP, Linux, CI/CD, WordPress, Elementor, Custom CMS, AzuraCast, Nginx Proxy Manager
+- **Ferramentas e DevOps:** Docker, AWS, GCP, Linux, CI/CD, WordPress, Elementor, Custom CMS, AzuraCast, Nginx Proxy Manager, BugSink, RabbitMQ
 - **Arquitetura e Práticas:** Clean Architecture, SOLID, Design Patterns, Clean Code, REST APIs, Microservices, Single Page Application (SPA), Headless CMS, Serverless, Containerização, Autenticação Unificada (SSO), PWA, SEO Técnico, Core Web Vitals, Web Design
 - **Inovação e Outros:** Artificial Intelligence (AI), Integração WhatsApp (Evolution API), OpenAI API, Análise de Dados, Criação de Portfólio
 - **Habilidades Interpessoais (Soft Skills):** Liderança Técnica (Tech Lead), Mentoria, Metodologias Ágeis (Scrum/Kanban), Resolução de Problemas Complexos
