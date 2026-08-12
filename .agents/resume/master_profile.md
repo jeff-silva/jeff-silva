@@ -544,7 +544,12 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 ### Samarco
 
 - **Período:** Ago de 2020 – Out de 2020
-- **Descrição Geral:** Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel, desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação poderosa de Wordpress e Elementor. Essa parceria resultou em um sistema dinâmico e versátil para administrar e apresentar conteúdos online de forma eficaz. A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta. Isso permitiu a criação e gestão de conteúdos de maneira simplificada, ao mesmo tempo em que ofereceu ferramentas de design avançadas para aprimorar a estética e a interatividade do site, atendendo às expectativas do cliente e proporcionando uma experiência de usuário aprimorada.
+- **Descrição Geral:** Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel, desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação poderosa de Wordpress e Elementor.
+
+Essa parceria resultou em um sistema dinâmico e versátil para administrar e apresentar conteúdos online de forma eficaz. A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta.
+
+Isso permitiu a criação e gestão de conteúdos de maneira simplificada, ao mesmo tempo em que ofereceu ferramentas de design avançadas para aprimorar a estética e a interatividade do site, atendendo às expectativas do cliente e proporcionando uma experiência de usuário aprimorada.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -553,6 +558,7 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** 2020 – 2020
 - **Descrição Geral:** Estilização e customização de componentes do tema utilizando plataforma Wordpress com multisite.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -561,7 +567,12 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** Jan de 2019 – Ago de 2019
 - **Empresa/Associação:** Labscript.dev
-- **Descrição Geral:** Desenvolvemos apresentações de produtos especializados em perícia forense, integrando Wordpress e Elementor com elementos personalizados. Essa parceria estratégica com a Partners Comunicação Pro Business resultou em uma plataforma dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor, criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade aos detalhes técnicos. Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente, facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.
+- **Descrição Geral:** Desenvolvemos apresentações de produtos especializados em perícia forense, integrando Wordpress e Elementor com elementos personalizados.
+
+Essa parceria estratégica com a Partners Comunicação Pro Business resultou em uma plataforma dinâmica e visualmente cativante. Combinando a flexibilidade do Wordpress e a criatividade do Elementor, criamos uma experiência de usuário impactante para os produtos, garantindo destaque e acessibilidade aos detalhes técnicos.
+
+Essa colaboração permitiu a construção de uma plataforma dinâmica e eficiente, facilitando a apresentação e a compreensão dos produtos para um público amplo e diversificado.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -570,7 +581,10 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** 2019 – 2019
 - **Empresa/Associação:** Labscript.dev
-- **Descrição Geral:** Notícias e utilidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor com elementos personalizados. Feito em parceria com a Partners Comunicação Pro Business.
+- **Descrição Geral:** Notícias e utilidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor com elementos personalizados.
+
+Feito em parceria com a Partners Comunicação Pro Business.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -579,7 +593,10 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** 2019 – 2019
 - **Empresa/Associação:** Labscript.dev
-- **Descrição Geral:** Desenvolvimento de um website para a clínica veterinária Habitat Group. Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada. Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de consultas para atendimento de qualidade aos animais de estimação e seus tutores.
+- **Descrição Geral:** Desenvolvimento de um website para a clínica veterinária Habitat Group. Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada.
+
+Disponibiliza informações sobre serviços, profissionais qualificados e agendamento de consultas para atendimento de qualidade aos animais de estimação e seus tutores.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -588,7 +605,12 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** Jan de 2018 – Mar de 2018
 - **Empresa/Associação:** Agência de Criação
-- **Descrição Geral:** Desenvolvimento de website com um CMS personalizado e recursos únicos. O projeto apresenta uma funcionalidade interessante: um player de música integrado que reproduz as canções do cantor, permitindo que novas músicas sejam facilmente adicionadas através do painel interno do site. Uma característica notável do site é a disposição estratégica dos controles de reprodução, localizados tanto no topo quanto no corpo do site. A interconexão desses controles cria uma experiência de usuário fluida, evitando a necessidade de rolar constantemente. Essa abordagem garante uma navegação intuitiva, permitindo que os visitantes desfrutem da música sem interrupções, independentemente de onde estejam navegando no site.
+- **Descrição Geral:** Desenvolvimento de website com um CMS personalizado e recursos únicos. O projeto apresenta uma funcionalidade interessante: um player de música integrado que reproduz as canções do cantor, permitindo que novas músicas sejam facilmente adicionadas através do painel interno do site.
+
+Uma característica notável do site é a disposição estratégica dos controles de reprodução, localizados tanto no topo quanto no corpo do site. A interconexão desses controles cria uma experiência de usuário fluida, evitando a necessidade de rolar constantemente.
+
+Essa abordagem garante uma navegação intuitiva, permitindo que os visitantes desfrutem da música sem interrupções, independentemente de onde estejam navegando no site.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -597,7 +619,10 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** 2018 – 2018
 - **Empresa/Associação:** Labscript.dev
-- **Descrição Geral:** Desenvolvimento de e-commerce especializado em produtos para skatistas, utilizando Wordpress, Woocommerce e Elementor com elementos customizados. Somando uma experiência personalizada de compra com uma fácil navegação e busca dos produtos, a integração dessas ferramentas garante um site dinâmico, com funcionalidades de ponta e um design atraente para o público interessado nesse nicho, visando atender suas necessidades e interesses.
+- **Descrição Geral:** Desenvolvimento de e-commerce especializado em produtos para skatistas, utilizando Wordpress, Woocommerce e Elementor com elementos customizados.
+
+Somando uma experiência personalizada de compra com uma fácil navegação e busca dos produtos, a integração dessas ferramentas garante um site dinâmico, com funcionalidades de ponta e um design atraente para o público interessado nesse nicho, visando atender suas necessidades e interesses.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -607,6 +632,7 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 - **Período:** 2018 – 2018
 - **Empresa/Associação:** Labscript.dev
 - **Descrição Geral:** Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -615,7 +641,10 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** Jan de 2017 – Jan de 2017
 - **Empresa/Associação:** Labscript.dev
-- **Descrição Geral:** Concebido e desenvolvido exclusivamente para atender às necessidades da clínica odontológica Eiriz Saúde, localizada em Porto, Portugal, este projeto é o resultado de uma parceria dedicada a aprimorar a experiência do usuário e a eficiência dos serviços oferecidos. Com foco na usabilidade e na interação fluída, o sistema Wordpress desenvolvido para a Eiriz Saúde incorporou recursos avançados de gerenciamento de conteúdo, garantindo não apenas a apresentação precisa dos serviços oferecidos, mas também a transmissão eficaz de informações importantes aos pacientes, proporcionando assim uma experiência online completa e informativa.
+- **Descrição Geral:** Concebido e desenvolvido exclusivamente para atender às necessidades da clínica odontológica Eiriz Saúde, localizada em Porto, Portugal, este projeto é o resultado de uma parceria dedicada a aprimorar a experiência do usuário e a eficiência dos serviços oferecidos.
+
+Com foco na usabilidade e na interação fluída, o sistema Wordpress desenvolvido para a Eiriz Saúde incorporou recursos avançados de gerenciamento de conteúdo, garantindo não apenas a apresentação precisa dos serviços oferecidos, mas também a transmissão eficaz de informações importantes aos pacientes, proporcionando assim uma experiência online completa e informativa.
+
 - **Competências:** PHP, WordPress, entre outras.
 
 ---
@@ -624,7 +653,10 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** Jan de 2015 – Dez de 2015
 - **Empresa/Associação:** Agência de Criação
-- **Descrição Geral:** Site criado sobre CMS exclusivo para atender às necessidades da associação dos empregados da MGS. Esse CMS foi meticulosamente adaptado para oferecer uma experiência de usuário única e atender às demandas específicas da associação, garantindo uma plataforma eficiente e funcional para os membros. O CMS customizado oferece ferramentas específicas para a gestão interna da associação, fornecendo um ambiente seguro e personalizado para comunicação e interação entre os membros, agregando valor e facilitando a administração dos recursos disponíveis.
+- **Descrição Geral:** Site criado sobre CMS exclusivo para atender às necessidades da associação dos empregados da MGS. Esse CMS foi meticulosamente adaptado para oferecer uma experiência de usuário única e atender às demandas específicas da associação, garantindo uma plataforma eficiente e funcional para os membros.
+
+O CMS customizado oferece ferramentas específicas para a gestão interna da associação, fornecendo um ambiente seguro e personalizado para comunicação e interação entre os membros, agregando valor e facilitando a administração dos recursos disponíveis.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -633,7 +665,10 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** Jan de 2015 – Dez de 2015
 - **Empresa/Associação:** Agência de Criação
-- **Descrição Geral:** O desenvolvimento do website para a cidade de Águas do Acuruí foi um projeto dedicado e personalizado, visando promover a região de forma cativante e informativa. Utilizando a versatilidade e as capacidades expansivas do Wordpress como base, o website foi meticulosamente construído a partir do zero, com um tema exclusivamente elaborado para atender às demandas específicas e à identidade singular da cidade. Cada elemento do design e funcionalidade foi cuidadosamente planejado para refletir a autenticidade e os pontos fortes de Águas do Acuruí.
+- **Descrição Geral:** O desenvolvimento do website para a cidade de Águas do Acuruí foi um projeto dedicado e personalizado, visando promover a região de forma cativante e informativa.
+
+Utilizando a versatilidade e as capacidades expansivas do Wordpress como base, o website foi meticulosamente construído a partir do zero, com um tema exclusivamente elaborado para atender às demandas específicas e à identidade singular da cidade. Cada elemento do design e funcionalidade foi cuidadosamente planejado para refletir a autenticidade e os pontos fortes de Águas do Acuruí.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ---
@@ -642,7 +677,10 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 - **Período:** Jan de 2011 – Dez de 2011
 - **Empresa/Associação:** Netranet Networking
-- **Descrição Geral:** Este projeto foi criado sobre o sistema de gerenciamento de conteúdo (CMS) e de leilões personalizado para atender às necessidades específicas do cliente. Esse sistema foi meticulosamente projetado e construído com base na plataforma customizada da agência, oferecendo uma solução completa para administrar conteúdos e realizar leilões de forma eficiente. Essa solução customizada representa não apenas a habilidade técnica da agência, mas também seu compromisso em oferecer aos clientes ferramentas sob medida que atendam exatamente às suas necessidades, agregando valor e eficiência aos seus processos de gestão e negócios.
+- **Descrição Geral:** Este projeto foi criado sobre o sistema de gerenciamento de conteúdo (CMS) e de leilões personalizado para atender às necessidades específicas do cliente. Esse sistema foi meticulosamente projetado e construído com base na plataforma customizada da agência, oferecendo uma solução completa para administrar conteúdos e realizar leilões de forma eficiente.
+
+Essa solução customizada representa não apenas a habilidade técnica da agência, mas também seu compromisso em oferecer aos clientes ferramentas sob medida que atendam exatamente às suas necessidades, agregando valor e eficiência aos seus processos de gestão e negócios.
+
 - **Competências:** PHP, Banco de dados, entre outras.
 
 ## 📜 Certificações (Certificates)
