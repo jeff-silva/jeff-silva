@@ -25,6 +25,7 @@ Futuramente, a IA poderá ler este arquivo para gerar currículos em PDF, export
 - **Cargo:** Desenvolvedor Full Stack & Tech Lead
 - **Período:** dezembro de 2023 - junho de 2026 (2 anos 7 meses)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** PJ
 - **Descrição Geral:** Atuação como Desenvolvedor Full Stack e Tech Lead, liderando a arquitetura, modernização e evolução contínua dos sistemas centrais da CardCom. Liderança técnica focada em alta disponibilidade, Clean Code, performance e entregas contínuas de valor.
 
 **Principais Responsabilidades e Conquistas:**
@@ -53,6 +54,7 @@ Criei interfaces de gestão responsivas e reativas utilizando Vue.js, React.js, 
 - **Cargo:** Desenvolvedor Full Stack
 - **Período:** janeiro de 2024 - junho de 2024 (5 meses)
 - **Local:** Belo Horizonte, MG (ou Remoto)
+- **Tipo de Contrato:** CLT
 - **Descrição Geral:** Atuação como Desenvolvedor Full Stack na Tecnol Sistemas de Automação, contribuindo para a construção e manutenção de soluções tecnológicas e de automação.
 
 **Principais Responsabilidades e Conquistas:**
@@ -69,6 +71,7 @@ Contribuí de forma direta na criação dos sistemas **TecnoHub** e **Safe Regis
 - **Cargo:** Desenvolvedor Full Stack
 - **Período:** dezembro de 2022 - novembro de 2023 (1 ano)
 - **Local:** Austrália (Trabalho Remoto)
+- **Tipo de Contrato:** PJ (Contractor Internacional)
 - **Descrição Geral:** Atuação como Desenvolvedor Full Stack no ecossistema global de produtos da Search and Stay (empresa australiana), integrando time internacional em ambiente 100% em inglês e focado na sustentação e escala de plataformas de hospitalidade.
 
 **Principais Responsabilidades e Conquistas:**
@@ -97,6 +100,7 @@ Gerenciei rotinas de manutenção e deploy em servidores Linux, assegurando alta
 - **Cargo:** Desenvolvedor Full Stack
 - **Período:** setembro de 2022 - dezembro de 2022 (3 meses)
 - **Local:** Belo Horizonte, MG (ou Remoto)
+- **Tipo de Contrato:** CLT
 - **Descrição Geral:** Atuação como Desenvolvedor Full Stack na Rehagro, instituição referência nacional em educação, consultoria e tecnologia para o agronegócio. Auxiliei no desenvolvimento e sustentação da aplicação principal da empresa.
 
 **Principais Responsabilidades e Conquistas:**
@@ -116,6 +120,7 @@ Contribuí para o desenvolvimento de soluções tecnológicas focadas na melhori
 - **Cargo:** Consultor Full Stack Freelancer
 - **Período:** maio de 2022 - agosto de 2022 (4 meses)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** PJ (Freelancer)
 - **Descrição Geral:** Atuação independente através da Labscript.dev, fornecendo consultoria técnica e desenvolvimento web para otimização de performance.
 
 **Principais Responsabilidades e Conquistas:**
@@ -132,6 +137,7 @@ Otimizei a velocidade de carregamento e a taxa de conversão de clientes atravé
 - **Cargo:** Desenvolvedor Full Stack
 - **Período:** outubro de 2020 - abril de 2022 (1 ano 7 meses)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** PJ
 - **Descrição Geral:** Atuei como Desenvolvedor Full Stack no desenvolvimento de sistemas web de alta visibilidade e grande volume de acessos para clientes estratégicos, como Unidas Seminovos e Samy Dana.
 
 **Principais Responsabilidades e Conquistas:**
@@ -157,6 +163,7 @@ Colaborei em times ágeis para a entrega contínua de novas funcionalidades e co
 - **Cargo:** Fundador & Full-stack Engineer
 - **Período:** novembro de 2017 - setembro de 2020 (2 anos 11 meses)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** PJ
 - **Descrição Geral:** Dedicação exclusiva à Labscript.dev, liderando a entrega ponta a ponta de soluções web, consultoria de arquitetura e e-commerces.
 
 **Principais Responsabilidades e Conquistas:**
@@ -176,6 +183,7 @@ Conduzi autonomamente todo o ciclo de desenvolvimento — do levantamento de req
 - **Cargo:** Desenvolvedor Full Stack
 - **Período:** fevereiro de 2017 - outubro de 2017 (9 meses)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** CLT
 - **Descrição Geral:** Atuação como Desenvolvedor Full Stack focado na engenharia e entrega ágil de sistemas web diversos e de alta complexidade.
 
 **Principais Responsabilidades e Conquistas:**
@@ -198,6 +206,7 @@ Integrei interfaces dinâmicas e reativas em JavaScript com back-ends em PHP.
 - **Cargo:** Desenvolvedor Full Stack
 - **Período:** janeiro de 2015 - janeiro de 2017 (2 anos 1 mês)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** CLT
 - **Descrição Geral:** Engenharia, modernização e evolução contínua do CMS proprietário e sistemas corporativos da agência.
 
 **Principais Responsabilidades e Conquistas:**
@@ -220,6 +229,7 @@ Integrei o CMS proprietário em projetos estratégicos.
 - **Cargo:** Desenvolvedor Full Stack Independente
 - **Período:** fevereiro de 2013 - dezembro de 2014 (1 ano 11 meses)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** PJ (Freelancer)
 - **Descrição Geral:** Atuação como desenvolvedor independente e consultor pela Labscript.dev, fornecendo soluções tecnológicas e treinamentos.
 
 **Principais Responsabilidades e Conquistas:**
@@ -239,6 +249,7 @@ Conduzi o ciclo de desenvolvimento de projetos sob medida para clientes variados
 - **Cargo:** Desenvolvedor Full Stack
 - **Período:** fevereiro de 2012 - janeiro de 2013 (1 ano)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** CLT
 - **Descrição Geral:** Desenvolvedor Full Stack terceirizado em projetos críticos de engenharia para a multinacional Vale.
 
 **Principais Responsabilidades e Conquistas:**
@@ -258,6 +269,7 @@ Otimizei o fluxo de dados entre departamentos através de rotinas de relatórios
 - **Cargo:** Desenvolvedor Full Stack
 - **Período:** janeiro de 2011 - janeiro de 2012 (1 ano 1 mês)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** CLT
 - **Descrição Geral:** Engenharia de software para soluções web corporativas e desenvolvimento de CMS proprietário.
 
 **Principais Responsabilidades e Conquistas:**
@@ -277,6 +289,7 @@ Refatorei rotinas críticas de código e otimizei consultas em banco de dados.
 - **Cargo:** Instrutor Técnico & Mentor
 - **Período:** janeiro de 2010 - janeiro de 2011 (1 ano 1 mês)
 - **Local:** Belo Horizonte, MG
+- **Tipo de Contrato:** PJ
 - **Descrição Geral:** Capacitação, mentoria e formação de novos talentos para o mercado de tecnologia.
 
 **Principais Responsabilidades e Conquistas:**
