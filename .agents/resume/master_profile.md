@@ -9,7 +9,7 @@ Futuramente, a IA poderá ler este arquivo para gerar currículos em PDF, export
 ## 👤 Informações Básicas (Basics)
 
 - **Nome Completo:** Jeferson Silva
-- **Título Profissional:** Desenvolvedor Full Stack | Tech Lead
+- **Título Profissional:** Desenvolvedor Full Stack | Node.js • React • Vue.js • TypeScript • PHP • Laravel • AWS
 - **Email:** jeferson.i.silva@gmail.com
 - **Telefone:** +55 31 99527-1426
 - **Localização:** Belo Horizonte, Minas Gerais, Brasil
@@ -23,10 +23,10 @@ Futuramente, a IA poderá ler este arquivo para gerar currículos em PDF, export
 ### CardCom
 
 - **Cargo:** Desenvolvedor Full Stack & Tech Lead
-- **Período:** dezembro de 2023 - junho de 2026 (2 anos 7 meses)
+- **Período:** 12/2023 - 06/2026 (2 anos 7 meses)
 - **Local:** Belo Horizonte, MG
 - **Tipo de Contrato:** PJ
-- **Descrição Geral:** Atuação como Desenvolvedor Full Stack e Tech Lead, liderando a arquitetura, modernização e evolução contínua dos sistemas centrais da CardCom. Liderança técnica focada em alta disponibilidade, Clean Code, performance e entregas contínuas de valor.
+- **Descrição Geral:** Liderei a arquitetura, modernização e evolução contínua dos sistemas centrais da CardCom atuando como Tech Lead e Desenvolvedor Full Stack. Liderança técnica focada em alta disponibilidade, Clean Code, performance e entregas contínuas de valor.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -52,15 +52,15 @@ Criei interfaces de gestão responsivas e reativas utilizando Vue.js, React.js, 
 ### Tecnol Sistemas de Automação
 
 - **Cargo:** Desenvolvedor Full Stack
-- **Período:** janeiro de 2024 - junho de 2024 (5 meses)
+- **Período:** 01/2024 - 06/2024 (5 meses)
 - **Local:** Belo Horizonte, MG (ou Remoto)
 - **Tipo de Contrato:** CLT
-- **Descrição Geral:** Atuação como Desenvolvedor Full Stack na Tecnol Sistemas de Automação, contribuindo para a construção e manutenção de soluções tecnológicas e de automação.
+- **Descrição Geral:** Desenvolvi soluções tecnológicas full-stack e sistemas de automação na Tecnol, atuando diretamente na engenharia e entrega de produtos.
 
 **Principais Responsabilidades e Conquistas:**
 
 **Desenvolvimento de Produtos (TecnoHub e Safe Register Car):**
-Contribuí de forma direta na criação dos sistemas **TecnoHub** e **Safe Register Car**. Construí interfaces de usuário dinâmicas com Vue.js no front-end e estruturei APIs robustas utilizando PHP (Laravel) no back-end.
+Projetei e desenvolvi os sistemas **TecnoHub** e **Safe Register Car** do zero. Construí interfaces de usuário dinâmicas com Vue.js no front-end e estruturei APIs robustas utilizando PHP (Laravel) no back-end.
 
 - **Tecnologias/Ferramentas utilizadas:** Vue.js, PHP, Laravel.
 
@@ -69,10 +69,10 @@ Contribuí de forma direta na criação dos sistemas **TecnoHub** e **Safe Regis
 ### Search and Stay
 
 - **Cargo:** Desenvolvedor Full Stack
-- **Período:** dezembro de 2022 - novembro de 2023 (1 ano)
+- **Período:** 12/2022 - 11/2023 (1 ano)
 - **Local:** Austrália (Trabalho Remoto)
 - **Tipo de Contrato:** PJ (Contractor Internacional)
-- **Descrição Geral:** Atuação como Desenvolvedor Full Stack no ecossistema global de produtos da Search and Stay (empresa australiana), integrando time internacional em ambiente 100% em inglês e focado na sustentação e escala de plataformas de hospitalidade.
+- **Descrição Geral:** Escalei e sustentei as plataformas de hospitalidade no ecossistema global de produtos da Search and Stay. Integrei um time internacional trabalhando 100% em inglês com foco na performance da plataforma.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -98,10 +98,10 @@ Gerenciei rotinas de manutenção e deploy em servidores Linux, assegurando alta
 ### Rehagro
 
 - **Cargo:** Desenvolvedor Full Stack
-- **Período:** setembro de 2022 - dezembro de 2022 (3 meses)
+- **Período:** 09/2022 - 12/2022 (3 meses)
 - **Local:** Belo Horizonte, MG (ou Remoto)
 - **Tipo de Contrato:** CLT
-- **Descrição Geral:** Atuação como Desenvolvedor Full Stack na Rehagro, instituição referência nacional em educação, consultoria e tecnologia para o agronegócio. Auxiliei no desenvolvimento e sustentação da aplicação principal da empresa.
+- **Descrição Geral:** Desenvolvi e sustentei a aplicação principal da empresa, instituição referência nacional em educação, consultoria e tecnologia para o agronegócio.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -109,36 +109,39 @@ Gerenciei rotinas de manutenção e deploy em servidores Linux, assegurando alta
 Atuei no ecossistema da Rehagro desenvolvendo e mantendo funcionalidades, utilizando React.js no front-end para interfaces reativas e PHP (Laravel) no back-end para as regras de negócio.
 
 **Tecnologia Aplicada ao Agronegócio:**
-Contribuí para o desenvolvimento de soluções tecnológicas focadas na melhoria de gestão, educação e rentabilidade de propriedades rurais.
+Desenvolvi soluções tecnológicas focadas na melhoria da gestão, educação e rentabilidade de propriedades rurais.
 
 - **Tecnologias/Ferramentas utilizadas:** React.js, PHP, Laravel, APIs RESTful, Desenvolvimento Web.
 
 ---
 
-### Labscript.dev (Consultoria Freelancer)
+### Iterative;
 
-- **Cargo:** Consultor Full Stack Freelancer
-- **Período:** maio de 2022 - agosto de 2022 (4 meses)
-- **Local:** Belo Horizonte, MG
-- **Tipo de Contrato:** PJ (Freelancer)
-- **Descrição Geral:** Atuação independente através da Labscript.dev, fornecendo consultoria técnica e desenvolvimento web para otimização de performance.
+- **Cargo:** Desenvolvedor Front-end
+- **Período:** 04/2022 - 08/2022
+- **Local:** São Paulo, SP (Trabalho Remoto)
+- **Tipo de Contrato:** PJ
+- **Descrição Geral:** Desenvolvi o front-end da plataforma "O Novo Mercado" (maior escola de marketing digital do Brasil). O projeto visou construir um ecossistema educacional de alta performance, incluindo streaming de vídeos e integração com IA.
 
 **Principais Responsabilidades e Conquistas:**
 
-**Otimização de Performance e Core Web Vitals:**
-Otimizei a velocidade de carregamento e a taxa de conversão de clientes através de refatoração de código legado e SEO Técnico avançado, reduzindo o tempo de renderização de páginas críticas.
+**Integração Front-end e Endpoints:**
+Fui o responsável direto por integrar o front-end da aplicação com os endpoints do back-end, assegurando um fluxo de dados rápido, seguro e o funcionamento contínuo das funcionalidades da plataforma para milhares de alunos.
 
-- **Tecnologias/Ferramentas utilizadas:** Vue.js, PHP, Laravel, Node.js, JavaScript, Docker, WordPress.
+**Desenvolvimento de Interface (SPA):**
+Construção e manutenção da interface de usuário utilizando Vue.js e Vuetify, entregando uma navegação reativa, componentes modulares e excelente usabilidade.
+
+- **Tecnologias/Ferramentas utilizadas:** Vue.js, Vuetify, JavaScript, Integração de APIs REST.
 
 ---
 
 ### Listra
 
 - **Cargo:** Desenvolvedor Full Stack
-- **Período:** outubro de 2020 - abril de 2022 (1 ano 7 meses)
+- **Período:** 10/2020 - 04/2022 (1 ano 7 meses)
 - **Local:** Belo Horizonte, MG
 - **Tipo de Contrato:** PJ
-- **Descrição Geral:** Atuei como Desenvolvedor Full Stack no desenvolvimento de sistemas web de alta visibilidade e grande volume de acessos para clientes estratégicos, como Unidas Seminovos e Samy Dana.
+- **Descrição Geral:** Projetei e desenvolvi sistemas web de alta visibilidade e grande volume de acessos para clientes estratégicos, como Unidas Seminovos e Samy Dana.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -158,13 +161,13 @@ Colaborei em times ágeis para a entrega contínua de novas funcionalidades e co
 
 ---
 
-### Labscript.dev (Agência Web)
+### Labscript.dev
 
-- **Cargo:** Fundador & Full-stack Engineer
-- **Período:** novembro de 2017 - setembro de 2020 (2 anos 11 meses)
+- **Cargo:** Desenvolvedor Full Stack
+- **Período:** 11/2017 - 09/2020 (2 anos 11 meses)
 - **Local:** Belo Horizonte, MG
 - **Tipo de Contrato:** PJ
-- **Descrição Geral:** Dedicação exclusiva à Labscript.dev, liderando a entrega ponta a ponta de soluções web, consultoria de arquitetura e e-commerces.
+- **Descrição Geral:** Liderei a entrega ponta a ponta de soluções web, prestei consultoria de arquitetura de software e desenvolvi e-commerces pela minha própria agência, a Labscript.dev.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -181,10 +184,10 @@ Conduzi autonomamente todo o ciclo de desenvolvimento — do levantamento de req
 ### Codificar Sistemas Tecnológicos
 
 - **Cargo:** Desenvolvedor Full Stack
-- **Período:** fevereiro de 2017 - outubro de 2017 (9 meses)
+- **Período:** 02/2017 - 10/2017 (9 meses)
 - **Local:** Belo Horizonte, MG
 - **Tipo de Contrato:** CLT
-- **Descrição Geral:** Atuação como Desenvolvedor Full Stack focado na engenharia e entrega ágil de sistemas web diversos e de alta complexidade.
+- **Descrição Geral:** Desenvolvi sistemas web diversos e de alta complexidade, focado na arquitetura de software e na entrega ágil de resultados.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -204,10 +207,10 @@ Integrei interfaces dinâmicas e reativas em JavaScript com back-ends em PHP.
 ### Agência de Criação
 
 - **Cargo:** Desenvolvedor Full Stack
-- **Período:** janeiro de 2015 - janeiro de 2017 (2 anos 1 mês)
+- **Período:** 01/2015 - 01/2017 (2 anos 1 mês)
 - **Local:** Belo Horizonte, MG
 - **Tipo de Contrato:** CLT
-- **Descrição Geral:** Engenharia, modernização e evolução contínua do CMS proprietário e sistemas corporativos da agência.
+- **Descrição Geral:** Modernizei e evoluí o CMS proprietário e sistemas corporativos da agência através de engenharia de software focada em front-end.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -224,13 +227,13 @@ Integrei o CMS proprietário em projetos estratégicos.
 
 ---
 
-### Labscript.dev (Freelancer & Instrutor)
+### Labscript.dev
 
-- **Cargo:** Desenvolvedor Full Stack Independente
-- **Período:** fevereiro de 2013 - dezembro de 2014 (1 ano 11 meses)
+- **Cargo:** Desenvolvedor Full Stack
+- **Período:** 02/2013 - 12/2014 (1 ano 11 meses)
 - **Local:** Belo Horizonte, MG
 - **Tipo de Contrato:** PJ (Freelancer)
-- **Descrição Geral:** Atuação como desenvolvedor independente e consultor pela Labscript.dev, fornecendo soluções tecnológicas e treinamentos.
+- **Descrição Geral:** Forneci soluções tecnológicas sob medida e treinamentos, atuando como desenvolvedor e consultor independente pela Labscript.dev.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -247,10 +250,10 @@ Conduzi o ciclo de desenvolvimento de projetos sob medida para clientes variados
 ### Cushman & Wakefield
 
 - **Cargo:** Desenvolvedor Full Stack
-- **Período:** fevereiro de 2012 - janeiro de 2013 (1 ano)
+- **Período:** 02/2012 - 01/2013 (1 ano)
 - **Local:** Belo Horizonte, MG
 - **Tipo de Contrato:** CLT
-- **Descrição Geral:** Desenvolvedor Full Stack terceirizado em projetos críticos de engenharia para a multinacional Vale.
+- **Descrição Geral:** Desenvolvi projetos críticos de engenharia em regime de terceirização para a multinacional Vale.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -267,10 +270,10 @@ Otimizei o fluxo de dados entre departamentos através de rotinas de relatórios
 ### Netranet Networking
 
 - **Cargo:** Desenvolvedor Full Stack
-- **Período:** janeiro de 2011 - janeiro de 2012 (1 ano 1 mês)
+- **Período:** 01/2011 - 01/2012 (1 ano 1 mês)
 - **Local:** Belo Horizonte, MG
 - **Tipo de Contrato:** CLT
-- **Descrição Geral:** Engenharia de software para soluções web corporativas e desenvolvimento de CMS proprietário.
+- **Descrição Geral:** Arquitetei e desenvolvi soluções web corporativas e o CMS proprietário da empresa.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -287,10 +290,10 @@ Refatorei rotinas críticas de código e otimizei consultas em banco de dados.
 ### Web BH Escola de Informática
 
 - **Cargo:** Instrutor Técnico & Mentor
-- **Período:** janeiro de 2010 - janeiro de 2011 (1 ano 1 mês)
+- **Período:** 01/2010 - 01/2011 (1 ano 1 mês)
 - **Local:** Belo Horizonte, MG
 - **Tipo de Contrato:** PJ
-- **Descrição Geral:** Capacitação, mentoria e formação de novos talentos para o mercado de tecnologia.
+- **Descrição Geral:** Capacitei, mentorei e formei novos talentos na área de desenvolvimento web para o mercado de tecnologia.
 
 **Principais Responsabilidades e Conquistas:**
 
@@ -306,15 +309,15 @@ Ensinei conceitos essenciais de HTML, CSS e JavaScript.
 
 ### UniCesumar
 
-- **Curso/Grau:** Bacharelado (Bachelor's degree)
-- **Período:** julho de 2022 - abril de 2026
-- **Descrição/Conquistas Acadêmicas:** (Adicione detalhes se houver)
+- **Curso/Grau:** Bacharelado em Inteligência Artificial
+- **Período:** 07/2022 - Pausado
+- **Descrição/Conquistas Acadêmicas:** Início de formação em Inteligência Artificial. O curso foi pausado para foco integral em projetos e demandas profissionais.
 
 ### WebBH
 
 - **Curso/Grau:** Ensino Técnico, Desenvolvimento de Sistemas Web
-- **Período:** março de 2009 - setembro de 2010
-- **Descrição/Conquistas Acadêmicas:** (Adicione detalhes se houver)
+- **Período:** 03/2009 - 09/2010
+- **Descrição/Conquistas Acadêmicas:** Formação técnica intensiva com foco no desenvolvimento de sistemas web utilizando PHP, MySQL, HTML e CSS. Desenvolvimento de um sistema de gestão completo como projeto de conclusão.
 
 ## 🛠️ Habilidades (Skills)
 
@@ -330,7 +333,7 @@ Ensinei conceitos essenciais de HTML, CSS e JavaScript.
 
 ### Comigo Ninguem Pode
 
-- **Período:** Ago de 2026
+- **Período:** 08/2026
 - **Link:** [https://cmgngmpod.com](https://cmgngmpod.com)
 - **Descrição Geral:** Desenvolvimento da plataforma web e portfólio oficial do artista visual e fotógrafo Ítalo Almeida (@cmgngmpod). O projeto digital foi concebido para exibir e organizar de forma imersiva suas produções em artes visuais, fotografia, audiovisual e séries artísticas (como "Ruídos se Organizam" e "Nós é Ruim e Mora Longe").
 
@@ -348,7 +351,8 @@ Arquitetura do backend focada em usabilidade para o artista através do WordPres
 
 ### Capp
 
-- **Período:** Jan de 2024 – Jul de 2026
+- **Período:** 01/2024 - 07/2026
+- **Link:** [Visitar projeto](https://app.cardcombh.com.br/)
 - **Empresa/Associação:** CardCom
 - **Descrição Geral:** Plataforma dedicada à automação e gestão do fluxo de produção de cartões, desenvolvida no contexto dos sistemas centrais da CardCom.
 
@@ -366,7 +370,8 @@ Criação de interfaces de gestão responsivas e reativas utilizando Laravel, In
 
 ### Codewe
 
-- **Período:** Jan de 2024 – Jul de 2026
+- **Período:** 01/2024 - 07/2026
+- **Link:** [Visitar projeto](https://app.cardcombh.com.br/codewe)
 - **Empresa/Associação:** CardCom
 - **Descrição Geral:** Projeto estrutural focado na modernização, escalabilidade e performance do ecossistema tecnológico da CardCom, conduzindo a transição do legado para microsserviços.
 
@@ -387,7 +392,8 @@ Definição de padrões de código (Clean Architecture, SOLID), condução de co
 
 ### Fala Jaqueline
 
-- **Período:** Jun de 2026 – Jul de 2026
+- **Período:** 06/2026 - 07/2026
+- **Link:** [Visitar projeto](https://falajaqueline.com)
 - **Descrição Geral:** Desenvolvimento completo da plataforma web comunitária Fala Jaqueline, integrando inteligência de dados urbanos, serviços públicos em tempo real e interface moderna para os moradores.
 
 **Destaques de Engenharia e Arquitetura:**
@@ -407,7 +413,8 @@ Construção de componentes dinâmicos no front-end utilizando Vue.js e Tailwind
 
 ### Labscript HUB
 
-- **Período:** Jan de 2026 – Jul de 2026
+- **Período:** 01/2026 - 07/2026
+- **Link:** [Visitar projeto](https://id.labscript.dev)
 - **Empresa/Associação:** Labscript.dev
 - **Descrição Geral:** O Labscript HUB é um ecossistema integrado de aplicações SaaS projetado para centralizar e otimizar diferentes verticais de serviços sob uma arquitetura de identidade unificada (Single Sign-On). A plataforma oferece uma experiência contínua aos usuários, permitindo acesso simplificado a ferramentas avançadas de análise, inteligência artificial e produtividade.
 
@@ -431,7 +438,8 @@ Módulos de ferramentas para produtividade cotidiana e jogos integrados à plata
 
 ### Radio Raça
 
-- **Período:** Jan de 2026 – Mar de 2026
+- **Período:** 01/2026 - 03/2026
+- **Link:** [Visitar projeto](https://radioraca.com.br)
 - **Descrição Geral:** Desenvolvimento completo da plataforma web e infraestrutura de transmissão de áudio para a Rádio Raça, incluindo suporte a PWA e aplicativos mobile.
 
 **Destaques de Engenharia e Arquitetura:**
@@ -454,7 +462,8 @@ Otimização completa para motores de busca (SEO) e implementação de Progressi
 
 ### Cora Post
 
-- **Período:** Jan de 2024 – Abr de 2024
+- **Período:** 01/2024 - 04/2024
+- **Link:** [Visitar projeto](https://corapost.com)
 - **Descrição Geral:** Desenvolvimento do front-end e integração completa para a plataforma Cora Post, convertendo layouts complexos do Figma em código de alta precisão.
 
 **Destaques de Engenharia e Arquitetura:**
@@ -474,7 +483,8 @@ Estrutura modular projetada para manter baixos tempos de resposta e facilitar a 
 
 ### Search and Stay
 
-- **Período:** Dez de 2022 – Nov de 2023
+- **Período:** 12/2022 - 11/2023
+- **Link:** [Visitar projeto](https://searchandstay.com)
 - **Empresa/Associação:** Search and Stay
 - **Descrição Geral:** Desenvolvimento, manutenção e evolução contínua da plataforma de aluguel por temporada Search and Stay, atuando na resolução de débitos técnicos e criação de novas funcionalidades.
 
@@ -495,7 +505,8 @@ Gestão e otimização de consultas em banco de dados MySQL, além do desenvolvi
 
 ### Manduí
 
-- **Período:** Jan de 2023 – Fev de 2023
+- **Período:** 01/2023 - 02/2023
+- **Link:** [Visitar projeto](https://mandui.com.br)
 - **Descrição Geral:** Desenvolvimento da plataforma web institucional e CMS customizado para a Escola Infantil Manduí.
 
 **Destaques de Engenharia e Arquitetura:**
@@ -515,7 +526,8 @@ Backend totalmente integrado ao Firebase (Firestore e Cloud Functions), reduzind
 
 ### O Novo Mercado
 
-- **Período:** Fev de 2022 – Jul de 2022
+- **Período:** 02/2022 - 07/2022
+- **Link:** [Visitar projeto](https://onovomercado.com/)
 - **Descrição Geral:** Desenvolvimento da plataforma interna de streaming de vídeos e hub de profissionais para O Novo Mercado, focada em distribuição de conteúdo educacional de alta performance.
 
 **Destaques de Engenharia e Arquitetura:**
@@ -535,7 +547,8 @@ Estruturação modular da plataforma para suportar alta demanda de acessos simul
 
 ### Assinar ou comprar
 
-- **Período:** 2021 – 2021
+- **Período:** 2021 - 2021
+- **Link:** [Visitar projeto](https://web.archive.org/web/20211217154133/https://assinaroucomprar.com.br/) | [Imagem 1](https://jeff-silva.github.io/jeff-silva/assets/projects/assinar-ou-comprar.jpg)
 - **Empresa/Associação:** Listra
 - **Descrição Geral:** Desenvolvimento de aplicação web financeira interativa em parceria com a Unidas e o economista Samy Dana, projetada para simular e comparar a viabilidade financeira entre a compra e a assinatura de veículos.
 
@@ -556,7 +569,8 @@ Estrutura modular focada em baixíssimo tempo de resposta para processar múltip
 
 ### Samarco
 
-- **Período:** Ago de 2020 – Out de 2020
+- **Período:** 08/2020 - 10/2020
+- **Link:** [Visitar projeto](https://web.archive.org/web/20220130172103/https://www.samarco.com/)
 - **Descrição Geral:** Em uma colaboração estratégica com a agência Belo Horizontina Digital Pixel, desenvolvemos um eficiente gerenciador de conteúdo empregando a combinação poderosa de Wordpress e Elementor.
 
 Essa parceria resultou em um sistema dinâmico e versátil para administrar e apresentar conteúdos online de forma eficaz. A integração do Wordpress, conhecido por sua flexibilidade e extensibilidade, com a tecnologia intuitiva do Elementor, proporcionou uma solução robusta.
@@ -569,16 +583,26 @@ Isso permitiu a criação e gestão de conteúdos de maneira simplificada, ao me
 
 ### Faculdade Faveni
 
-- **Período:** 2020 – 2020
-- **Descrição Geral:** Estilização e customização de componentes do tema utilizando plataforma Wordpress com multisite.
+- **Período:** 01/2020 - 12/2020
+- **Link:** [Visitar projeto](https://faveni.edu.br/)
+- **Descrição Geral:** Desenvolvimento e customização de um conglomerado de sites educacionais utilizando WordPress Multisite. Cada área de curso possuía uma estrutura e identidade visual (cores/detalhes) próprias e a minha responsabilidade era customizar a interface gráfica e aplicar configurações de forma global ou isolada por site.
 
-- **Competências:** PHP, Banco de dados, entre outras.
+**Destaques de Engenharia e Arquitetura:**
+
+**Arquitetura Multisite & Customização de Interfaces:**
+Gerenciamento das configurações de forma global e por instância de site, customizando interfaces, cores e layout para garantir a identidade específica de cada área de curso.
+
+**Estruturação de Dados via Código (ACF):**
+Implementação de regras de negócio e tipagem de campos diretamente via código utilizando Advanced Custom Fields (ACF), otimizando a segurança, controle de versão e a manutenção estrutural do tema.
+
+- **Competências:** WordPress Multisite, PHP, Advanced Custom Fields (ACF), Desenvolvimento Front-end, Customização de UI/UX.
 
 ---
 
 ### Orbitae
 
-- **Período:** Jan de 2019 – Ago de 2019
+- **Período:** 01/2019 - 08/2019
+- **Link:** [Visitar projeto](https://orbitae.com.br)
 - **Empresa/Associação:** Labscript.dev
 - **Descrição Geral:** Desenvolvemos apresentações de produtos especializados em perícia forense, integrando Wordpress e Elementor com elementos personalizados.
 
@@ -592,7 +616,8 @@ Essa colaboração permitiu a construção de uma plataforma dinâmica e eficien
 
 ### Blog Banco da Amazônia
 
-- **Período:** 2019 – 2019
+- **Período:** 2019 - 2019
+- **Link:** [Visitar projeto](https://www.basablog.com.br/)
 - **Empresa/Associação:** Labscript.dev
 - **Descrição Geral:** Notícias e utilidades do Banco da Amazônia. Feito utilizando Wordpress + Elementor com elementos personalizados.
 
@@ -604,7 +629,7 @@ Feito em parceria com a Partners Comunicação Pro Business.
 
 ### Habitat Group
 
-- **Período:** 2019 – 2019
+- **Período:** 2019 - 2019
 - **Empresa/Associação:** Labscript.dev
 - **Descrição Geral:** Desenvolvimento de um website para a clínica veterinária Habitat Group. Criado com Wordpress e Elementor, o site oferece uma interface amigável e personalizada.
 
@@ -616,7 +641,7 @@ Disponibiliza informações sobre serviços, profissionais qualificados e agenda
 
 ### Cantor Beto Santos
 
-- **Período:** Jan de 2018 – Mar de 2018
+- **Período:** 01/2018 - 03/2018
 - **Empresa/Associação:** Agência de Criação
 - **Descrição Geral:** Desenvolvimento de website com um CMS personalizado e recursos únicos. O projeto apresenta uma funcionalidade interessante: um player de música integrado que reproduz as canções do cantor, permitindo que novas músicas sejam facilmente adicionadas através do painel interno do site.
 
@@ -630,7 +655,8 @@ Essa abordagem garante uma navegação intuitiva, permitindo que os visitantes d
 
 ### Cocks Skate
 
-- **Período:** 2018 – 2018
+- **Período:** 2018 - 2018
+- **Link:** [Visitar projeto](https://www.cocksskate.com.br/)
 - **Empresa/Associação:** Labscript.dev
 - **Descrição Geral:** Desenvolvimento de e-commerce especializado em produtos para skatistas, utilizando Wordpress, Woocommerce e Elementor com elementos customizados.
 
@@ -642,29 +668,30 @@ Somando uma experiência personalizada de compra com uma fácil navegação e bu
 
 ### Don Desenvolvimento
 
-- **Período:** 2018 – 2018
+- **Período:** 2018 - 2018
+- **Link:** [Visitar projeto](https://dondesenvolvimento.com.br/)
 - **Empresa/Associação:** Labscript.dev
-- **Descrição Geral:** Alterações no layout original e manutenções pontuais utilizando Wordpress e Vue.
+- **Descrição Geral:** Melhorias de interface (UI) e manutenção evolutiva no site da Don Desenvolvimento. O projeto destacou-se pelo desenvolvimento de uma ferramenta customizada (usando Vue.js e WordPress) integrada à API do YouTube, que buscava e exibia automaticamente os vídeos mais recentes do canal da empresa diretamente na página inicial.
 
-- **Competências:** PHP, Banco de dados, entre outras.
+- **Competências:** WordPress, Vue.js, PHP, Integração de APIs (YouTube Data API), Desenvolvimento Front-end.
 
 ---
 
 ### Eiriz Saúde
 
-- **Período:** Jan de 2017 – Jan de 2017
+- **Período:** 01/2017 - 01/2017
+- **Link:** [Visitar projeto](https://eirizsaude.pt/)
 - **Empresa/Associação:** Labscript.dev
-- **Descrição Geral:** Concebido e desenvolvido exclusivamente para atender às necessidades da clínica odontológica Eiriz Saúde, localizada em Porto, Portugal, este projeto é o resultado de uma parceria dedicada a aprimorar a experiência do usuário e a eficiência dos serviços oferecidos.
+- **Descrição Geral:** Desenvolvimento front-end e implementação _pixel-perfect_ para a clínica odontológica Eiriz Saúde (Porto, Portugal). O principal destaque do projeto foi a atuação ágil para um cliente internacional, convertendo com alta fidelidade um layout estático em PDF para um tema WordPress totalmente funcional, responsivo e de fácil gestão de conteúdo.
 
-Com foco na usabilidade e na interação fluída, o sistema Wordpress desenvolvido para a Eiriz Saúde incorporou recursos avançados de gerenciamento de conteúdo, garantindo não apenas a apresentação precisa dos serviços oferecidos, mas também a transmissão eficaz de informações importantes aos pacientes, proporcionando assim uma experiência online completa e informativa.
-
-- **Competências:** PHP, WordPress, entre outras.
+- **Competências:** WordPress, PHP, HTML/CSS, Desenvolvimento Front-end, Atuação Internacional (Portugal).
 
 ---
 
 ### ASSEMG
 
-- **Período:** Jan de 2015 – Dez de 2015
+- **Período:** 01/2015 - 12/2015
+- **Link:** [Visitar projeto](https://assemg.org.br/)
 - **Empresa/Associação:** Agência de Criação
 - **Descrição Geral:** Site criado sobre CMS exclusivo para atender às necessidades da associação dos empregados da MGS. Esse CMS foi meticulosamente adaptado para oferecer uma experiência de usuário única e atender às demandas específicas da associação, garantindo uma plataforma eficiente e funcional para os membros.
 
@@ -676,7 +703,7 @@ O CMS customizado oferece ferramentas específicas para a gestão interna da ass
 
 ### Águas do Acuruí
 
-- **Período:** Jan de 2015 – Dez de 2015
+- **Período:** 01/2015 - 12/2015
 - **Empresa/Associação:** Agência de Criação
 - **Descrição Geral:** O desenvolvimento do website para a cidade de Águas do Acuruí foi um projeto dedicado e personalizado, visando promover a região de forma cativante e informativa.
 
@@ -688,7 +715,7 @@ Utilizando a versatilidade e as capacidades expansivas do Wordpress como base, o
 
 ### Estrela Rural
 
-- **Período:** Jan de 2011 – Dez de 2011
+- **Período:** 01/2011 - 12/2011
 - **Empresa/Associação:** Netranet Networking
 - **Descrição Geral:** Este projeto foi criado sobre o sistema de gerenciamento de conteúdo (CMS) e de leilões personalizado para atender às necessidades específicas do cliente. Esse sistema foi meticulosamente projetado e construído com base na plataforma customizada da agência, oferecendo uma solução completa para administrar conteúdos e realizar leilões de forma eficiente.
 
@@ -696,18 +723,10 @@ Essa solução customizada representa não apenas a habilidade técnica da agên
 
 - **Competências:** PHP, Banco de dados, entre outras.
 
-## 📜 Certificações (Certificates)
-
-_(Adicione certificados que possuir)_
-
 ## 🌐 Idiomas (Languages)
 
 - **Português:** Nativo ou Bilíngue
 - **Inglês:** Profissional
-
-## 🤝 Voluntariado / Outras Atividades (Volunteer)
-
-_(Adicione se houver)_
 
 ---
 
