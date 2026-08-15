@@ -1,0 +1,1 @@
+# Sql Queries Complexas Indices E Transacoes\n\n

@@ -1,0 +1,1 @@
+# Cache Avancado E Connection Poolers Pgbouncer\n\n

@@ -1,0 +1,1 @@
+# Build Assinatura E Lojas App Store Play Console\n\n

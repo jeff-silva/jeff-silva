@@ -1,0 +1,1 @@
+# Tanstack Query E Pinia Avancado\n\n
