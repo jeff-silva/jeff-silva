@@ -55,12 +55,12 @@ school/senior/
 │   ├── 📁 01-modelagem-de-sistemas/ [1/1] (100%)
 │   │   └── ✅ 01-diagramas-uml-e-modelagem-er.md
 │   ├── 📁 02-padroes-de-projeto-gof/ [0/23] (0%)
-│   │   ├── 📁 01-criacionais/ [1/5] (20%)
+│   │   ├── 📁 01-criacionais/ [5/5] (100%)
 │   │   │   ├── ✅ 01-abstract-factory.md
-│   │   │   ├── ⏳ 02-factory-method.md
-│   │   │   ├── ⏳ 03-builder.md
-│   │   │   ├── ⏳ 04-prototype.md
-│   │   │   └── ⏳ 05-singleton.md
+│   │   │   ├── ✅ 02-factory-method.md
+│   │   │   ├── ✅ 03-builder.md
+│   │   │   ├── ✅ 04-prototype.md
+│   │   │   └── ✅ 05-singleton.md
 │   │   ├── 📁 02-estruturais/ [0/7] (0%)
 │   │   │   ├── ⏳ 01-adapter.md
 │   │   │   ├── ⏳ 02-bridge.md
