@@ -6,7 +6,7 @@ Este arquivo gerencia o progresso dos seus estudos.
 > **Sincronização de Estrutura:** A árvore abaixo é um espelho exato dos arquivos reais no disco. A estrutura, a ordem e a nomenclatura dos arquivos e pastas reais devem seguir fielmente o que está documentado aqui. Qualquer novo conteúdo ou alteração na hierarquia deve ser refletido primeiro nesta lista para manter a organização impecável.
 
 ```text
-senior/ [40/79] (50%)
+senior/ [51/79] (64%)
 ├── 📁 01-construcao-e-codigo/ [11/14] (78%)
 │   ├── 📁 01-poo-e-paradigmas/ [3/3] (100%)
 │   │   ├── ✅ 01-classes-e-objetos.md
@@ -51,10 +51,10 @@ senior/ [40/79] (50%)
 │   └── 📁 08-arquitetura-e-design-systems/ [0/1] (0%)
 │       └── ⏳ 01-componentes-reutilizaveis-a11y-e-micro-frontends.md
 │
-├── 📁 03-arquitetura-design-e-modelagem/ [13/27] (48%)
+├── 📁 03-arquitetura-design-e-modelagem/ [24/27] (88%)
 │   ├── 📁 01-modelagem-de-sistemas/ [1/1] (100%)
 │   │   └── ✅ 01-diagramas-uml-e-modelagem-er.md
-│   ├── 📁 02-padroes-de-projeto-gof/ [12/23] (52%)
+│   ├── 📁 02-padroes-de-projeto-gof/ [23/23] (100%)
 │   │   ├── 📁 01-criacionais/ [5/5] (100%)
 │   │   │   ├── ✅ 01-abstract-factory.md
 │   │   │   ├── ✅ 02-factory-method.md
@@ -69,18 +69,18 @@ senior/ [40/79] (50%)
 │   │   │   ├── ✅ 05-facade.md
 │   │   │   ├── ✅ 06-flyweight.md
 │   │   │   └── ✅ 07-proxy.md
-│   │   └── 📁 03-comportamentais/ [0/11] (0%)
-│   │       ├── ⏳ 01-interpreter.md
-│   │       ├── ⏳ 02-template-method.md
-│   │       ├── ⏳ 03-chain-of-responsibility.md
-│   │       ├── ⏳ 04-iterator.md
-│   │       ├── ⏳ 05-command.md
-│   │       ├── ⏳ 06-mediator.md
-│   │       ├── ⏳ 07-memento.md
-│   │       ├── ⏳ 08-observer.md
-│   │       ├── ⏳ 09-state.md
-│   │       ├── ⏳ 10-strategy.md
-│   │       └── ⏳ 11-visitor.md
+│   │   └── 📁 03-comportamentais/ [11/11] (100%)
+│   │       ├── ✅ 01-interpreter.md
+│   │       ├── ✅ 02-template-method.md
+│   │       ├── ✅ 03-chain-of-responsibility.md
+│   │       ├── ✅ 04-iterator.md
+│   │       ├── ✅ 05-command.md
+│   │       ├── ✅ 06-mediator.md
+│   │       ├── ✅ 07-memento.md
+│   │       ├── ✅ 08-observer.md
+│   │       ├── ✅ 09-state.md
+│   │       ├── ✅ 10-strategy.md
+│   │       └── ✅ 11-visitor.md
 │   ├── 📁 03-enterprise-patterns/ [0/1] (0%)
 │   │   └── ⏳ 01-repository-e-unit-of-work.md
 │   ├── 📁 04-arquitetura-de-software-e-microsservicos/ [0/1] (0%)
