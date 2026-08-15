@@ -6,8 +6,8 @@ Este arquivo gerencia o progresso dos seus estudos.
 > **Sincronização de Estrutura:** A árvore abaixo é um espelho exato dos arquivos reais no disco. A estrutura, a ordem e a nomenclatura dos arquivos e pastas reais devem seguir fielmente o que está documentado aqui. Qualquer novo conteúdo ou alteração na hierarquia deve ser refletido primeiro nesta lista para manter a organização impecável.
 
 ```text
-school/senior/
-├── 📁 01-construcao-e-codigo/ [11/14] (79%)
+senior/ [40/79] (50%)
+├── 📁 01-construcao-e-codigo/ [11/14] (78%)
 │   ├── 📁 01-poo-e-paradigmas/ [3/3] (100%)
 │   │   ├── ✅ 01-classes-e-objetos.md
 │   │   ├── ✅ 02-polimorfismo-e-encapsulamento.md
@@ -28,7 +28,7 @@ school/senior/
 │       ├── ⏳ 02-ciclo-de-vida-mobile-foreground-background.md
 │       └── ⏳ 03-build-assinatura-e-lojas-app-store-play-console.md
 │
-├── 📁 02-frontend-avancado-e-arquitetura-web/ [7/13] (54%)
+├── 📁 02-frontend-avancado-e-arquitetura-web/ [7/13] (53%)
 │   ├── 📁 01-frameworks-modernos/ [1/1] (100%)
 │   │   └── ✅ 01-vuejs-composition-api-e-reatividade.md
 │   ├── 📁 02-estilizacao-e-ui/ [1/1] (100%)
@@ -51,24 +51,24 @@ school/senior/
 │   └── 📁 08-arquitetura-e-design-systems/ [0/1] (0%)
 │       └── ⏳ 01-componentes-reutilizaveis-a11y-e-micro-frontends.md
 │
-├── 📁 03-arquitetura-design-e-modelagem/ [1/27] (4%)
+├── 📁 03-arquitetura-design-e-modelagem/ [13/27] (48%)
 │   ├── 📁 01-modelagem-de-sistemas/ [1/1] (100%)
 │   │   └── ✅ 01-diagramas-uml-e-modelagem-er.md
-│   ├── 📁 02-padroes-de-projeto-gof/ [0/23] (0%)
+│   ├── 📁 02-padroes-de-projeto-gof/ [12/23] (52%)
 │   │   ├── 📁 01-criacionais/ [5/5] (100%)
 │   │   │   ├── ✅ 01-abstract-factory.md
 │   │   │   ├── ✅ 02-factory-method.md
 │   │   │   ├── ✅ 03-builder.md
 │   │   │   ├── ✅ 04-prototype.md
 │   │   │   └── ✅ 05-singleton.md
-│   │   ├── 📁 02-estruturais/ [0/7] (0%)
-│   │   │   ├── ⏳ 01-adapter.md
-│   │   │   ├── ⏳ 02-bridge.md
-│   │   │   ├── ⏳ 03-composite.md
-│   │   │   ├── ⏳ 04-decorator.md
-│   │   │   ├── ⏳ 05-facade.md
-│   │   │   ├── ⏳ 06-flyweight.md
-│   │   │   └── ⏳ 07-proxy.md
+│   │   ├── 📁 02-estruturais/ [7/7] (100%)
+│   │   │   ├── ✅ 01-adapter.md
+│   │   │   ├── ✅ 02-bridge.md
+│   │   │   ├── ✅ 03-composite.md
+│   │   │   ├── ✅ 04-decorator.md
+│   │   │   ├── ✅ 05-facade.md
+│   │   │   ├── ✅ 06-flyweight.md
+│   │   │   └── ✅ 07-proxy.md
 │   │   └── 📁 03-comportamentais/ [0/11] (0%)
 │   │       ├── ⏳ 01-interpreter.md
 │   │       ├── ⏳ 02-template-method.md
