@@ -1,1 +1,0 @@
-# Ordenacao Eficiente E Analise Big O\n\n

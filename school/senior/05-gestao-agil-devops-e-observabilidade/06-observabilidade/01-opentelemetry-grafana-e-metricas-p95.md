@@ -1,1 +1,0 @@
-# Opentelemetry Grafana E Metricas P95\n\n

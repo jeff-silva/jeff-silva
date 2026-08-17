@@ -1,1 +1,0 @@
-# Derivadas Taxas De Variacao E Gradiente\n\n

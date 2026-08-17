@@ -1,1 +1,0 @@
-# Distribuicoes Desvio Padrao E Percentis P50 P95 P99\n\n

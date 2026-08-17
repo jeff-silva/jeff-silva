@@ -1,1 +1,0 @@
-# Invalidacao De Cache E Optimistic Updates\n\n

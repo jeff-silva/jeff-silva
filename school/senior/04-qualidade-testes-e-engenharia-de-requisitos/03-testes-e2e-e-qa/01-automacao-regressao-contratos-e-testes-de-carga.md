@@ -1,1 +1,0 @@
-# Automacao Regressao Contratos E Testes De Carga\n\n

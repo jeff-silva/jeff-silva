@@ -1,1 +1,0 @@
-# Aws Ec2 Vms Security Groups E Finops\n\n

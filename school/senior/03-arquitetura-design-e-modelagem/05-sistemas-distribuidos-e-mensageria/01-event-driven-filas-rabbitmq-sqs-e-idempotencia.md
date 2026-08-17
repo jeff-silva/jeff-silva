@@ -1,1 +1,0 @@
-# Event Driven Filas Rabbitmq Sqs E Idempotencia\n\n

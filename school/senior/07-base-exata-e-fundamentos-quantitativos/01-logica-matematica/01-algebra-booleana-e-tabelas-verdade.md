@@ -1,1 +1,0 @@
-# Algebra Booleana E Tabelas Verdade\n\n

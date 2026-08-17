@@ -1,1 +1,0 @@
-# Content Security Policy Csp E Mitigacao Xss Csrf\n\n

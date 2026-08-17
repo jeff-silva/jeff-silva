@@ -1,1 +1,0 @@
-# Pipelines De Build Deploy E Git\n\n

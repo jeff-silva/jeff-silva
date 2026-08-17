@@ -1,1 +1,0 @@
-# Versionamento Semantico Feature Flags E Releases\n\n
